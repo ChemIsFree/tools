@@ -1,0 +1,148 @@
+name: Suggest a tool
+description: Suggest a chemistry, cheminformatics, computational chemistry, or drug-discovery tool for the ChemIsFree catalogue.
+title: "[Tool suggestion]: "
+labels:
+  - tool-submission
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the ChemIsFree catalogue.
+
+        You do not need to be a ChemIsFree organization member to submit a tool.
+
+        Please provide as much information as you can. Missing information can be completed during review.
+
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      description: What is the name of the tool or resource?
+      placeholder: e.g. RDKit
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Briefly describe what the tool does and what it is useful for.
+      placeholder: Describe the tool in your own words.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category best describes the tool?
+      options:
+        - Cheminformatics
+        - Molecular Modelling
+        - Drug Discovery
+        - Machine Learning
+        - Data & Databases
+        - Visualization
+        - Laboratory
+        - Utilities & Workflows
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Official website
+      placeholder: https://...
+    validations:
+      required: false
+
+  - type: input
+    id: repository
+    attributes:
+      label: Source repository
+      description: GitHub, GitLab, Bitbucket, or another source repository if available.
+      placeholder: https://github.com/...
+    validations:
+      required: false
+
+  - type: input
+    id: documentation
+    attributes:
+      label: Documentation
+      placeholder: https://...
+    validations:
+      required: false
+
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: If known, provide the software or resource license.
+      placeholder: e.g. MIT, BSD-3-Clause, GPL-3.0
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: platforms
+    attributes:
+      label: Platforms
+      description: Select all that apply.
+      options:
+        - label: Linux
+        - label: macOS
+        - label: Windows
+        - label: Web
+        - label: Other
+
+  - type: checkboxes
+    id: interface
+    attributes:
+      label: Interface
+      description: Select all that apply.
+      options:
+        - label: Graphical interface
+        - label: Command line
+        - label: Python
+        - label: R
+        - label: API
+        - label: Web application
+        - label: Other
+
+  - type: input
+    id: citation
+    attributes:
+      label: Scientific citation
+      description: DOI, publication, or other citation if applicable.
+      placeholder: https://doi.org/...
+    validations:
+      required: false
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should it be included?
+      description: Tell us why you think this tool would be useful to the ChemIsFree community.
+      placeholder: What makes this tool useful?
+    validations:
+      required: true
+
+  - type: input
+    id: submitter
+    attributes:
+      label: Your name or project
+      description: How would you like to be credited for this submission?
+      placeholder: Your name, GitHub username, or project name.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have checked that this tool is not already listed in the ChemIsFree catalogue.
+          required: true
+        - label: I have provided information in good faith and understand that the submission may be reviewed or edited before inclusion.
+          required: true
