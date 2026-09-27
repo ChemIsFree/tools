@@ -155,4 +155,26 @@ We would rather discuss a potentially useful resource than make contributors gue
 
 Thank you for helping build an open ecosystem for chemistry and drug discovery.
 
+## How submissions are reviewed
+
+Tool submissions are reviewed for relevance, accuracy, and clarity before being added to the catalogue.
+
+A typical review checks:
+
+* [ ] The tool is relevant to chemistry, cheminformatics, molecular modelling, drug discovery, chemical biology, or a closely related field.
+* [ ] The official project or resource can be identified.
+* [ ] The description can be verified from reliable sources.
+* [ ] The licensing or access conditions can be identified where applicable.
+* [ ] The official website, repository, or documentation links are correct where available.
+* [ ] The category is appropriate.
+* [ ] Platform and interface information is accurate where provided.
+* [ ] Scientific citations are included where appropriate.
+* [ ] The entry does not incorrectly imply that the project is owned, developed, or endorsed by ChemIsFree.
+* [ ] The contributor is appropriately credited where applicable.
+
+A submission may be returned to the contributor if important information is missing or unclear.
+
+Inclusion in the catalogue is based on the scope and curation criteria of ChemIsFree rather than on popularity or commercial status.
+
+
 **Build. Share. Discover.**
