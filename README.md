@@ -14,35 +14,30 @@ Instead of searching across scattered repositories, papers, websites, and forums
 
 ## Browse the catalogue
 
-### 🧪 Chemistry & Cheminformatics
+### 🧪 [Chemistry & Cheminformatics](categories/cheminformatics.md)
 
 Tools for molecular representations, descriptors, fingerprints, chemical structures, reactions, and cheminformatics.
 
-### 🧬 Molecular Modelling
+### 🧬 [Molecular Modelling](categories/molecular-modelling.md)
 
-Tools for molecular mechanics, quantum chemistry, molecular dynamics, structure preparation, and molecular visualization.
+Tools for molecular mechanics, molecular dynamics, simulation, structure preparation, and molecular visualization.
 
-### 🎯 Drug Discovery
+### 🎯 [Drug Discovery](categories/drug-discovery.md)
 
-Tools for molecular docking, virtual screening, pharmacophore modelling, QSAR, ADMET, lead optimization, and molecular design.
+Tools for molecular docking, virtual screening, pharmacophore modelling, QSAR, ADMET, molecular design, and related workflows.
 
-### 🤖 Artificial Intelligence & Machine Learning
+### 🤖 [Artificial Intelligence & Machine Learning](categories/machine-learning.md)
 
-Tools for molecular property prediction, generative chemistry, graph-based modelling, protein–ligand modelling, and other AI applications.
+Tools for machine learning, deep learning, molecular property prediction, generative chemistry, and AI-assisted drug discovery.
 
-### 📊 Data & Analysis
+### 📊 [Data & Databases](categories/data-and-databases.md)
 
-Chemical databases, bioactivity resources, datasets, data-processing tools, and scientific analysis software.
+Chemical databases, bioactivity resources, datasets, and tools for chemical and biological data.
 
-### 🔬 Experimental & Laboratory
+### 🖥️ [Visualization](categories/visualization.md)
 
-Software and resources supporting experimental chemistry and laboratory workflows.
+Tools for molecular visualization, structural analysis, and scientific visualization.
 
-### 🛠️ Utilities & Workflows
-
-File conversion, workflow automation, pipeline development, format handling, and other useful utilities.
-
----
 
 ## What counts as a ChemIsFree tool?
 
