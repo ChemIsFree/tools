@@ -1,6 +1,74 @@
 # ChemIsFree Tool Catalogue
-#
-# This file contains structured metadata for tools and resources
-# included in the ChemIsFree catalogue.
 
-tools: []
+#
+
+# Structured metadata for tools and resources included
+
+# in the ChemIsFree catalogue.
+
+tools:
+
+# -------------------------------------------------------
+
+# REQUIRED FIELDS
+
+# -------------------------------------------------------
+
+* id: example-tool
+  name: Example Tool
+
+  category:
+
+  * category-name
+
+  description: >
+  Short description of what the tool does.
+
+  type: software
+
+  chemisfree_status: curated-resource
+
+  # -----------------------------------------------------
+
+  # OPTIONAL FIELDS
+
+  # -----------------------------------------------------
+
+  website: ""
+  repository: ""
+  documentation: ""
+
+  license: ""
+
+  platforms:
+
+  * linux
+  * macos
+  * windows
+
+  interface:
+
+  * command-line
+
+  languages:
+
+  * python
+
+  gpu: optional
+
+  installation:
+
+  * pip
+  * conda
+
+  status: active
+
+  developers:
+
+  * ""
+
+  citation:
+
+  * ""
+
+  notes: ""
