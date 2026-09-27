@@ -304,3 +304,38 @@ tools:
   PyMOL is also distributed as a commercial product by Schrödinger,
   so the open-source and commercial offerings should not be treated
   as identical.
+
+    - id: catalist
+    name: CataList
+    category:
+      - cheminformatics
+    description: >
+      Desktop chemical inventory management software for laboratories and
+      researchers, providing chemical structure generation, molecular property
+      calculation, chemical classification, and exact, substructure, and
+      similarity searching.
+    type: software
+    website: https://github.com/DionysisKampasis/CataList
+    repository: https://github.com/DionysisKampasis/CataList
+    documentation: https://github.com/DionysisKampasis/CataList
+    license: free-to-use
+    platforms:
+      - desktop
+    interface:
+      - graphical
+    languages:
+      - java
+    gpu: not-required
+    installation:
+      - binary
+    status: active
+    developers:
+      - Dionysis Kampasis
+    citation: []
+    chemisfree_status: chemisfree-project
+    notes: >
+      CataList is a ChemIsFree project developed by Dionysis Kampasis.
+      The application is provided free of charge for personal and commercial
+      use. It performs chemical-data processing locally, while making API
+      requests to public chemical databases when required for identifier
+      resolution.
