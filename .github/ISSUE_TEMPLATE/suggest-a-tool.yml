@@ -1,24 +1,34 @@
 name: Suggest a tool
-description: Suggest a chemistry, cheminformatics, computational chemistry, or drug-discovery tool for the ChemIsFree catalogue.
+
+description: Suggest a software tool, database, dataset, workflow, or other resource for the ChemIsFree catalogue.
+
 title: "[Tool suggestion]: "
+
 labels:
   - tool-submission
+  - needs-review
+
 body:
 
   - type: markdown
     attributes:
       value: |
-        Thanks for helping improve the ChemIsFree catalogue.
+        ## Suggest a resource for ChemIsFree
 
-        You do not need to be a ChemIsFree organization member to submit a tool.
+        Thank you for helping expand the ChemIsFree catalogue.
 
-        Please provide as much information as you can. Missing information can be completed during review.
+        You can suggest software, libraries, databases, datasets,
+        web tools, workflows, platforms, tutorials, or other useful
+        resources for chemistry and drug discovery.
+
+        Please provide as much information as you know. You do not
+        need to fill in information that you do not know.
 
   - type: input
     id: name
     attributes:
-      label: Tool name
-      description: What is the name of the tool or resource?
+      label: Tool or resource name
+      description: The official name of the resource.
       placeholder: e.g. RDKit
     validations:
       required: true
@@ -26,17 +36,19 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Description
-      description: Briefly describe what the tool does and what it is useful for.
-      placeholder: Describe the tool in your own words.
+      label: What does it do?
+      description: Give a short description of what the resource is used for.
+      placeholder: |
+        A cheminformatics toolkit for working with molecular structures,
+        descriptors, fingerprints, and chemical data.
     validations:
       required: true
 
   - type: dropdown
     id: category
     attributes:
-      label: Category
-      description: Which category best describes the tool?
+      label: Main category
+      description: Choose the category that best describes the resource.
       options:
         - Cheminformatics
         - Molecular Modelling
@@ -54,35 +66,64 @@ body:
     id: website
     attributes:
       label: Official website
-      placeholder: https://...
-    validations:
-      required: false
+      description: The official website of the resource, if available.
+      placeholder: https://example.org
 
   - type: input
     id: repository
     attributes:
       label: Source repository
-      description: GitHub, GitLab, Bitbucket, or another source repository if available.
-      placeholder: https://github.com/...
-    validations:
-      required: false
+      description: GitHub, GitLab, or another official source repository, if available.
+      placeholder: https://github.com/example/project
 
   - type: input
     id: documentation
     attributes:
       label: Documentation
-      placeholder: https://...
+      description: Official documentation, manual, or user guide, if available.
+      placeholder: https://docs.example.org
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource type
+      description: Choose the type that best describes the resource.
+      options:
+        - Software
+        - Library
+        - Database
+        - Dataset
+        - Web Tool
+        - Web Service
+        - Workflow
+        - Platform
+        - Resource
+        - Tutorial
+        - Other
     validations:
-      required: false
+      required: true
+
+  - type: dropdown
+    id: access
+    attributes:
+      label: Access
+      description: How can users access the resource?
+      options:
+        - Free
+        - Free tier
+        - Open data
+        - Public
+        - Paid
+        - Unknown
+    validations:
+      required: true
 
   - type: input
     id: license
     attributes:
       label: License
-      description: If known, provide the software or resource license.
-      placeholder: e.g. MIT, BSD-3-Clause, GPL-3.0
-    validations:
-      required: false
+      description: If known, provide the license or access terms.
+      placeholder: e.g. MIT, Apache-2.0, GPL-3.0, CC BY 4.0
 
   - type: checkboxes
     id: platforms
@@ -94,6 +135,10 @@ body:
         - label: macOS
         - label: Windows
         - label: Web
+        - label: Android
+        - label: iOS
+        - label: Desktop
+        - label: Cloud
         - label: Other
 
   - type: checkboxes
@@ -102,29 +147,38 @@ body:
       label: Interface
       description: Select all that apply.
       options:
-        - label: Graphical interface
+        - label: GUI
         - label: Command line
         - label: Python
         - label: R
+        - label: C++
+        - label: Java
         - label: API
-        - label: Web application
+        - label: Web
+        - label: Notebook
         - label: Other
+
+  - type: input
+    id: developers
+    attributes:
+      label: Developer or organization
+      description: Who develops or maintains the resource?
+      placeholder: e.g. EMBL-EBI
 
   - type: input
     id: citation
     attributes:
       label: Scientific citation
-      description: DOI, publication, or other citation if applicable.
+      description: DOI or publication describing the resource, if available.
       placeholder: https://doi.org/...
-    validations:
-      required: false
 
   - type: textarea
     id: why
     attributes:
-      label: Why should it be included?
-      description: Tell us why you think this tool would be useful to the ChemIsFree community.
-      placeholder: What makes this tool useful?
+      label: Why should ChemIsFree include it?
+      description: Tell us briefly why this resource would be useful to the chemistry/drug-discovery community.
+      placeholder: |
+        Useful for molecular similarity searching and descriptor calculation.
     validations:
       required: true
 
@@ -132,17 +186,15 @@ body:
     id: submitter
     attributes:
       label: Your name or project
-      description: How would you like to be credited for this submission?
-      placeholder: Your name, GitHub username, or project name.
-    validations:
-      required: false
+      description: Optional. Tell us who submitted this resource.
+      placeholder: Your name, GitHub username, laboratory, or project
 
   - type: checkboxes
     id: confirmation
     attributes:
       label: Confirmation
       options:
-        - label: I have checked that this tool is not already listed in the ChemIsFree catalogue.
+        - label: I have provided information in good faith and understand that ChemIsFree may verify or modify the submitted metadata.
           required: true
-        - label: I have provided information in good faith and understand that the submission may be reviewed or edited before inclusion.
+        - label: I understand that inclusion in the ChemIsFree catalogue does not imply ownership or development by ChemIsFree.
           required: true
