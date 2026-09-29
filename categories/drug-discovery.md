@@ -4,29 +4,19 @@ Tools and resources supporting computational drug discovery, including molecular
 
 ---
 
-## Molecular Docking
+## Tools
 
-| Tool                                    | Description                              | Interface    | GPU         |
-| --------------------------------------- | ---------------------------------------- | ------------ | ----------- |
-| [GNINA](https://gnina.github.io/gnina/) | Deep-learning-enhanced molecular docking | Command line | Recommended |
-
----
-
-## Virtual Screening
-
-Tools will be added as the catalogue expands.
+| Tool                                    | Description                                                   | Type     | Access | Interface    | Platforms     | ChemIsFree Status |
+| --------------------------------------- | ------------------------------------------------------------- | -------- | ------ | ------------ | ------------- | ----------------- |
+| [GNINA](https://gnina.github.io/gnina/) | Deep-learning-enhanced molecular docking and scoring software | Software | Free   | Command line | Linux / macOS | Curated Resource  |
 
 ---
 
-## Ligand-Based Discovery
+## Related categories
 
-Tools will be added as the catalogue expands.
-
----
-
-## Molecular Design
-
-Tools will be added as the catalogue expands.
+* [Molecular Modelling](molecular-modelling.md)
+* [Cheminformatics](cheminformatics.md)
+* [Machine Learning](machine-learning.md)
 
 ---
 
