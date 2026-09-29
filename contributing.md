@@ -1,180 +1,100 @@
 # Contributing to ChemIsFree Tools
 
-Thank you for helping make chemistry and drug-discovery tools easier to find.
+ChemIsFree maintains a curated catalogue of tools and resources for
+chemistry, computational chemistry, drug discovery, and related fields.
 
-ChemIsFree Tools is a community-curated catalogue. You do not need to be a member of the ChemIsFree organization to contribute.
+## Submit a resource
 
-There are several ways to help.
+The easiest way to suggest a tool or resource is through the
+[tool suggestion form](https://github.com/ChemIsFree/tools/issues/new?template=suggest-a-tool.yml).
 
----
+Anyone can submit a resource.
 
-## Add a tool
+You may submit:
 
-If you know a useful chemistry, cheminformatics, computational chemistry, drug-discovery, or related scientific tool that is missing from the catalogue, you can suggest it.
+- software
+- libraries
+- databases
+- datasets
+- web tools
+- web services
+- workflows
+- platforms
+- tutorials
+- other useful research resources
 
-Before submitting a tool, please check whether it is already listed.
+Resources do not need to be developed by ChemIsFree.
 
-Useful things to provide include:
+## What happens after submission?
 
-* Tool name
-* Official website
-* Source repository, if available
-* Documentation
-* Short description
-* Category
-* License
-* Supported platforms
-* Interface
-* Installation method
-* Scientific publication or citation, if applicable
+Each submission goes through a simple curation process:
 
-You do not need to know every field. Missing information can be added later.
+1. Submission
+2. Initial review
+3. Verification of official sources
+4. Metadata review
+5. Catalogue entry
+6. Category assignment
+7. Acceptance or rejection
 
----
+Accepted resources are added to `data/tools.yaml`.
 
-## Correct or improve an existing entry
+## ChemIsFree status
 
-Information changes over time.
+Every catalogue entry has a `chemisfree_status` field.
 
-You can help by reporting or correcting:
+### `chemisfree-project`
 
-* Broken links
-* Incorrect descriptions
-* Outdated versions
-* Incorrect licensing information
-* Platform information
-* Installation instructions
-* Documentation links
-* Citation information
-* Maintenance status
-* Category placement
+Projects developed through the ChemIsFree ecosystem.
 
-Please use official project sources whenever possible.
+### `community-project`
 
----
+Projects developed independently and shared through the ChemIsFree community.
 
-## Add yourself as a contributor
+### `curated-resource`
 
-If you have created a tool that you would like the community to discover, you are welcome to submit it.
+External resources that ChemIsFree has reviewed and included in the catalogue.
 
-You retain ownership of your project.
+### `archived`
 
-Being listed in the ChemIsFree catalogue does not transfer ownership or intellectual property to ChemIsFree.
+Resources that are no longer active, available, or maintained.
 
-If your project becomes part of the ChemIsFree organization itself, the ownership and licensing arrangements should be explicitly agreed upon rather than assumed.
+## Ownership
 
----
+Listing a resource in the ChemIsFree catalogue does not transfer ownership.
 
-## Develop a ChemIsFree project
+Creators and developers retain ownership of their work.
 
-You can also propose a new project to be developed directly under the ChemIsFree organization.
+ChemIsFree aims to make useful resources easier to discover, access,
+share, and reuse while clearly identifying their original creators.
 
-Examples might include:
+## Keeping information accurate
 
-* A new chemistry software tool
-* A research workflow
-* A data-processing utility
-* A visualization tool
-* An educational resource
-* A new open-source implementation of a useful method
+Catalogue information can change over time.
 
-These projects can be developed collaboratively by contributors.
+If you notice outdated or incorrect information, please open an issue
+or submit an update.
 
-Contributors should receive appropriate attribution, and project ownership and licensing should be clear before development begins.
+Important information includes:
 
----
+- availability
+- licensing
+- source repository
+- documentation
+- supported platforms
+- installation methods
+- project status
+- official website
 
-## Quality and verification
+## Catalogue structure
 
-ChemIsFree aims to maintain a useful and reliable catalogue.
+The main catalogue is stored in:
 
-Contributors should:
+`data/tools.yaml`
 
-1. Use official project sources whenever possible.
-2. Avoid copying descriptions directly from third-party websites.
-3. Provide accurate licensing information.
-4. Clearly distinguish facts from personal opinions.
-5. Avoid presenting a tool as officially affiliated with ChemIsFree unless that relationship actually exists.
-6. Include scientific references where appropriate.
+The catalogue schema is defined in:
 
-Submissions may be reviewed before being added to the catalogue.
+`data/schema.yaml`
 
----
-
-## What we generally include
-
-ChemIsFree focuses on tools and resources relevant to:
-
-* Chemistry
-* Cheminformatics
-* Computational chemistry
-* Molecular modelling
-* Drug discovery
-* Structural biology
-* Chemical biology
-* Molecular simulation
-* Machine learning and AI for chemistry
-* Chemical and biological data
-* Scientific laboratory workflows
-
----
-
-## What we generally do not include
-
-ChemIsFree is not intended to become a general software directory.
-
-We generally will not catalogue:
-
-* Generic productivity software
-* General-purpose development tools
-* Unrelated scientific software
-* Commercial products without a meaningful free-access component
-* Resources unrelated to chemistry or drug discovery
-
-Exceptions may be made when a resource has a clear and substantial relevance to the community.
-
----
-
-## Ownership and attribution
-
-ChemIsFree does not claim ownership of independent projects listed in the catalogue.
-
-Independent projects remain owned by their respective creators and contributors.
-
-The catalogue exists to improve discoverability and collaboration.
-
-If a project is developed directly under the ChemIsFree organization, its ownership, contributors, and license should be clearly documented within that project's repository.
-
----
-
-## Questions
-
-If you are unsure whether something belongs in the catalogue, open an issue and ask.
-
-We would rather discuss a potentially useful resource than make contributors guess whether their contribution is appropriate.
-
-Thank you for helping build an open ecosystem for chemistry and drug discovery.
-
-## How submissions are reviewed
-
-Tool submissions are reviewed for relevance, accuracy, and clarity before being added to the catalogue.
-
-A typical review checks:
-
-* [ ] The tool is relevant to chemistry, cheminformatics, molecular modelling, drug discovery, chemical biology, or a closely related field.
-* [ ] The official project or resource can be identified.
-* [ ] The description can be verified from reliable sources.
-* [ ] The licensing or access conditions can be identified where applicable.
-* [ ] The official website, repository, or documentation links are correct where available.
-* [ ] The category is appropriate.
-* [ ] Platform and interface information is accurate where provided.
-* [ ] Scientific citations are included where appropriate.
-* [ ] The entry does not incorrectly imply that the project is owned, developed, or endorsed by ChemIsFree.
-* [ ] The contributor is appropriately credited where applicable.
-
-A submission may be returned to the contributor if important information is missing or unclear.
-
-Inclusion in the catalogue is based on the scope and curation criteria of ChemIsFree rather than on popularity or commercial status.
-
-
-**Build. Share. Discover.**
+These files should be treated as the authoritative structured
+representation of the ChemIsFree catalogue.
