@@ -63,3 +63,10 @@ chem_is_free_schema:
     - archived
     - discontinued
     - unknown
+
+verification:
+  status:
+    - unverified
+    - under-review
+    - verified
+    - needs-update
