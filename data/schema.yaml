@@ -1,0 +1,65 @@
+chem_is_free_schema:
+  version: "1.0"
+
+  chemisfree_status:
+    - chemisfree-project
+    - community-project
+    - curated-resource
+    - archived
+
+  type:
+    - software
+    - library
+    - database
+    - dataset
+    - web-tool
+    - web-service
+    - workflow
+    - platform
+    - resource
+    - tutorial
+
+  access:
+    - free
+    - free-tier
+    - open-data
+    - public
+    - paid
+    - unknown
+
+  platforms:
+    - linux
+    - macos
+    - windows
+    - web
+    - android
+    - ios
+    - desktop
+    - cloud
+    - other
+
+  interface:
+    - gui
+    - cli
+    - python
+    - r
+    - c++
+    - java
+    - api
+    - web
+    - notebook
+    - other
+
+  gpu:
+    - required
+    - recommended
+    - optional
+    - not-required
+    - unknown
+
+  status:
+    - active
+    - maintenance
+    - archived
+    - discontinued
+    - unknown
