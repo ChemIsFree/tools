@@ -6,10 +6,10 @@ Tools and resources for applying machine learning and artificial intelligence to
 
 ## Tools
 
-| Tool                                    | Description                                                                              | Type     |
-| --------------------------------------- | ---------------------------------------------------------------------------------------- | -------- |
-| [RDKit](https://www.rdkit.org/)         | Molecular descriptors, fingerprints, cheminformatics, and machine-learning functionality | Library  |
-| [GNINA](https://gnina.github.io/gnina/) | Deep-learning-enhanced molecular docking                                                 | Software |
+| Tool                                    | Description                                                                              | Type     | Access | Interface    | Platforms               | ChemIsFree Status |
+| --------------------------------------- | ---------------------------------------------------------------------------------------- | -------- | ------ | ------------ | ----------------------- | ----------------- |
+| [RDKit](https://www.rdkit.org/)         | Molecular descriptors, fingerprints, cheminformatics, and machine-learning functionality | Library  | Free   | Python / C++ | Linux / macOS / Windows | Curated Resource  |
+| [GNINA](https://gnina.github.io/gnina/) | Deep-learning-enhanced molecular docking and scoring                                     | Software | Free   | Command line | Linux / macOS           | Curated Resource  |
 
 ---
 
@@ -17,6 +17,7 @@ Tools and resources for applying machine learning and artificial intelligence to
 
 * [Cheminformatics](cheminformatics.md)
 * [Drug Discovery](drug-discovery.md)
+* [Molecular Modelling](molecular-modelling.md)
 
 ---
 
