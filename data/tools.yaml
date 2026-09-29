@@ -1,582 +1,610 @@
-# ChemIsFree Tool Catalogue
-#
-# Structured metadata for tools and resources included
-# in the ChemIsFree catalogue.
-#
-# Schema: data/schema.yaml
-
 tools:
+- id: rdkit
+  name: RDKit
+  description: 'Open-source cheminformatics and machine-learning software for working
+    with molecular structures, descriptors, fingerprints, molecular databases, and
+    related chemical data.
 
-  - id: rdkit
-    name: RDKit
-    description: >
-      Open-source cheminformatics and machine-learning software for
-      working with molecular structures, descriptors, fingerprints,
-      molecular databases, and related chemical data.
-    category:
-      - cheminformatics
-      - machine-learning
-    type: library
-    access:
-      - free
-    source_available: true
-    license: BSD-3-Clause
-    platforms:
-      - linux
-      - macos
-      - windows
-    interface:
-      - python
-      - c++
-    languages:
-      - c++
-      - python
-    gpu: not-required
-    installation:
-      - conda
-      - source
-    status: active
-    developers:
-      - RDKit community
-    website: https://www.rdkit.org/
-    repository: https://github.com/rdkit/rdkit
-    documentation: https://www.rdkit.org/docs/
-    citation:
-      - https://doi.org/10.1186/s13321-017-0232-0
-    chemisfree_status: curated-resource
-    notes: >
-      RDKit is an open-source collection of cheminformatics and
-      machine-learning software.
+    '
+  category:
+  - cheminformatics
+  - machine-learning
+  type: library
+  access:
+  - free
+  source_available: true
+  license: BSD-3-Clause
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  - c++
+  languages:
+  - c++
+  - python
+  gpu: not-required
+  installation:
+  - conda
+  - source
+  status: active
+  developers:
+  - RDKit community
+  website: https://www.rdkit.org/
+  repository: https://github.com/rdkit/rdkit
+  documentation: https://www.rdkit.org/docs/
+  citation:
+  - https://doi.org/10.1186/s13321-017-0232-0
+  chemisfree_status: curated-resource
+  notes: 'RDKit is an open-source collection of cheminformatics and machine-learning
+    software.
 
-  - id: gnina
-    name: GNINA
-    description: >
-      Deep-learning-enhanced molecular docking software incorporating
-      convolutional neural network scoring and optimization.
-    category:
-      - drug-discovery
-      - molecular-modelling
-      - machine-learning
-    type: software
-    access:
-      - free
-    source_available: true
-    license: dual
-    platforms:
-      - linux
-      - macos
-    interface:
-      - cli
-    languages:
-      - c++
-      - python
-    gpu: recommended
-    installation:
-      - source
-      - binary
-    status: active
-    developers:
-      - GNINA contributors
-    website: https://gnina.github.io/gnina/
-    repository: https://github.com/gnina/gnina
-    documentation: https://github.com/gnina/gnina/tree/master/docs
-    citation:
-      - https://doi.org/10.1021/acs.jcim.8b00572
-    chemisfree_status: curated-resource
-    notes: >
-      GNINA is a deep-learning-enhanced docking program based on smina.
-      The project incorporates convolutional neural networks for scoring
-      and ligand optimization.
+    '
+- id: gnina
+  name: GNINA
+  description: 'Deep-learning-enhanced molecular docking software incorporating convolutional
+    neural network scoring and optimization.
 
-  - id: openmm
-    name: OpenMM
-    description: >
-      Toolkit for molecular simulation that can be used as a
-      stand-alone application or as a library for custom simulations.
-    category:
-      - molecular-modelling
-    type: library
-    access:
-      - free
-    source_available: true
-    license: multiple
-    platforms:
-      - linux
-      - macos
-      - windows
-    interface:
-      - python
-      - c++
-      - cli
-    languages:
-      - c++
-      - python
-    gpu: optional
-    installation:
-      - conda
-      - pip
-      - source
-    status: active
-    developers:
-      - OpenMM community
-    website: https://openmm.org/
-    repository: https://github.com/openmm/openmm
-    documentation: https://docs.openmm.org/
-    citation:
-      - https://doi.org/10.1371/journal.pcbi.1005659
-    chemisfree_status: curated-resource
-    notes: >
-      OpenMM is open-source molecular simulation software supporting
-      CPU and GPU-accelerated calculations.
+    '
+  category:
+  - drug-discovery
+  - molecular-modelling
+  - machine-learning
+  type: software
+  access:
+  - free
+  source_available: true
+  license: dual
+  platforms:
+  - linux
+  - macos
+  interface:
+  - cli
+  languages:
+  - c++
+  - python
+  gpu: recommended
+  installation:
+  - source
+  - binary
+  status: active
+  developers:
+  - GNINA contributors
+  website: https://gnina.github.io/gnina/
+  repository: https://github.com/gnina/gnina
+  documentation: https://github.com/gnina/gnina/tree/master/docs
+  citation:
+  - https://doi.org/10.1021/acs.jcim.8b00572
+  chemisfree_status: curated-resource
+  notes: 'GNINA is a deep-learning-enhanced docking program based on smina. The project
+    incorporates convolutional neural networks for scoring and ligand optimization.
 
-  - id: chembl
-    name: ChEMBL
-    description: >
-      Open-access database of manually curated bioactivity data
-      covering small molecules and their biological activities.
-    category:
-      - data-and-databases
-      - drug-discovery
-    type: database
-    access:
-      - free
-      - open-data
-    source_available: true
-    license: CC BY-SA 3.0
-    platforms:
-      - web
-    interface:
-      - web
-      - api
-    languages: []
-    gpu: not-required
-    installation:
-      - web
-    status: active
-    developers:
-      - ChEMBL team
-      - EMBL-EBI
-    website: https://www.ebi.ac.uk/chembl/
-    repository: https://github.com/chembl
-    documentation: https://chembl.gitbook.io/chembl-interface-documentation/
-    citation: []
-    chemisfree_status: curated-resource
-    notes: >
-      ChEMBL is maintained by EMBL-EBI and provides programmatic access
-      to curated bioactivity data through web services and downloadable
-      database resources.
+    '
+- id: openmm
+  name: OpenMM
+  description: 'Toolkit for molecular simulation that can be used as a stand-alone
+    application or as a library for custom simulations.
 
-  - id: pymol-open-source
-    name: PyMOL Open-Source
-    description: >
-      Open-source molecular visualization software for viewing,
-      analyzing, and presenting molecular structures.
-    category:
-      - visualization
-      - molecular-modelling
-    type: software
-    access:
-      - free
-    source_available: true
-    license: BSD-like
-    platforms:
-      - linux
-      - macos
-      - windows
-    interface:
-      - gui
-      - python
-    languages:
-      - c
-      - c++
-      - python
-    gpu: optional
-    installation:
-      - conda
-      - source
-      - binary
-    status: active
-    developers:
-      - PyMOL community
-      - Schrödinger
-    website: https://www.pymol.org/
-    repository: https://github.com/schrodinger/pymol-open-source
-    documentation: https://pymol.org/dokuwiki/
-    citation: []
-    chemisfree_status: curated-resource
-    notes: >
-      This entry refers specifically to the open-source PyMOL project.
-      PyMOL is also distributed as a commercial product by Schrödinger.
+    '
+  category:
+  - molecular-modelling
+  type: library
+  access:
+  - free
+  source_available: true
+  license: multiple
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  - c++
+  - cli
+  languages:
+  - c++
+  - python
+  gpu: optional
+  installation:
+  - conda
+  - pip
+  - source
+  status: active
+  developers:
+  - OpenMM community
+  website: https://openmm.org/
+  repository: https://github.com/openmm/openmm
+  documentation: https://docs.openmm.org/
+  citation:
+  - https://doi.org/10.1371/journal.pcbi.1005659
+  chemisfree_status: curated-resource
+  notes: 'OpenMM is open-source molecular simulation software supporting CPU and GPU-accelerated
+    calculations.
 
-  - id: catalist
-    name: CataList
-    description: >
-      Desktop chemical inventory management software for laboratories
-      and researchers, providing chemical structure generation,
-      molecular property calculation, chemical classification, and
-      exact, substructure, and similarity searching.
-    category:
-      - cheminformatics
-    type: software
-    access:
-      - free
-    source_available: false
-    license: not-specified
-    platforms:
-      - desktop
-    interface:
-      - gui
-    languages:
-      - java
-    gpu: not-required
-    installation:
-      - binary
-    status: active
-    developers:
-      - Dionysis Kampasis
-    website: https://github.com/DionysisKampasis/CataList
-    repository: https://github.com/DionysisKampasis/CataList
-    documentation: https://github.com/DionysisKampasis/CataList
-    citation: []
-    chemisfree_status: chemisfree-project
-    notes: >
-      CataList is a ChemIsFree project developed by Dionysis Kampasis.
-      The application is provided free of charge for personal and
-      commercial use.
-  - id: open-babel
-    name: Open Babel
-    description: >
-      Open chemical toolbox for converting, analyzing, searching, and
-      processing chemical data across numerous molecular file formats.
-    category:
-      - cheminformatics
-      - molecular-modelling
-    type: library
-    access:
-      - free
-    source_available: true
-    license: GPL-2.0
-    platforms:
-      - linux
-      - macos
-      - windows
-    interface:
-      - cli
-      - python
-      - c++
-    languages:
-      - c++
-      - python
-    gpu: not-required
-    installation:
-      - conda
-      - source
-      - binary
-    status: active
-    developers:
-      - Open Babel community
-    website: https://openbabel.org/
-    repository: https://github.com/openbabel/openbabel
-    documentation: https://openbabel.org/docs/
-    citation: []
-    chemisfree_status: curated-resource
-    verification:
-      status: verified
-      last_checked: 2026-09-29
-    notes: >
-      Open Babel supports chemical data conversion, molecular property
-      handling, searching, and coordinate generation.
+    '
+- id: chembl
+  name: ChEMBL
+  description: 'Open-access database of manually curated bioactivity data covering
+    small molecules and their biological activities.
 
-  - id: cdk
-    name: Chemistry Development Kit
-    description: >
-      Open-source modular Java library for cheminformatics and
-      bioinformatics, supporting chemical structures, fingerprints,
-      descriptors, searching, and file formats.
-    category:
-      - cheminformatics
-    type: library
-    access:
-      - free
-    source_available: true
-    license: LGPL-2.1
-    platforms:
-      - linux
-      - macos
-      - windows
-    interface:
-      - java
-    languages:
-      - java
-    gpu: not-required
-    installation:
-      - maven
-      - source
-      - binary
-    status: active
-    developers:
-      - CDK Development Team
-    website: https://cdk.github.io/
-    repository: https://github.com/cdk/cdk
-    documentation: https://cdk.github.io/
-    citation: []
-    chemisfree_status: curated-resource
-    verification:
-      status: verified
-      last_checked: 2026-09-29
-    notes: >
-      CDK is a modular Java library intended to be integrated into
-      other applications and workflows.
+    '
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  - open-data
+  source_available: true
+  license: CC BY-SA 3.0
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - ChEMBL team
+  - EMBL-EBI
+  website: https://www.ebi.ac.uk/chembl/
+  repository: https://github.com/chembl
+  documentation: https://chembl.gitbook.io/chembl-interface-documentation/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: 'ChEMBL is maintained by EMBL-EBI and provides programmatic access to curated
+    bioactivity data through web services and downloadable database resources.
 
-  - id: autodock-vina
-    name: AutoDock Vina
-    description: >
-      Open-source molecular docking and virtual screening software
-      using rapid conformational search and scoring functions.
-    category:
-      - drug-discovery
-      - molecular-modelling
-    type: software
-    access:
-      - free
-    source_available: true
-    license: Apache-2.0
-    platforms:
-      - linux
-      - macos
-      - windows
-    interface:
-      - cli
-      - python
-    languages:
-      - c++
-      - python
-    gpu: not-required
-    installation:
-      - conda
-      - pip
-      - source
-      - binary
-    status: active
-    developers:
-      - Scripps Research
-      - AutoDock Vina contributors
-    website: https://vina.scripps.edu/
-    repository: https://github.com/ccsb-scripps/AutoDock-Vina
-    documentation: https://autodock-vina.readthedocs.io/
-    citation:
-      - https://doi.org/10.1021/acs.jcim.1c00203
-    chemisfree_status: curated-resource
-    verification:
-      status: verified
-      last_checked: 2026-09-29
-    notes: >
-      AutoDock Vina supports molecular docking, virtual screening,
-      batch docking, and Python bindings.
+    '
+- id: pymol-open-source
+  name: PyMOL Open-Source
+  description: 'Open-source molecular visualization software for viewing, analyzing,
+    and presenting molecular structures.
 
-  - id: deepchem
-    name: DeepChem
-    description: >
-      Open-source Python toolkit for applying deep learning and
-      machine learning to drug discovery, quantum chemistry,
-      materials science, and biology.
-    category:
-      - machine-learning
-      - drug-discovery
-    type: library
-    access:
-      - free
-    source_available: true
-    license: MIT
-    platforms:
-      - linux
-      - macos
-      - windows
-    interface:
-      - python
-    languages:
-      - python
-    gpu: optional
-    installation:
-      - pip
-      - source
-    status: active
-    developers:
-      - DeepChem contributors
-    website: https://deepchem.io/
-    repository: https://github.com/deepchem/deepchem
-    documentation: https://deepchem.readthedocs.io/
-    citation: []
-    chemisfree_status: curated-resource
-    verification:
-      status: verified
-      last_checked: 2026-09-29
-    notes: >
-      DeepChem provides datasets, molecular representations, models,
-      training workflows, and utilities for machine learning in
-      the life sciences.
+    '
+  category:
+  - visualization
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  source_available: true
+  license: BSD-like
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - gui
+  - python
+  languages:
+  - c
+  - c++
+  - python
+  gpu: optional
+  installation:
+  - conda
+  - source
+  - binary
+  status: active
+  developers:
+  - PyMOL community
+  - Schrödinger
+  website: https://www.pymol.org/
+  repository: https://github.com/schrodinger/pymol-open-source
+  documentation: https://pymol.org/dokuwiki/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: 'This entry refers specifically to the open-source PyMOL project. PyMOL is
+    also distributed as a commercial product by Schrödinger.
 
-  - id: pubchem
-    name: PubChem
-    description: >
-      Open chemistry database providing chemical structures,
-      identifiers, properties, biological activities, safety data,
-      patents, and related chemical information.
-    category:
-      - data-and-databases
-      - drug-discovery
-    type: database
-    access:
-      - free
-      - open-data
-    source_available: true
-    license: public
-    platforms:
-      - web
-    interface:
-      - web
-      - api
-    languages: []
-    gpu: not-required
-    installation:
-      - web
-    status: active
-    developers:
-      - National Center for Biotechnology Information
-      - National Institutes of Health
-    website: https://pubchem.ncbi.nlm.nih.gov/
-    repository: []
-    documentation: https://pubchem.ncbi.nlm.nih.gov/docs/
-    citation: []
-    chemisfree_status: curated-resource
-    verification:
-      status: verified
-      last_checked: 2026-09-29
-    notes: >
-      PubChem provides web-based and programmatic access to a large
-      collection of chemical information.
+    '
+- id: catalist
+  name: CataList
+  description: 'Desktop chemical inventory management software for laboratories and
+    researchers, providing chemical structure generation, molecular property calculation,
+    chemical classification, and exact, substructure, and similarity searching.
 
-  - id: zinc
-    name: ZINC
-    description: >
-      Public chemical database and ligand-discovery resource containing
-      purchasable and annotated compounds for virtual screening and
-      related workflows.
-    category:
-      - data-and-databases
-      - drug-discovery
-    type: database
-    access:
-      - free
-    source_available: false
-    license: restricted
-    platforms:
-      - web
-    interface:
-      - web
-      - api
-    languages: []
-    gpu: not-required
-    installation:
-      - web
-    status: active
-    developers:
-      - ZINC team
-      - Irwin and Shoichet laboratories
-    website: https://zinc.docking.org/
-    repository: []
-    documentation: https://wiki.docking.org/index.php/ZINC
-    citation:
-      - https://doi.org/10.1021/acs.jcim.5b00559
-    chemisfree_status: curated-resource
-    verification:
-      status: verified
-      last_checked: 2026-09-29
-    notes: >
-      ZINC is freely accessible for use, but portions of the database
-      have redistribution restrictions. It is widely used for
-      virtual screening and ligand discovery.
+    '
+  category:
+  - cheminformatics
+  type: software
+  access:
+  - free
+  source_available: false
+  license: not-specified
+  platforms:
+  - desktop
+  interface:
+  - gui
+  languages:
+  - java
+  gpu: not-required
+  installation:
+  - binary
+  status: active
+  developers:
+  - Dionysis Kampasis
+  website: https://github.com/DionysisKampasis/CataList
+  repository: https://github.com/DionysisKampasis/CataList
+  documentation: https://github.com/DionysisKampasis/CataList
+  citation: []
+  chemisfree_status: chemisfree-project
+  notes: 'CataList is a ChemIsFree project developed by Dionysis Kampasis. The application
+    is provided free of charge for personal and commercial use.
 
-  - id: knime
-    name: KNIME Analytics Platform
-    description: >
-      Free and open-source low-code/no-code analytics and workflow
-      platform for data access, processing, visualization, machine
-      learning, and automation.
-    category:
-      - machine-learning
-      - utilities-and-workflows
-    type: platform
-    access:
-      - free
-    source_available: true
-    license: GPL-3.0
-    platforms:
-      - linux
-      - macos
-      - windows
-    interface:
-      - gui
-    languages:
-      - java
-    gpu: optional
-    installation:
-      - binary
-    status: active
-    developers:
-      - KNIME
-      - KNIME community
-    website: https://www.knime.com/
-    repository: []
-    documentation: https://docs.knime.com/
-    citation: []
-    chemisfree_status: curated-resource
-    verification:
-      status: verified
-      last_checked: 2026-09-29
-    notes: >
-      KNIME provides a graphical workflow environment with extensive
-      integrations and extensions for data science and scientific
-      workflows.
+    '
+- id: open-babel
+  name: Open Babel
+  description: 'Open chemical toolbox for converting, analyzing, searching, and processing
+    chemical data across numerous molecular file formats.
 
-  - id: biopython
-    name: Biopython
-    description: >
-      Python tools and libraries for computational molecular biology
-      and bioinformatics, including sequence analysis, structure
-      handling, databases, and biological data processing.
-    category:
-      - cheminformatics
-      - data-and-databases
-    type: library
-    access:
-      - free
-    source_available: true
-    license: Biopython License Agreement
-    platforms:
-      - linux
-      - macos
-      - windows
-    interface:
-      - python
-    languages:
-      - python
-    gpu: not-required
-    installation:
-      - pip
-      - source
-    status: active
-    developers:
-      - Biopython contributors
-    website: https://biopython.org/
-    repository: https://github.com/biopython/biopython
-    documentation: https://biopython.org/wiki/Documentation
-    citation:
-      - https://doi.org/10.1093/bioinformatics/btp163
-    chemisfree_status: curated-resource
-    verification:
-      status: verified
-      last_checked: 2026-09-29
-    notes: >
-      Biopython is a freely available collection of Python tools
-      for computational molecular biology and bioinformatics.
+    '
+  category:
+  - cheminformatics
+  - molecular-modelling
+  type: library
+  access:
+  - free
+  source_available: true
+  license: GPL-2.0
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  - python
+  - c++
+  languages:
+  - c++
+  - python
+  gpu: not-required
+  installation:
+  - conda
+  - source
+  - binary
+  status: active
+  developers:
+  - Open Babel community
+  website: https://openbabel.org/
+  repository: https://github.com/openbabel/openbabel
+  documentation: https://openbabel.org/docs/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: 2026-09-29
+  notes: 'Open Babel supports chemical data conversion, molecular property handling,
+    searching, and coordinate generation.
+
+    '
+- id: cdk
+  name: Chemistry Development Kit
+  description: 'Open-source modular Java library for cheminformatics and bioinformatics,
+    supporting chemical structures, fingerprints, descriptors, searching, and file
+    formats.
+
+    '
+  category:
+  - cheminformatics
+  type: library
+  access:
+  - free
+  source_available: true
+  license: LGPL-2.1
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - java
+  languages:
+  - java
+  gpu: not-required
+  installation:
+  - maven
+  - source
+  - binary
+  status: active
+  developers:
+  - CDK Development Team
+  website: https://cdk.github.io/
+  repository: https://github.com/cdk/cdk
+  documentation: https://cdk.github.io/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: 2026-09-29
+  notes: 'CDK is a modular Java library intended to be integrated into other applications
+    and workflows.
+
+    '
+- id: autodock-vina
+  name: AutoDock Vina
+  description: 'Open-source molecular docking and virtual screening software using
+    rapid conformational search and scoring functions.
+
+    '
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  source_available: true
+  license: Apache-2.0
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  - python
+  languages:
+  - c++
+  - python
+  gpu: not-required
+  installation:
+  - conda
+  - pip
+  - source
+  - binary
+  status: active
+  developers:
+  - Scripps Research
+  - AutoDock Vina contributors
+  website: https://vina.scripps.edu/
+  repository: https://github.com/ccsb-scripps/AutoDock-Vina
+  documentation: https://autodock-vina.readthedocs.io/
+  citation:
+  - https://doi.org/10.1021/acs.jcim.1c00203
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: 2026-09-29
+  notes: 'AutoDock Vina supports molecular docking, virtual screening, batch docking,
+    and Python bindings.
+
+    '
+- id: deepchem
+  name: DeepChem
+  description: 'Open-source Python toolkit for applying deep learning and machine
+    learning to drug discovery, quantum chemistry, materials science, and biology.
+
+    '
+  category:
+  - machine-learning
+  - drug-discovery
+  type: library
+  access:
+  - free
+  source_available: true
+  license: MIT
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  languages:
+  - python
+  gpu: optional
+  installation:
+  - pip
+  - source
+  status: active
+  developers:
+  - DeepChem contributors
+  website: https://deepchem.io/
+  repository: https://github.com/deepchem/deepchem
+  documentation: https://deepchem.readthedocs.io/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: 2026-09-29
+  notes: 'DeepChem provides datasets, molecular representations, models, training
+    workflows, and utilities for machine learning in the life sciences.
+
+    '
+- id: pubchem
+  name: PubChem
+  description: 'Open chemistry database providing chemical structures, identifiers,
+    properties, biological activities, safety data, patents, and related chemical
+    information.
+
+    '
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  - open-data
+  source_available: true
+  license: public
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - National Center for Biotechnology Information
+  - National Institutes of Health
+  website: https://pubchem.ncbi.nlm.nih.gov/
+  repository: []
+  documentation: https://pubchem.ncbi.nlm.nih.gov/docs/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: 2026-09-29
+  notes: 'PubChem provides web-based and programmatic access to a large collection
+    of chemical information.
+
+    '
+- id: zinc
+  name: ZINC
+  description: 'Public chemical database and ligand-discovery resource containing
+    purchasable and annotated compounds for virtual screening and related workflows.
+
+    '
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: restricted
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - ZINC team
+  - Irwin and Shoichet laboratories
+  website: https://zinc.docking.org/
+  repository: []
+  documentation: https://wiki.docking.org/index.php/ZINC
+  citation:
+  - https://doi.org/10.1021/acs.jcim.5b00559
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: 2026-09-29
+  notes: 'ZINC is freely accessible for use, but portions of the database have redistribution
+    restrictions. It is widely used for virtual screening and ligand discovery.
+
+    '
+- id: knime
+  name: KNIME Analytics Platform
+  description: 'Free and open-source low-code/no-code analytics and workflow platform
+    for data access, processing, visualization, machine learning, and automation.
+
+    '
+  category:
+  - machine-learning
+  - utilities-and-workflows
+  type: platform
+  access:
+  - free
+  source_available: true
+  license: GPL-3.0
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - gui
+  languages:
+  - java
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - KNIME
+  - KNIME community
+  website: https://www.knime.com/
+  repository: []
+  documentation: https://docs.knime.com/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: 2026-09-29
+  notes: 'KNIME provides a graphical workflow environment with extensive integrations
+    and extensions for data science and scientific workflows.
+
+    '
+- id: biopython
+  name: Biopython
+  description: 'Python tools and libraries for computational molecular biology and
+    bioinformatics, including sequence analysis, structure handling, databases, and
+    biological data processing.
+
+    '
+  category:
+  - cheminformatics
+  - data-and-databases
+  type: library
+  access:
+  - free
+  source_available: true
+  license: Biopython License Agreement
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  languages:
+  - python
+  gpu: not-required
+  installation:
+  - pip
+  - source
+  status: active
+  developers:
+  - Biopython contributors
+  website: https://biopython.org/
+  repository: https://github.com/biopython/biopython
+  documentation: https://biopython.org/wiki/Documentation
+  citation:
+  - https://doi.org/10.1093/bioinformatics/btp163
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: 2026-09-29
+  notes: 'Biopython is a freely available collection of Python tools for computational
+    molecular biology and bioinformatics.
+
+    '
+- id: mdanalysis
+  name: MDAnalysis
+  description: Molecular dynamics trajectory analysis and manipulation.
+  category:
+  - molecular-modelling
+  type: library
+  access:
+  - free
+  source_available: true
+  license: MIT
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  languages: []
+  gpu: unknown
+  installation: []
+  status: active
+  developers: []
+  website: https://www.mdanalysis.org/
+  repository: https://github.com/MDAnalysis/mdanalysis
+  documentation: ''
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-09-29'
+  notes: 'Accepted through ChemIsFree submission issue #2.'
