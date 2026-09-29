@@ -6,10 +6,10 @@ Tools for molecular simulation, molecular mechanics, molecular dynamics, structu
 
 ## Tools
 
-| Tool                                        | Description                                                              | Type     | Interface    | Platforms               |
-| ------------------------------------------- | ------------------------------------------------------------------------ | -------- | ------------ | ----------------------- |
-| [OpenMM](https://openmm.org/)               | Toolkit for molecular simulation and custom molecular dynamics workflows | Library  | Python / C++ | Linux / macOS / Windows |
-| [PyMOL Open-Source](https://www.pymol.org/) | Molecular visualization and structure analysis                           | Software | GUI / Python | Linux / macOS / Windows |
+| Tool                                        | Description                                                              | Type     | Access | Interface    | Platforms               | ChemIsFree Status |
+| ------------------------------------------- | ------------------------------------------------------------------------ | -------- | ------ | ------------ | ----------------------- | ----------------- |
+| [OpenMM](https://openmm.org/)               | Toolkit for molecular simulation and custom molecular dynamics workflows | Library  | Free   | Python / C++ | Linux / macOS / Windows | Curated Resource  |
+| [PyMOL Open-Source](https://www.pymol.org/) | Molecular visualization and structure analysis                           | Software | Free   | GUI / Python | Linux / macOS / Windows | Curated Resource  |
 
 ---
 
