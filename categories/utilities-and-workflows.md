@@ -1,6 +1,6 @@
-# Utilities & Workflows
+# Utilities And Workflows
 
-Research utilities, workflow tools, automation frameworks, and supporting resources for chemistry and drug discovery.
+Tools and resources for chemistry, computational chemistry, drug discovery, and related research workflows.
 
 ---
 
@@ -8,15 +8,7 @@ Research utilities, workflow tools, automation frameworks, and supporting resour
 
 | Tool | Description | Type | Access | Interface | Platforms | ChemIsFree Status |
 |---|---|---|---|---|---|---|
-
----
-
-## Related categories
-
-* [Cheminformatics](cheminformatics.md)
-* [Molecular Modelling](molecular-modelling.md)
-* [Drug Discovery](drug-discovery.md)
-* [Machine Learning](machine-learning.md)
+| [KNIME Analytics Platform](https://www.knime.com/) | Free and open-source low-code/no-code analytics and workflow platform for data access, processing, visualization, machine learning, and automation. | platform | Free | Gui | Linux / Macos / Windows | Curated Resource |
 
 ---
 

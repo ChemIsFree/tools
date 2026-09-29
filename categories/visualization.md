@@ -1,21 +1,14 @@
 # Visualization
 
-Tools for molecular visualization, structural analysis, scientific visualization, and presentation of molecular data.
+Tools and resources for chemistry, computational chemistry, drug discovery, and related research workflows.
 
 ---
 
 ## Tools
 
-| Tool                                        | Description                                     | Type     | Access | Interface    | Platforms               | ChemIsFree Status |
-| ------------------------------------------- | ----------------------------------------------- | -------- | ------ | ------------ | ----------------------- | ----------------- |
-| [PyMOL Open-Source](https://www.pymol.org/) | Molecular visualization and structural analysis | Software | Free   | GUI / Python | Linux / macOS / Windows | Curated Resource  |
-
----
-
-## Related categories
-
-* [Molecular Modelling](molecular-modelling.md)
-* [Cheminformatics](cheminformatics.md)
+| Tool | Description | Type | Access | Interface | Platforms | ChemIsFree Status |
+|---|---|---|---|---|---|---|
+| [PyMOL Open-Source](https://www.pymol.org/) | Open-source molecular visualization software for viewing, analyzing, and presenting molecular structures. | software | Free | Gui / Python | Linux / Macos / Windows | Curated Resource |
 
 ---
 

@@ -1,24 +1,18 @@
 # Molecular Modelling
 
-Tools for molecular simulation, molecular mechanics, molecular dynamics, structure preparation, and computational molecular modelling.
+Tools and resources for chemistry, computational chemistry, drug discovery, and related research workflows.
 
 ---
 
 ## Tools
 
-| Tool                                        | Description                                                              | Type     | Access | Interface    | Platforms               | ChemIsFree Status |
-| ------------------------------------------- | ------------------------------------------------------------------------ | -------- | ------ | ------------ | ----------------------- | ----------------- |
-| [OpenMM](https://openmm.org/)               | Toolkit for molecular simulation and custom molecular dynamics workflows | Library  | Free   | Python / C++ | Linux / macOS / Windows | Curated Resource  |
-| [PyMOL Open-Source](https://www.pymol.org/) | Molecular visualization and structure analysis                           | Software | Free   | GUI / Python | Linux / macOS / Windows | Curated Resource  |
-
----
-
-## Related categories
-
-* [Cheminformatics](cheminformatics.md)
-* [Drug Discovery](drug-discovery.md)
-* [Machine Learning](machine-learning.md)
-* [Visualization](visualization.md)
+| Tool | Description | Type | Access | Interface | Platforms | ChemIsFree Status |
+|---|---|---|---|---|---|---|
+| [AutoDock Vina](https://vina.scripps.edu/) | Open-source molecular docking and virtual screening software using rapid conformational search and scoring functions. | software | Free | Cli / Python | Linux / Macos / Windows | Curated Resource |
+| [GNINA](https://gnina.github.io/gnina/) | Deep-learning-enhanced molecular docking software incorporating convolutional neural network scoring and optimization. | software | Free | Cli | Linux / Macos | Curated Resource |
+| [Open Babel](https://openbabel.org/) | Open chemical toolbox for converting, analyzing, searching, and processing chemical data across numerous molecular file formats. | library | Free | Cli / Python / C++ | Linux / Macos / Windows | Curated Resource |
+| [OpenMM](https://openmm.org/) | Toolkit for molecular simulation that can be used as a stand-alone application or as a library for custom simulations. | library | Free | Python / C++ / Cli | Linux / Macos / Windows | Curated Resource |
+| [PyMOL Open-Source](https://www.pymol.org/) | Open-source molecular visualization software for viewing, analyzing, and presenting molecular structures. | software | Free | Gui / Python | Linux / Macos / Windows | Curated Resource |
 
 ---
 
