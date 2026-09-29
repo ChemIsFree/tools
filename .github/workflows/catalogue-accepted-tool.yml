@@ -55,7 +55,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh issue edit "${{ github.event.issue.number }}" \
-            --add-label "catalogued"
-
+          gh label create catalogued --description "Added to the ChemIsFree catalogue" --color 0E8A16 --force
+          gh issue edit "${{ github.event.issue.number }}" --add-label "catalogued"
           gh issue close "${{ github.event.issue.number }}"
