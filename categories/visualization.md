@@ -4,11 +4,11 @@ Tools for molecular visualization, structural analysis, scientific visualization
 
 ---
 
-## Molecular Visualization
+## Tools
 
-| Tool                                        | Description                                     | Type     | Interface    |
-| ------------------------------------------- | ----------------------------------------------- | -------- | ------------ |
-| [PyMOL Open-Source](https://www.pymol.org/) | Molecular visualization and structural analysis | Software | GUI / Python |
+| Tool                                        | Description                                     | Type     | Access | Interface    | Platforms               | ChemIsFree Status |
+| ------------------------------------------- | ----------------------------------------------- | -------- | ------ | ------------ | ----------------------- | ----------------- |
+| [PyMOL Open-Source](https://www.pymol.org/) | Molecular visualization and structural analysis | Software | Free   | GUI / Python | Linux / macOS / Windows | Curated Resource  |
 
 ---
 
