@@ -4,23 +4,19 @@ Open databases, datasets, and resources containing chemical, biological, and bio
 
 ---
 
-## Bioactivity Databases
+## Tools and Resources
 
-| Resource                                | Description                                            | Type     |
-| --------------------------------------- | ------------------------------------------------------ | -------- |
-| [ChEMBL](https://www.ebi.ac.uk/chembl/) | Curated bioactivity data for drug-like small molecules | Database |
-
----
-
-## Chemical Databases
-
-More resources will be added as the catalogue expands.
+| Resource                                | Description                                            | Type     | Access | Interface | Platforms | ChemIsFree Status |
+| --------------------------------------- | ------------------------------------------------------ | -------- | ------ | --------- | --------- | ----------------- |
+| [ChEMBL](https://www.ebi.ac.uk/chembl/) | Curated bioactivity data for drug-like small molecules | Database | Free   | Web / API | Web       | Curated Resource  |
 
 ---
 
-## Datasets
+## Related categories
 
-More resources will be added as the catalogue expands.
+* [Cheminformatics](cheminformatics.md)
+* [Drug Discovery](drug-discovery.md)
+* [Machine Learning](machine-learning.md)
 
 ---
 
