@@ -1,328 +1,231 @@
 # ChemIsFree Tool Catalogue
-
 #
-
 # Structured metadata for tools and resources included
-
 # in the ChemIsFree catalogue.
+#
+# Schema: data/schema.yaml
 
 tools:
 
-* id: rdkit
-  name: RDKit
-
-  category:
-
-  * cheminformatics
-
-  description: >
-  Open-source cheminformatics and machine-learning software for
-  working with molecular structures, descriptors, fingerprints,
-  molecular databases, and related chemical data.
-
-  type: library
-
-  website: https://www.rdkit.org/
-  repository: https://github.com/rdkit/rdkit
-  documentation: https://www.rdkit.org/docs/
-
-  license: BSD-3-Clause
-
-  platforms:
-
-  * linux
-  * macos
-  * windows
-
-  interface:
-
-  * python
-  * c++
-  * java
-  * csharp
-  * javascript
-
-  languages:
-
-  * c++
-  * python
-
-  gpu: not-required
-
-  installation:
-
-  * conda
-  * source
-
-  status: active
-
-  developers:
-
-  * RDKit community
-
-  citation:
-
-  * https://doi.org/10.1186/s13321-017-0232-0
-
-  chemisfree_status: curated-resource
-
-  notes: >
-  Official sources describe RDKit as a collection of cheminformatics
-  and machine-learning software written in C++ and Python.
-
-* id: gnina
-  name: GNINA
-
-  category:
-
-  * molecular-docking
-  * virtual-screening
-  * machine-learning
-
-  description: >
-  Deep-learning-enhanced molecular docking software with integrated
-  convolutional neural network scoring and optimization.
-
-  type: software
-
-  website: https://gnina.github.io/gnina/
-  repository: https://github.com/gnina/gnina
-  documentation: https://github.com/gnina/gnina/tree/master/docs
-
-  license: GPL-2.0 / Apache-2.0
-
-  platforms:
-
-  * linux
-  * macos
-
-  interface:
-
-  * command-line
-
-  languages:
-
-  * c++
-  * python
-
-  gpu: recommended
-
-  installation:
-
-  * source
-  * binary
-
-  status: active
-
-  developers:
-
-  * GNINA contributors
-
-  citation:
-
-  * https://doi.org/10.1021/acs.jcim.8b00572
-
-  chemisfree_status: curated-resource
-
-  notes: >
-  GNINA is a fork of smina and incorporates convolutional neural
-  networks for molecular docking scoring and ligand optimization.
-  The project states that it is dual licensed under GPL and Apache,
-  with the GPL requirement associated with OpenBabel.
-
-* id: openmm
-  name: OpenMM
-
-  category:
-
-  * molecular-dynamics
-  * molecular-modelling
-
-  description: >
-  Toolkit for molecular simulation that can be used as a
-  stand-alone application or as a library for custom simulations.
-
-  type: library
-
-  website: https://openmm.org/
-  repository: https://github.com/openmm/openmm
-  documentation: https://docs.openmm.org/
-
-  license: multiple
-
-  platforms:
-
-  * linux
-  * macos
-  * windows
-
-  interface:
-
-  * python
-  * c++
-  * command-line
-
-  languages:
-
-  * c++
-  * python
-
-  gpu: optional
-
-  installation:
-
-  * conda
-  * pip
-  * source
-
-  status: active
-
-  developers:
-
-  * OpenMM community
-
-  citation:
-
-  * https://doi.org/10.1371/journal.pcbi.1005659
-
-  chemisfree_status: curated-resource
-
-  notes: >
-  OpenMM is free and open-source software. Different components are
-  covered by different licenses, including MIT and LGPL.
-
-* id: chembl
-  name: ChEMBL
-
-  category:
-
-  * chemical-databases
-  * bioactivity-data
-
-  description: >
-  Open-access database of manually curated bioactivity data
-  covering small molecules and their biological activities.
-
-  type: database
-
-  website: https://www.ebi.ac.uk/chembl/
-  repository: https://github.com/chembl
-  documentation: https://chembl.gitbook.io/chembl-interface-documentation/
-
-  license: CC BY-SA 3.0
-
-  platforms:
-
-  * web
-
-  interface:
-
-  * web
-  * api
-
-  languages: []
-
-  gpu: not-required
-
-  installation:
-
-  * web
-
-  status: active
-
-  developers:
-
-  * ChEMBL team
-  * EMBL-EBI
-
-  citation: []
-
-  chemisfree_status: curated-resource
-
-  notes: >
-  ChEMBL is maintained by EMBL-EBI and provides programmatic access
-  to its data through APIs and downloadable database resources.
-
-* id: pymol-open-source
-  name: PyMOL Open-Source
-
-  category:
-
-  * molecular-visualization
-  * molecular-modelling
-
-  description: >
-  Open-source molecular visualization software for viewing,
-  analyzing, and presenting molecular structures.
-
-  type: software
-
-  website: https://www.pymol.org/
-  repository: https://github.com/schrodinger/pymol-open-source
-  documentation: https://pymol.org/dokuwiki/
-
-  license: BSD-like
-
-  platforms:
-
-  * linux
-  * macos
-  * windows
-
-  interface:
-
-  * graphical
-  * python
-
-  languages:
-
-  * c
-  * c++
-  * python
-
-  gpu: not-required
-
-  installation:
-
-  * conda
-  * source
-  * binary
-
-  status: active
-
-  developers:
-
-  * Schrödinger
-  * PyMOL community
-
-  citation: []
-
-  chemisfree_status: curated-resource
-
-  notes: >
-  This entry refers specifically to the open-source PyMOL project.
-  PyMOL is also distributed as a commercial product by Schrödinger,
-  so the open-source and commercial offerings should not be treated
-  as identical.
-
-    - id: catalist
-    name: CataList
+  - id: rdkit
+    name: RDKit
+    description: >
+      Open-source cheminformatics and machine-learning software for
+      working with molecular structures, descriptors, fingerprints,
+      molecular databases, and related chemical data.
     category:
       - cheminformatics
+      - machine-learning
+    type: library
+    access:
+      - free
+    source_available: true
+    license: BSD-3-Clause
+    platforms:
+      - linux
+      - macos
+      - windows
+    interface:
+      - python
+      - c++
+    languages:
+      - c++
+      - python
+    gpu: not-required
+    installation:
+      - conda
+      - source
+    status: active
+    developers:
+      - RDKit community
+    website: https://www.rdkit.org/
+    repository: https://github.com/rdkit/rdkit
+    documentation: https://www.rdkit.org/docs/
+    citation:
+      - https://doi.org/10.1186/s13321-017-0232-0
+    chemisfree_status: curated-resource
+    notes: >
+      RDKit is an open-source collection of cheminformatics and
+      machine-learning software.
+
+  - id: gnina
+    name: GNINA
     description: >
-      Desktop chemical inventory management software for laboratories and
-      researchers, providing chemical structure generation, molecular property
-      calculation, chemical classification, and exact, substructure, and
-      similarity searching.
+      Deep-learning-enhanced molecular docking software incorporating
+      convolutional neural network scoring and optimization.
+    category:
+      - drug-discovery
+      - molecular-modelling
+      - machine-learning
     type: software
-    website: https://github.com/DionysisKampasis/CataList
-    repository: https://github.com/DionysisKampasis/CataList
-    documentation: https://github.com/DionysisKampasis/CataList
-    license: free-to-use
+    access:
+      - free
+    source_available: true
+    license: dual
+    platforms:
+      - linux
+      - macos
+    interface:
+      - cli
+    languages:
+      - c++
+      - python
+    gpu: recommended
+    installation:
+      - source
+      - binary
+    status: active
+    developers:
+      - GNINA contributors
+    website: https://gnina.github.io/gnina/
+    repository: https://github.com/gnina/gnina
+    documentation: https://github.com/gnina/gnina/tree/master/docs
+    citation:
+      - https://doi.org/10.1021/acs.jcim.8b00572
+    chemisfree_status: curated-resource
+    notes: >
+      GNINA is a deep-learning-enhanced docking program based on smina.
+      The project incorporates convolutional neural networks for scoring
+      and ligand optimization.
+
+  - id: openmm
+    name: OpenMM
+    description: >
+      Toolkit for molecular simulation that can be used as a
+      stand-alone application or as a library for custom simulations.
+    category:
+      - molecular-modelling
+    type: library
+    access:
+      - free
+    source_available: true
+    license: multiple
+    platforms:
+      - linux
+      - macos
+      - windows
+    interface:
+      - python
+      - c++
+      - cli
+    languages:
+      - c++
+      - python
+    gpu: optional
+    installation:
+      - conda
+      - pip
+      - source
+    status: active
+    developers:
+      - OpenMM community
+    website: https://openmm.org/
+    repository: https://github.com/openmm/openmm
+    documentation: https://docs.openmm.org/
+    citation:
+      - https://doi.org/10.1371/journal.pcbi.1005659
+    chemisfree_status: curated-resource
+    notes: >
+      OpenMM is open-source molecular simulation software supporting
+      CPU and GPU-accelerated calculations.
+
+  - id: chembl
+    name: ChEMBL
+    description: >
+      Open-access database of manually curated bioactivity data
+      covering small molecules and their biological activities.
+    category:
+      - data-and-databases
+      - drug-discovery
+    type: database
+    access:
+      - free
+      - open-data
+    source_available: true
+    license: CC BY-SA 3.0
+    platforms:
+      - web
+    interface:
+      - web
+      - api
+    languages: []
+    gpu: not-required
+    installation:
+      - web
+    status: active
+    developers:
+      - ChEMBL team
+      - EMBL-EBI
+    website: https://www.ebi.ac.uk/chembl/
+    repository: https://github.com/chembl
+    documentation: https://chembl.gitbook.io/chembl-interface-documentation/
+    citation: []
+    chemisfree_status: curated-resource
+    notes: >
+      ChEMBL is maintained by EMBL-EBI and provides programmatic access
+      to curated bioactivity data through web services and downloadable
+      database resources.
+
+  - id: pymol-open-source
+    name: PyMOL Open-Source
+    description: >
+      Open-source molecular visualization software for viewing,
+      analyzing, and presenting molecular structures.
+    category:
+      - visualization
+      - molecular-modelling
+    type: software
+    access:
+      - free
+    source_available: true
+    license: BSD-like
+    platforms:
+      - linux
+      - macos
+      - windows
+    interface:
+      - gui
+      - python
+    languages:
+      - c
+      - c++
+      - python
+    gpu: optional
+    installation:
+      - conda
+      - source
+      - binary
+    status: active
+    developers:
+      - PyMOL community
+      - Schrödinger
+    website: https://www.pymol.org/
+    repository: https://github.com/schrodinger/pymol-open-source
+    documentation: https://pymol.org/dokuwiki/
+    citation: []
+    chemisfree_status: curated-resource
+    notes: >
+      This entry refers specifically to the open-source PyMOL project.
+      PyMOL is also distributed as a commercial product by Schrödinger.
+
+  - id: catalist
+    name: CataList
+    description: >
+      Desktop chemical inventory management software for laboratories
+      and researchers, providing chemical structure generation,
+      molecular property calculation, chemical classification, and
+      exact, substructure, and similarity searching.
+    category:
+      - cheminformatics
+    type: software
+    access:
+      - free
+    source_available: false
+    license: not-specified
     platforms:
       - desktop
     interface:
-      - graphical
+      - gui
     languages:
       - java
     gpu: not-required
@@ -331,11 +234,12 @@ tools:
     status: active
     developers:
       - Dionysis Kampasis
+    website: https://github.com/DionysisKampasis/CataList
+    repository: https://github.com/DionysisKampasis/CataList
+    documentation: https://github.com/DionysisKampasis/CataList
     citation: []
     chemisfree_status: chemisfree-project
     notes: >
       CataList is a ChemIsFree project developed by Dionysis Kampasis.
-      The application is provided free of charge for personal and commercial
-      use. It performs chemical-data processing locally, while making API
-      requests to public chemical databases when required for identifier
-      resolution.
+      The application is provided free of charge for personal and
+      commercial use.
