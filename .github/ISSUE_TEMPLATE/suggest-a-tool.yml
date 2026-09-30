@@ -50,12 +50,13 @@ body:
     validations:
       required: true
 
-  - type: dropdown
+   - type: dropdown
     id: primary_task
     attributes:
       label: Primary task
       description: What is the main thing this resource helps a researcher do?
       options:
+        - Select a primary task
         - Inventory Management
         - Draw & Edit Structures
         - Structure Elucidation
@@ -177,6 +178,24 @@ body:
       label: Source repository
       description: Official GitHub, GitLab, or other source repository, if available.
       placeholder: https://github.com/example/project
+
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Tool screenshots
+      description: Upload the screenshots you want displayed on the ChemIsFree tool page. Add them in the exact order you want them displayed.
+    validations:
+      required: false
+      accept: ".png,.jpg,.jpeg,.gif,.svg,.webp"
+
+  - type: textarea
+    id: tutorials
+    attributes:
+      label: YouTube tutorial videos
+      description: Optional. Add YouTube tutorial links, one per line, in the order you want them displayed on the tool page.
+      placeholder: |
+        https://www.youtube.com/watch?v=example1
+        https://www.youtube.com/watch?v=example2
 
   - type: input
     id: documentation
