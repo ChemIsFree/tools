@@ -192,7 +192,7 @@ body:
     id: tutorials
     attributes:
       label: YouTube tutorial videos
-      description: Optional. Add YouTube tutorial links, one per line, in the order you want them displayed on the tool page.
+      description: Optional. Add YouTube tutorial links, one per line, in the order you want them displayed on the ChemIsFree tool page.
       placeholder: |
         https://www.youtube.com/watch?v=example1
         https://www.youtube.com/watch?v=example2
