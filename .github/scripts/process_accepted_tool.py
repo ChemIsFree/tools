@@ -94,6 +94,15 @@ def split_languages(value):
         if part.strip()
     ]
 
+def extract_urls(value):
+    if not value:
+        return []
+
+    return re.findall(
+        r"https?://[^\s\]\)]+",
+        value
+    )
+
 
 # ---------------------------------------------------------
 # Taxonomy mappings
@@ -360,6 +369,14 @@ def main():
         "Source repository"
     )
 
+    screenshots_raw = get_field(
+        "Tool screenshots"
+    )
+
+    tutorials_raw = get_field(
+        "YouTube tutorial videos"
+    )
+
     documentation = get_field(
         "Documentation"
     )
@@ -387,6 +404,7 @@ def main():
     languages = split_languages(
         get_field("Languages / technologies")
     )
+    
 
     developers = get_field(
         "Developer or organization"
@@ -496,11 +514,6 @@ def main():
                 ["unknown"],
             ),
 
-        "source_available":
-            (
-                access == "Open Source"
-            ),
-
         "license":
             license_name
             or "not-specified",
@@ -538,10 +551,6 @@ def main():
             website
             or "",
 
-        "repository":
-            repository
-            or "",
-
         "documentation":
             documentation
             or "",
@@ -565,6 +574,26 @@ def main():
                 f"issue #{ISSUE_NUMBER}."
             ),
     }
+
+    if repository:
+        tool["repository"] = repository
+
+    screenshots = extract_urls(
+        screenshots_raw
+    )
+
+    tutorials = [
+        url
+        for url in extract_urls(tutorials_raw)
+        if "youtube.com/" in url
+        or "youtu.be/" in url
+    ]
+
+    if screenshots:
+        tool["screenshots"] = screenshots
+
+    if tutorials:
+        tool["tutorials"] = tutorials
 
     # -----------------------------------------------------
     # Resource type
