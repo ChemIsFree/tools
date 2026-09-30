@@ -1,3 +1,4 @@
+```yaml
 name: Suggest a tool
 
 description: Suggest a software application or supporting resource for the ChemIsFree catalogue.
@@ -23,6 +24,7 @@ body:
         Please provide as much information as you know.
         You do not need to fill in information you do not know.
 
+
   # ---------------------------------------------------------
   # BASIC CLASSIFICATION
   # ---------------------------------------------------------
@@ -37,6 +39,7 @@ body:
         - Supporting Resource
     validations:
       required: true
+
 
   - type: dropdown
     id: domain
@@ -55,12 +58,15 @@ body:
     validations:
       required: true
 
+
   - type: dropdown
     id: primary_task
     attributes:
       label: Primary task
       description: What is the main thing this resource helps a researcher do?
       options:
+
+        # Chemical Structures
         - Inventory Management
         - Draw & Edit Structures
         - Structure Elucidation
@@ -70,11 +76,13 @@ body:
         - Ligand Preparation
         - Chemical Space Analysis
 
+        # Ligand-Based Discovery
         - Pharmacophore Modelling
         - QSAR & Predictive Modelling
         - Scaffold Analysis
         - Ligand-Based Virtual Screening
 
+        # Structure-Based Discovery
         - Protein Preparation
         - Binding-Site Analysis
         - Molecular Docking
@@ -83,33 +91,39 @@ body:
         - Interaction Analysis
         - Free-Energy Calculations
 
+        # Molecular Properties & ADMET
         - Physicochemical Properties
         - ADME Prediction
         - Toxicity Prediction
         - Drug-Likeness
 
+        # Synthesis & Reaction Design
         - Retrosynthesis
         - Reaction Prediction
         - Synthetic Route Planning
         - Reaction Analysis
 
+        # Data & Chemical Analysis
         - Bioactivity Analysis
         - Data Curation
         - Chemical Data Analysis
         - Machine Learning
         - Generative Chemistry
 
+        # Visualization & Interpretation
         - Molecular Visualization
         - 3D Structure Analysis
         - Trajectory Analysis
         - Scientific Visualization
 
-        - Chemical Inventory
+        # Laboratory & Workflows
         - Laboratory Automation
         - Workflow Construction
         - Pipeline Execution
+
     validations:
       required: true
+
 
   - type: checkboxes
     id: additional_tasks
@@ -117,6 +131,8 @@ body:
       label: Additional tasks
       description: Select any other tasks this resource meaningfully supports.
       options:
+
+        # Chemical Structures
         - label: Inventory Management
         - label: Draw & Edit Structures
         - label: Structure Elucidation
@@ -126,11 +142,13 @@ body:
         - label: Ligand Preparation
         - label: Chemical Space Analysis
 
+        # Ligand-Based Discovery
         - label: Pharmacophore Modelling
         - label: QSAR & Predictive Modelling
         - label: Scaffold Analysis
         - label: Ligand-Based Virtual Screening
 
+        # Structure-Based Discovery
         - label: Protein Preparation
         - label: Binding-Site Analysis
         - label: Molecular Docking
@@ -139,31 +157,40 @@ body:
         - label: Interaction Analysis
         - label: Free-Energy Calculations
 
+        # Molecular Properties & ADMET
         - label: Physicochemical Properties
         - label: ADME Prediction
         - label: Toxicity Prediction
         - label: Drug-Likeness
 
+        # Synthesis & Reaction Design
         - label: Retrosynthesis
         - label: Reaction Prediction
         - label: Synthetic Route Planning
         - label: Reaction Analysis
 
+        # Data & Chemical Analysis
         - label: Bioactivity Analysis
         - label: Data Curation
         - label: Chemical Data Analysis
         - label: Machine Learning
         - label: Generative Chemistry
 
+        # Visualization & Interpretation
         - label: Molecular Visualization
         - label: 3D Structure Analysis
         - label: Trajectory Analysis
         - label: Scientific Visualization
 
-        - label: Inventory Management
+        # Laboratory & Workflows
         - label: Laboratory Automation
         - label: Workflow Construction
         - label: Pipeline Execution
+
+
+  # ---------------------------------------------------------
+  # BASIC INFORMATION
+  # ---------------------------------------------------------
 
   - type: input
     id: name
@@ -173,6 +200,7 @@ body:
       placeholder: e.g. RDKit
     validations:
       required: true
+
 
   - type: textarea
     id: description
@@ -185,6 +213,7 @@ body:
     validations:
       required: true
 
+
   # ---------------------------------------------------------
   # LINKS
   # ---------------------------------------------------------
@@ -196,6 +225,7 @@ body:
       description: The official website, if available.
       placeholder: https://example.org
 
+
   - type: input
     id: repository
     attributes:
@@ -203,12 +233,14 @@ body:
       description: Official GitHub, GitLab, or other source repository, if available.
       placeholder: https://github.com/example/project
 
+
   - type: input
     id: documentation
     attributes:
       label: Documentation
       description: Official documentation, manual, or user guide, if available.
       placeholder: https://docs.example.org
+
 
   # ---------------------------------------------------------
   # TYPE / ACCESS
@@ -228,6 +260,7 @@ body:
     validations:
       required: true
 
+
   - type: dropdown
     id: access
     attributes:
@@ -240,12 +273,14 @@ body:
     validations:
       required: true
 
+
   - type: input
     id: license
     attributes:
       label: License
       description: If known, provide the license.
       placeholder: e.g. MIT, Apache-2.0, GPL-3.0, CC BY 4.0
+
 
   # ---------------------------------------------------------
   # INTERFACE / AVAILABILITY
@@ -261,12 +296,14 @@ body:
         - label: Web
         - label: Command line
 
+
   - type: input
     id: languages
     attributes:
       label: Languages / technologies
       description: Optional. List programming languages or major technologies used by the project.
       placeholder: e.g. Python, C++, Java
+
 
   - type: checkboxes
     id: platforms
@@ -284,6 +321,7 @@ body:
         - label: Cloud
         - label: Other
 
+
   # ---------------------------------------------------------
   # DEVELOPER / SCIENTIFIC INFORMATION
   # ---------------------------------------------------------
@@ -295,12 +333,14 @@ body:
       description: Who develops or maintains the resource?
       placeholder: e.g. EMBL-EBI
 
+
   - type: input
     id: citation
     attributes:
       label: Scientific citation
       description: DOI or publication describing the resource, if available.
       placeholder: https://doi.org/...
+
 
   - type: textarea
     id: why
@@ -312,12 +352,14 @@ body:
     validations:
       required: true
 
+
   - type: input
     id: submitter
     attributes:
       label: Your name or project
       description: Optional.
       placeholder: Your name, GitHub username, laboratory, or project
+
 
   # ---------------------------------------------------------
   # CONFIRMATION
@@ -333,3 +375,4 @@ body:
 
         - label: I understand that inclusion in the catalogue does not imply ownership, development, endorsement, or maintenance by ChemIsFree.
           required: true
+```
