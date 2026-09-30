@@ -675,14 +675,13 @@ tools:
   domain:
   - structure-based-discovery
   tasks:
-  - inventory-management
   - binding-site-analysis
   - structure-based-screening
   category: []
   type: software
   access:
   - free
-  source_available: false
+  source_available: true
   license: GPL-2.0 license
   platforms:
   - linux
