@@ -160,7 +160,7 @@ body:
         - label: Trajectory Analysis
         - label: Scientific Visualization
 
-        - label: Chemical Inventory
+        - label: Inventory Management
         - label: Laboratory Automation
         - label: Workflow Construction
         - label: Pipeline Execution
