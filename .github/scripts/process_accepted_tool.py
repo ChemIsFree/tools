@@ -237,8 +237,6 @@ TASK_MAP = {
     "Scientific Visualization":
         "scientific-visualization",
 
-    "Chemical Inventory":
-        "chemical-inventory",
 
     "Laboratory Automation":
         "laboratory-automation",
