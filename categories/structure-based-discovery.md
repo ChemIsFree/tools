@@ -10,6 +10,7 @@ Tools for discovering compounds using three-dimensional target structures.
 |---|---|---|---|---|---|
 | [AutoDock Vina](https://vina.scripps.edu/) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [GNINA](https://gnina.github.io/gnina/) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux / Macos | Curated Resource |
+| [PLIP (Protein-Ligand Interaction Profiler)](https://plip-tool.biotec.tu-dresden.de/plip-web/plip/index) | Inventory Management; Binding-Site Analysis; Structure-Based Virtual Screening | Free | GUI / Web + CLI | Linux / Windows / Web / Other | Curated Resource |
 | [PyMOL Open-Source](https://www.pymol.org/) | Molecular Visualization; 3D Structure Analysis; Binding-Site Analysis | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 
 ## Supporting Resources
