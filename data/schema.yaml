@@ -1,5 +1,15 @@
 chem_is_free_schema:
-  version: "1.0"
+  version: "2.0"
+
+  catalogue:
+    - app
+    - resource
+
+  resource_type:
+    - library
+    - database
+    - dataset
+    - educational
 
   chemisfree_status:
     - chemisfree-project
@@ -21,10 +31,7 @@ chem_is_free_schema:
 
   access:
     - free
-    - free-tier
-    - open-data
-    - public
-    - paid
+    - open-source
     - unknown
 
   platforms:
