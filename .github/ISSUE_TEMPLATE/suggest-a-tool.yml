@@ -1,6 +1,6 @@
 name: Suggest a tool
 
-description: Suggest a software tool, database, dataset, workflow, or other resource for the ChemIsFree catalogue.
+description: Suggest a software application or supporting resource for the ChemIsFree catalogue.
 
 title: "[Tool suggestion]: "
 
@@ -17,12 +17,153 @@ body:
 
         Thank you for helping expand the ChemIsFree catalogue.
 
-        You can suggest software, libraries, databases, datasets,
-        web tools, workflows, platforms, tutorials, or other useful
-        resources for chemistry and drug discovery.
+        ChemIsFree is organized around what researchers need to do,
+        rather than around generic software categories.
 
-        Please provide as much information as you know. You do not
-        need to fill in information that you do not know.
+        Please provide as much information as you know.
+        You do not need to fill in information you do not know.
+
+  # ---------------------------------------------------------
+  # BASIC CLASSIFICATION
+  # ---------------------------------------------------------
+
+  - type: dropdown
+    id: catalogue
+    attributes:
+      label: Catalogue section
+      description: Should this appear as a primary application or as a supporting resource?
+      options:
+        - Application
+        - Supporting Resource
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Main area
+      description: Choose the major area where users would look for this resource.
+      options:
+        - Chemical Structures
+        - Ligand-Based Discovery
+        - Structure-Based Discovery
+        - Molecular Properties & ADMET
+        - Synthesis & Reaction Design
+        - Data & Chemical Analysis
+        - Visualization & Interpretation
+        - Laboratory & Workflows
+    validations:
+      required: true
+
+  - type: dropdown
+    id: primary_task
+    attributes:
+      label: Primary task
+      description: What is the main thing this resource helps a researcher do?
+      options:
+        - Inventory Management
+        - Draw & Edit Structures
+        - Structure Elucidation
+        - Molecular Descriptors & Properties
+        - Structure Search
+        - Structure Conversion
+        - Ligand Preparation
+        - Chemical Space Analysis
+
+        - Pharmacophore Modelling
+        - QSAR & Predictive Modelling
+        - Scaffold Analysis
+        - Ligand-Based Virtual Screening
+
+        - Protein Preparation
+        - Binding-Site Analysis
+        - Molecular Docking
+        - Structure-Based Virtual Screening
+        - Molecular Dynamics
+        - Interaction Analysis
+        - Free-Energy Calculations
+
+        - Physicochemical Properties
+        - ADME Prediction
+        - Toxicity Prediction
+        - Drug-Likeness
+
+        - Retrosynthesis
+        - Reaction Prediction
+        - Synthetic Route Planning
+        - Reaction Analysis
+
+        - Bioactivity Analysis
+        - Data Curation
+        - Chemical Data Analysis
+        - Machine Learning
+        - Generative Chemistry
+
+        - Molecular Visualization
+        - 3D Structure Analysis
+        - Trajectory Analysis
+        - Scientific Visualization
+
+        - Chemical Inventory
+        - Laboratory Automation
+        - Workflow Construction
+        - Pipeline Execution
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: additional_tasks
+    attributes:
+      label: Additional tasks
+      description: Select any other tasks this resource meaningfully supports.
+      options:
+        - label: Inventory Management
+        - label: Draw & Edit Structures
+        - label: Structure Elucidation
+        - label: Molecular Descriptors & Properties
+        - label: Structure Search
+        - label: Structure Conversion
+        - label: Ligand Preparation
+        - label: Chemical Space Analysis
+
+        - label: Pharmacophore Modelling
+        - label: QSAR & Predictive Modelling
+        - label: Scaffold Analysis
+        - label: Ligand-Based Virtual Screening
+
+        - label: Protein Preparation
+        - label: Binding-Site Analysis
+        - label: Molecular Docking
+        - label: Structure-Based Virtual Screening
+        - label: Molecular Dynamics
+        - label: Interaction Analysis
+        - label: Free-Energy Calculations
+
+        - label: Physicochemical Properties
+        - label: ADME Prediction
+        - label: Toxicity Prediction
+        - label: Drug-Likeness
+
+        - label: Retrosynthesis
+        - label: Reaction Prediction
+        - label: Synthetic Route Planning
+        - label: Reaction Analysis
+
+        - label: Bioactivity Analysis
+        - label: Data Curation
+        - label: Chemical Data Analysis
+        - label: Machine Learning
+        - label: Generative Chemistry
+
+        - label: Molecular Visualization
+        - label: 3D Structure Analysis
+        - label: Trajectory Analysis
+        - label: Scientific Visualization
+
+        - label: Chemical Inventory
+        - label: Laboratory Automation
+        - label: Workflow Construction
+        - label: Pipeline Execution
 
   - type: input
     id: name
@@ -37,43 +178,29 @@ body:
     id: description
     attributes:
       label: What does it do?
-      description: Give a short description of what the resource is used for.
+      description: Give a concise description of what the resource is used for.
       placeholder: |
         A cheminformatics toolkit for working with molecular structures,
         descriptors, fingerprints, and chemical data.
     validations:
       required: true
 
-  - type: dropdown
-    id: category
-    attributes:
-      label: Main category
-      description: Choose the category that best describes the resource.
-      options:
-        - Cheminformatics
-        - Molecular Modelling
-        - Drug Discovery
-        - Machine Learning
-        - Data & Databases
-        - Visualization
-        - Laboratory
-        - Utilities & Workflows
-        - Other
-    validations:
-      required: true
+  # ---------------------------------------------------------
+  # LINKS
+  # ---------------------------------------------------------
 
   - type: input
     id: website
     attributes:
       label: Official website
-      description: The official website of the resource, if available.
+      description: The official website, if available.
       placeholder: https://example.org
 
   - type: input
     id: repository
     attributes:
       label: Source repository
-      description: GitHub, GitLab, or another official source repository, if available.
+      description: Official GitHub, GitLab, or other source repository, if available.
       placeholder: https://github.com/example/project
 
   - type: input
@@ -83,23 +210,21 @@ body:
       description: Official documentation, manual, or user guide, if available.
       placeholder: https://docs.example.org
 
+  # ---------------------------------------------------------
+  # TYPE / ACCESS
+  # ---------------------------------------------------------
+
   - type: dropdown
-    id: type
+    id: resource_type
     attributes:
       label: Resource type
-      description: Choose the type that best describes the resource.
+      description: Select the appropriate type. Applications should use "Not applicable".
       options:
-        - Software
+        - Not applicable — Application
         - Library
         - Database
         - Dataset
-        - Web Tool
-        - Web Service
-        - Workflow
-        - Platform
-        - Resource
-        - Tutorial
-        - Other
+        - Educational
     validations:
       required: true
 
@@ -107,14 +232,11 @@ body:
     id: access
     attributes:
       label: Access
-      description: How can users access the resource?
+      description: ChemIsFree focuses on freely accessible resources.
       options:
         - Free
-        - Free tier
-        - Open data
-        - Public
-        - Paid
-        - Unknown
+        - Open Source
+        - Unknown / needs verification
     validations:
       required: true
 
@@ -122,8 +244,29 @@ body:
     id: license
     attributes:
       label: License
-      description: If known, provide the license or access terms.
+      description: If known, provide the license.
       placeholder: e.g. MIT, Apache-2.0, GPL-3.0, CC BY 4.0
+
+  # ---------------------------------------------------------
+  # INTERFACE / AVAILABILITY
+  # ---------------------------------------------------------
+
+  - type: checkboxes
+    id: interface
+    attributes:
+      label: User interface
+      description: Select the interfaces a researcher can directly use.
+      options:
+        - label: GUI
+        - label: Web
+        - label: Command line
+
+  - type: input
+    id: languages
+    attributes:
+      label: Languages / technologies
+      description: Optional. List programming languages or major technologies used by the project.
+      placeholder: e.g. Python, C++, Java
 
   - type: checkboxes
     id: platforms
@@ -141,22 +284,9 @@ body:
         - label: Cloud
         - label: Other
 
-  - type: checkboxes
-    id: interface
-    attributes:
-      label: Interface
-      description: Select all that apply.
-      options:
-        - label: GUI
-        - label: Command line
-        - label: Python
-        - label: R
-        - label: C++
-        - label: Java
-        - label: API
-        - label: Web
-        - label: Notebook
-        - label: Other
+  # ---------------------------------------------------------
+  # DEVELOPER / SCIENTIFIC INFORMATION
+  # ---------------------------------------------------------
 
   - type: input
     id: developers
@@ -176,7 +306,7 @@ body:
     id: why
     attributes:
       label: Why should ChemIsFree include it?
-      description: Tell us briefly why this resource would be useful to the chemistry/drug-discovery community.
+      description: Briefly explain why this resource would be useful to the chemistry or drug-discovery community.
       placeholder: |
         Useful for molecular similarity searching and descriptor calculation.
     validations:
@@ -186,15 +316,20 @@ body:
     id: submitter
     attributes:
       label: Your name or project
-      description: Optional. Tell us who submitted this resource.
+      description: Optional.
       placeholder: Your name, GitHub username, laboratory, or project
+
+  # ---------------------------------------------------------
+  # CONFIRMATION
+  # ---------------------------------------------------------
 
   - type: checkboxes
     id: confirmation
     attributes:
       label: Confirmation
       options:
-        - label: I have provided information in good faith and understand that ChemIsFree may verify or modify the submitted metadata.
+        - label: I have provided the information in good faith and understand that ChemIsFree may verify or modify the submitted metadata.
           required: true
-        - label: I understand that inclusion in the ChemIsFree catalogue does not imply ownership or development by ChemIsFree.
+
+        - label: I understand that inclusion in the catalogue does not imply ownership, development, endorsement, or maintenance by ChemIsFree.
           required: true
