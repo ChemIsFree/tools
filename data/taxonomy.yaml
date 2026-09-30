@@ -1,0 +1,174 @@
+domains:
+
+  chemical-structures:
+    name: Chemical Structures
+    description: Tools for creating, processing, searching, and analyzing chemical structures.
+    tasks:
+      - id: structure-drawing
+        name: Draw & Edit Structures
+
+      - id: structure-conversion
+        name: Structure Conversion
+
+      - id: structure-preparation
+        name: Structure Cleaning & Preparation
+
+      - id: molecular-properties
+        name: Molecular Descriptors & Properties
+
+      - id: molecular-fingerprints
+        name: Molecular Fingerprints
+
+      - id: similarity-search
+        name: Similarity Search
+
+      - id: substructure-search
+        name: Substructure Search
+
+      - id: chemical-space
+        name: Chemical Space Analysis
+
+
+  ligand-based-discovery:
+    name: Ligand-Based Discovery
+    description: Tools for discovering and analyzing compounds using ligand information.
+    tasks:
+      - id: pharmacophore-modelling
+        name: Pharmacophore Modelling
+
+      - id: qsar
+        name: QSAR & Predictive Modelling
+
+      - id: scaffold-analysis
+        name: Scaffold Analysis
+
+      - id: ligand-based-screening
+        name: Ligand-Based Virtual Screening
+
+
+  structure-based-discovery:
+    name: Structure-Based Discovery
+    description: Tools for discovering compounds using three-dimensional target structures.
+    tasks:
+      - id: protein-preparation
+        name: Protein Preparation
+
+      - id: binding-site-analysis
+        name: Binding-Site Analysis
+
+      - id: molecular-docking
+        name: Molecular Docking
+
+      - id: structure-based-screening
+        name: Structure-Based Virtual Screening
+
+      - id: molecular-dynamics
+        name: Molecular Dynamics
+
+      - id: interaction-analysis
+        name: Interaction Analysis
+
+      - id: free-energy
+        name: Free-Energy Calculations
+
+
+  molecular-properties-admet:
+    name: Molecular Properties & ADMET
+    description: Tools for predicting molecular properties and drug-development-relevant characteristics.
+    tasks:
+      - id: physicochemical-properties
+        name: Physicochemical Properties
+
+      - id: adme
+        name: ADME Prediction
+
+      - id: toxicity
+        name: Toxicity Prediction
+
+      - id: drug-likeness
+        name: Drug-Likeness
+
+
+  synthesis-reaction-design:
+    name: Synthesis & Reaction Design
+    description: Tools for planning and analyzing chemical synthesis.
+    tasks:
+      - id: retrosynthesis
+        name: Retrosynthesis
+
+      - id: reaction-prediction
+        name: Reaction Prediction
+
+      - id: route-planning
+        name: Synthetic Route Planning
+
+      - id: reaction-analysis
+        name: Reaction Analysis
+
+
+  data-analysis:
+    name: Data & Chemical Analysis
+    description: Tools for working with chemical and biological data.
+    tasks:
+      - id: bioactivity-analysis
+        name: Bioactivity Analysis
+
+      - id: data-curation
+        name: Data Curation
+
+      - id: chemical-data-analysis
+        name: Chemical Data Analysis
+
+      - id: machine-learning
+        name: Machine Learning
+
+      - id: generative-chemistry
+        name: Generative Chemistry
+
+
+  visualization:
+    name: Visualization & Interpretation
+    description: Tools for visualizing and interpreting molecular and scientific data.
+    tasks:
+      - id: molecular-visualization
+        name: Molecular Visualization
+
+      - id: three-dimensional-analysis
+        name: 3D Structure Analysis
+
+      - id: trajectory-analysis
+        name: Trajectory Analysis
+
+      - id: scientific-visualization
+        name: Scientific Visualization
+
+
+  laboratory-workflows:
+    name: Laboratory & Workflows
+    description: Tools for laboratory management, automation, and scientific workflows.
+    tasks:
+      - id: chemical-inventory
+        name: Chemical Inventory
+
+      - id: laboratory-automation
+        name: Laboratory Automation
+
+      - id: workflow-construction
+        name: Workflow Construction
+
+      - id: pipeline-execution
+        name: Pipeline Execution
+
+
+resources:
+  libraries:
+    name: Libraries
+
+  databases:
+    name: Databases
+
+  datasets:
+    name: Datasets
+
+  educational:
+    name: Educational Resources
