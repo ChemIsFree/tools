@@ -10,21 +10,44 @@ permissions:
   issues: write
 
 jobs:
+
   catalogue:
+
     if: github.event.label.name == 'accepted'
+
     runs-on: ubuntu-latest
 
     steps:
+
+      # -----------------------------------------------------
+      # Checkout
+      # -----------------------------------------------------
+
       - name: Checkout repository
         uses: actions/checkout@v4
+
+
+      # -----------------------------------------------------
+      # Python
+      # -----------------------------------------------------
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
+
+      # -----------------------------------------------------
+      # Dependencies
+      # -----------------------------------------------------
+
       - name: Install dependencies
         run: pip install pyyaml
+
+
+      # -----------------------------------------------------
+      # Add accepted tool
+      # -----------------------------------------------------
 
       - name: Add accepted tool to catalogue
         env:
@@ -33,28 +56,93 @@ jobs:
         run: |
           python .github/scripts/process_accepted_tool.py
 
+
+      # -----------------------------------------------------
+      # Regenerate repository category pages
+      # -----------------------------------------------------
+
       - name: Regenerate category pages
         run: |
           python .github/scripts/generate_categories.py
 
+
+      # -----------------------------------------------------
+      # Commit catalogue changes
+      # -----------------------------------------------------
+
       - name: Commit catalogue changes
+        id: commit_catalogue
         run: |
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add data/tools.yaml categories/
 
           if git diff --cached --quiet; then
+
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+
             echo "No catalogue changes."
+
           else
-            git commit -m "Add accepted tool from issue #${{ github.event.issue.number }}"
+
+            git commit \
+              -m "Add accepted tool from issue #${{ github.event.issue.number }}"
+
             git push
+
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+
           fi
+
+
+      # -----------------------------------------------------
+      # Trigger website rebuild
+      # -----------------------------------------------------
+
+      - name: Trigger website rebuild
+        if: steps.commit_catalogue.outputs.changed == 'true'
+        env:
+          WEBSITE_DISPATCH_TOKEN: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
+          CATALOGUE_COMMIT: ${{ github.sha }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+
+          curl \
+            --fail \
+            --request POST \
+            --url https://api.github.com/repos/ChemIsFree/website/dispatches \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer ${WEBSITE_DISPATCH_TOKEN}" \
+            --header "X-GitHub-Api-Version: 2026-03-10" \
+            --data "{
+              \"event_type\": \"catalogue-updated\",
+              \"client_payload\": {
+                \"source\": \"ChemIsFree/tools\",
+                \"commit\": \"${CATALOGUE_COMMIT}\",
+                \"issue\": \"${ISSUE_NUMBER}\"
+              }
+            }"
+
+
+      # -----------------------------------------------------
+      # Mark issue as catalogued
+      # -----------------------------------------------------
 
       - name: Mark issue as catalogued
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh label create catalogued --description "Added to the ChemIsFree catalogue" --color 0E8A16 --force
-          gh issue edit "${{ github.event.issue.number }}" --add-label "catalogued"
-          gh issue close "${{ github.event.issue.number }}"
+
+          gh label create catalogued \
+            --description "Added to the ChemIsFree catalogue" \
+            --color 0E8A16 \
+            --force
+
+          gh issue edit \
+            "${{ github.event.issue.number }}" \
+            --add-label "catalogued"
+
+          gh issue close \
+            "${{ github.event.issue.number }}"
