@@ -50,7 +50,7 @@ body:
     validations:
       required: true
 
-   - type: dropdown
+  - type: dropdown
     id: primary_task
     attributes:
       label: Primary task
