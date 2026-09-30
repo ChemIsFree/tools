@@ -8,7 +8,7 @@ Tools and resources for chemistry, computational chemistry, drug discovery, and 
 
 | Tool | Description | Type | Access | Interface | Platforms | ChemIsFree Status |
 |---|---|---|---|---|---|---|
-| [PyMOL Open-Source](https://www.pymol.org/) | Open-source molecular visualization software for viewing, analyzing, and presenting molecular structures. | software | Free | Gui / Python | Linux / Macos / Windows | Curated Resource |
+| [PyMOL Open-Source](https://www.pymol.org/) | Open-source molecular visualization software for viewing, analyzing, and presenting molecular structures. | software | Free / Open Source | Gui / Python | Linux / Macos / Windows | Curated Resource |
 
 ---
 

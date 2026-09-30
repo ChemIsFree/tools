@@ -8,7 +8,7 @@ Tools and resources for chemistry, computational chemistry, drug discovery, and 
 
 | Tool | Description | Type | Access | Interface | Platforms | ChemIsFree Status |
 |---|---|---|---|---|---|---|
-| [KNIME Analytics Platform](https://www.knime.com/) | Free and open-source low-code/no-code analytics and workflow platform for data access, processing, visualization, machine learning, and automation. | platform | Free | Gui | Linux / Macos / Windows | Curated Resource |
+| [KNIME Analytics Platform](https://www.knime.com/) | Free and open-source low-code/no-code analytics and workflow platform for data access, processing, visualization, machine learning, and automation. | platform | Free / Open Source | Gui | Linux / Macos / Windows | Curated Resource |
 
 ---
 
