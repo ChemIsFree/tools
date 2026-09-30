@@ -97,12 +97,11 @@ jobs:
           fi
 
 
-      # -----------------------------------------------------
+           # -----------------------------------------------------
       # Trigger website rebuild
       # -----------------------------------------------------
 
       - name: Trigger website rebuild
-        if: steps.commit_catalogue.outputs.changed == 'true'
         env:
           WEBSITE_DISPATCH_TOKEN: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
           CATALOGUE_COMMIT: ${{ github.sha }}
