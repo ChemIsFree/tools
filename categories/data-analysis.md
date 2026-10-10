@@ -16,7 +16,7 @@ Tools for working with chemical and biological data.
 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
-| [AlphaMissense (precomputed predictions)](https://github.com/google-deepmind/alphamissense) | database | Target Assessment & Validation; Clinical & Regulatory Evidence | Free / Open Source | GUI / Web |
+| [AlphaMissense (precomputed predictions)](https://console.cloud.google.com/storage/browser/dm_alphamissense) | database | Target Assessment & Validation; Clinical & Regulatory Evidence | Free | GUI / Web |
 | [Biopython](https://biopython.org/) | library | Data Curation | Free / Open Source | — |
 | [ChEMBL](https://www.ebi.ac.uk/chembl/) | database | Bioactivity Analysis; Data Curation | Free | GUI / Web |
 | [DeepChem](https://deepchem.io/) | library | Machine Learning; QSAR & Predictive Modelling; Generative Chemistry | Free / Open Source | — |
