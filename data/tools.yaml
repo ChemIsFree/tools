@@ -922,7 +922,7 @@ tools:
   - python
   languages:
   - python
-  gpu: depends-on-model
+  gpu: optional
   installation:
   - pip
   - source
@@ -933,8 +933,7 @@ tools:
   repository:
   - https://github.com/compsciencelab/PromptSMILES
   documentation: https://github.com/compsciencelab/PromptSMILES
-  citation:
-  - none
+  citation: []
   chemisfree_status: curated-resource
   verification:
     status: verified
@@ -975,7 +974,7 @@ tools:
   - docker
   languages:
   - python
-  gpu: depends-on-model
+  gpu: optional
   installation:
   - docker
   - source
@@ -986,8 +985,7 @@ tools:
   repository:
   - https://github.com/drigoni/MolVE
   documentation: https://github.com/drigoni/MolVE
-  citation:
-  - none
+  citation: []
   chemisfree_status: curated-resource
   verification:
     status: verified
@@ -1030,7 +1028,7 @@ tools:
   - mcp
   languages:
   - python
-  gpu: depends-on-model
+  gpu: optional
   installation:
   - source
   status: active
@@ -1040,8 +1038,7 @@ tools:
   repository:
   - https://github.com/molML/ChemLint
   documentation: https://github.com/molML/ChemLint
-  citation:
-  - none
+  citation: []
   chemisfree_status: curated-resource
   verification:
     status: verified
@@ -1167,8 +1164,7 @@ tools:
   - web
   interface:
   - web
-  languages:
-  - none
+  languages: []
   gpu: not-required
   installation:
   - web
@@ -1176,11 +1172,9 @@ tools:
   developers:
   - "ProteinsPlus team"
   website: https://proteins.plus/
-  repository:
-  - none
+  repository: []
   documentation: https://proteins.plus/help/dogsite
-  citation:
-  - none
+  citation: []
   chemisfree_status: curated-resource
   verification:
     status: verified
@@ -1211,8 +1205,7 @@ tools:
   interface:
   - web
   - api
-  languages:
-  - none
+  languages: []
   gpu: not-required
   installation:
   - web
@@ -1220,8 +1213,7 @@ tools:
   developers:
   - "DynaMut2 developers"
   website: https://biosig.lab.uq.edu.au/dynamut2/
-  repository:
-  - none
+  repository: []
   documentation: https://biosig.lab.uq.edu.au/dynamut2/
   citation:
   - https://doi.org/10.1002/pro.3942
@@ -1256,8 +1248,7 @@ tools:
   interface:
   - web
   - file
-  languages:
-  - none
+  languages: []
   gpu: not-required
   installation:
   - web
