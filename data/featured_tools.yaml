@@ -1,0 +1,127 @@
+# Ordered editorial shortlist for the public catalogue landing view.
+# IDs refer to entries in data/tools.yaml or data/assayer_free_registry.json.
+# Order within each list determines display priority. Full records remain searchable.
+domains:
+  chemical-structures:
+    tools:
+      - catalist
+      - rdkit
+      - open-babel
+      - cdk
+      - assayer-datawarrior
+      - assayer-datamol
+      - assayer-molfeat
+      - assayer-selfies
+      - assayer-chembl-structure-pipeline
+      - assayer-mordred
+      - assayer-rdkit-js
+      - molbloom
+  ligand-based-discovery:
+    tools:
+      - assayer-reinvent4
+      - synthemol
+      - assayer-safe
+      - assayer-crem
+      - crem-pharm
+      - promptsmiles
+      - deepchem
+      - assayer-dynamicbind
+      - assayer-diffdock
+      - assayer-pocket2mol
+      - assayer-targetdiff
+      - assayer-crem-dock
+      - assayer-deeppurpose
+      - assayer-uni-mol
+  structure-based-discovery:
+    tools:
+      - gnina
+      - autodock-vina
+      - assayer-autodock-gpu
+      - assayer-diffdock
+      - assayer-dynamicbind
+      - assayer-colabfold
+      - assayer-esm-facebookresearch
+      - assayer-boltz
+      - assayer-p2rank
+      - assayer-fpocket
+      - assayer-proteinsplus-dogsitescorer
+      - assayer-haddock3
+      - plip-protein-ligand-interaction-profiler
+      - assayer-prolif
+      - openmm
+      - assayer-gromacs
+      - assayer-charmm-gui
+      - assayer-virtualflow
+      - dynamut2
+  molecular-properties-admet:
+    tools:
+      - assayer-swissadme
+      - assayer-admet-ai
+      - assayer-admetlab-3-0
+      - assayer-pkcsm
+      - assayer-protox-3-0
+      - assayer-admet-xgboost
+      - assayer-admetopt2
+      - assayer-openadmet
+      - assayer-chembl-downloader
+      - assayer-open-systems-pharmacology-pk-sim-mobi
+  synthesis-reaction-design:
+    tools:
+      - synthemol
+      - assayer-aizynthfinder
+      - assayer-molecular-transformer
+      - assayer-rxnmapper
+      - assayer-rxn-insight
+      - assayer-rxn-ebm
+      - assayer-retropath-rl
+      - assayer-rp2paths
+      - assayer-reactionclassifier
+      - assayer-autode
+      - assayer-xtb-grimme-lab
+      - assayer-psi4
+  data-analysis:
+    tools:
+      - chembl
+      - pubchem
+      - assayer-bindingdb
+      - assayer-zinc22
+      - assayer-klifs
+      - assayer-open-targets-platform
+      - assayer-chembl-multitask-target-prediction
+      - deepchem
+      - assayer-swissadme
+      - assayer-posebusters
+      - knime
+      - molve
+      - chemlint
+      - assayer-pubchempy
+      - alphamissense-predictions
+  visualization:
+    tools:
+      - pymol-open-source
+      - assayer-datawarrior
+      - molve
+      - assayer-prankweb
+      - assayer-mdtraj
+      - mdanalysis
+      - assayer-molecularnodes
+      - assayer-molecular-design-toolkit
+      - assayer-selfies
+      - assayer-3dmol-js
+      - assayer-mol
+      - assayer-ngl-viewer
+      - assayer-avogadrolibs
+  laboratory-workflows:
+    tools:
+      - catalist
+      - knime
+      - molve
+      - chemlint
+      - assayer-nextflow
+      - assayer-snakemake
+      - assayer-p2rank
+      - assayer-chembl-structure-pipeline
+      - assayer-rdkit-mcp-server
+      - assayer-chembl-downloader
+      - assayer-mlflow
+      - assayer-dvc-iterative
