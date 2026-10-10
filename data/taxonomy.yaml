@@ -35,6 +35,8 @@ domains:
         name: Ligand-Based Virtual Screening
       - id: compound-library-search
         name: Compound Library Search
+      - id: generative-chemistry
+        name: Generative Chemistry
 
   structure-based-discovery:
     name: Structure-Based Discovery
