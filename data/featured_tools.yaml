@@ -122,6 +122,6 @@ domains:
       - assayer-p2rank
       - assayer-chembl-structure-pipeline
       - assayer-ray-ray-project
-      - assayer-chembl-downloader
+      - assayer-micha
       - assayer-mlflow
       - assayer-dvc-iterative
