@@ -174,6 +174,30 @@ TASK_MAP = {
     "Ligand-Based Virtual Screening":
         "ligand-based-screening",
 
+    "Compound Library Search":
+        "compound-library-search",
+
+    "Protein Structure Prediction":
+        "protein-structure-prediction",
+
+    "Protein & Peptide Design":
+        "protein-peptide-design",
+
+    "Quantum Chemistry":
+        "quantum-chemistry",
+
+    "Target Assessment & Validation":
+        "target-assessment",
+
+    "Clinical & Regulatory Evidence":
+        "clinical-evidence",
+
+    "Benchmarks & Datasets":
+        "benchmarks-datasets",
+
+    "Research Computing & Infrastructure":
+        "research-infrastructure",
+
     "Protein Preparation":
         "protein-preparation",
 
