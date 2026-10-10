@@ -1108,9 +1108,8 @@ tools:
   type: database
   access:
   - free
-  - open-source
   source_available: false
-  license: "CC-BY-4.0"
+  license: "Not specified"
   platforms:
   - web
   interface:
@@ -1120,10 +1119,10 @@ tools:
   gpu: not-required
   installation:
   - web
-  status: archived
+  status: active
   developers:
   - "Google DeepMind"
-  website: https://github.com/google-deepmind/alphamissense
+  website: https://console.cloud.google.com/storage/browser/dm_alphamissense
   repository:
   - https://github.com/google-deepmind/alphamissense
   documentation: https://github.com/google-deepmind/alphamissense
@@ -1134,6 +1133,7 @@ tools:
     status: verified
     last_checked: '2026-10-10'
   notes: >-
-    This entry is for the released precomputed predictions, licensed CC-BY-4.0. The reference
-    code is Apache-2.0, but trained model weights are not provided, so the repository is not an
-    out-of-the-box predictor. The repository was archived on 16 May 2025.
+    This entry points to released precomputed predictions. The prediction-data licence was not clearly
+    established from the official repository, so the licence is not specified. The reference code
+    is Apache-2.0, but trained model weights are not provided; the repository is not an out-of-the-box
+    predictor and was archived on 16 May 2025.
