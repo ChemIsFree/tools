@@ -1,5 +1,5 @@
 chem_is_free_schema:
-  version: "2.0"
+  version: "2.1"
 
   catalogue:
     - app
@@ -15,6 +15,7 @@ chem_is_free_schema:
     - chemisfree-project
     - community-project
     - curated-resource
+    - registry-listed
     - archived
 
   type:
