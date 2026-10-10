@@ -8,6 +8,7 @@ Tools for visualizing and interpreting molecular and scientific data.
 
 | Application | Tasks | Access | Interface | Platforms | Status |
 |---|---|---|---|---|---|
+| [MolVE](https://github.com/drigoni/MolVE) | Chemical Data Analysis; Molecular Visualization; Machine Learning; Workflow Construction | Free / Open Source | GUI / Web | Linux | Curated Resource |
 | [PyMOL Open-Source](https://www.pymol.org/) | Molecular Visualization; 3D Structure Analysis; Binding-Site Analysis | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 
 ## Supporting Resources
