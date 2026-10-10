@@ -69,13 +69,17 @@ body:
         - QSAR & Predictive Modelling
         - Scaffold Analysis
         - Ligand-Based Virtual Screening
+        - Compound Library Search
         - Protein Preparation
+        - Protein Structure Prediction
+        - Protein & Peptide Design
         - Binding-Site Analysis
         - Molecular Docking
         - Structure-Based Virtual Screening
         - Molecular Dynamics
         - Interaction Analysis
         - Free-Energy Calculations
+        - Quantum Chemistry
         - Physicochemical Properties
         - ADME Prediction
         - Toxicity Prediction
@@ -85,6 +89,9 @@ body:
         - Synthetic Route Planning
         - Reaction Analysis
         - Bioactivity Analysis
+        - Target Assessment & Validation
+        - Clinical & Regulatory Evidence
+        - Benchmarks & Datasets
         - Data Curation
         - Chemical Data Analysis
         - Machine Learning
@@ -94,6 +101,7 @@ body:
         - Trajectory Analysis
         - Scientific Visualization
         - Laboratory Automation
+        - Research Computing & Infrastructure
         - Workflow Construction
         - Pipeline Execution
     validations:
@@ -117,13 +125,17 @@ body:
         - label: QSAR & Predictive Modelling
         - label: Scaffold Analysis
         - label: Ligand-Based Virtual Screening
+        - label: Compound Library Search
         - label: Protein Preparation
+        - label: Protein Structure Prediction
+        - label: Protein & Peptide Design
         - label: Binding-Site Analysis
         - label: Molecular Docking
         - label: Structure-Based Virtual Screening
         - label: Molecular Dynamics
         - label: Interaction Analysis
         - label: Free-Energy Calculations
+        - label: Quantum Chemistry
         - label: Physicochemical Properties
         - label: ADME Prediction
         - label: Toxicity Prediction
@@ -133,6 +145,9 @@ body:
         - label: Synthetic Route Planning
         - label: Reaction Analysis
         - label: Bioactivity Analysis
+        - label: Target Assessment & Validation
+        - label: Clinical & Regulatory Evidence
+        - label: Benchmarks & Datasets
         - label: Data Curation
         - label: Chemical Data Analysis
         - label: Machine Learning
@@ -142,6 +157,7 @@ body:
         - label: Trajectory Analysis
         - label: Scientific Visualization
         - label: Laboratory Automation
+        - label: Research Computing & Infrastructure
         - label: Workflow Construction
         - label: Pipeline Execution
 

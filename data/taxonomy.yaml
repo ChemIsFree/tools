@@ -33,6 +33,10 @@ domains:
         name: Scaffold Analysis
       - id: ligand-based-screening
         name: Ligand-Based Virtual Screening
+      - id: compound-library-search
+        name: Compound Library Search
+      - id: generative-chemistry
+        name: Generative Chemistry
 
   structure-based-discovery:
     name: Structure-Based Discovery
@@ -40,6 +44,10 @@ domains:
     tasks:
       - id: protein-preparation
         name: Protein Preparation
+      - id: protein-structure-prediction
+        name: Protein Structure Prediction
+      - id: protein-peptide-design
+        name: Protein & Peptide Design
       - id: binding-site-analysis
         name: Binding-Site Analysis
       - id: molecular-docking
@@ -78,6 +86,8 @@ domains:
         name: Synthetic Route Planning
       - id: reaction-analysis
         name: Reaction Analysis
+      - id: quantum-chemistry
+        name: Quantum Chemistry
 
   data-analysis:
     name: Data & Chemical Analysis
@@ -91,8 +101,12 @@ domains:
         name: Chemical Data Analysis
       - id: machine-learning
         name: Machine Learning
-      - id: generative-chemistry
-        name: Generative Chemistry
+      - id: target-assessment
+        name: Target Assessment & Validation
+      - id: clinical-evidence
+        name: Clinical & Regulatory Evidence
+      - id: benchmarks-datasets
+        name: Benchmarks & Datasets
 
   visualization:
     name: Visualization & Interpretation
@@ -115,6 +129,8 @@ domains:
         name: Chemical Inventory
       - id: laboratory-automation
         name: Laboratory Automation
+      - id: research-infrastructure
+        name: Research Computing & Infrastructure
       - id: workflow-construction
         name: Workflow Construction
       - id: pipeline-execution
