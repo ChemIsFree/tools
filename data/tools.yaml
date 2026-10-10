@@ -706,3 +706,575 @@ tools:
     status: verified
     last_checked: '2026-09-30'
   notes: 'Accepted through ChemIsFree submission issue #3.'
+- id: boltz-2
+  name: "Boltz-2"
+  description: "Open-source biomolecular modelling system for protein–ligand and other biomolecular complex structure prediction, with binding-affinity estimation."
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  tasks:
+  - protein-structure-prediction
+  - molecular-docking
+  - interaction-analysis
+  category:
+  - drug-discovery
+  - molecular-modelling
+  - machine-learning
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT"
+  platforms:
+  - linux
+  interface:
+  - cli
+  - python
+  languages:
+  - python
+  gpu: recommended
+  installation:
+  - pip
+  - source
+  status: active
+  developers:
+  - "Boltz contributors"
+  website: https://github.com/jwohlwend/boltz
+  repository:
+  - https://github.com/jwohlwend/boltz
+  documentation: https://github.com/jwohlwend/boltz
+  citation:
+  - https://doi.org/10.1101/2025.06.14.659707
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-10'
+  notes: >-
+    The official repository states that code and model are available under the MIT License.
+    Binding-affinity predictions should be treated as model estimates and validated against
+    experimental evidence.
+- id: esmfold
+  name: "ESMFold"
+  description: "Protein structure prediction using the ESM family of protein language models, enabling sequence-to-structure modelling without a conventional multiple-sequence-alignment workflow."
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  tasks:
+  - protein-structure-prediction
+  category:
+  - molecular-modelling
+  - machine-learning
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT"
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages:
+  - python
+  gpu: recommended
+  installation:
+  - pip
+  - source
+  status: archived
+  developers:
+  - "Meta FAIR"
+  website: https://github.com/facebookresearch/esm
+  repository:
+  - https://github.com/facebookresearch/esm
+  documentation: https://github.com/facebookresearch/esm
+  citation:
+  - none
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-10'
+  notes: >-
+    The ESM repository is MIT-licensed but was archived by its owner on 1 August 2024. Treat it
+    as an established reference implementation and check dependency compatibility before
+    building new production workflows.
+- id: synthemol
+  name: "SyntheMol"
+  description: "Reaction-aware generative drug-design software that combines purchasable building blocks and known reaction templates to propose molecules with explicit synthetic routes."
+  catalogue: app
+  domain:
+  - ligand-based-discovery
+  - synthesis-reaction-design
+  tasks:
+  - generative-chemistry
+  - route-planning
+  category:
+  - drug-discovery
+  - machine-learning
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  - python
+  languages:
+  - python
+  gpu: optional
+  installation:
+  - pip
+  - conda
+  - source
+  status: active
+  developers:
+  - "SyntheMol contributors"
+  website: https://github.com/swansonk14/SyntheMol
+  repository:
+  - https://github.com/swansonk14/SyntheMol
+  documentation: https://github.com/swansonk14/SyntheMol
+  citation:
+  - none
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-10'
+  notes: >-
+    The repository identifies the MIT License. Output feasibility depends on the configured
+    building-block and reaction space; proposed routes should still be reviewed by a chemist.
+- id: crem-pharm
+  name: "CReM-pharm"
+  description: "Fragment-growing generative chemistry approach that builds molecules to satisfy three-dimensional pharmacophore constraints while accounting for synthetic accessibility."
+  catalogue: app
+  domain:
+  - ligand-based-discovery
+  - structure-based-discovery
+  tasks:
+  - generative-chemistry
+  - pharmacophore-modelling
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "GPL-3.0"
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages:
+  - python
+  gpu: not-required
+  installation:
+  - pip
+  - source
+  status: active
+  developers:
+  - "Chemical Intelligence Laboratory contributors"
+  website: https://github.com/ci-lab-cz/crem-pharm
+  repository:
+  - https://github.com/ci-lab-cz/crem-pharm
+  documentation: https://github.com/ci-lab-cz/crem-pharm
+  citation:
+  - https://doi.org/10.1186/s13321-026-01195-5
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-10'
+  notes: >-
+    The official repository identifies the GPL-3.0 license. It is intended for
+    pharmacophore-conditioned de novo design rather than unconstrained molecule generation.
+- id: promptsmiles
+  name: "PromptSMILES"
+  description: "Python framework for scaffold decoration and fragment linking with chemical language models using attachment-point-aware molecular prompts."
+  catalogue: resource
+  resource_type: library
+  domain:
+  - ligand-based-discovery
+  tasks:
+  - generative-chemistry
+  - scaffold-analysis
+  category:
+  - drug-discovery
+  - machine-learning
+  - cheminformatics
+  type: library
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "Apache-2.0"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  languages:
+  - python
+  gpu: depends-on-model
+  installation:
+  - pip
+  - source
+  status: active
+  developers:
+  - "Computational Science Laboratory contributors"
+  website: https://github.com/compsciencelab/PromptSMILES
+  repository:
+  - https://github.com/compsciencelab/PromptSMILES
+  documentation: https://github.com/compsciencelab/PromptSMILES
+  citation:
+  - none
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-10'
+  notes: >-
+    The official repository identifies Apache-2.0. PromptSMILES supplies the scaffold-decoration
+    and fragment-linking framework; a compatible chemical language model and its own
+    licence/compute requirements are separate dependencies.
+- id: molve
+  name: "MolVE"
+  description: "Open-source web platform for visualizing, filtering, and prioritizing batches of AI-designed molecules using property and model-prediction outputs."
+  catalogue: app
+  domain:
+  - ligand-based-discovery
+  - data-analysis
+  - visualization
+  - laboratory-workflows
+  tasks:
+  - chemical-data-analysis
+  - molecular-visualization
+  - machine-learning
+  - workflow-construction
+  category:
+  - drug-discovery
+  - machine-learning
+  - visualization
+  - utilities-and-workflows
+  type: platform
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "Apache-2.0"
+  platforms:
+  - linux
+  interface:
+  - web
+  - docker
+  languages:
+  - python
+  gpu: depends-on-model
+  installation:
+  - docker
+  - source
+  status: active
+  developers:
+  - "MolVE contributors"
+  website: https://github.com/drigoni/MolVE
+  repository:
+  - https://github.com/drigoni/MolVE
+  documentation: https://github.com/drigoni/MolVE
+  citation:
+  - none
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-10'
+  notes: >-
+    The repository is Apache-2.0 licensed and describes a self-hostable web platform. It
+    prioritizes molecules for human review; rankings are not experimental confirmation of
+    potency or developability.
+- id: chemlint
+  name: "ChemLint"
+  description: "Open-source Model Context Protocol server that exposes validated molecular, cheminformatics, data-analysis, and machine-learning operations to compatible AI assistants and local LLM clients."
+  catalogue: app
+  domain:
+  - chemical-structures
+  - ligand-based-discovery
+  - data-analysis
+  tasks:
+  - structure-conversion
+  - structure-search
+  - chemical-data-analysis
+  - machine-learning
+  - workflow-construction
+  category:
+  - cheminformatics
+  - machine-learning
+  - utilities-and-workflows
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  - python
+  - mcp
+  languages:
+  - python
+  gpu: depends-on-model
+  installation:
+  - source
+  status: active
+  developers:
+  - "molML contributors"
+  website: https://github.com/molML/ChemLint
+  repository:
+  - https://github.com/molML/ChemLint
+  documentation: https://github.com/molML/ChemLint
+  citation:
+  - none
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-10'
+  notes: >-
+    The official repository identifies the MIT License and provides an MCP interface to
+    structured chemistry and machine-learning tools. It is an orchestration layer, not a
+    guarantee that an LLM-generated scientific conclusion is correct.
+- id: classy-pose
+  name: "ClassyPose"
+  description: "Machine-learning classifier for assessing whether predicted ligand-binding poses are structurally plausible, intended to help triage docking results."
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  tasks:
+  - molecular-docking
+  - structure-based-screening
+  - interaction-analysis
+  category:
+  - drug-discovery
+  - machine-learning
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT"
+  platforms:
+  - linux
+  interface:
+  - python
+  languages:
+  - python
+  gpu: not-required
+  installation:
+  - source
+  status: archived
+  developers:
+  - "ClassyPose authors"
+  website: https://github.com/vktrannguyen/Classy_Pose
+  repository:
+  - https://github.com/vktrannguyen/Classy_Pose
+  documentation: https://github.com/vktrannguyen/Classy_Pose
+  citation:
+  - https://doi.org/10.1002/aisy.202400238
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-10'
+  notes: >-
+    The repository includes an MIT license but was archived by its owner on 1 January 2025 and
+    has no packaged releases. Use as a reproducible research implementation, with environment
+    and compatibility checks.
+- id: molbloom
+  name: "molbloom"
+  description: "Fast Bloom-filter-based membership checks for screening generated SMILES against very large purchasable-compound catalogues."
+  catalogue: resource
+  resource_type: library
+  domain:
+  - chemical-structures
+  - ligand-based-discovery
+  tasks:
+  - compound-library-search
+  - ligand-based-screening
+  - structure-search
+  category:
+  - cheminformatics
+  - drug-discovery
+  type: library
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  - cli
+  languages:
+  - python
+  gpu: not-required
+  installation:
+  - pip
+  - source
+  status: active
+  developers:
+  - "Andrew White and contributors"
+  website: https://github.com/whitead/molbloom
+  repository:
+  - https://github.com/whitead/molbloom
+  documentation: https://github.com/whitead/molbloom
+  citation:
+  - none
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-10'
+  notes: >-
+    The code is MIT-licensed. A positive result depends on the selected catalogue/index and its
+    coverage; licences and access terms for the underlying purchasable-compound data remain
+    separate.
+- id: dogsitescorer-proteinsplus
+  name: "DoGSiteScorer (ProteinsPlus)"
+  description: "Web-accessible protein pocket detection and druggability assessment that scores predicted cavities using geometric and physicochemical features."
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  tasks:
+  - binding-site-analysis
+  category:
+  - molecular-modelling
+  - drug-discovery
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: "Not specified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  - none
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "ProteinsPlus team"
+  website: https://proteins.plus/
+  repository:
+  - none
+  documentation: https://proteins.plus/help/dogsite
+  citation:
+  - none
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-10'
+  notes: >-
+    DoGSiteScorer is available through the free hosted ProteinsPlus web interface. This entry
+    describes the web service only; it does not imply that the server implementation is
+    open-source or redistributable.
+- id: dynamut2
+  name: "DynaMut2"
+  description: "Web server for estimating how protein mutations affect protein stability and flexibility using complementary graph-based and normal-mode approaches."
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  tasks:
+  - target-assessment
+  - free-energy
+  category:
+  - molecular-modelling
+  - drug-discovery
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: "Not specified"
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages:
+  - none
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "DynaMut2 developers"
+  website: https://biosig.lab.uq.edu.au/dynamut2/
+  repository:
+  - none
+  documentation: https://biosig.lab.uq.edu.au/dynamut2/
+  citation:
+  - https://doi.org/10.1002/pro.3942
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-10'
+  notes: >-
+    This is a free hosted web server/API; a named open-source licence for the service
+    implementation was not established. Predicted mutation effects are computational estimates,
+    not experimental measurements.
+- id: alphamissense-predictions
+  name: "AlphaMissense (precomputed predictions)"
+  description: "Public dataset of precomputed AlphaMissense predictions for human missense variants, intended for variant-effect interpretation and research prioritization."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - data-analysis
+  tasks:
+  - target-assessment
+  - clinical-evidence
+  category:
+  - data-and-databases
+  type: database
+  access:
+  - free
+  - open-source
+  source_available: false
+  license: "CC-BY-4.0"
+  platforms:
+  - web
+  interface:
+  - web
+  - file
+  languages:
+  - none
+  gpu: not-required
+  installation:
+  - web
+  status: archived
+  developers:
+  - "Google DeepMind"
+  website: https://github.com/google-deepmind/alphamissense
+  repository:
+  - https://github.com/google-deepmind/alphamissense
+  documentation: https://github.com/google-deepmind/alphamissense
+  citation:
+  - https://doi.org/10.1126/science.adg7492
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-10'
+  notes: >-
+    This entry is for the released precomputed predictions, licensed CC-BY-4.0. The reference
+    code is Apache-2.0, but trained model weights are not provided, so the repository is not an
+    out-of-the-box predictor. The repository was archived on 16 May 2025.
