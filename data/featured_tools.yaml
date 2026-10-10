@@ -11,7 +11,7 @@ domains:
       - assayer-datawarrior
       - assayer-datamol
       - assayer-molfeat
-      - assayer-selfies
+      - assayer-rdkit-pypi
       - assayer-chembl-structure-pipeline
       - assayer-mordred
       - assayer-rdkit-js
@@ -21,12 +21,12 @@ domains:
       - assayer-reinvent4
       - synthemol
       - assayer-safe
-      - assayer-crem
+      - assayer-reinvent
       - crem-pharm
       - promptsmiles
       - deepchem
       - assayer-dynamicbind
-      - assayer-diffdock
+      - assayer-chemprop
       - assayer-pocket2mol
       - assayer-targetdiff
       - assayer-crem-dock
@@ -116,12 +116,12 @@ domains:
       - catalist
       - knime
       - molve
-      - chemlint
+      - assayer-dask
       - assayer-nextflow
       - assayer-snakemake
       - assayer-p2rank
       - assayer-chembl-structure-pipeline
-      - assayer-rdkit-mcp-server
+      - assayer-ray-ray-project
       - assayer-chembl-downloader
       - assayer-mlflow
       - assayer-dvc-iterative
