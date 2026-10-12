@@ -9,12 +9,22 @@ Tools for discovering compounds using three-dimensional target structures.
 | Application | Tasks | Access | Interface | Platforms | Status |
 |---|---|---|---|---|---|
 | [AutoDock Vina](https://vina.scripps.edu/) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [CAVIAR](https://jr-marchand.github.io/caviar/) | Binding-Site Analysis; Molecular Visualization | Free / Open Source | GUI / Web + CLI | Linux / Windows / Desktop | Curated Resource |
 | [ClassyPose](https://github.com/vktrannguyen/Classy_Pose) | Molecular Docking; Structure-Based Virtual Screening; Interaction Analysis | Free / Open Source | — | Linux | Curated Resource |
 | [CReM-pharm](https://github.com/ci-lab-cz/crem-pharm) | Generative Chemistry; Pharmacophore Modelling | Free / Open Source | CLI | Linux | Curated Resource |
 | [DynaMut2](https://biosig.lab.uq.edu.au/dynamut2/) | Target Assessment & Validation; Free-Energy Calculations | Free | GUI / Web | Web | Curated Resource |
+| [fpocket](https://github.com/Discngine/fpocket) | Binding-Site Analysis; Molecular Visualization; Trajectory Analysis | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [Fragmenstein](https://github.com/matteoferla/Fragmenstein) | Generative Chemistry; Pharmacophore Modelling; Scaffold Analysis; Structure-Based Virtual Screening; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [GNINA](https://gnina.github.io/gnina/) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux / Macos | Curated Resource |
+| [Meeko](https://meeko.readthedocs.io/) | Ligand Preparation; Protein Preparation; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [P2Rank](https://prankweb.cz/) | Binding-Site Analysis; Protein Preparation; Molecular Visualization | Free / Open Source | GUI / Web + CLI | Linux / Macos / Windows / Web | Curated Resource |
+| [Pharmit](https://pharmit.csb.pitt.edu/) | Pharmacophore Modelling; Ligand-Based Virtual Screening; Compound Library Search | Free | GUI / Web | Web | Curated Resource |
 | [PLIP (Protein-Ligand Interaction Profiler)](https://plip-tool.biotec.tu-dresden.de/plip-web/plip/index) | Binding-Site Analysis; Structure-Based Virtual Screening | Free | GUI / Web + CLI | Linux / Windows / Web / Other | Curated Resource |
+| [Pocket2Mol](https://github.com/pengxingang/Pocket2Mol) | Generative Chemistry; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux | Curated Resource |
+| [ProLIF](https://prolif.readthedocs.io/) | Interaction Analysis; Data Curation; Chemical Data Analysis; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [PyMOL Open-Source](https://www.pymol.org/) | Molecular Visualization; 3D Structure Analysis; Binding-Site Analysis | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
+| [rDock](https://github.com/CBDD/rDock) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux | Curated Resource |
+| [smina](https://github.com/mwojcikowski/smina) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux / Macos | Curated Resource |
 
 ## Supporting Resources
 
