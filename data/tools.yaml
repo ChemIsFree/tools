@@ -2008,3 +2008,689 @@ tools:
     A predicted structure is a fallback for structural hypotheses and residue mapping, not a
     substitute for a relevant ligand-bound experimental complex. Check confidence, domain
     orientation and pocket plausibility before using it for docking or binding-site claims.
+
+- id: open-targets
+  name: Open Targets Platform
+  description: Open target-disease evidence platform that integrates genetic, clinical, molecular and literature evidence to support target prioritization.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - data-analysis
+  - structure-based-discovery
+  tasks:
+  - target-assessment
+  - clinical-evidence
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: Apache-2.0
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Open Targets consortium
+  website: https://platform.opentargets.org/
+  repository:
+  - https://github.com/opentargets/platform
+  documentation: https://platform.opentargets.org/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Use for target-disease evidence and prioritization, not as a replacement for species-specific
+    target identity or experimental validation. Investigate provenance and evidence type before
+    assigning causal weight.
+- id: pharos
+  name: Pharos
+  description: Target-centric portal that organizes protein targets by knowledge level and links target biology, disease associations, ligands and drug information.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - data-analysis
+  tasks:
+  - target-assessment
+  - bioactivity-analysis
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: Not specified
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Illuminating the Druggable Genome / Pharos contributors
+  website: https://pharos.nih.gov/
+  repository: []
+  documentation: https://pharos.nih.gov/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Useful for target context and ligand/annotation discovery. Follow linked source evidence and
+    confirm that records refer to the intended organism, protein, construct and assay.
+- id: foldseek
+  name: Foldseek
+  description: Fast protein-structure search tool for finding structural homologues across large structure databases.
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  - visualization
+  tasks:
+  - protein-structure-prediction
+  - binding-site-analysis
+  - three-dimensional-analysis
+  type: software
+  category:
+  - molecular-modelling
+  - drug-discovery
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: MIT
+  platforms:
+  - linux
+  interface:
+  - cli
+  languages:
+  - c++
+  gpu: optional
+  installation:
+  - source
+  status: active
+  developers:
+  - Foldseek contributors
+  website: https://search.foldseek.com/
+  repository:
+  - https://github.com/steineggerlab/foldseek
+  documentation: https://github.com/steineggerlab/foldseek
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Search for structurally related proteins and alternate target structures; align sequences and
+    pockets before transferring ligand hypotheses. Structural similarity alone does not establish
+    identical binding or function.
+- id: pdbfixer
+  name: PDBFixer
+  description: Python utilities for inspecting and repairing common protein-structure issues, including missing atoms and residues, and adding hydrogens.
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  - chemical-structures
+  tasks:
+  - protein-preparation
+  - structure-conversion
+  category:
+  - molecular-modelling
+  - cheminformatics
+  type: library
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: MIT
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  languages:
+  - python
+  gpu: not-required
+  installation:
+  - conda
+  - source
+  status: active
+  developers:
+  - OpenMM contributors
+  website: https://github.com/openmm/pdbfixer
+  repository:
+  - https://github.com/openmm/pdbfixer
+  documentation: https://github.com/openmm/pdbfixer
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Repairs must be reviewed: automatically adding missing residues/atoms can create unsupported
+    geometry in flexible loops or binding sites. Keep the deposited structure and a change log.
+- id: propka
+  name: PROPKA
+  description: Protein pKa prediction tool useful for inspecting protonation-state hypotheses before structure-based calculations.
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  - data-analysis
+  tasks:
+  - protein-preparation
+  - binding-site-analysis
+  type: software
+  category:
+  - molecular-modelling
+  access:
+  - free
+  source_available: true
+  license: Not specified
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  - python
+  languages:
+  - python
+  gpu: not-required
+  installation:
+  - pip
+  - source
+  status: active
+  developers:
+  - PROPKA contributors
+  website: https://github.com/jensengroup/propka
+  repository:
+  - https://github.com/jensengroup/propka
+  documentation: https://github.com/jensengroup/propka
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    pKa estimates can highlight uncertain residues but do not uniquely determine protonation in a
+    binding site. Review catalytic residues, local interactions, pH and alternative states.
+- id: pdb2pqr
+  name: PDB2PQR
+  description: Tool for preparing biomolecular structures with assigned atomic radii and charges for electrostatics calculations.
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  tasks:
+  - protein-preparation
+  - structure-conversion
+  category:
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: BSD-3-Clause
+  platforms:
+  - linux
+  - macos
+  - windows
+  - web
+  interface:
+  - cli
+  - web
+  languages:
+  - python
+  gpu: not-required
+  installation:
+  - pip
+  - source
+  - web
+  status: active
+  developers:
+  - PDB2PQR contributors
+  website: https://github.com/Electrostatics/pdb2pqr
+  repository:
+  - https://github.com/Electrostatics/pdb2pqr
+  documentation: https://pdb2pqr.readthedocs.io/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Primarily used for electrostatics-focused preparation. Its output is not a universal substitute
+    for docking-specific receptor preparation; inspect residue states and parameters for the use case.
+- id: oddt
+  name: Open Drug Discovery Toolkit (ODDT)
+  description: Open-source Python toolkit for molecular interaction analysis, docking result analysis, cheminformatics and virtual-screening evaluation.
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  - ligand-based-discovery
+  - data-analysis
+  tasks:
+  - interaction-analysis
+  - molecular-docking
+  - structure-based-screening
+  - bioactivity-analysis
+  - data-curation
+  category:
+  - drug-discovery
+  - cheminformatics
+  - machine-learning
+  type: library
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: BSD-3-Clause
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  languages:
+  - python
+  gpu: not-required
+  installation:
+  - pip
+  - source
+  status: maintenance
+  developers:
+  - ODDT contributors
+  website: https://oddt.readthedocs.io/
+  repository:
+  - https://github.com/oddt/oddt
+  documentation: https://oddt.readthedocs.io/
+  citation:
+  - https://doi.org/10.1021/acs.jcim.5b00559
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Useful for scoring/analysis pipelines and benchmark metrics. Confirm the installed version and
+    compatibility with current RDKit and scientific Python dependencies before depending on it.
+- id: therapeutics-data-commons
+  name: Therapeutics Data Commons (TDC)
+  description: Open AI-ready benchmark datasets, evaluation tasks and model utilities spanning drug discovery, ADMET and related therapeutic prediction problems.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - data-analysis
+  - ligand-based-discovery
+  - molecular-properties-admet
+  tasks:
+  - benchmarks-datasets
+  - machine-learning
+  - qsar
+  - adme
+  - toxicity
+  - bioactivity-analysis
+  category:
+  - data-and-databases
+  - machine-learning
+  - drug-discovery
+  type: library
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: MIT
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  - notebook
+  languages:
+  - python
+  gpu: optional
+  installation:
+  - pip
+  - source
+  status: active
+  developers:
+  - TDC contributors
+  website: https://tdcommons.ai/
+  repository:
+  - https://github.com/mims-harvard/TDC
+  documentation: https://tdcommons.ai/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Dataset and endpoint licences vary across integrated sources; read each dataset card and citation.
+    Preserve target/assay provenance and validate splits to avoid duplicate compounds or scaffold leakage.
+- id: enamine-real
+  name: Enamine REAL
+  description: Commercial make-on-demand screening compound collection accessible through a searchable catalogue and purchasing workflow.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - ligand-based-discovery
+  - structure-based-discovery
+  tasks:
+  - compound-library-search
+  - ligand-based-screening
+  - inventory-management
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: Commercial catalogue; compound purchase required
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Enamine
+  website: https://enamine.net/compound-collections/real-compounds
+  repository: []
+  documentation: https://enamine.net/compound-collections/real-compounds
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    This is a commercial compound collection, not free compounds or open-source software. Use only
+    if budget/procurement can support it; retain compound IDs and verify exact availability.
+- id: virtualflow
+  name: VirtualFlow
+  description: High-throughput platform for running large-scale virtual screening across available compute infrastructure.
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  - laboratory-workflows
+  tasks:
+  - structure-based-screening
+  - molecular-docking
+  - pipeline-execution
+  - workflow-construction
+  category:
+  - drug-discovery
+  - molecular-modelling
+  - utilities-and-workflows
+  type: platform
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: Not specified
+  platforms:
+  - linux
+  - cloud
+  interface:
+  - cli
+  - python
+  languages:
+  - python
+  - c++
+  gpu: optional
+  installation:
+  - source
+  - docker
+  status: unknown
+  developers:
+  - VirtualFlow contributors
+  website: https://virtual-flow.org/
+  repository:
+  - https://github.com/VirtualFlow/VFVS
+  documentation: https://virtual-flow.org/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: under-review
+    last_checked: '2026-10-12'
+  notes: >-
+    Appropriate for large campaigns after method validation; setup, hardware and queue integration
+    are more demanding than single-target pilot runs. Verify current components and software licence
+    metadata for the selected release.
+- id: ringtail
+  name: Ringtail
+  description: Python tooling for organizing, querying and extracting ranked results from large AutoDock Vina-family virtual-screening outputs.
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  - data-analysis
+  tasks:
+  - structure-based-screening
+  - molecular-docking
+  - data-curation
+  - pipeline-execution
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: library
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: MIT
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages:
+  - python
+  gpu: not-required
+  installation:
+  - pip
+  - source
+  status: unknown
+  developers:
+  - Forli Lab / Ringtail contributors
+  website: https://github.com/forlilab/Ringtail
+  repository:
+  - https://github.com/forlilab/Ringtail
+  documentation: https://github.com/forlilab/Ringtail
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: under-review
+    last_checked: '2026-10-12'
+  notes: >-
+    Useful when storing many docking poses/scores across batches. Verify compatibility with the
+    selected docking output format and preserve input IDs, settings and failure logs.
+- id: swissadme
+  name: SwissADME
+  description: Free web application for estimating physicochemical properties, lipophilicity, medicinal-chemistry friendliness and selected ADME-related properties from small-molecule structures.
+  catalogue: app
+  domain:
+  - molecular-properties-admet
+  tasks:
+  - physicochemical-properties
+  - adme
+  - drug-likeness
+  category:
+  - drug-discovery
+  - data-analysis
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: Not specified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - SwissADME contributors
+  website: http://www.swissadme.ch/
+  repository: []
+  documentation: http://www.swissadme.ch/
+  citation:
+  - https://doi.org/10.1038/nchem.1996
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Suitable for quick descriptors and selected ADME predictions. It does not cover every ADMET
+    question; record input conventions and separate prediction from measurement.
+- id: pkcsm
+  name: pkCSM
+  description: Web platform for predicting pharmacokinetic and toxicity properties from molecular structures.
+  catalogue: app
+  domain:
+  - molecular-properties-admet
+  tasks:
+  - adme
+  - toxicity
+  - drug-likeness
+  category:
+  - drug-discovery
+  - machine-learning
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: Not specified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - pkCSM contributors
+  website: https://biosig.lab.uq.edu.au/pkcsm/
+  repository: []
+  documentation: https://biosig.lab.uq.edu.au/pkcsm/
+  citation:
+  - https://doi.org/10.1038/nmeth.3253
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Predictions depend on endpoint and model domain. Use as a complementary hypothesis generator,
+    not as independent validation solely because it agrees with another correlated predictor.
+- id: protox-3-0
+  name: ProTox 3.0
+  description: Web server for in-silico toxicity prediction, toxicity endpoint prioritization and related toxicophore analysis.
+  catalogue: app
+  domain:
+  - molecular-properties-admet
+  tasks:
+  - toxicity
+  - drug-likeness
+  category:
+  - drug-discovery
+  - machine-learning
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: Not specified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - ProTox contributors
+  website: https://tox.charite.de/protox3/
+  repository: []
+  documentation: https://tox.charite.de/protox3/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Focuses on toxicity rather than full ADMET. Keep predictions endpoint-specific and prioritize
+    experimental follow-up for high-consequence safety liabilities.
+- id: reinvent4
+  name: REINVENT4
+  description: Open-source molecular design framework for reinforcement-learning, de-novo and library-focused generative chemistry workflows with configurable scoring and constraints.
+  catalogue: app
+  domain:
+  - ligand-based-discovery
+  - structure-based-discovery
+  tasks:
+  - generative-chemistry
+  - scaffold-analysis
+  - chemical-space
+  category:
+  - drug-discovery
+  - machine-learning
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: Apache-2.0
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages:
+  - python
+  gpu: optional
+  installation:
+  - conda
+  - source
+  status: active
+  developers:
+  - MolecularAI / REINVENT contributors
+  website: https://github.com/MolecularAI/REINVENT4
+  repository:
+  - https://github.com/MolecularAI/REINVENT4
+  documentation: https://github.com/MolecularAI/REINVENT4
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    The scoring function and reward model can induce circular optimization. Preserve checkpoints,
+    seeds, constraints and generation logs; validate generated structures with independent tools and
+    assess chemical diversity, applicability, feasibility and ADMET uncertainty before synthesis.
