@@ -27,7 +27,9 @@ Tools for working with chemical and biological data.
 | [ChEMBL](https://www.ebi.ac.uk/chembl/) | database | Bioactivity Analysis; Data Curation | Free | GUI / Web |
 | [DeepChem](https://deepchem.io/) | library | Machine Learning; QSAR & Predictive Modelling; Generative Chemistry | Free / Open Source | — |
 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | database | Molecular Descriptors & Properties; Structure Search; Bioactivity Analysis | Free | GUI / Web |
+| [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |
 | [RDKit](https://www.rdkit.org/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search; Chemical Space Analysis | Free / Open Source | — |
+| [UniProt](https://www.uniprot.org/) | database | Target Assessment & Validation; Data Curation; Protein Preparation | Free | GUI / Web |
 
 ---
 

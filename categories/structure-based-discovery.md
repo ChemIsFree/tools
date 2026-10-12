@@ -30,7 +30,10 @@ Tools for discovering compounds using three-dimensional target structures.
 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
+| [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) | database | Protein Structure Prediction; Binding-Site Analysis; Molecular Visualization | Free | GUI / Web |
 | [OpenMM](https://openmm.org/) | library | Molecular Dynamics | Free / Open Source | CLI |
+| [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |
+| [UniProt](https://www.uniprot.org/) | database | Target Assessment & Validation; Data Curation; Protein Preparation | Free | GUI / Web |
 | [ZINC](https://zinc.docking.org/) | database | Ligand-Based Virtual Screening; Structure-Based Virtual Screening | Free | GUI / Web |
 
 ---

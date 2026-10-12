@@ -21,6 +21,7 @@ Tools for visualizing and interpreting molecular and scientific data.
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
 | [MDAnalysis](https://www.mdanalysis.org/) | library | Trajectory Analysis | Free / Open Source | — |
+| [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |
 
 ---
 
