@@ -1137,3 +1137,738 @@ tools:
     established from the official repository, so the licence is not specified. The reference code
     is Apache-2.0, but trained model weights are not provided; the repository is not an out-of-the-box
     predictor and was archived on 16 May 2025.
+
+- id: datawarrior
+  name: DataWarrior
+  description: Free open-source cheminformatics desktop application for chemical structure editing, descriptor calculations, activity/property analysis, chemical-space visualization, and database searching including ChEMBL.
+  catalogue: app
+  domain:
+  - ligand-based-discovery
+  - data-analysis
+  - visualization
+  tasks:
+  - bioactivity-analysis
+  - data-curation
+  - chemical-data-analysis
+  - molecular-descriptors-properties
+  - scaffold-analysis
+  - qsar
+  - structure-conversion
+  - molecular-visualization
+  category:
+  - cheminformatics
+  - drug-discovery
+  - visualization
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: GPL-3.0
+  platforms:
+  - linux
+  - macos
+  - windows
+  - desktop
+  interface:
+  - gui
+  - desktop
+  languages:
+  - java
+  gpu: not-required
+  installation:
+  - web
+  - source
+  status: active
+  developers:
+  - OpenMolecules / DataWarrior contributors
+  website: https://openmolecules.org/datawarrior/
+  repository:
+  - https://github.com/thsa/datawarrior
+  documentation: https://openmolecules.org/help/databases.html
+  citation:
+  - https://doi.org/10.1021/ci500588j
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    ChEMBL can be searched directly through Database > Search ChEMBL database, retrieving
+    structures with activity data for in-app analysis and visualization. Confirm the target,
+    organism, assay context, endpoint and units before combining measurements. The tool is free
+    to use, and source code is distributed under the GPL; do not present it as merely a viewer
+    for CSV files.
+- id: p2rank
+  name: P2Rank
+  description: Machine-learning method for predicting likely ligand-binding sites from protein structures, available as command-line software and through the PrankWeb interface.
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  - visualization
+  tasks:
+  - binding-site-analysis
+  - protein-preparation
+  - molecular-visualization
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: MIT
+  platforms:
+  - linux
+  - macos
+  - windows
+  - web
+  interface:
+  - cli
+  - web
+  languages:
+  - java
+  gpu: not-required
+  installation:
+  - source
+  - web
+  status: active
+  developers:
+  - P2Rank contributors
+  website: https://prankweb.cz/
+  repository:
+  - https://github.com/rdk/p2rank
+  documentation: https://github.com/rdk/p2rank
+  citation:
+  - https://doi.org/10.1186/s13321-018-0285-8
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    P2Rank ranks predicted ligand-binding sites and PrankWeb offers a web interface. Predictions
+    are hypotheses: map residues to the exact construct, inspect pocket geometry and compare
+    with structural/biological evidence before defining a docking box.
+- id: fpocket
+  name: fpocket
+  description: Open-source geometric protein-pocket detection and characterization using Voronoi tessellation, including analysis of structural ensembles through mdpocket.
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  - visualization
+  tasks:
+  - binding-site-analysis
+  - molecular-visualization
+  - trajectory-analysis
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: MIT
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  - c++
+  gpu: not-required
+  installation:
+  - source
+  status: active
+  developers:
+  - fpocket contributors
+  website: https://github.com/Discngine/fpocket
+  repository:
+  - https://github.com/Discngine/fpocket
+  documentation: https://github.com/Discngine/fpocket
+  citation:
+  - https://doi.org/10.1021/ci100061x
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    A geometric pocket finder and useful complement to a machine-learning site predictor such as
+    P2Rank. It detects cavities and reports descriptors; a predicted cavity is not automatically
+    a validated ligand-binding site.
+- id: caviar
+  name: CAVIAR
+  description: Protein cavity identification and automatic subpocket decomposition, with a graphical interface and command-line workflow.
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  - visualization
+  tasks:
+  - binding-site-analysis
+  - molecular-visualization
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: GPL-3.0
+  platforms:
+  - linux
+  - windows
+  - desktop
+  interface:
+  - gui
+  - cli
+  languages:
+  - python
+  gpu: not-required
+  installation:
+  - source
+  status: unknown
+  developers:
+  - CAVIAR contributors
+  website: https://jr-marchand.github.io/caviar/
+  repository:
+  - https://github.com/jr-marchand/caviar
+  documentation: https://jr-marchand.github.io/caviar/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    The upstream repository currently says the project is paused for lack of capacity. Keep as an
+    optional advanced alternative, not a first-line recommendation; verify dependencies and project
+    status before building a workflow around it.
+- id: meeko
+  name: Meeko
+  description: Preparation and parameterization toolkit for ligands and receptors used with AutoDock Vina and AutoDock-GPU, including PDBQT generation and output processing.
+  catalogue: app
+  domain:
+  - chemical-structures
+  - structure-based-discovery
+  tasks:
+  - ligand-preparation
+  - protein-preparation
+  - structure-conversion
+  category:
+  - cheminformatics
+  - molecular-modelling
+  - drug-discovery
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: LGPL-2.1
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  - python
+  languages:
+  - python
+  gpu: not-required
+  installation:
+  - pip
+  - source
+  status: active
+  developers:
+  - Forli Lab / Meeko contributors
+  website: https://meeko.readthedocs.io/
+  repository:
+  - https://github.com/forlilab/Meeko
+  documentation: https://meeko.readthedocs.io/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Vina-family preparation route. Ligand inputs need correct hydrogens and 3D coordinates;
+    conversion success is not proof of chemically correct protonation, stereochemistry or atom
+    typing. Inspect representative prepared structures before screening.
+- id: smina
+  name: smina
+  description: Vina-derived docking and minimization program with additional scoring and analysis options, useful as a sensitivity check alongside GNINA or AutoDock Vina.
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  tasks:
+  - molecular-docking
+  - structure-based-screening
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: Apache-2.0
+  platforms:
+  - linux
+  - macos
+  interface:
+  - cli
+  languages:
+  - c++
+  gpu: not-required
+  installation:
+  - source
+  status: unknown
+  developers:
+  - smina contributors
+  website: https://github.com/mwojcikowski/smina
+  repository:
+  - https://github.com/mwojcikowski/smina
+  documentation: https://github.com/mwojcikowski/smina
+  citation:
+  - https://doi.org/10.1021/ci300604z
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    This fork includes files under both Apache-2.0 and GPL-2.0 licences. Check the upstream
+    project/homepage and build compatibility. Docking scores from different engines are not on a
+    shared scale and should be evaluated with pose/enrichment controls.
+- id: rdock
+  name: rDock
+  description: Open-source docking and virtual-screening program with a distinct search/scoring setup from the Vina family.
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  tasks:
+  - molecular-docking
+  - structure-based-screening
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: LGPL-3.0
+  platforms:
+  - linux
+  interface:
+  - cli
+  languages:
+  - c++
+  gpu: not-required
+  installation:
+  - source
+  status: unknown
+  developers:
+  - rDock contributors
+  website: https://github.com/CBDD/rDock
+  repository:
+  - https://github.com/CBDD/rDock
+  documentation: https://github.com/CBDD/rDock
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: unverified
+    last_checked: '2026-10-12'
+  notes: >-
+    A more distinct alternative to GNINA, smina and Vina, but it has its own receptor preparation,
+    scoring-function configuration and box/setup requirements. Verify the repository, supported
+    environment and current documentation before use. Never compare raw scores across engines as
+    if the scales were equivalent.
+- id: prolif
+  name: ProLIF
+  description: Python toolkit for computing protein-ligand interaction fingerprints and comparing contacts across experimental structures, docking poses, and molecular-dynamics trajectories.
+  catalogue: app
+  domain:
+  - structure-based-discovery
+  - data-analysis
+  - visualization
+  tasks:
+  - interaction-analysis
+  - data-curation
+  - chemical-data-analysis
+  - pipeline-execution
+  category:
+  - drug-discovery
+  - molecular-modelling
+  - machine-learning
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: Apache-2.0
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  - cli
+  languages:
+  - python
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - ProLIF contributors
+  website: https://prolif.readthedocs.io/
+  repository:
+  - https://github.com/chemosim-lab/ProLIF
+  documentation: https://prolif.readthedocs.io/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Interaction-fingerprint tool. Correctly map receptor chain and ligand identity, use compatible
+    3D inputs and validate representative contacts visually. ProLIF fingerprints are geometric
+    features, not direct evidence of binding affinity; activity labels must come from independent,
+    traceable measurements.
+- id: pharmit
+  name: Pharmit
+  description: Web-based pharmacophore and shape screening interface for searching chemical libraries with 3D features, substructure, and similarity queries.
+  catalogue: app
+  domain:
+  - ligand-based-discovery
+  - structure-based-discovery
+  tasks:
+  - pharmacophore-modelling
+  - ligand-based-screening
+  - compound-library-search
+  category:
+  - drug-discovery
+  - cheminformatics
+  type: web-tool
+  access:
+  - free
+  source_available: true
+  license: GPL-3.0
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Pharmit contributors
+  website: https://pharmit.csb.pitt.edu/
+  repository:
+  - https://github.com/dkoes/pharmit
+  documentation: https://pharmit.csb.pitt.edu/
+  citation:
+  - https://doi.org/10.1093/nar/gkv306
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Useful for GUI-based pharmacophore/shape queries and virtual screening. Confirm which libraries
+    are available and their access/licensing terms; a pharmacophore fit is a ranking hypothesis
+    and should be validated with independent actives/controls.
+- id: fragmenstein
+  name: Fragmenstein
+  description: Python toolkit for merging, linking, and placing compounds using coordinates and atoms from structurally characterized fragment or ligand hits.
+  catalogue: app
+  domain:
+  - ligand-based-discovery
+  - structure-based-discovery
+  - chemical-structures
+  tasks:
+  - generative-chemistry
+  - pharmacophore-modelling
+  - scaffold-analysis
+  - structure-based-screening
+  - structure-conversion
+  category:
+  - drug-discovery
+  - cheminformatics
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: MIT
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  - cli
+  languages:
+  - python
+  gpu: not-required
+  installation:
+  - pip
+  - source
+  status: active
+  developers:
+  - Fragmenstein contributors
+  website: https://github.com/matteoferla/Fragmenstein
+  repository:
+  - https://github.com/matteoferla/Fragmenstein
+  documentation: https://github.com/matteoferla/Fragmenstein
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Useful for merging/linking hits with known structural poses. PyRosetta-based minimization has a
+    separate licensing requirement; without it, use supported alternatives and do not assume every
+    optional backend is installable. Generated/placed poses need independent chemical and structural
+    validation.
+- id: pocket2mol
+  name: Pocket2Mol
+  description: Pocket-conditioned 3D molecular generation model that samples molecules inside a supplied protein pocket, rather than predicting where a pocket exists.
+  catalogue: app
+  domain:
+  - ligand-based-discovery
+  - structure-based-discovery
+  tasks:
+  - generative-chemistry
+  - structure-based-screening
+  category:
+  - drug-discovery
+  - machine-learning
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: MIT
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages:
+  - python
+  gpu: recommended
+  installation:
+  - source
+  status: unknown
+  developers:
+  - Pocket2Mol authors
+  website: https://github.com/pengxingang/Pocket2Mol
+  repository:
+  - https://github.com/pengxingang/Pocket2Mol
+  documentation: https://github.com/pengxingang/Pocket2Mol
+  citation:
+  - https://proceedings.mlr.press/v162/peng22b.html
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Requires a previously selected pocket and coordinates; it is a generative-design method, not a
+    pocket detector. Research code may require legacy dependency pinning, a compatible compute
+    environment, and independent structure/chemistry validation.
+- id: admet-ai
+  name: ADMET-AI
+  description: Open-source ADMET property-prediction package with a hosted web interface/API for rapid multi-endpoint prediction from molecular structures.
+  catalogue: app
+  domain:
+  - molecular-properties-admet
+  - data-analysis
+  tasks:
+  - adme
+  - toxicity
+  - drug-likeness
+  - physicochemical-properties
+  category:
+  - drug-discovery
+  - machine-learning
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: MIT
+  platforms:
+  - linux
+  - macos
+  - windows
+  - web
+  interface:
+  - web
+  - api
+  - python
+  - cli
+  languages:
+  - python
+  gpu: optional
+  installation:
+  - pip
+  - source
+  - web
+  status: active
+  developers:
+  - ADMET-AI contributors
+  website: https://admet.ai.greenstonebio.com/
+  repository:
+  - https://github.com/swansonk14/admet_ai
+  documentation: https://github.com/swansonk14/admet_ai
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Available as an open-source Python package and hosted service. The current package and the
+    hosted web service may use different model versions; record the interface/version and treat
+    predictions as endpoint-specific estimates with applicability limits, not measurements.
+- id: admetlab-3-0
+  name: ADMETlab 3.0
+  description: Web platform for predicting absorption, distribution, metabolism, excretion, toxicity, and related medicinal-chemistry properties.
+  catalogue: app
+  domain:
+  - molecular-properties-admet
+  - data-analysis
+  tasks:
+  - adme
+  - toxicity
+  - drug-likeness
+  - physicochemical-properties
+  category:
+  - drug-discovery
+  - machine-learning
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: Not specified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - ADMETlab contributors
+  website: https://admetlab3.scbdd.com/
+  repository: []
+  documentation: https://admetlab3.scbdd.com/
+  citation:
+  - https://doi.org/10.1093/nar/gkaf361
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Web prediction platform. Confirm input limits and record model version, endpoint and any
+    applicability warnings. Outputs are model estimates, not experimental ADMET results.
+- id: deep-pk
+  name: Deep-PK
+  description: Web server and API for small-molecule pharmacokinetic and toxicity predictions, with batch upload for SMILES/SDF inputs and confidence-associated outputs.
+  catalogue: app
+  domain:
+  - molecular-properties-admet
+  - data-analysis
+  tasks:
+  - adme
+  - toxicity
+  - drug-likeness
+  - physicochemical-properties
+  category:
+  - drug-discovery
+  - machine-learning
+  type: web-service
+  access:
+  - free
+  source_available: false
+  license: Not specified
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Deep-PK contributors
+  website: https://biosig.lab.uq.edu.au/deeppk/prediction
+  repository: []
+  documentation: https://biosig.lab.uq.edu.au/deeppk/help
+  citation:
+  - https://doi.org/10.1093/nar/gkaf361
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Supports individual structures and SMILES/SDF batches, up to 2,000 molecules per submission
+    according to the current interface. Separate predictions from measured data and inspect
+    confidence/model endpoint information. The hosted service/API does not imply an open-source
+    licence.
+- id: aizynthfinder
+  name: AiZynthFinder
+  description: Open-source retrosynthetic planning tool that uses neural-network-guided Monte Carlo tree search to propose routes from target molecules toward purchasable building blocks.
+  catalogue: app
+  domain:
+  - synthesis-reaction-design
+  - data-analysis
+  tasks:
+  - retrosynthesis
+  - route-planning
+  - reaction-prediction
+  category:
+  - drug-discovery
+  - cheminformatics
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: MIT
+  platforms:
+  - linux
+  interface:
+  - cli
+  - python
+  - notebook
+  languages:
+  - python
+  gpu: not-required
+  installation:
+  - pip
+  - source
+  status: active
+  developers:
+  - Molecular AI group / AiZynthFinder contributors
+  website: https://github.com/MolecularAI/aizynthfinder
+  repository:
+  - https://github.com/MolecularAI/aizynthfinder
+  documentation: https://molecularai.github.io/aizynthfinder/
+  citation:
+  - https://doi.org/10.1039/C9SC04944D
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Route proposals depend on the configured reaction templates/policy network and stock catalogue.
+    Inspect high-uncertainty transformations, starting-material availability, stereochemistry and
+    hazards; generated routes are hypotheses, not validated experimental procedures.
