@@ -2695,7 +2695,6 @@ tools:
   description: Widely used molecular-dynamics simulation package for biomolecular systems and trajectory generation/analysis workflows.
   catalogue: app
   domain:
-  - molecular-modelling
   - structure-based-discovery
   tasks:
   - molecular-dynamics
@@ -2745,7 +2744,6 @@ tools:
   description: Post-processing tool for end-state MM/PBSA and MM/GBSA energy estimates from GROMACS-compatible molecular-dynamics trajectories.
   catalogue: app
   domain:
-  - molecular-modelling
   - structure-based-discovery
   tasks:
   - free-energy
@@ -2792,7 +2790,6 @@ tools:
   description: Open-source toolkit for setting up and analysing alchemical free-energy calculations with reproducible protocols.
   catalogue: app
   domain:
-  - molecular-modelling
   - structure-based-discovery
   tasks:
   - free-energy
