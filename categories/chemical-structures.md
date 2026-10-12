@@ -13,6 +13,7 @@ Tools for creating, processing, searching, and analyzing chemical structures.
 | [Fragmenstein](https://github.com/matteoferla/Fragmenstein) | Generative Chemistry; Pharmacophore Modelling; Scaffold Analysis; Structure-Based Virtual Screening; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Meeko](https://meeko.readthedocs.io/) | Ligand Preparation; Protein Preparation; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Open Babel](https://openbabel.org/) | Structure Conversion; Ligand Preparation | Free / Open Source | GUI / Web + CLI | Linux / Macos / Windows / Desktop | Curated Resource |
+| [PDBFixer](https://github.com/openmm/pdbfixer) | Protein Preparation; Structure Conversion | Free / Open Source | — | Linux / Macos / Windows | Curated Resource |
 
 ## Supporting Resources
 
