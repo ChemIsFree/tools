@@ -2025,9 +2025,8 @@ tools:
   type: database
   access:
   - free
-  - open-source
-  source_available: true
-  license: Apache-2.0
+  source_available: false
+  license: Not specified
   platforms:
   - web
   interface:
