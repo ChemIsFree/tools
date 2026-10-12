@@ -1172,12 +1172,11 @@ tools:
   - desktop
   interface:
   - gui
-  - desktop
+  - java
   languages:
   - java
   gpu: not-required
   installation:
-  - web
   - source
   status: active
   developers:
@@ -1315,7 +1314,7 @@ tools:
   - free
   - open-source
   source_available: true
-  license: GPL-3.0
+  license: Not specified
   platforms:
   - linux
   - windows
@@ -1411,7 +1410,7 @@ tools:
   - free
   - open-source
   source_available: true
-  license: Apache-2.0
+  license: "Apache-2.0 / GPL-2.0"
   platforms:
   - linux
   - macos
@@ -1553,7 +1552,7 @@ tools:
   access:
   - free
   source_available: true
-  license: GPL-3.0
+  license: Apache-2.0
   platforms:
   - web
   interface:
@@ -1813,7 +1812,7 @@ tools:
   repository: []
   documentation: https://biosig.lab.uq.edu.au/deeppk/help
   citation:
-  - https://doi.org/10.1093/nar/gkaf361
+  - https://doi.org/10.1093/nar/gkae254
   chemisfree_status: curated-resource
   verification:
     status: verified
@@ -1872,3 +1871,140 @@ tools:
     Route proposals depend on the configured reaction templates/policy network and stock catalogue.
     Inspect high-uncertainty transformations, starting-material availability, stereochemistry and
     hazards; generated routes are hypotheses, not validated experimental procedures.
+
+- id: rcsb-pdb
+  name: RCSB Protein Data Bank (PDB)
+  description: Public structural biology archive and web tools for searching, viewing, comparing and downloading experimentally determined macromolecular structures and computed structure models.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - structure-based-discovery
+  - data-analysis
+  - visualization
+  tasks:
+  - binding-site-analysis
+  - protein-preparation
+  - molecular-visualization
+  - three-dimensional-analysis
+  - structure-search
+  category:
+  - data-and-databases
+  - drug-discovery
+  - molecular-modelling
+  type: database
+  access:
+  - free
+  source_available: false
+  license: Public data; see RCSB/wwPDB terms
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - RCSB PDB / wwPDB partners
+  website: https://www.rcsb.org/
+  repository: []
+  documentation: https://www.rcsb.org/docs/programmatic-access/web-apis-overview
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Prioritize experimental holo structures that match the target species, construct and binding
+    site; check resolution, R-free where available, ligand identity/quality, pocket completeness,
+    mutations and conformation. RCSB now also includes computed models, which must not be treated
+    as equivalent to experimentally validated ligand-bound structures.
+- id: uniprot
+  name: UniProt
+  description: Protein sequence and annotation knowledgebase useful for target identity, organism, isoform, domain and accession mapping.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - data-analysis
+  - structure-based-discovery
+  tasks:
+  - target-assessment
+  - data-curation
+  - protein-preparation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: CC BY 4.0
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - UniProt Consortium
+  website: https://www.uniprot.org/
+  repository: []
+  documentation: https://www.uniprot.org/help/api
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Use the species-specific accession and sequence to confirm that activity, sequence and structure
+    records refer to the same target. A gene symbol alone can conflate paralogues, isoforms or species.
+- id: alphafold-protein-structure-database
+  name: AlphaFold Protein Structure Database
+  description: Database of predicted protein structures that can provide a fallback structural hypothesis when a suitable experimental structure is unavailable.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - structure-based-discovery
+  tasks:
+  - protein-structure-prediction
+  - binding-site-analysis
+  - molecular-visualization
+  category:
+  - data-and-databases
+  - drug-discovery
+  - molecular-modelling
+  type: database
+  access:
+  - free
+  source_available: false
+  license: CC BY 4.0
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - EMBL-EBI / Google DeepMind
+  website: https://alphafold.ebi.ac.uk/
+  repository: []
+  documentation: https://alphafold.ebi.ac.uk/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    A predicted structure is a fallback for structural hypotheses and residue mapping, not a
+    substitute for a relevant ligand-bound experimental complex. Check confidence, domain
+    orientation and pocket plausibility before using it for docking or binding-site claims.
