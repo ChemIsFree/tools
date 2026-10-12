@@ -16,9 +16,12 @@ Tools for discovering compounds using three-dimensional target structures.
 | [Foldseek](https://search.foldseek.com/) | Protein Structure Prediction; Binding-Site Analysis; 3D Structure Analysis | Free / Open Source | CLI | Linux | Curated Resource |
 | [fpocket](https://github.com/Discngine/fpocket) | Binding-Site Analysis; Molecular Visualization; Trajectory Analysis | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Fragmenstein](https://github.com/matteoferla/Fragmenstein) | Generative Chemistry; Pharmacophore Modelling; Scaffold Analysis; Structure-Based Virtual Screening; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [gmx_MMPBSA](https://github.com/Valdes-Tresanco-MS/gmx_MMPBSA) | Free-Energy Calculations; Molecular Dynamics; Trajectory Analysis | Free / Open Source | CLI | Linux | Curated Resource |
 | [GNINA](https://gnina.github.io/gnina/) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux / Macos | Curated Resource |
+| [GROMACS](https://www.gromacs.org/) | Molecular Dynamics; Trajectory Analysis; Free-Energy Calculations; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Meeko](https://meeko.readthedocs.io/) | Ligand Preparation; Protein Preparation; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Open Drug Discovery Toolkit (ODDT)](https://oddt.readthedocs.io/) | Interaction Analysis; Molecular Docking; Structure-Based Virtual Screening; Bioactivity Analysis; Data Curation | Free / Open Source | — | Linux / Macos / Windows | Curated Resource |
+| [OpenFE](https://openfree.energy/) | Free-Energy Calculations; Molecular Dynamics; Pipeline Execution | Free / Open Source | CLI | Linux | Curated Resource |
 | [P2Rank](https://prankweb.cz/) | Binding-Site Analysis; Protein Preparation; Molecular Visualization | Free / Open Source | GUI / Web + CLI | Linux / Macos / Windows / Web | Curated Resource |
 | [PDB2PQR](https://github.com/Electrostatics/pdb2pqr) | Protein Preparation; Structure Conversion | Free | GUI / Web + CLI | Linux / Macos / Windows / Web | Curated Resource |
 | [PDBFixer](https://github.com/openmm/pdbfixer) | Protein Preparation; Structure Conversion | Free | — | Linux / Macos / Windows | Curated Resource |
