@@ -8,7 +8,7 @@ Tools for visualizing and interpreting molecular and scientific data.
 
 | Application | Tasks | Access | Interface | Platforms | Status |
 |---|---|---|---|---|---|
-| [CAVIAR](https://jr-marchand.github.io/caviar/) | Binding-Site Analysis; Molecular Visualization | Free / Open Source | GUI / Web + CLI | Linux / Windows / Desktop | Curated Resource |
+| [CAVIAR](https://jr-marchand.github.io/caviar/) | Binding-Site Analysis; Molecular Visualization | Free | GUI / Web + CLI | Linux / Windows / Desktop | Curated Resource |
 | [DataWarrior](https://openmolecules.org/datawarrior/) | Bioactivity Analysis; Data Curation; Chemical Data Analysis; Molecular Descriptors & Properties; Scaffold Analysis; QSAR & Predictive Modelling; Structure Conversion; Molecular Visualization | Free / Open Source | GUI / Web | Linux / Macos / Windows / Desktop | Curated Resource |
 | [Foldseek](https://search.foldseek.com/) | Protein Structure Prediction; Binding-Site Analysis; 3D Structure Analysis | Free / Open Source | CLI | Linux | Curated Resource |
 | [fpocket](https://github.com/Discngine/fpocket) | Binding-Site Analysis; Molecular Visualization; Trajectory Analysis | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |

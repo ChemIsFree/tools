@@ -9,7 +9,7 @@ Tools for discovering compounds using three-dimensional target structures.
 | Application | Tasks | Access | Interface | Platforms | Status |
 |---|---|---|---|---|---|
 | [AutoDock Vina](https://vina.scripps.edu/) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
-| [CAVIAR](https://jr-marchand.github.io/caviar/) | Binding-Site Analysis; Molecular Visualization | Free / Open Source | GUI / Web + CLI | Linux / Windows / Desktop | Curated Resource |
+| [CAVIAR](https://jr-marchand.github.io/caviar/) | Binding-Site Analysis; Molecular Visualization | Free | GUI / Web + CLI | Linux / Windows / Desktop | Curated Resource |
 | [ClassyPose](https://github.com/vktrannguyen/Classy_Pose) | Molecular Docking; Structure-Based Virtual Screening; Interaction Analysis | Free / Open Source | — | Linux | Curated Resource |
 | [CReM-pharm](https://github.com/ci-lab-cz/crem-pharm) | Generative Chemistry; Pharmacophore Modelling | Free / Open Source | CLI | Linux | Curated Resource |
 | [DynaMut2](https://biosig.lab.uq.edu.au/dynamut2/) | Target Assessment & Validation; Free-Energy Calculations | Free | GUI / Web | Web | Curated Resource |
@@ -20,8 +20,8 @@ Tools for discovering compounds using three-dimensional target structures.
 | [Meeko](https://meeko.readthedocs.io/) | Ligand Preparation; Protein Preparation; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Open Drug Discovery Toolkit (ODDT)](https://oddt.readthedocs.io/) | Interaction Analysis; Molecular Docking; Structure-Based Virtual Screening; Bioactivity Analysis; Data Curation | Free / Open Source | — | Linux / Macos / Windows | Curated Resource |
 | [P2Rank](https://prankweb.cz/) | Binding-Site Analysis; Protein Preparation; Molecular Visualization | Free / Open Source | GUI / Web + CLI | Linux / Macos / Windows / Web | Curated Resource |
-| [PDB2PQR](https://github.com/Electrostatics/pdb2pqr) | Protein Preparation; Structure Conversion | Free / Open Source | GUI / Web + CLI | Linux / Macos / Windows / Web | Curated Resource |
-| [PDBFixer](https://github.com/openmm/pdbfixer) | Protein Preparation; Structure Conversion | Free / Open Source | — | Linux / Macos / Windows | Curated Resource |
+| [PDB2PQR](https://github.com/Electrostatics/pdb2pqr) | Protein Preparation; Structure Conversion | Free | GUI / Web + CLI | Linux / Macos / Windows / Web | Curated Resource |
+| [PDBFixer](https://github.com/openmm/pdbfixer) | Protein Preparation; Structure Conversion | Free | — | Linux / Macos / Windows | Curated Resource |
 | [Pharmit](https://pharmit.csb.pitt.edu/) | Pharmacophore Modelling; Ligand-Based Virtual Screening; Compound Library Search | Free | GUI / Web | Web | Curated Resource |
 | [PLIP (Protein-Ligand Interaction Profiler)](https://plip-tool.biotec.tu-dresden.de/plip-web/plip/index) | Binding-Site Analysis; Structure-Based Virtual Screening | Free | GUI / Web + CLI | Linux / Windows / Web / Other | Curated Resource |
 | [Pocket2Mol](https://github.com/pengxingang/Pocket2Mol) | Generative Chemistry; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux | Curated Resource |
