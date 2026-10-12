@@ -2690,3 +2690,148 @@ tools:
     The scoring function and reward model can induce circular optimization. Preserve checkpoints,
     seeds, constraints and generation logs; validate generated structures with independent tools and
     assess chemical diversity, applicability, feasibility and ADMET uncertainty before synthesis.
+
+- id: gromacs
+  name: GROMACS
+  description: Widely used molecular-dynamics simulation package for biomolecular systems and trajectory generation/analysis workflows.
+  catalogue: app
+  domain:
+  - molecular-modelling
+  - structure-based-discovery
+  tasks:
+  - molecular-dynamics
+  - trajectory-analysis
+  - free-energy
+  - pipeline-execution
+  category:
+  - molecular-modelling
+  - drug-discovery
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: LGPL-2.1
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  - c++
+  gpu: optional
+  installation:
+  - conda
+  - source
+  status: active
+  developers:
+  - GROMACS contributors
+  website: https://www.gromacs.org/
+  repository:
+  - https://gitlab.com/gromacs/gromacs
+  - https://github.com/gromacs/gromacs
+  documentation: https://manual.gromacs.org/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    Molecular dynamics is computationally more demanding than docking and should be reserved for
+    questions that need conformational/solvent dynamics. Define a clear hypothesis and validate
+    setup, force fields, equilibration and sampling; do not treat a short trajectory as affinity proof.
+- id: gmx-mmpbsa
+  name: gmx_MMPBSA
+  description: Post-processing tool for end-state MM/PBSA and MM/GBSA energy estimates from GROMACS-compatible molecular-dynamics trajectories.
+  catalogue: app
+  domain:
+  - molecular-modelling
+  - structure-based-discovery
+  tasks:
+  - free-energy
+  - molecular-dynamics
+  - trajectory-analysis
+  category:
+  - molecular-modelling
+  - drug-discovery
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: GPL-3.0
+  platforms:
+  - linux
+  interface:
+  - cli
+  - python
+  languages:
+  - python
+  gpu: optional
+  installation:
+  - conda
+  - source
+  status: active
+  developers:
+  - gmx_MMPBSA contributors
+  website: https://github.com/Valdes-Tresanco-MS/gmx_MMPBSA
+  repository:
+  - https://github.com/Valdes-Tresanco-MS/gmx_MMPBSA
+  documentation: https://valdes-tresanco-ms.github.io/gmx_MMPBSA/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    MM/PBSA and MM/GBSA are approximate end-state rescoring methods whose uncertainty and sensitivity
+    can be substantial. Report replicate/sampling behaviour and parameter settings; avoid presenting
+    the output as a rigorous binding free energy.
+- id: openfe
+  name: OpenFE
+  description: Open-source toolkit for setting up and analysing alchemical free-energy calculations with reproducible protocols.
+  catalogue: app
+  domain:
+  - molecular-modelling
+  - structure-based-discovery
+  tasks:
+  - free-energy
+  - molecular-dynamics
+  - pipeline-execution
+  category:
+  - molecular-modelling
+  - drug-discovery
+  type: software
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: MIT
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages:
+  - python
+  gpu: recommended
+  installation:
+  - conda
+  - source
+  status: active
+  developers:
+  - Open Free Energy contributors
+  website: https://openfree.energy/
+  repository:
+  - https://github.com/OpenFreeEnergy/openfe
+  documentation: https://docs.openfree.energy/
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-12'
+  notes: >-
+    A more advanced route for relative binding free-energy questions, requiring appropriate ligand
+    mapping, force fields, sampling and uncertainty analysis. It is not a drop-in substitute for
+    docking or a prerequisite for every virtual screen.
