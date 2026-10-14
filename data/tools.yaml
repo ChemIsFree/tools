@@ -147,7 +147,6 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - target-identification
   - cheminformatics
   - ligand-based-qsar
   - libraries-datasets
@@ -474,7 +473,6 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - target-identification
   - cheminformatics
   - ligand-based-qsar
   - admet-prediction
@@ -1130,7 +1128,6 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - target-identification
   - libraries-datasets
   tasks:
   - target-assessment
@@ -1963,7 +1960,7 @@ tools:
     as equivalent to experimentally validated ligand-bound structures.
 - id: uniprot
   name: UniProt
-  description: Protein sequence and annotation knowledgebase useful for target identity, organism, isoform, domain and accession mapping.
+  description: Protein sequence and functional annotation knowledgebase for target identity, organism, isoform, protein function, domains, and accession mapping.
   catalogue: resource
   resource_type: database
   domain:
@@ -2109,7 +2106,6 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - target-identification
   - cheminformatics
   - ligand-based-qsar
   - libraries-datasets
@@ -2340,7 +2336,6 @@ tools:
   description: Open-source Python toolkit for molecular interaction analysis, docking result analysis, cheminformatics and virtual-screening evaluation.
   catalogue: app
   domain:
-  - target-identification
   - visualization
   - structure-based
   - cheminformatics
@@ -2356,7 +2351,7 @@ tools:
   - drug-discovery
   - cheminformatics
   - machine-learning
-  type: library
+  type: software
   access:
   - free
   - open-source
@@ -2396,7 +2391,6 @@ tools:
   catalogue: resource
   resource_type: library
   domain:
-  - target-identification
   - ligand-based-qsar
   - admet-prediction
   - libraries-datasets

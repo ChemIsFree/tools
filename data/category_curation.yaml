@@ -1,0 +1,78 @@
+# Category-specific curation of the public catalogue.
+# Categories not listed here continue to use their normal taxonomy assignments.
+category_curation:
+  target-identification:
+    keep:
+      - canSAR
+      - ChEMBL multitask model
+      - CTD
+      - DAPredict
+      - DataWarrior
+      - DeepCDR
+      - DGIdb
+      - DynaMut2
+      - FTMap
+      - GeneMANIA
+      - Open Targets
+      - GPCRdb
+      - KLIFS
+      - LigTMap
+      - OmniPath
+      - PatentChem
+      - PDBe-KB
+      - PLATO
+      - PPB2
+      - ProteinsPlus
+      - DogSiteScorer
+      - Reactome
+      - SEA
+      - SSM-DTA
+      - SwissTargetPrediction
+      - TargetNet
+      - TransformerCPI
+      - ZINClick
+      - PharmMapper
+      - SuperPred
+      - MolTarPred
+      - FastTargetPred
+      - Therapeutic Target Database
+      - UniProt
+      - DrugBank
+      - GtoPdb
+
+  record_overrides:
+    - names: [BREEZE]
+      replace_categories: true
+      categories: [visualization]
+      catalogue: app
+      type: web-tool
+      clear_resource_type: true
+
+    - names: [FastTargetPred]
+      replace_categories: true
+      categories: [target-identification]
+      catalogue: app
+      type: web-tool
+      clear_resource_type: true
+
+    - names: [OPERA]
+      replace_categories: true
+      categories: [admet-prediction, ligand-based-qsar]
+
+    - names: [GPCRdb, ZINClick, Therapeutic Target Database, UniProt, DrugBank, GtoPdb]
+      add_categories: [target-identification, libraries-datasets]
+      catalogue: resource
+      type: database
+      resource_type: database
+
+    - names: [PharmMapper, SuperPred, MolTarPred]
+      replace_categories: true
+      categories: [target-identification]
+      catalogue: app
+      type: web-tool
+      clear_resource_type: true
+
+    - names: [Open Drug Discovery Toolkit, ODDT]
+      catalogue: app
+      type: software
+      clear_resource_type: true
