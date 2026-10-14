@@ -1,6 +1,6 @@
-# Synthesis & Reaction Design
+# Retrosynthesis
 
-Tools for planning and analyzing chemical synthesis.
+Plan synthetic routes, predict reactions, and assess retrosynthetic feasibility.
 
 ---
 

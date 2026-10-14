@@ -7,8 +7,11 @@ tools:
   catalogue: resource
   resource_type: library
   domain:
-  - chemical-structures
-  - data-analysis
+  - structure-based
+  - cheminformatics
+  - admet-prediction
+  - nomenclature-format-conversion
+  - libraries-datasets
   tasks:
   - structure-conversion
   - ligand-preparation
@@ -55,7 +58,7 @@ tools:
     neural network scoring and optimization.
   catalogue: app
   domain:
-  - structure-based-discovery
+  - structure-based
   tasks:
   - molecular-docking
   - structure-based-screening
@@ -98,7 +101,8 @@ tools:
   catalogue: resource
   resource_type: library
   domain:
-  - structure-based-discovery
+  - molecular-dynamics
+  - libraries-datasets
   tasks:
   - molecular-dynamics
   category:
@@ -143,7 +147,11 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - data-analysis
+  - target-identification
+  - cheminformatics
+  - ligand-based-qsar
+  - libraries-datasets
+  - organization
   tasks:
   - bioactivity-analysis
   - data-curation
@@ -182,7 +190,7 @@ tools:
   catalogue: app
   domain:
   - visualization
-  - structure-based-discovery
+  - binding-pockets
   tasks:
   - molecular-visualization
   - three-dimensional-analysis
@@ -230,8 +238,9 @@ tools:
     chemical classification, and exact, substructure, and similarity searching.
   catalogue: app
   domain:
-  - chemical-structures
-  - laboratory-workflows
+  - cheminformatics
+  - admet-prediction
+  - organization
   tasks:
   - inventory-management
   - structure-elucidation
@@ -270,7 +279,8 @@ tools:
     chemical data across numerous molecular file formats.
   catalogue: app
   domain:
-  - chemical-structures
+  - structure-based
+  - nomenclature-format-conversion
   tasks:
   - structure-conversion
   - ligand-preparation
@@ -321,7 +331,11 @@ tools:
   catalogue: resource
   resource_type: library
   domain:
-  - chemical-structures
+  - structure-based
+  - cheminformatics
+  - admet-prediction
+  - nomenclature-format-conversion
+  - libraries-datasets
   tasks:
   - structure-conversion
   - ligand-preparation
@@ -364,7 +378,7 @@ tools:
     rapid conformational search and scoring functions.
   catalogue: app
   domain:
-  - structure-based-discovery
+  - structure-based
   tasks:
   - molecular-docking
   - structure-based-screening
@@ -414,8 +428,9 @@ tools:
   catalogue: resource
   resource_type: library
   domain:
-  - data-analysis
-  - ligand-based-discovery
+  - de-novo-design
+  - ligand-based-qsar
+  - libraries-datasets
   tasks:
   - machine-learning
   - qsar
@@ -459,8 +474,11 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - chemical-structures
-  - data-analysis
+  - target-identification
+  - cheminformatics
+  - ligand-based-qsar
+  - admet-prediction
+  - libraries-datasets
   tasks:
   - molecular-descriptors-properties
   - structure-search
@@ -503,8 +521,9 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - ligand-based-discovery
-  - structure-based-discovery
+  - structure-based
+  - ligand-based-qsar
+  - libraries-datasets
   tasks:
   - ligand-based-screening
   - structure-based-screening
@@ -545,8 +564,9 @@ tools:
     for data access, processing, visualization, machine learning, and automation.
   catalogue: app
   domain:
-  - data-analysis
-  - laboratory-workflows
+  - cheminformatics
+  - ligand-based-qsar
+  - organization
   tasks:
   - chemical-data-analysis
   - machine-learning
@@ -594,7 +614,9 @@ tools:
   catalogue: resource
   resource_type: library
   domain:
-  - data-analysis
+  - cheminformatics
+  - libraries-datasets
+  - organization
   tasks:
   - data-curation
   category:
@@ -636,6 +658,8 @@ tools:
   resource_type: library
   domain:
   - visualization
+  - molecular-dynamics
+  - libraries-datasets
   tasks:
   - trajectory-analysis
   category:
@@ -673,7 +697,8 @@ tools:
     files/docked poses.
   catalogue: app
   domain:
-  - structure-based-discovery
+  - binding-pockets
+  - structure-based
   tasks:
   - binding-site-analysis
   - structure-based-screening
@@ -711,8 +736,8 @@ tools:
   description: "Reaction-aware generative drug-design software that combines purchasable building blocks and known reaction templates to propose molecules with explicit synthetic routes."
   catalogue: app
   domain:
-  - ligand-based-discovery
-  - synthesis-reaction-design
+  - de-novo-design
+  - retrosynthesis
   tasks:
   - generative-chemistry
   - route-planning
@@ -760,8 +785,8 @@ tools:
   description: "Fragment-growing generative chemistry approach that builds molecules to satisfy three-dimensional pharmacophore constraints while accounting for synthetic accessibility."
   catalogue: app
   domain:
-  - ligand-based-discovery
-  - structure-based-discovery
+  - de-novo-design
+  - ligand-based-qsar
   tasks:
   - generative-chemistry
   - pharmacophore-modelling
@@ -807,7 +832,9 @@ tools:
   catalogue: resource
   resource_type: library
   domain:
-  - ligand-based-discovery
+  - de-novo-design
+  - ligand-based-qsar
+  - libraries-datasets
   tasks:
   - generative-chemistry
   - scaffold-analysis
@@ -854,10 +881,10 @@ tools:
   description: "Open-source web platform for visualizing, filtering, and prioritizing batches of AI-designed molecules using property and model-prediction outputs."
   catalogue: app
   domain:
-  - ligand-based-discovery
-  - data-analysis
   - visualization
-  - laboratory-workflows
+  - cheminformatics
+  - ligand-based-qsar
+  - organization
   tasks:
   - chemical-data-analysis
   - molecular-visualization
@@ -906,9 +933,10 @@ tools:
   description: "Open-source Model Context Protocol server that exposes validated molecular, cheminformatics, data-analysis, and machine-learning operations to compatible AI assistants and local LLM clients."
   catalogue: app
   domain:
-  - chemical-structures
-  - ligand-based-discovery
-  - data-analysis
+  - cheminformatics
+  - ligand-based-qsar
+  - nomenclature-format-conversion
+  - organization
   tasks:
   - structure-conversion
   - structure-search
@@ -959,7 +987,8 @@ tools:
   description: "Machine-learning classifier for assessing whether predicted ligand-binding poses are structurally plausible, intended to help triage docking results."
   catalogue: app
   domain:
-  - structure-based-discovery
+  - visualization
+  - structure-based
   tasks:
   - molecular-docking
   - structure-based-screening
@@ -1006,8 +1035,9 @@ tools:
   catalogue: resource
   resource_type: library
   domain:
-  - chemical-structures
-  - ligand-based-discovery
+  - cheminformatics
+  - ligand-based-qsar
+  - libraries-datasets
   tasks:
   - compound-library-search
   - ligand-based-screening
@@ -1056,7 +1086,8 @@ tools:
   description: "Web server for estimating how protein mutations affect protein stability and flexibility using complementary graph-based and normal-mode approaches."
   catalogue: app
   domain:
-  - structure-based-discovery
+  - target-identification
+  - molecular-dynamics
   tasks:
   - target-assessment
   - free-energy
@@ -1099,7 +1130,8 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - data-analysis
+  - target-identification
+  - libraries-datasets
   tasks:
   - target-assessment
   - clinical-evidence
@@ -1143,9 +1175,14 @@ tools:
   description: Free open-source cheminformatics desktop application for chemical structure editing, descriptor calculations, activity/property analysis, chemical-space visualization, and database searching including ChEMBL.
   catalogue: app
   domain:
-  - ligand-based-discovery
-  - data-analysis
+  - target-identification
   - visualization
+  - cheminformatics
+  - de-novo-design
+  - ligand-based-qsar
+  - admet-prediction
+  - nomenclature-format-conversion
+  - organization
   tasks:
   - bioactivity-analysis
   - data-curation
@@ -1201,8 +1238,10 @@ tools:
   description: Machine-learning method for predicting likely ligand-binding sites from protein structures, available as command-line software and through the PrankWeb interface.
   catalogue: app
   domain:
-  - structure-based-discovery
+  - protein-structures
   - visualization
+  - binding-pockets
+  - structure-based
   tasks:
   - binding-site-analysis
   - protein-preparation
@@ -1252,8 +1291,9 @@ tools:
   description: Open-source geometric protein-pocket detection and characterization using Voronoi tessellation, including analysis of structural ensembles through mdpocket.
   catalogue: app
   domain:
-  - structure-based-discovery
   - visualization
+  - binding-pockets
+  - molecular-dynamics
   tasks:
   - binding-site-analysis
   - molecular-visualization
@@ -1300,8 +1340,8 @@ tools:
   description: Protein cavity identification and automatic subpocket decomposition, with a graphical interface and command-line workflow.
   catalogue: app
   domain:
-  - structure-based-discovery
   - visualization
+  - binding-pockets
   tasks:
   - binding-site-analysis
   - molecular-visualization
@@ -1346,8 +1386,9 @@ tools:
   description: Preparation and parameterization toolkit for ligands and receptors used with AutoDock Vina and AutoDock-GPU, including PDBQT generation and output processing.
   catalogue: app
   domain:
-  - chemical-structures
-  - structure-based-discovery
+  - protein-structures
+  - structure-based
+  - nomenclature-format-conversion
   tasks:
   - ligand-preparation
   - protein-preparation
@@ -1396,7 +1437,7 @@ tools:
   description: Vina-derived docking and minimization program with additional scoring and analysis options, useful as a sensitivity check alongside GNINA or AutoDock Vina.
   catalogue: app
   domain:
-  - structure-based-discovery
+  - structure-based
   tasks:
   - molecular-docking
   - structure-based-screening
@@ -1441,7 +1482,7 @@ tools:
   description: Open-source docking and virtual-screening program with a distinct search/scoring setup from the Vina family.
   catalogue: app
   domain:
-  - structure-based-discovery
+  - structure-based
   tasks:
   - molecular-docking
   - structure-based-screening
@@ -1485,9 +1526,10 @@ tools:
   description: Python toolkit for computing protein-ligand interaction fingerprints and comparing contacts across experimental structures, docking poses, and molecular-dynamics trajectories.
   catalogue: app
   domain:
-  - structure-based-discovery
-  - data-analysis
   - visualization
+  - structure-based
+  - cheminformatics
+  - organization
   tasks:
   - interaction-analysis
   - data-curation
@@ -1537,8 +1579,8 @@ tools:
   description: Web-based pharmacophore and shape screening interface for searching chemical libraries with 3D features, substructure, and similarity queries.
   catalogue: app
   domain:
-  - ligand-based-discovery
-  - structure-based-discovery
+  - ligand-based-qsar
+  - libraries-datasets
   tasks:
   - pharmacophore-modelling
   - ligand-based-screening
@@ -1581,9 +1623,10 @@ tools:
   description: Python toolkit for merging, linking, and placing compounds using coordinates and atoms from structurally characterized fragment or ligand hits.
   catalogue: app
   domain:
-  - ligand-based-discovery
-  - structure-based-discovery
-  - chemical-structures
+  - structure-based
+  - de-novo-design
+  - ligand-based-qsar
+  - nomenclature-format-conversion
   tasks:
   - generative-chemistry
   - pharmacophore-modelling
@@ -1635,8 +1678,8 @@ tools:
   description: Pocket-conditioned 3D molecular generation model that samples molecules inside a supplied protein pocket, rather than predicting where a pocket exists.
   catalogue: app
   domain:
-  - ligand-based-discovery
-  - structure-based-discovery
+  - structure-based
+  - de-novo-design
   tasks:
   - generative-chemistry
   - structure-based-screening
@@ -1682,8 +1725,7 @@ tools:
   description: Open-source ADMET property-prediction package with a hosted web interface/API for rapid multi-endpoint prediction from molecular structures.
   catalogue: app
   domain:
-  - molecular-properties-admet
-  - data-analysis
+  - admet-prediction
   tasks:
   - adme
   - toxicity
@@ -1736,8 +1778,7 @@ tools:
   description: Web platform for predicting absorption, distribution, metabolism, excretion, toxicity, and related medicinal-chemistry properties.
   catalogue: app
   domain:
-  - molecular-properties-admet
-  - data-analysis
+  - admet-prediction
   tasks:
   - adme
   - toxicity
@@ -1779,8 +1820,7 @@ tools:
   description: Web server and API for small-molecule pharmacokinetic and toxicity predictions, with batch upload for SMILES/SDF inputs and confidence-associated outputs.
   catalogue: app
   domain:
-  - molecular-properties-admet
-  - data-analysis
+  - admet-prediction
   tasks:
   - adme
   - toxicity
@@ -1825,8 +1865,7 @@ tools:
   description: Open-source retrosynthetic planning tool that uses neural-network-guided Monte Carlo tree search to propose routes from target molecules toward purchasable building blocks.
   catalogue: app
   domain:
-  - synthesis-reaction-design
-  - data-analysis
+  - retrosynthesis
   tasks:
   - retrosynthesis
   - route-planning
@@ -1876,9 +1915,12 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - structure-based-discovery
-  - data-analysis
+  - protein-structures
   - visualization
+  - binding-pockets
+  - structure-based
+  - cheminformatics
+  - libraries-datasets
   tasks:
   - binding-site-analysis
   - protein-preparation
@@ -1925,8 +1967,12 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - data-analysis
-  - structure-based-discovery
+  - target-identification
+  - protein-structures
+  - structure-based
+  - cheminformatics
+  - libraries-datasets
+  - organization
   tasks:
   - target-assessment
   - data-curation
@@ -1968,7 +2014,10 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - structure-based-discovery
+  - protein-structures
+  - visualization
+  - binding-pockets
+  - libraries-datasets
   tasks:
   - protein-structure-prediction
   - binding-site-analysis
@@ -2013,8 +2062,10 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - data-analysis
-  - structure-based-discovery
+  - target-identification
+  - cheminformatics
+  - libraries-datasets
+  - organization
   tasks:
   - target-assessment
   - clinical-evidence
@@ -2058,7 +2109,11 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - data-analysis
+  - target-identification
+  - cheminformatics
+  - ligand-based-qsar
+  - libraries-datasets
+  - organization
   tasks:
   - target-assessment
   - bioactivity-analysis
@@ -2099,8 +2154,9 @@ tools:
   description: Fast protein-structure search tool for finding structural homologues across large structure databases.
   catalogue: app
   domain:
-  - structure-based-discovery
+  - protein-structures
   - visualization
+  - binding-pockets
   tasks:
   - protein-structure-prediction
   - binding-site-analysis
@@ -2144,8 +2200,9 @@ tools:
   description: Python utilities for inspecting and repairing common protein-structure issues, including missing atoms and residues, and adding hydrogens.
   catalogue: app
   domain:
-  - structure-based-discovery
-  - chemical-structures
+  - protein-structures
+  - structure-based
+  - nomenclature-format-conversion
   tasks:
   - protein-preparation
   - structure-conversion
@@ -2189,8 +2246,9 @@ tools:
   description: Protein pKa prediction tool useful for inspecting protonation-state hypotheses before structure-based calculations.
   catalogue: app
   domain:
-  - structure-based-discovery
-  - data-analysis
+  - protein-structures
+  - binding-pockets
+  - structure-based
   tasks:
   - protein-preparation
   - binding-site-analysis
@@ -2234,7 +2292,9 @@ tools:
   description: Tool for preparing biomolecular structures with assigned atomic radii and charges for electrostatics calculations.
   catalogue: app
   domain:
-  - structure-based-discovery
+  - protein-structures
+  - structure-based
+  - nomenclature-format-conversion
   tasks:
   - protein-preparation
   - structure-conversion
@@ -2280,9 +2340,12 @@ tools:
   description: Open-source Python toolkit for molecular interaction analysis, docking result analysis, cheminformatics and virtual-screening evaluation.
   catalogue: app
   domain:
-  - structure-based-discovery
-  - ligand-based-discovery
-  - data-analysis
+  - target-identification
+  - visualization
+  - structure-based
+  - cheminformatics
+  - ligand-based-qsar
+  - organization
   tasks:
   - interaction-analysis
   - molecular-docking
@@ -2333,9 +2396,10 @@ tools:
   catalogue: resource
   resource_type: library
   domain:
-  - data-analysis
-  - ligand-based-discovery
-  - molecular-properties-admet
+  - target-identification
+  - ligand-based-qsar
+  - admet-prediction
+  - libraries-datasets
   tasks:
   - benchmarks-datasets
   - machine-learning
@@ -2387,8 +2451,9 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - ligand-based-discovery
-  - structure-based-discovery
+  - ligand-based-qsar
+  - libraries-datasets
+  - organization
   tasks:
   - compound-library-search
   - ligand-based-screening
@@ -2428,8 +2493,8 @@ tools:
   description: High-throughput platform for running large-scale virtual screening across available compute infrastructure.
   catalogue: app
   domain:
-  - structure-based-discovery
-  - laboratory-workflows
+  - structure-based
+  - organization
   tasks:
   - structure-based-screening
   - molecular-docking
@@ -2479,8 +2544,9 @@ tools:
   description: Python tooling for organizing, querying and extracting ranked results from large AutoDock Vina-family virtual-screening outputs.
   catalogue: app
   domain:
-  - structure-based-discovery
-  - data-analysis
+  - structure-based
+  - cheminformatics
+  - organization
   tasks:
   - structure-based-screening
   - molecular-docking
@@ -2526,7 +2592,7 @@ tools:
   description: Free web application for estimating physicochemical properties, lipophilicity, medicinal-chemistry friendliness and selected ADME-related properties from small-molecule structures.
   catalogue: app
   domain:
-  - molecular-properties-admet
+  - admet-prediction
   tasks:
   - physicochemical-properties
   - adme
@@ -2567,7 +2633,7 @@ tools:
   description: Web platform for predicting pharmacokinetic and toxicity properties from molecular structures.
   catalogue: app
   domain:
-  - molecular-properties-admet
+  - admet-prediction
   tasks:
   - adme
   - toxicity
@@ -2607,7 +2673,7 @@ tools:
   description: Web server for in-silico toxicity prediction, toxicity endpoint prioritization and related toxicophore analysis.
   catalogue: app
   domain:
-  - molecular-properties-admet
+  - admet-prediction
   tasks:
   - toxicity
   - drug-likeness
@@ -2646,8 +2712,9 @@ tools:
   description: Open-source molecular design framework for reinforcement-learning, de-novo and library-focused generative chemistry workflows with configurable scoring and constraints.
   catalogue: app
   domain:
-  - ligand-based-discovery
-  - structure-based-discovery
+  - cheminformatics
+  - de-novo-design
+  - ligand-based-qsar
   tasks:
   - generative-chemistry
   - scaffold-analysis
@@ -2694,7 +2761,9 @@ tools:
   description: Widely used molecular-dynamics simulation package for biomolecular systems and trajectory generation/analysis workflows.
   catalogue: app
   domain:
-  - structure-based-discovery
+  - visualization
+  - molecular-dynamics
+  - organization
   tasks:
   - molecular-dynamics
   - trajectory-analysis
@@ -2743,7 +2812,8 @@ tools:
   description: Post-processing tool for end-state MM/PBSA and MM/GBSA energy estimates from GROMACS-compatible molecular-dynamics trajectories.
   catalogue: app
   domain:
-  - structure-based-discovery
+  - visualization
+  - molecular-dynamics
   tasks:
   - free-energy
   - molecular-dynamics
@@ -2789,7 +2859,8 @@ tools:
   description: Open-source toolkit for setting up and analysing alchemical free-energy calculations with reproducible protocols.
   catalogue: app
   domain:
-  - structure-based-discovery
+  - molecular-dynamics
+  - organization
   tasks:
   - free-energy
   - molecular-dynamics

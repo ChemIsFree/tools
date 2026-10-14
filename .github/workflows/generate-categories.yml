@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "data/tools.yaml"
+      - "data/taxonomy.yaml"
       - "data/schema.yaml"
       - ".github/scripts/generate_categories.py"
       - ".github/workflows/generate-categories.yml"

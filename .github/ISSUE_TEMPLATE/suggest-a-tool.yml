@@ -36,17 +36,23 @@ body:
   - type: dropdown
     id: domain
     attributes:
-      label: Main area
-      description: Choose the major area where users would look for this resource.
+      label: Primary category
+      description: Choose the single best-fit functional category. Reviewers may add secondary categories when a resource supports more than one area.
       options:
-        - Chemical Structures
-        - Ligand-Based Discovery
-        - Structure-Based Discovery
-        - Molecular Properties & ADMET
-        - Synthesis & Reaction Design
-        - Data & Chemical Analysis
-        - Visualization & Interpretation
-        - Laboratory & Workflows
+        - Target Identification
+        - Protein Structures
+        - Visualization
+        - Binding Pockets
+        - Structure-Based
+        - Molecular Dynamics
+        - Cheminformatics
+        - De Novo Design
+        - Ligand-Based and QSAR
+        - ADMET Prediction
+        - Retrosynthesis
+        - Nomenclature and Format Conversion
+        - Libraries and Datasets
+        - Organization
     validations:
       required: true
 
