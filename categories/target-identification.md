@@ -18,6 +18,8 @@ Tools and evidence for discovering, prioritising, and validating biological targ
 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
+| [DrugBank](https://go.drugbank.com/) | database | Target Assessment & Validation; Bioactivity Analysis; Clinical & Regulatory Evidence | Free | GUI / Web |
+| [IUPHAR/BPS Guide to Pharmacology (GtoPdb)](https://www.guidetopharmacology.org/) | database | Target Assessment & Validation; Bioactivity Analysis; Clinical & Regulatory Evidence | Free | GUI / Web |
 | [Open Targets Platform](https://platform.opentargets.org/) | database | Target Assessment & Validation; Clinical & Regulatory Evidence; Data Curation | Free | GUI / Web |
 | [UniProt](https://www.uniprot.org/) | database | Target Assessment & Validation; Data Curation; Protein Preparation | Free | GUI / Web |
 

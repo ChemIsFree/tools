@@ -20,7 +20,9 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [ChEMBL](https://www.ebi.ac.uk/chembl/) | database | Bioactivity Analysis; Data Curation | Free | GUI / Web |
 | [Chemistry Development Kit](https://cdk.github.io/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search | Free / Open Source | — |
 | [DeepChem](https://deepchem.io/) | library | Machine Learning; QSAR & Predictive Modelling; Generative Chemistry | Free / Open Source | — |
+| [DrugBank](https://go.drugbank.com/) | database | Target Assessment & Validation; Bioactivity Analysis; Clinical & Regulatory Evidence | Free | GUI / Web |
 | [Enamine REAL](https://enamine.net/compound-collections/real-compounds) | database | Compound Library Search; Ligand-Based Virtual Screening; Inventory Management | Free | GUI / Web |
+| [IUPHAR/BPS Guide to Pharmacology (GtoPdb)](https://www.guidetopharmacology.org/) | database | Target Assessment & Validation; Bioactivity Analysis; Clinical & Regulatory Evidence | Free | GUI / Web |
 | [MDAnalysis](https://www.mdanalysis.org/) | library | Trajectory Analysis | Free / Open Source | — |
 | [molbloom](https://github.com/whitead/molbloom) | library | Compound Library Search; Ligand-Based Virtual Screening; Structure Search | Free / Open Source | CLI |
 | [Open Targets Platform](https://platform.opentargets.org/) | database | Target Assessment & Validation; Clinical & Regulatory Evidence; Data Curation | Free | GUI / Web |
