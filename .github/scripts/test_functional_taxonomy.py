@@ -88,6 +88,36 @@ assert 'domain = get_field(\n        "Primary category"\n    )' in processor, (
 workflow = (ROOT / ".github" / "workflows" / "generate-categories.yml").read_text(encoding="utf-8")
 assert '"data/taxonomy.yaml"' in workflow, "Taxonomy changes must trigger category-page regeneration."
 
+curation = yaml.safe_load((ROOT / "data" / "category_curation.yaml").read_text(encoding="utf-8"))
+category_curation = curation.get("category_curation", {})
+target_keep = category_curation.get("target-identification", {}).get("keep", [])
+expected_target_keep = {
+    "canSAR", "ChEMBL multitask model", "CTD", "DAPredict", "DataWarrior",
+    "DeepCDR", "DGIdb", "DynaMut2", "FTMap", "GeneMANIA", "Open Targets",
+    "GPCRdb", "KLIFS", "LigTMap", "OmniPath", "PatentChem", "PDBe-KB",
+    "PLATO", "PPB2", "ProteinsPlus", "DogSiteScorer", "Reactome", "SEA",
+    "SSM-DTA", "SwissTargetPrediction", "TargetNet", "TransformerCPI",
+    "ZINClick", "PharmMapper", "SuperPred", "MolTarPred", "FastTargetPred",
+    "Therapeutic Target Database", "UniProt", "DrugBank", "GtoPdb"
+}
+assert expected_target_keep <= set(target_keep), (
+    "The Target Identification keep-list is missing: "
+    f"{sorted(expected_target_keep - set(target_keep))}"
+)
+overrides = category_curation.get("record_overrides", [])
+override_names = {
+    name
+    for override in overrides
+    for name in override.get("names", [])
+}
+assert {"BREEZE", "FastTargetPred", "OPERA", "GPCRdb", "ZINClick",
+        "PharmMapper", "SuperPred", "MolTarPred", "DrugBank", "GtoPdb"} <= override_names, (
+    "One or more explicit category/resource overrides are missing."
+)
+assert '"data/category_curation.yaml"' in workflow, (
+    "Changes to category curation must regenerate source category pages."
+)
+
 print(
     "Functional taxonomy passed: 14 categories, "
     f"{len(records)} curated records, complete task mappings, and matching form/processor IDs."
