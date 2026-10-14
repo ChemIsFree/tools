@@ -1,0 +1,42 @@
+name: Validate functional taxonomy
+
+on:
+  pull_request:
+    paths:
+      - "data/taxonomy.yaml"
+      - "data/tools.yaml"
+      - ".github/ISSUE_TEMPLATE/suggest-a-tool.yml"
+      - ".github/scripts/process_accepted_tool.py"
+      - ".github/scripts/test_functional_taxonomy.py"
+      - ".github/workflows/validate-taxonomy.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "data/taxonomy.yaml"
+      - "data/tools.yaml"
+      - ".github/ISSUE_TEMPLATE/suggest-a-tool.yml"
+      - ".github/scripts/process_accepted_tool.py"
+      - ".github/scripts/test_functional_taxonomy.py"
+      - ".github/workflows/validate-taxonomy.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-taxonomy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install YAML validation dependency
+        run: pip install pyyaml
+
+      - name: Validate category taxonomy and submission mappings
+        run: python .github/scripts/test_functional_taxonomy.py
