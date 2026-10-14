@@ -392,7 +392,7 @@ def main():
     )
 
     domain = get_field(
-        "Main area"
+        "Primary category"
     )
 
     primary_task = get_field(
@@ -480,7 +480,7 @@ def main():
 
     if domain not in DOMAIN_MAP:
         raise ValueError(
-            f"Invalid main area: {domain}"
+            f"Invalid primary category: {domain}"
         )
 
     if primary_task not in TASK_MAP:
