@@ -21,20 +21,20 @@ jobs:
     steps:
       - name: Trigger website rebuild
         env:
-          WEBSITE_DISPATCH_TOKEN: \${{ secrets.WEBSITE_DISPATCH_TOKEN }}
-          CATALOGUE_COMMIT: \${{ github.sha }}
+          WEBSITE_DISPATCH_TOKEN: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
+          CATALOGUE_COMMIT: ${{ github.sha }}
         run: |
           curl \
             --fail \
             --request POST \
             --url https://api.github.com/repos/ChemIsFree/website/dispatches \
             --header "Accept: application/vnd.github+json" \
-            --header "Authorization: Bearer \${WEBSITE_DISPATCH_TOKEN}" \
+            --header "Authorization: Bearer ${WEBSITE_DISPATCH_TOKEN}" \
             --header "X-GitHub-Api-Version: 2026-03-10" \
             --data "{
               \"event_type\": \"catalogue-updated\",
               \"client_payload\": {
                 \"source\": \"ChemIsFree/tools\",
-                \"commit\": \"\${CATALOGUE_COMMIT}\"
+                \"commit\": \"${CATALOGUE_COMMIT}\"
               }
             }"
