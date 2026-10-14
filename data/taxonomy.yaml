@@ -1,11 +1,73 @@
 domains:
 
-  chemical-structures:
-    name: Chemical Structures
-    description: Tools for creating, processing, searching, and analyzing chemical structures.
+  target-identification:
+    name: Target Identification
+    description: Tools and evidence for discovering, prioritising, and validating biological targets.
     tasks:
-      - id: inventory-management
-        name: Inventory Management
+      - id: target-assessment
+        name: Target Assessment & Validation
+      - id: clinical-evidence
+        name: Clinical & Regulatory Evidence
+      - id: bioactivity-analysis
+        name: Bioactivity Analysis
+
+  protein-structures:
+    name: Protein Structures
+    description: Experimental and predicted protein structures, structure retrieval, and protein model preparation.
+    tasks:
+      - id: protein-structure-prediction
+        name: Protein Structure Prediction
+      - id: protein-preparation
+        name: Protein Preparation
+      - id: protein-peptide-design
+        name: Protein & Peptide Design
+
+  visualization:
+    name: Visualization
+    description: Molecular, protein–ligand, and scientific visualisation and interpretation.
+    tasks:
+      - id: molecular-visualization
+        name: Molecular Visualization
+      - id: three-dimensional-analysis
+        name: 3D Structure Analysis
+      - id: trajectory-analysis
+        name: Trajectory Analysis
+      - id: scientific-visualization
+        name: Scientific Visualization
+      - id: interaction-analysis
+        name: Interaction Analysis
+
+  binding-pockets:
+    name: Binding Pockets
+    description: Identify and characterize ligand-binding sites, cavities, and pockets on macromolecular structures.
+    tasks:
+      - id: binding-site-analysis
+        name: Binding-Site Analysis
+
+  structure-based:
+    name: Structure-Based
+    description: Structure-guided discovery, including preparation, docking, pose assessment, and virtual screening.
+    tasks:
+      - id: ligand-preparation
+        name: Ligand Preparation
+      - id: molecular-docking
+        name: Molecular Docking
+      - id: structure-based-screening
+        name: Structure-Based Virtual Screening
+
+  molecular-dynamics:
+    name: Molecular Dynamics
+    description: Molecular simulations, trajectory analysis, and free-energy calculations.
+    tasks:
+      - id: molecular-dynamics
+        name: Molecular Dynamics
+      - id: free-energy
+        name: Free-Energy Calculations
+
+  cheminformatics:
+    name: Cheminformatics
+    description: Chemical structure handling, descriptors, fingerprints, chemical space, and computational chemistry data.
+    tasks:
       - id: structure-drawing
         name: Draw & Edit Structures
       - id: structure-elucidation
@@ -14,56 +76,42 @@ domains:
         name: Molecular Descriptors & Properties
       - id: structure-search
         name: Structure Search
-      - id: structure-conversion
-        name: Structure Conversion
-      - id: ligand-preparation
-        name: Ligand Preparation
       - id: chemical-space
         name: Chemical Space Analysis
+      - id: data-curation
+        name: Data Curation
+      - id: chemical-data-analysis
+        name: Chemical Data Analysis
+      - id: quantum-chemistry
+        name: Quantum Chemistry
 
-  ligand-based-discovery:
-    name: Ligand-Based Discovery
-    description: Tools for discovering and analyzing compounds using ligand information.
+  de-novo-design:
+    name: De Novo Design
+    description: Generate and design novel small molecules, fragments, scaffolds, or protein/peptide binders.
+    tasks:
+      - id: generative-chemistry
+        name: Generative Chemistry
+      - id: scaffold-analysis
+        name: Scaffold Analysis
+
+  ligand-based-qsar:
+    name: Ligand-Based and QSAR
+    description: Learn from known compounds, bioactivity measurements, pharmacophores, and ligand-based predictions.
     tasks:
       - id: pharmacophore-modelling
         name: Pharmacophore Modelling
       - id: qsar
         name: QSAR & Predictive Modelling
-      - id: scaffold-analysis
-        name: Scaffold Analysis
       - id: ligand-based-screening
         name: Ligand-Based Virtual Screening
       - id: compound-library-search
         name: Compound Library Search
-      - id: generative-chemistry
-        name: Generative Chemistry
+      - id: machine-learning
+        name: Machine Learning
 
-  structure-based-discovery:
-    name: Structure-Based Discovery
-    description: Tools for discovering compounds using three-dimensional target structures.
-    tasks:
-      - id: protein-preparation
-        name: Protein Preparation
-      - id: protein-structure-prediction
-        name: Protein Structure Prediction
-      - id: protein-peptide-design
-        name: Protein & Peptide Design
-      - id: binding-site-analysis
-        name: Binding-Site Analysis
-      - id: molecular-docking
-        name: Molecular Docking
-      - id: structure-based-screening
-        name: Structure-Based Virtual Screening
-      - id: molecular-dynamics
-        name: Molecular Dynamics
-      - id: interaction-analysis
-        name: Interaction Analysis
-      - id: free-energy
-        name: Free-Energy Calculations
-
-  molecular-properties-admet:
-    name: Molecular Properties & ADMET
-    description: Tools for predicting molecular properties and drug-development-relevant characteristics.
+  admet-prediction:
+    name: ADMET Prediction
+    description: Predict physicochemical, absorption, distribution, metabolism, excretion, and toxicity properties.
     tasks:
       - id: physicochemical-properties
         name: Physicochemical Properties
@@ -74,9 +122,9 @@ domains:
       - id: drug-likeness
         name: Drug-Likeness
 
-  synthesis-reaction-design:
-    name: Synthesis & Reaction Design
-    description: Tools for planning and analyzing chemical synthesis.
+  retrosynthesis:
+    name: Retrosynthesis
+    description: Plan synthetic routes, predict reactions, and assess retrosynthetic feasibility.
     tasks:
       - id: retrosynthesis
         name: Retrosynthesis
@@ -86,45 +134,27 @@ domains:
         name: Synthetic Route Planning
       - id: reaction-analysis
         name: Reaction Analysis
-      - id: quantum-chemistry
-        name: Quantum Chemistry
 
-  data-analysis:
-    name: Data & Chemical Analysis
-    description: Tools for working with chemical and biological data.
+  nomenclature-format-conversion:
+    name: Nomenclature and Format Conversion
+    description: Convert chemical names, line notations, structures, and molecular file formats.
     tasks:
-      - id: bioactivity-analysis
-        name: Bioactivity Analysis
-      - id: data-curation
-        name: Data Curation
-      - id: chemical-data-analysis
-        name: Chemical Data Analysis
-      - id: machine-learning
-        name: Machine Learning
-      - id: target-assessment
-        name: Target Assessment & Validation
-      - id: clinical-evidence
-        name: Clinical & Regulatory Evidence
+      - id: structure-conversion
+        name: Structure Conversion
+
+  libraries-datasets:
+    name: Libraries and Datasets
+    description: Compound collections, screening libraries, curated reference databases, and scientific datasets.
+    tasks:
       - id: benchmarks-datasets
         name: Benchmarks & Datasets
 
-  visualization:
-    name: Visualization & Interpretation
-    description: Tools for visualizing and interpreting molecular and scientific data.
+  organization:
+    name: Organization
+    description: Manage compounds, inventories, experiments, computing resources, and reproducible workflows.
     tasks:
-      - id: molecular-visualization
-        name: Molecular Visualization
-      - id: three-dimensional-analysis
-        name: 3D Structure Analysis
-      - id: trajectory-analysis
-        name: Trajectory Analysis
-      - id: scientific-visualization
-        name: Scientific Visualization
-
-  laboratory-workflows:
-    name: Laboratory & Workflows
-    description: Tools for laboratory management, automation, and scientific workflows.
-    tasks:
+      - id: inventory-management
+        name: Inventory Management
       - id: chemical-inventory
         name: Chemical Inventory
       - id: laboratory-automation
