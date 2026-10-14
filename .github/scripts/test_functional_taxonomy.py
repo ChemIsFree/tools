@@ -81,6 +81,9 @@ form_categories = domain_field.get("attributes", {}).get("options", [])
 assert form_categories == list(CATEGORIES.values()), (
     "Submission form category choices differ from the approved taxonomy."
 )
+assert 'domain = get_field(\n        "Primary category"\n    )' in processor, (
+    "Accepted-tool processing must read the renamed Primary category field."
+)
 
 workflow = (ROOT / ".github" / "workflows" / "generate-categories.yml").read_text(encoding="utf-8")
 assert '"data/taxonomy.yaml"' in workflow, "Taxonomy changes must trigger category-page regeneration."
