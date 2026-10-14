@@ -5,6 +5,9 @@ category_curation:
     keep:
       - canSAR
       - ChEMBL multitask model
+      - ChEMBL Multitask Target Prediction
+      - ChEMBL multitask target prediction
+      - ChEMBL multitask target prediction model
       - CTD
       - DAPredict
       - DataWarrior
