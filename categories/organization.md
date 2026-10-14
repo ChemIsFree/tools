@@ -1,0 +1,36 @@
+# Organization
+
+Manage compounds, inventories, experiments, computing resources, and reproducible workflows.
+
+---
+
+## Applications
+
+| Application | Tasks | Access | Interface | Platforms | Status |
+|---|---|---|---|---|---|
+| [CataList](https://github.com/DionysisKampasis/CataList) | Inventory Management; Structure Elucidation; Draw & Edit Structures; Molecular Descriptors & Properties; Structure Search | Free | GUI / Web | Desktop | **ChemIsFree Project** |
+| [ChemLint](https://github.com/molML/ChemLint) | Structure Conversion; Structure Search; Chemical Data Analysis; Machine Learning; Workflow Construction | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [DataWarrior](https://openmolecules.org/datawarrior/) | Bioactivity Analysis; Data Curation; Chemical Data Analysis; Molecular Descriptors & Properties; Scaffold Analysis; QSAR & Predictive Modelling; Structure Conversion; Molecular Visualization | Free / Open Source | GUI / Web | Linux / Macos / Windows / Desktop | Curated Resource |
+| [GROMACS](https://www.gromacs.org/) | Molecular Dynamics; Trajectory Analysis; Free-Energy Calculations; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [KNIME Analytics Platform](https://www.knime.com/) | Chemical Data Analysis; Machine Learning; Workflow Construction; Pipeline Execution | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
+| [MolVE](https://github.com/drigoni/MolVE) | Chemical Data Analysis; Molecular Visualization; Machine Learning; Workflow Construction | Free / Open Source | GUI / Web | Linux | Curated Resource |
+| [Open Drug Discovery Toolkit (ODDT)](https://oddt.readthedocs.io/) | Interaction Analysis; Molecular Docking; Structure-Based Virtual Screening; Bioactivity Analysis; Data Curation | Free / Open Source | — | Linux / Macos / Windows | Curated Resource |
+| [OpenFE](https://openfree.energy/) | Free-Energy Calculations; Molecular Dynamics; Pipeline Execution | Free / Open Source | CLI | Linux | Curated Resource |
+| [ProLIF](https://prolif.readthedocs.io/) | Interaction Analysis; Data Curation; Chemical Data Analysis; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [Ringtail](https://github.com/forlilab/Ringtail) | Structure-Based Virtual Screening; Molecular Docking; Data Curation; Pipeline Execution | Free / Open Source | CLI | Linux | Curated Resource |
+| [VirtualFlow](https://virtual-flow.org/) | Structure-Based Virtual Screening; Molecular Docking; Pipeline Execution; Workflow Construction | Free / Open Source | CLI | Linux / Cloud | Curated Resource |
+
+## Supporting Resources
+
+| Resource | Type | Tasks | Access | Interface |
+|---|---|---|---|---|
+| [Biopython](https://biopython.org/) | library | Data Curation | Free / Open Source | — |
+| [ChEMBL](https://www.ebi.ac.uk/chembl/) | database | Bioactivity Analysis; Data Curation | Free | GUI / Web |
+| [Enamine REAL](https://enamine.net/compound-collections/real-compounds) | database | Compound Library Search; Ligand-Based Virtual Screening; Inventory Management | Free | GUI / Web |
+| [Open Targets Platform](https://platform.opentargets.org/) | database | Target Assessment & Validation; Clinical & Regulatory Evidence; Data Curation | Free | GUI / Web |
+| [Pharos](https://pharos.nih.gov/) | database | Target Assessment & Validation; Bioactivity Analysis; Data Curation | Free | GUI / Web |
+| [UniProt](https://www.uniprot.org/) | database | Target Assessment & Validation; Data Curation; Protein Preparation | Free | GUI / Web |
+
+---
+
+[← Back to ChemIsFree Tools](../README.md)

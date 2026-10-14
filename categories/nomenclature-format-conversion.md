@@ -1,6 +1,6 @@
-# Chemical Structures
+# Nomenclature and Format Conversion
 
-Tools for creating, processing, searching, and analyzing chemical structures.
+Convert chemical names, line notations, structures, and molecular file formats.
 
 ---
 
@@ -8,11 +8,12 @@ Tools for creating, processing, searching, and analyzing chemical structures.
 
 | Application | Tasks | Access | Interface | Platforms | Status |
 |---|---|---|---|---|---|
-| [CataList](https://github.com/DionysisKampasis/CataList) | Inventory Management; Structure Elucidation; Draw & Edit Structures; Molecular Descriptors & Properties; Structure Search | Free | GUI / Web | Desktop | **ChemIsFree Project** |
 | [ChemLint](https://github.com/molML/ChemLint) | Structure Conversion; Structure Search; Chemical Data Analysis; Machine Learning; Workflow Construction | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [DataWarrior](https://openmolecules.org/datawarrior/) | Bioactivity Analysis; Data Curation; Chemical Data Analysis; Molecular Descriptors & Properties; Scaffold Analysis; QSAR & Predictive Modelling; Structure Conversion; Molecular Visualization | Free / Open Source | GUI / Web | Linux / Macos / Windows / Desktop | Curated Resource |
 | [Fragmenstein](https://github.com/matteoferla/Fragmenstein) | Generative Chemistry; Pharmacophore Modelling; Scaffold Analysis; Structure-Based Virtual Screening; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Meeko](https://meeko.readthedocs.io/) | Ligand Preparation; Protein Preparation; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Open Babel](https://openbabel.org/) | Structure Conversion; Ligand Preparation | Free / Open Source | GUI / Web + CLI | Linux / Macos / Windows / Desktop | Curated Resource |
+| [PDB2PQR](https://github.com/Electrostatics/pdb2pqr) | Protein Preparation; Structure Conversion | Free | GUI / Web + CLI | Linux / Macos / Windows / Web | Curated Resource |
 | [PDBFixer](https://github.com/openmm/pdbfixer) | Protein Preparation; Structure Conversion | Free | — | Linux / Macos / Windows | Curated Resource |
 
 ## Supporting Resources
@@ -20,8 +21,6 @@ Tools for creating, processing, searching, and analyzing chemical structures.
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
 | [Chemistry Development Kit](https://cdk.github.io/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search | Free / Open Source | — |
-| [molbloom](https://github.com/whitead/molbloom) | library | Compound Library Search; Ligand-Based Virtual Screening; Structure Search | Free / Open Source | CLI |
-| [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | database | Molecular Descriptors & Properties; Structure Search; Bioactivity Analysis | Free | GUI / Web |
 | [RDKit](https://www.rdkit.org/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search; Chemical Space Analysis | Free / Open Source | — |
 
 ---
