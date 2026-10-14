@@ -2895,3 +2895,128 @@ tools:
     A more advanced route for relative binding free-energy questions, requiring appropriate ligand
     mapping, force fields, sampling and uncertainty analysis. It is not a drop-in substitute for
     docking or a prerequisite for every virtual screen.
+
+- id: pharmmapper
+  name: PharmMapper
+  description: Web server for ligand-based target fishing that maps a query molecule onto reverse pharmacophore models to rank potential protein targets.
+  catalogue: app
+  domain:
+  - target-identification
+  tasks:
+  - target-assessment
+  - pharmacophore-modelling
+  category:
+  - drug-discovery
+  - target-prediction
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: Non-commercial use only; consult the official site terms.
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - DDDC / East China University of Science and Technology
+  website: https://www.lilab-ecust.cn/pharmmapper/
+  repository: []
+  documentation: https://www.lilab-ecust.cn/pharmmapper/
+  citation:
+  - https://doi.org/10.1093/nar/gkx374
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-15'
+  notes: >-
+    PharmMapper uses reverse pharmacophore mapping for target prediction. Treat the ranked
+    candidates as hypotheses and confirm target engagement experimentally. The service states
+    that commercial use is not permitted.
+
+- id: superpred
+  name: SuperPred
+  description: Web server for predicting molecular targets and ATC drug-classification codes from small-molecule structures and similarity patterns.
+  catalogue: app
+  domain:
+  - target-identification
+  tasks:
+  - target-assessment
+  - bioactivity-analysis
+  category:
+  - drug-discovery
+  - target-prediction
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: Not specified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Charité – Universitätsmedizin Berlin
+  website: https://prediction.charite.de/
+  repository: []
+  documentation: https://prediction.charite.de/
+  citation:
+  - https://doi.org/10.1093/nar/gkac297
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-15'
+  notes: >-
+    SuperPred provides computational target predictions and ATC classification. Predictions
+    support target hypotheses rather than proving a compound's mechanism of action.
+
+- id: moltarpred
+  name: MolTarPred
+  description: Web tool for predicting protein targets of small organic molecules by comparing a query compound with target-annotated compounds and reporting a reliability score.
+  catalogue: app
+  domain:
+  - target-identification
+  tasks:
+  - target-assessment
+  - bioactivity-analysis
+  category:
+  - drug-discovery
+  - target-prediction
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: Not specified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Centre de Recherche en Cancérologie de Marseille / Inserm and collaborators
+  website: http://moltarpred.marseille.inserm.fr/
+  repository: []
+  documentation: https://doi.org/10.1111/cbdd.13516
+  citation:
+  - https://doi.org/10.1111/cbdd.13516
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-15'
+  notes: >-
+    MolTarPred compares a query molecule with compounds annotated to protein targets and
+    reports reliability estimates. Check whether the hosted service remains available before
+    relying on it for production workflows.
