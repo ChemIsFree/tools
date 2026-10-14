@@ -110,29 +110,47 @@ def extract_urls(value):
 
 DOMAIN_MAP = {
 
-    "Chemical Structures":
-        "chemical-structures",
+    "Target Identification":
+        "target-identification",
 
-    "Ligand-Based Discovery":
-        "ligand-based-discovery",
+    "Protein Structures":
+        "protein-structures",
 
-    "Structure-Based Discovery":
-        "structure-based-discovery",
-
-    "Molecular Properties & ADMET":
-        "molecular-properties-admet",
-
-    "Synthesis & Reaction Design":
-        "synthesis-reaction-design",
-
-    "Data & Chemical Analysis":
-        "data-analysis",
-
-    "Visualization & Interpretation":
+    "Visualization":
         "visualization",
 
-    "Laboratory & Workflows":
-        "laboratory-workflows",
+    "Binding Pockets":
+        "binding-pockets",
+
+    "Structure-Based":
+        "structure-based",
+
+    "Molecular Dynamics":
+        "molecular-dynamics",
+
+    "Cheminformatics":
+        "cheminformatics",
+
+    "De Novo Design":
+        "de-novo-design",
+
+    "Ligand-Based and QSAR":
+        "ligand-based-qsar",
+
+    "ADMET Prediction":
+        "admet-prediction",
+
+    "Retrosynthesis":
+        "retrosynthesis",
+
+    "Nomenclature and Format Conversion":
+        "nomenclature-format-conversion",
+
+    "Libraries and Datasets":
+        "libraries-datasets",
+
+    "Organization":
+        "organization",
 }
 
 
