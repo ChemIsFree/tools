@@ -3020,3 +3020,92 @@ tools:
     MolTarPred compares a query molecule with compounds annotated to protein targets and
     reports reliability estimates. Check whether the hosted service remains available before
     relying on it for production workflows.
+
+- id: drugbank
+  name: DrugBank
+  description: Drug knowledgebase connecting drug structures, pharmacological properties, mechanisms of action, drug targets, interactions, and clinical information.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  - bioactivity-analysis
+  - clinical-evidence
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: Access and reuse terms vary by use; consult DrugBank licensing terms.
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - DrugBank
+  website: https://go.drugbank.com/
+  repository: []
+  documentation: https://go.drugbank.com/documentation
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-15'
+  notes: >-
+    DrugBank provides drug and target information. Some downloads, redistribution and commercial
+    uses require additional permissions or licensing; check the current terms before reuse.
+
+- id: gtopdb
+  name: IUPHAR/BPS Guide to Pharmacology (GtoPdb)
+  description: Expert-curated pharmacology database connecting protein targets, ligands, quantitative target-ligand interactions, approved drugs, and supporting literature.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  - bioactivity-analysis
+  - clinical-evidence
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: ODbL database; contents CC BY-SA 4.0, with access terms for commercial use.
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - IUPHAR / British Pharmacological Society
+  website: https://www.guidetopharmacology.org/
+  repository: []
+  documentation: https://www.guidetopharmacology.org/webServices.jsp
+  citation:
+  - https://doi.org/10.1093/nar/gkaf1067
+  chemisfree_status: curated-resource
+  verification:
+    status: verified
+    last_checked: '2026-10-15'
+  notes: >-
+    GtoPdb is a database for target identification and should be visible in both Target Identification
+    and Libraries and Datasets. As of 2026, website use requires registration and API access requires
+    an API key. Check the current terms before use in commercial settings.
