@@ -13295,7 +13295,7 @@ tools:
   chemisfree_status: curated-resource
 
 - id: fooddb
-  name: "FooDB"
+  name: "FoodDB"
   description: "Food database linking food constituents, chemical structures, and associated data."
   catalogue: resource
   resource_type: database
