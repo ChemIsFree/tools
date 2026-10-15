@@ -99,6 +99,13 @@ domains:
       - assayer-mordred
       - assayer-rdkit-js
       - molbloom
+  de-novo-design:
+    tools:
+      - assayer-denoptim
+      - assayer-helm-gpt
+      - assayer-ligan
+      - assayer-pcmol
+      - assayer-predms
   ligand-based-discovery:
     tools:
       - assayer-reinvent4
@@ -118,10 +125,10 @@ domains:
       - opera
       - assayer-opera
       - assayer-denoptim
-      - assayer-helm-gpt
       - assayer-pcmol
       - assayer-predms
       - assayer-phytochemdb
+
   structure-based-discovery:
     tools:
       - gnina
