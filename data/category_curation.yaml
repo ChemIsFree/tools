@@ -203,44 +203,10 @@ category_curation:
       notes: "The official dataset repository declares CC-BY-SA-4.0 for data and Apache-2.0 for code; these must not be conflated."
 
 
-    - names: [OpenFold3]
-      replace_categories: true
-      categories: [protein-structures, structure-based]
-      name: OpenFold3
-      catalogue: app
-      type: software
-      access: [free, open-source]
-      source_available: true
-      license: Apache-2.0
-      website: https://openfold.io/
-      repository: https://github.com/aqlaboratory/openfold-3
-      documentation: https://openfold-3.readthedocs.io/en/latest/
-      notes: "OpenFold3-preview is a research implementation based on AlphaFold 3. The official source repository uses Apache-2.0. It remains a preview, so confirm model capability, parameter release and inference status for the selected version."
-
-    - names: [Protenix]
-      replace_categories: true
-      categories: [protein-structures, structure-based]
-      access: [free]
-      source_available: false
-      license: "Apache-2.0 for code; Protenix v2 model weights are proprietary/restricted. Do not assume the full pretrained model is open-source."
-      notes: "The code repository is Apache-2.0; current Protenix v2 model weights have separate restrictions. Check the exact model release and terms before use."
-
     - names: [Protenix-Dock]
       replace_categories: true
       categories: [structure-based]
       notes: "This is the separate Protenix-Dock entry; keep it distinct from the Protenix structure-prediction implementation."
-
-    - names: [Enamine REAL]
-      catalogue: resource
-      resource_type: library
-      type: database
-      access: [commercial]
-      source_available: false
-      license: "Commercial supplier terms; compound access, bulk download, reuse and ordering depend on Enamine agreements."
-      website: https://enamine.net/compound-collections/real-compounds
-      repository: []
-      documentation: https://enamine.net/compound-collections/real-compounds
-      notes: "This is a commercial make-on-demand collection, not a free public compound dataset or open-source resource."
 
     - names: [OpenFold3]
       replace_categories: true
@@ -263,10 +229,6 @@ category_curation:
       source_available: false
       license: "Apache-2.0 code; Protenix v2 model weights are proprietary/restricted. Do not assume the full pretrained model is open-source."
       notes: "The code repository is Apache-2.0; current Protenix v2 model weights have separate restrictions. Check the exact model release and terms before use."
-
-    - names: [Protenix-Dock]
-      replace_categories: true
-      categories: [structure-based]
 
     - names: [MolCRAFT]
       access: [free]
