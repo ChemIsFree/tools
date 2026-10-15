@@ -9732,3 +9732,121 @@ tools:
     status: "official-source-linked"
     last_checked: '2026-10-15'
   notes: "Research code and model resources are non-commercial under the project licence. Generated structures need chemical validity, synthesizability and target-relevant assessment."
+- id: crosstalkr
+  name: "crosstalkr"
+  description: "R package for analysing biological networks and prioritising drug targets and disease subnetworks from protein–protein interaction networks, including in-silico node-repression experiments."
+  catalogue: app
+  domain:
+  - target-identification
+  category:
+  - target-identification
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "GPL-3.0-or-later"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - r
+  - cli
+  languages:
+  - "R"
+  - "C++"
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Davis Weaver and contributors"
+  website: "https://cran.r-project.org/package=crosstalkr"
+  repository: "https://github.com/DavisWeaver/crosstalkr"
+  documentation: "https://github.com/DavisWeaver/crosstalkr"
+  citation: "https://doi.org/10.1371/journal.pcbi.1008755"
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-reviewed"
+    last_checked: '2026-10-15'
+  notes: "Combines PPI subnetwork extraction, node ranking and in-silico repression for drug-target and disease-network prioritisation. Uses external network resources such as STRING and BioGRID."
+
+- id: orbic
+  name: "orbIC"
+  description: "Browser-native hit-to-lead visualisation platform that maps compound activity to an interactive chemical-space graph, with similarity-based neighborhoods and scaffold exploration."
+  catalogue: app
+  domain:
+  - cheminformatics
+  - visualization
+  - ligand-based-qsar
+  category:
+  - cheminformatics
+  - visualization
+  - ligand-based-qsar
+  type: "web-tool"
+  access:
+  []
+  source_available: false
+  license: "No LICENSE file was found in the public repository; public code availability does not grant reuse rights. Contact the authors before modification or redistribution."
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  - "typescript"
+  - "javascript"
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "orbIC contributors"
+  website: "https://github.com/wleejess/orbIC"
+  repository: "https://github.com/wleejess/orbIC"
+  documentation: "https://github.com/wleejess/orbIC"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-reviewed"
+    last_checked: '2026-10-15'
+  notes: "The repository provides local run instructions but no verified public hosted deployment was identified. Treat as an unlicensed prototype until the maintainers clarify reuse permissions."
+
+- id: flexautodock
+  name: "FlexAutoDock"
+  description: "Web application prototype for preparing ligand and protein inputs and coordinating molecular-docking workflows built around AutoDock Vina and related preparation tools."
+  catalogue: app
+  domain:
+  - structure-based
+  - organization
+  category:
+  - structure-based
+  - organization
+  type: "software"
+  access:
+  []
+  source_available: false
+  license: "No LICENSE file was found in the public repository. Use, modification and redistribution rights are therefore unresolved; seek permission from the authors before deployment."
+  platforms:
+  - web
+  interface:
+  - web
+  - cli
+  languages:
+  - "python"
+  - "javascript"
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "FlexAutoDock contributors"
+  website: "https://github.com/faysalfahim/FlexAutodock"
+  repository: "https://github.com/faysalfahim/FlexAutodock"
+  documentation: "https://github.com/faysalfahim/FlexAutodock"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-reviewed"
+    last_checked: '2026-10-15'
+  notes: "Self-hosting requires database and worker services (PostgreSQL, Redis/Celery) in the README. The repository is public but is not labelled open-source due to the absence of an explicit licence."
