@@ -8,6 +8,7 @@ Molecular simulations, trajectory analysis, and free-energy calculations.
 
 | Application | Tasks | Access | Interface | Platforms | Status |
 |---|---|---|---|---|---|
+| [ACPYPE](https://github.com/alanwilter/acpype) | Molecular Dynamics | Free | GUI / Web + CLI | Linux | Curated Resource |
 | [AmberTools](https://ambermd.org/AmberTools.php) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [BioBB Workflows](https://github.com/bioexcel/biobb_workflows) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [CGenFF](https://cgenff.umaryland.edu/) | — | Free Web | GUI / Web | Web | Curated Resource |
@@ -15,6 +16,7 @@ Molecular simulations, trajectory analysis, and free-energy calculations.
 | [cpptraj / pytraj](https://ambermd.org/AmberTools.php) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Desmond](https://www.schrodinger.com/platform/products/desmond/) | — | Commercial | CLI | Linux / Macos / Windows | Curated Resource |
 | [DynaMut2](https://biosig.lab.uq.edu.au/dynamut2/) | Target Assessment & Validation; Free-Energy Calculations | Free | GUI / Web | Web | Curated Resource |
+| [Espaloma](https://github.com/choderalab/espaloma) | Molecular Dynamics | Free | GUI / Web + CLI | Linux | Curated Resource |
 | [fpocket](https://github.com/Discngine/fpocket) | Binding-Site Analysis; Molecular Visualization; Trajectory Analysis | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [GAFF2 / Antechamber](https://ambermd.org/AmberTools.php) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [gmx_MMPBSA](https://github.com/Valdes-Tresanco-MS/gmx_MMPBSA) | Free-Energy Calculations; Molecular Dynamics; Trajectory Analysis | Free / Open Source | CLI | Linux | Curated Resource |
@@ -28,6 +30,7 @@ Molecular simulations, trajectory analysis, and free-energy calculations.
 | [OpenFE](https://openfree.energy/) | Free-Energy Calculations; Molecular Dynamics; Pipeline Execution | Free / Open Source | CLI | Linux | Curated Resource |
 | [OpenMM-Setup](https://github.com/openmm/openmm-setup) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [OpenMMDL](https://github.com/wolberlab/OpenMMDL) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [PLUMED](https://www.plumed.org/) | Molecular Dynamics | Free | GUI / Web + CLI | Linux | Curated Resource |
 | [POVME 2.0](https://github.com/POVME/POVME) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [PyEMMA](https://github.com/markovmodel/PyEMMA) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [QwikMD](https://www.ks.uiuc.edu/Research/vmd/plugins/qwikmd/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
@@ -38,8 +41,12 @@ Molecular simulations, trajectory analysis, and free-energy calculations.
 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
+| [CHARMM-GUI](https://www.charmm-gui.org/) | web-tool | Molecular Dynamics | Free | GUI / Web |
+| [deeptime](https://deeptime-ml.github.io/) | library | Molecular Dynamics | Free | CLI |
 | [MDAnalysis](https://www.mdanalysis.org/) | library | Trajectory Analysis | Free / Open Source | — |
+| [Open Force Field (Sage)](https://openforcefield.org/) | library | Molecular Dynamics | Free | CLI |
 | [OpenMM](https://openmm.org/) | library | Molecular Dynamics | Free / Open Source | CLI |
+| [PyMBAR](https://github.com/choderalab/pymbar) | library | Molecular Dynamics | Free | CLI |
 
 ---
 

@@ -10,6 +10,7 @@ Tools and evidence for discovering, prioritising, and validating biological targ
 |---|---|---|---|---|---|
 | [ChEMBL Web Services](https://www.ebi.ac.uk/chembl/api/data/docs) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [crosstalkr](https://cran.r-project.org/package=crosstalkr) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [Cytoscape](https://cytoscape.org/) | Target Assessment & Validation | Free | GUI / Web + CLI | Linux | Curated Resource |
 | [DataWarrior](https://openmolecules.org/datawarrior/) | Bioactivity Analysis; Data Curation; Chemical Data Analysis; Molecular Descriptors & Properties; Scaffold Analysis; QSAR & Predictive Modelling; Structure Conversion; Molecular Visualization | Free / Open Source | GUI / Web | Linux / Macos / Windows / Desktop | Curated Resource |
 | [DynaMut2](https://biosig.lab.uq.edu.au/dynamut2/) | Target Assessment & Validation; Free-Energy Calculations | Free | GUI / Web | Web | Curated Resource |
 | [FTMap](https://ftmap.bu.edu/) | — | Free Web | GUI / Web | Web | Curated Resource |
@@ -25,9 +26,16 @@ Tools and evidence for discovering, prioritising, and validating biological targ
 |---|---|---|---|---|
 | [Drug Repurposing Hub](https://repo-hub.broadinstitute.org/repurposing) | database | — | Free Web | CLI |
 | [DrugBank](https://go.drugbank.com/) | database | Target Assessment & Validation; Bioactivity Analysis; Clinical & Regulatory Evidence | Free | GUI / Web |
+| [Enrichr](https://maayanlab.cloud/Enrichr/) | web-tool | Target Assessment & Validation | Free | GUI / Web |
+| [g:Profiler](https://biit.cs.ut.ee/gprofiler/) | web-tool | Target Assessment & Validation | Free | GUI / Web |
 | [IUPHAR/BPS Guide to Pharmacology (GtoPdb)](https://www.guidetopharmacology.org/) | database | Target Assessment & Validation; Bioactivity Analysis; Clinical & Regulatory Evidence | Free | GUI / Web |
+| [LigTMap](https://bidd.group/LigTMap/) | web-tool | Target Assessment & Validation | Free | GUI / Web |
 | [Open Targets Platform](https://platform.opentargets.org/) | database | Target Assessment & Validation; Clinical & Regulatory Evidence; Data Curation | Free | GUI / Web |
 | [PubChem BioAssay](https://pubchem.ncbi.nlm.nih.gov/) | database | — | Free Web | CLI |
+| [Reactome](https://reactome.org/) | database | Target Assessment & Validation | Free | GUI / Web |
+| [Similarity Ensemble Approach (SEA)](https://sea.bkslab.org/) | web-tool | Target Assessment & Validation | Free | GUI / Web |
+| [STRING](https://string-db.org/) | database | Target Assessment & Validation | Free | GUI / Web |
+| [TargetNet](https://targetnet.scbdd.com/) | web-tool | Target Assessment & Validation | Free | GUI / Web |
 | [UniProt](https://www.uniprot.org/) | database | Target Assessment & Validation; Data Curation; Protein Preparation | Free | GUI / Web |
 
 ---

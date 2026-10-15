@@ -20,8 +20,10 @@ Manage compounds, inventories, experiments, computing resources, and reproducibl
 | [DataLad](https://www.datalad.org/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [DataWarrior](https://openmolecules.org/datawarrior/) | Bioactivity Analysis; Data Curation; Chemical Data Analysis; Molecular Descriptors & Properties; Scaffold Analysis; QSAR & Predictive Modelling; Structure Conversion; Molecular Visualization | Free / Open Source | GUI / Web | Linux / Macos / Windows / Desktop | Curated Resource |
 | [Docker Engine](https://www.docker.com/) | Research Computing & Infrastructure; Pipeline Execution | Free / Open Source | CLI | Linux | Curated Resource |
+| [DVC](https://dvc.org/) | Workflow Construction | Free | GUI / Web + CLI | Linux | Curated Resource |
 | [eLabFTW](https://www.elabftw.net/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Figshare](https://figshare.com/) | — | Free Web | GUI / Web | Web | Curated Resource |
+| [Galaxy](https://galaxyproject.org/) | Workflow Construction | Free | GUI / Web | Web | Curated Resource |
 | [Git](https://git-scm.com/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [GitHub](https://github.com/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [GROMACS](https://www.gromacs.org/) | Molecular Dynamics; Trajectory Analysis; Free-Energy Calculations; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
@@ -32,6 +34,8 @@ Manage compounds, inventories, experiments, computing resources, and reproducibl
 | [LinChemIn](https://github.com/syngenta/linchemin) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [MolVE](https://github.com/drigoni/MolVE) | Chemical Data Analysis; Molecular Visualization; Machine Learning; Workflow Construction | Free / Open Source | GUI / Web | Linux | Curated Resource |
 | [myChEMBL](https://github.com/chembl/mychembl) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [Nextflow](https://www.nextflow.io/) | Workflow Construction | Free | GUI / Web + CLI | Linux | Curated Resource |
+| [Obsidian](https://obsidian.md/) | Workflow Construction | Free | GUI / Web + CLI | Linux | Curated Resource |
 | [Open Drug Discovery Toolkit (ODDT)](https://oddt.readthedocs.io/) | Interaction Analysis; Molecular Docking; Structure-Based Virtual Screening; Bioactivity Analysis; Data Curation | Free / Open Source | — | Linux / Macos / Windows | Curated Resource |
 | [Open Enventory](https://sourceforge.net/projects/enventory/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Open Science Framework (OSF)](https://osf.io/) | — | Free Web | GUI / Web | Web | Curated Resource |
@@ -42,6 +46,7 @@ Manage compounds, inventories, experiments, computing resources, and reproducibl
 | [QwikMD](https://www.ks.uiuc.edu/Research/vmd/plugins/qwikmd/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Ringtail](https://github.com/forlilab/Ringtail) | Structure-Based Virtual Screening; Molecular Docking; Data Curation; Pipeline Execution | Free / Open Source | CLI | Linux | Curated Resource |
 | [RSpace ELN](https://www.researchspace.com/) | — | Commercial | CLI | Linux / Macos / Windows | Curated Resource |
+| [Snakemake](https://snakemake.github.io/) | Workflow Construction | Free | GUI / Web + CLI | Linux | Curated Resource |
 | [VirtualFlow](https://virtual-flow.org/) | Structure-Based Virtual Screening; Molecular Docking; Pipeline Execution; Workflow Construction | Free / Open Source | CLI | Linux / Cloud | Curated Resource |
 | [Zenodo](https://zenodo.org/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [Zotero](https://www.zotero.org/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |

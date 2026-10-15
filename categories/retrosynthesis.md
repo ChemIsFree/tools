@@ -26,6 +26,9 @@ Plan synthetic routes, predict reactions, and assess retrosynthetic feasibility.
 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
+| [RAscore](https://github.com/reymond-group/RAscore) | library | Retrosynthesis | Free | CLI |
+| [SCScore](https://github.com/connorcoley/scscore) | library | Retrosynthesis | Free | CLI |
+| [SYBA](https://github.com/lich-uct/syba) | library | Retrosynthesis | Free | CLI |
 | [USPTO Patent Reaction Dataset](https://www.uspto.gov/ip-policy/economic-research/research-datasets) | dataset | Benchmarks & Datasets; Reaction Prediction | Free Web | GUI / Web |
 
 ---
