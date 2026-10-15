@@ -1,4 +1,5 @@
 from pathlib import Path
+import re
 
 import yaml
 
@@ -7,12 +8,24 @@ ROOT = Path(__file__).resolve().parents[2]
 
 TOOLS_FILE = ROOT / "data" / "tools.yaml"
 TAXONOMY_FILE = ROOT / "data" / "taxonomy.yaml"
+CURATION_FILE = ROOT / "data" / "category_curation.yaml"
 CATEGORIES_DIR = ROOT / "categories"
 
 
 # ---------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------
+
+def normalized_name(value):
+    return re.sub(r"[^a-z0-9]+", "", str(value or "").lower())
+
+
+def name_matches(tool, aliases):
+    values = [normalized_name(tool.get("name")), normalized_name(tool.get("id"))]
+    targets = [normalized_name(alias) for alias in aliases]
+    return any(value and target and (value == target or (len(target) >= 5 and target in value))
+               for value in values for target in targets)
+
 
 def format_status(status):
 
@@ -95,6 +108,11 @@ def main():
             handle
         )
 
+    with open(CURATION_FILE, "r", encoding="utf-8") as handle:
+        curation_data = yaml.safe_load(handle) or {}
+
+    target_keep = (curation_data.get("category_curation", {}).get("target-identification", {}) or {}).get("keep", [])
+
     tools = tools_data.get(
         "tools",
         []
@@ -128,16 +146,24 @@ def main():
 
     for domain_id, domain in domains.items():
 
-        domain_tools = [
-            tool
-            for tool in tools
-            if domain_id in (
-                tool.get(
-                    "domain",
-                    []
+        if domain_id == "target-identification":
+            # Target Identification is an editorial shortlist, not an automatic
+            # keyword bucket. Keep only the names approved in category_curation.yaml.
+            domain_tools = [
+                tool for tool in tools
+                if name_matches(tool, target_keep)
+            ]
+        else:
+            domain_tools = [
+                tool
+                for tool in tools
+                if domain_id in (
+                    tool.get(
+                        "domain",
+                        []
+                    )
                 )
-            )
-        ]
+            ]
 
         if not domain_tools:
             continue
