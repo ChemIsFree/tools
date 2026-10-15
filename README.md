@@ -101,7 +101,8 @@ Contribution guidelines will be provided here as the project develops.
 
 The ChemIsFree website builds its live catalogue from the structured files in `data/`. When curating or updating an entry, update the relevant structured source as well as the human-readable category page when applicable:
 
-- `data/tools.yaml` — canonical tool and resource records shown on the website, including names, descriptions, domains/categories, access, interfaces, and links.
+- `data/tools.yaml` — canonical structured records for catalogue entries, including names, descriptions, domain assignments, access, interfaces, and links.
+- `data/assayer_free_registry.json` — supplemental imported records used by the website build for Assayer-listed resources.
 - `data/featured_tools.yaml` — controls the Featured selection on the website. Adding an entry to a category page alone does not make it featured.
 - `data/taxonomy.yaml` — category and task definitions used by the website.
 - `categories/<category>.md` — readable category documentation and curated resource tables; this file alone does not populate the live website catalogue.
