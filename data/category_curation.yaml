@@ -143,18 +143,6 @@ category_curation:
       documentation: https://github.com/chaidiscovery/chai-lab
       notes: "Official code and model weights are distributed under Apache-2.0 according to the project repository; verify third-party components and model version separately."
 
-    - names: [Open Reaction Database]
-      catalogue: resource
-      resource_type: dataset
-      type: dataset
-      access: [free-web]
-      source_available: false
-      license: "CC-BY-SA-4.0 for dataset records; Apache-2.0 for code"
-      website: https://open-reaction-database.org/
-      repository: https://github.com/open-reaction-database/ord-data
-      documentation: https://docs.open-reaction-database.org/en/stable/overview.html
-      notes: "The dataset and code have separate licences: ORD data are CC-BY-SA-4.0; associated code in ord-data is Apache-2.0."
-
     - names: [Enamine REAL, Enamine REAL database]
       catalogue: resource
       resource_type: library
@@ -175,16 +163,6 @@ category_curation:
       license: "Hosted research service; no blanket open-source licence inferred"
       website: https://passer.smu.edu/
       notes: "Treat PASSer as an online allosteric-site prediction service. Verify service availability and terms before automating requests."
-
-    - names: [RSpace, RSpace ELN]
-      catalogue: app
-      type: software
-      access: [free, open-source]
-      source_available: true
-      license: "Provider advertises an open-source self-hosted edition alongside commercial hosted subscriptions; confirm the selected edition and licence"
-      website: https://www.researchspace.com/
-      documentation: https://www.researchspace.com/
-      notes: "The hosted offering has subscription pricing; open-source self-hosting and hosted-service terms should not be conflated."
 
     - names: [Indigo ELN]
       catalogue: app
@@ -268,6 +246,59 @@ category_curation:
       access: [free]
       source_available: false
       license: "The provider advertises a self-hosted open-source edition alongside commercial hosted subscriptions; confirm the exact self-hosted release licence before tagging it open-source."
+      notes: "Do not conflate hosted subscription terms with the self-hosted distribution."
+
+
+    - names: [OpenFold3]
+      replace_categories: true
+      categories: [protein-structures, structure-based]
+      name: OpenFold3
+      catalogue: app
+      type: software
+      access: [free, open-source]
+      source_available: true
+      license: Apache-2.0
+      website: https://openfold.io/
+      repository: https://github.com/aqlaboratory/openfold-3
+      documentation: https://openfold-3.readthedocs.io/en/latest/
+      notes: "OpenFold3-preview is a research implementation based on AlphaFold 3. The official repository uses Apache-2.0; it remains a preview, so confirm model capability and inference status for the selected release."
+
+    - names: [Protenix]
+      replace_categories: true
+      categories: [protein-structures, structure-based]
+      access: [free]
+      source_available: false
+      license: "Apache-2.0 code; Protenix v2 model weights are proprietary/restricted. Do not assume the full pretrained model is open-source."
+      notes: "The code repository is Apache-2.0; current Protenix v2 model weights have separate restrictions. Check the exact model release and terms before use."
+
+    - names: [Protenix-Dock]
+      replace_categories: true
+      categories: [structure-based]
+
+    - names: [MolCRAFT]
+      access: [free]
+      source_available: false
+      license: "CC-BY-NC-SA-4.0; non-commercial and share-alike terms. Not an OSI-approved open-source software licence."
+      notes: "The official repository is CC-BY-NC-SA-4.0. Do not give this entry an open-source badge or use it for commercial work without permission."
+
+    - names: [Enamine REAL]
+      replace_categories: true
+      categories: [libraries-datasets]
+      catalogue: resource
+      resource_type: library
+      type: database
+      access: [commercial]
+      source_available: false
+      license: "Commercial supplier terms; compound access, bulk download, reuse and ordering depend on Enamine agreements."
+      website: https://enamine.net/compound-collections/real-compounds
+      repository: []
+      documentation: https://enamine.net/compound-collections/real-compounds
+      notes: "This is a commercial make-on-demand collection, not a free public compound dataset or open-source resource."
+
+    - names: [RSpace, RSpace ELN]
+      access: [free]
+      source_available: false
+      license: "A self-hosted open-source edition is advertised alongside commercial hosted subscriptions; confirm the precise self-hosted release licence before tagging it open-source."
       notes: "Do not conflate hosted subscription terms with the self-hosted distribution."
 
   category_membership:
