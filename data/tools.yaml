@@ -10138,3 +10138,81 @@ tools:
     status: "official-source-linked"
     last_checked: '2026-10-15'
   notes: "Can simplify multi-language environments. Do not use alongside every environment manager by default; choose one appropriate to the project."
+- id: openadmet-models
+  name: "OpenADMET Models"
+  description: "Open machine-learning workflows and model architectures for building, training and evaluating ADMET predictors, with accompanying examples and benchmark assets."
+  catalogue: resource
+  resource_type: library
+  domain:
+  - admet-prediction
+  - libraries-datasets
+  category:
+  - admet-prediction
+  - libraries-datasets
+  type: "library"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT for OpenADMET Models code; data and model assets may use separate licences (often CC BY 4.0)"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  - cli
+  languages:
+  - "python"
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://openadmet.org/"
+  repository: "https://github.com/OpenADMET/openadmet-models"
+  documentation: "https://docs.openadmet.org/en/latest/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The code licence is MIT according to the official repository. Check the licence attached to each dataset or model before reuse; do not assume one licence covers the whole OpenADMET ecosystem."
+
+- id: polaris-benchmarks
+  name: "Polaris"
+  description: "Platform and benchmark ecosystem for evaluating molecular-property and drug-discovery models with versioned datasets, tasks and reproducible evaluation workflows."
+  catalogue: resource
+  resource_type: dataset
+  domain:
+  - admet-prediction
+  - libraries-datasets
+  category:
+  - admet-prediction
+  - libraries-datasets
+  type: "benchmark"
+  access:
+  - free-web
+  source_available: false
+  license: "Platform terms apply; each benchmark dataset has its own licence and data-use conditions"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://polarishub.io/"
+  repository: "https://github.com/polarishub/polaris"
+  documentation: "https://polarishub.io/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Treat the platform, SDK and each benchmark dataset separately. Check individual data licences and platform terms rather than assigning one blanket open-source status."
