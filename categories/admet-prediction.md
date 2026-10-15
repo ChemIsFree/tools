@@ -40,6 +40,8 @@ Predict physicochemical, absorption, distribution, metabolism, excretion, and to
 | [Chemistry Development Kit](https://cdk.github.io/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search | Free / Open Source | — |
 | [DILIrank](https://www.fda.gov/science-research/bioinformatics-tools/dilirank) | dataset | — | Free Web | CLI |
 | [hERG Central](https://hergcentral.org/) | database | — | Free Web | CLI |
+| [OpenADMET Models](https://openadmet.org/) | library | — | Free / Open Source | CLI |
+| [Polaris](https://polarishub.io/) | dataset | — | Free Web | GUI / Web |
 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | database | Molecular Descriptors & Properties; Structure Search; Bioactivity Analysis | Free | GUI / Web |
 | [RDKit](https://www.rdkit.org/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search; Chemical Space Analysis | Free / Open Source | — |
 | [Therapeutics Data Commons (TDC)](https://tdcommons.ai/) | library | Benchmarks & Datasets; Machine Learning; QSAR & Predictive Modelling; ADME Prediction; Toxicity Prediction; Bioactivity Analysis | Free / Open Source | — |

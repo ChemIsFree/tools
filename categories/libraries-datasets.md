@@ -58,10 +58,12 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [MUV — Maximum Unbiased Validation](https://pubchem.ncbi.nlm.nih.gov/) | dataset | — | Free Web | CLI |
 | [NCI Open Database](https://cactus.nci.nih.gov/download/nci/) | database | — | Free Web | CLI |
 | [Open Targets Platform](https://platform.opentargets.org/) | database | Target Assessment & Validation; Clinical & Regulatory Evidence; Data Curation | Free | GUI / Web |
+| [OpenADMET Models](https://openadmet.org/) | library | — | Free / Open Source | CLI |
 | [OpenMM](https://openmm.org/) | library | Molecular Dynamics | Free / Open Source | CLI |
 | [PDBbind](http://www.pdbbind.org.cn/) | dataset | — | Free | CLI |
 | [Pharos](https://pharos.nih.gov/) | database | Target Assessment & Validation; Bioactivity Analysis; Data Curation | Free | GUI / Web |
 | [PLINDER](https://github.com/plinder-org/plinder) | dataset | — | Free | CLI |
+| [Polaris](https://polarishub.io/) | dataset | — | Free Web | GUI / Web |
 | [PromptSMILES](https://github.com/compsciencelab/PromptSMILES) | library | Generative Chemistry; Scaffold Analysis | Free / Open Source | — |
 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | database | Molecular Descriptors & Properties; Structure Search; Bioactivity Analysis | Free | GUI / Web |
 | [PubChem BioAssay](https://pubchem.ncbi.nlm.nih.gov/) | database | — | Free Web | CLI |
