@@ -97,6 +97,21 @@ Contribution guidelines will be provided here as the project develops.
 
 ---
 
+## Website catalogue and source of truth
+
+The ChemIsFree website builds its live catalogue from the structured files in `data/`. When curating or updating an entry, update the relevant structured source as well as the human-readable category page when applicable:
+
+- `data/tools.yaml` — canonical tool and resource records shown on the website, including names, descriptions, domains/categories, access, interfaces, and links.
+- `data/featured_tools.yaml` — controls the Featured selection on the website. Adding an entry to a category page alone does not make it featured.
+- `data/taxonomy.yaml` — category and task definitions used by the website.
+- `categories/<category>.md` — readable category documentation and curated resource tables; this file alone does not populate the live website catalogue.
+
+The website rebuilds its generated catalogue from these structured files. Its scheduled rebuild also checks for catalogue changes automatically, so updates should normally appear on the live site within about an hour. For an immediate refresh, run **Build and Deploy ChemIsFree Website** manually from the website repository's Actions tab.
+
+Before finishing a category update, check that the resource exists in `data/tools.yaml`, has the correct domain assignment, and is present in the relevant category page. Update `data/featured_tools.yaml` only when the curation instructions call for it.
+
+---
+
 ## Quality and curation
 
 ChemIsFree aims to provide useful and accurate information rather than simply collecting as many links as possible.
