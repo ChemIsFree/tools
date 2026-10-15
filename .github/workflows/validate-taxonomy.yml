@@ -5,6 +5,9 @@ on:
     paths:
       - "data/taxonomy.yaml"
       - "data/tools.yaml"
+      - ".github/scripts/generate_categories.py"
+      - "data/featured_tools.yaml"
+      - "data/category_curation.yaml"
       - ".github/ISSUE_TEMPLATE/suggest-a-tool.yml"
       - ".github/scripts/process_accepted_tool.py"
       - ".github/scripts/test_functional_taxonomy.py"
