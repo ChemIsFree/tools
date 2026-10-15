@@ -30,7 +30,6 @@ Tools and evidence for discovering, prioritising, and validating biological targ
 | [PLATO](http://plato.uniba.it/) | Molecular Docking; Structure-Based Virtual Screening; Bioactivity Analysis | Free | GUI / Web | — | registry-listed |
 | [PPB2](https://ppb2.gdb.tools/) | Target Assessment & Validation; ADME Prediction | Free | GUI / Web | Web | Curated Resource |
 | [ProteinsPlus / DoGSiteScorer](https://proteins.plus/) | — | Free Web | GUI / Web | Web | Curated Resource |
-| [rDGIdb](http://bioconductor.org/packages/release/bioc/html/rDGIdb.html) | Target Assessment & Validation; Compound Library Search | Free / Open Source | — | — | registry-listed |
 | [Reactome](https://reactome.org/) | Target Assessment & Validation | Free | GUI / Web | Web | Curated Resource |
 | [Similarity Ensemble Approach (SEA)](https://sea.bkslab.org/) | Target Assessment & Validation | Free | GUI / Web | Web | Curated Resource |
 | [SSM-DTA](https://github.com/QizhiPei/SSM-DTA) | Target Assessment & Validation | Free / Open Source | — | — | registry-listed |
