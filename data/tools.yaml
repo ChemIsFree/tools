@@ -10616,3 +10616,2574 @@ tools:
   chemisfree_status: curated-resource
   verification: {status: official-source-linked, last_checked: '2026-10-15'}
   notes: "This entry describes the GPL open-source distribution, not the separately licensed commercial PyMOL builds. Check platform packaging and current repository terms."
+
+- id: string
+  name: STRING
+  description: Database and network-analysis resource for known and predicted protein-protein functional associations.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://string-db.org/
+  repository: []
+  documentation: https://string-db.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: cytoscape
+  name: Cytoscape
+  description: Open-source network visualization and analysis platform with applications for biological interaction networks.
+  catalogue: app
+  resource_type: software
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://cytoscape.org/
+  repository: []
+  documentation: https://cytoscape.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: enrichr
+  name: Enrichr
+  description: Web-based gene-set enrichment analysis across pathway, ontology, and other annotation libraries.
+  catalogue: resource
+  resource_type: web-tool
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: web tool
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://maayanlab.cloud/Enrichr/
+  repository: []
+  documentation: https://maayanlab.cloud/Enrichr/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: g-profiler
+  name: g:Profiler
+  description: Web and API toolkit for functional enrichment analysis, identifier conversion, and gene-list mapping.
+  catalogue: resource
+  resource_type: web-tool
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: web tool
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://biit.cs.ut.ee/gprofiler/
+  repository: []
+  documentation: https://biit.cs.ut.ee/gprofiler/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: reactome
+  name: Reactome
+  description: Curated, open-access pathway knowledgebase for biological processes and pathway enrichment.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://reactome.org/
+  repository: []
+  documentation: https://reactome.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: sea
+  name: Similarity Ensemble Approach (SEA)
+  description: Ligand-similarity method for predicting potential protein targets from sets of known ligands.
+  catalogue: resource
+  resource_type: web-tool
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: web tool
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://sea.bkslab.org/
+  repository: []
+  documentation: https://sea.bkslab.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: ligtmap
+  name: LigTMap
+  description: Ligand-based target prediction resource for mapping small molecules to potential protein targets.
+  catalogue: resource
+  resource_type: web-tool
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: web tool
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://bidd.group/LigTMap/
+  repository: []
+  documentation: https://bidd.group/LigTMap/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: targetnet
+  name: TargetNet
+  description: Web resource for ligand-based prediction of potential drug-target interactions.
+  catalogue: resource
+  resource_type: web-tool
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: web tool
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://targetnet.scbdd.com/
+  repository: []
+  documentation: https://targetnet.scbdd.com/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: ppb2
+  name: PPB2
+  description: Web server for predicting plasma protein binding of small molecules.
+  catalogue: resource
+  resource_type: web-tool
+  domain:
+  - admet-prediction
+  - libraries-datasets
+  tasks:
+  - admet-prediction
+  category:
+  - drug-discovery
+  - machine-learning
+  type: web tool
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://ppb2.gdb.tools/
+  repository: []
+  documentation: https://ppb2.gdb.tools/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: alphafill
+  name: AlphaFill
+  description: Resource that transfers ligands, cofactors, and ions into predicted protein structures using homologous experimental structures.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - protein-structures
+  - libraries-datasets
+  tasks:
+  - protein-structure-prediction
+  category:
+  - data-and-databases
+  - molecular-modelling
+  type: database
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: optional
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://alphafill.eu/
+  repository: []
+  documentation: https://alphafill.eu/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: colabfold
+  name: ColabFold
+  description: Accessible protein structure prediction workflow using MMseqs2 and AlphaFold2-family models.
+  catalogue: app
+  resource_type: software
+  domain:
+  - protein-structures
+  - libraries-datasets
+  tasks:
+  - protein-structure-prediction
+  category:
+  - data-and-databases
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/sokrypton/ColabFold
+  repository: []
+  documentation: https://github.com/sokrypton/ColabFold
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: boltz-2
+  name: Boltz-2
+  description: Open biomolecular modeling system for structure prediction and affinity-related predictions; check current model documentation before workflow use.
+  catalogue: app
+  resource_type: software
+  domain:
+  - protein-structures
+  - libraries-datasets
+  tasks:
+  - protein-structure-prediction
+  category:
+  - data-and-databases
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/jwohlwend/boltz
+  repository: []
+  documentation: https://github.com/jwohlwend/boltz
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: rosettafold
+  name: RoseTTAFold
+  description: Deep-learning-based protein structure prediction framework and associated research software.
+  catalogue: app
+  resource_type: software
+  domain:
+  - protein-structures
+  - libraries-datasets
+  tasks:
+  - protein-structure-prediction
+  category:
+  - data-and-databases
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/RosettaCommons/RoseTTAFold
+  repository: []
+  documentation: https://github.com/RosettaCommons/RoseTTAFold
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: avogadro
+  name: Avogadro
+  description: Open-source molecular editor and visualization application for building, viewing, and preparing molecular structures.
+  catalogue: app
+  resource_type: software
+  domain:
+  - visualization
+  - libraries-datasets
+  tasks:
+  - molecular-visualization
+  category:
+  - visualization
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://avogadro.cc/
+  repository: []
+  documentation: https://avogadro.cc/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: molstar
+  name: Mol*
+  description: Web-based molecular visualization and structural biology toolkit for interactive macromolecular structures.
+  catalogue: app
+  resource_type: software
+  domain:
+  - visualization
+  - libraries-datasets
+  tasks:
+  - molecular-visualization
+  category:
+  - visualization
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://molstar.org/
+  repository: []
+  documentation: https://molstar.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: 3dmol-js
+  name: 3Dmol.js
+  description: JavaScript library for interactive 3D visualization of molecular structures in web applications.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - visualization
+  - libraries-datasets
+  tasks:
+  - molecular-visualization
+  category:
+  - visualization
+  - molecular-modelling
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://3dmol.csb.pitt.edu/
+  repository: []
+  documentation: https://3dmol.csb.pitt.edu/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: ngl-viewer
+  name: NGL Viewer
+  description: WebGL-based molecular visualization library for interactive display of molecular structures and trajectories.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - visualization
+  - libraries-datasets
+  tasks:
+  - molecular-visualization
+  category:
+  - visualization
+  - molecular-modelling
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://nglviewer.org/
+  repository: []
+  documentation: https://nglviewer.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: castp
+  name: CASTp
+  description: Web server for identifying and characterizing protein pockets and solvent-accessible surface features.
+  catalogue: resource
+  resource_type: web-tool
+  domain:
+  - binding-pockets
+  - libraries-datasets
+  tasks:
+  - binding-site-analysis
+  category:
+  - molecular-modelling
+  - drug-discovery
+  type: web tool
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: optional
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: http://sts.bioe.uic.edu/castp/
+  repository: []
+  documentation: http://sts.bioe.uic.edu/castp/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: deeppocket
+  name: DeepPocket
+  description: Deep-learning approach for detecting protein binding pockets from three-dimensional structures.
+  catalogue: app
+  resource_type: software
+  domain:
+  - binding-pockets
+  - libraries-datasets
+  tasks:
+  - binding-site-analysis
+  category:
+  - molecular-modelling
+  - drug-discovery
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/ckaykendall/DeepPocket
+  repository: []
+  documentation: https://github.com/ckaykendall/DeepPocket
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: pocketminer
+  name: PocketMiner
+  description: Machine-learning approach for predicting cryptic binding pockets from protein structures.
+  catalogue: app
+  resource_type: software
+  domain:
+  - binding-pockets
+  - libraries-datasets
+  tasks:
+  - binding-site-analysis
+  category:
+  - molecular-modelling
+  - drug-discovery
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/rdk/pocketminer
+  repository: []
+  documentation: https://github.com/rdk/pocketminer
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: autodock-gpu
+  name: AutoDock-GPU
+  description: GPU-accelerated implementation of AutoDock4 for molecular docking.
+  catalogue: app
+  resource_type: software
+  domain:
+  - structure-based
+  - libraries-datasets
+  tasks:
+  - molecular-docking
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/ccsb-scripps/AutoDock-GPU
+  repository: []
+  documentation: https://github.com/ccsb-scripps/AutoDock-GPU
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: vina-gpu
+  name: Vina-GPU
+  description: GPU-accelerated molecular docking implementation based on AutoDock Vina-style search and scoring.
+  catalogue: app
+  resource_type: software
+  domain:
+  - structure-based
+  - libraries-datasets
+  tasks:
+  - molecular-docking
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/DeltaGroupNJUPT/Vina-GPU
+  repository: []
+  documentation: https://github.com/DeltaGroupNJUPT/Vina-GPU
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: uni-dock
+  name: Uni-Dock
+  description: GPU-accelerated molecular docking software for high-throughput virtual screening.
+  catalogue: app
+  resource_type: software
+  domain:
+  - structure-based
+  - libraries-datasets
+  tasks:
+  - molecular-docking
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/dptech-corp/Uni-Dock
+  repository: []
+  documentation: https://github.com/dptech-corp/Uni-Dock
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: haddock3
+  name: HADDOCK3
+  description: Integrative docking platform for modeling biomolecular complexes using experimental and computational restraints.
+  catalogue: app
+  resource_type: software
+  domain:
+  - structure-based
+  - libraries-datasets
+  tasks:
+  - molecular-docking
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/haddocking/haddock3
+  repository: []
+  documentation: https://github.com/haddocking/haddock3
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: swissdock
+  name: SwissDock
+  description: Web service for structure-based molecular docking and pose prediction.
+  catalogue: resource
+  resource_type: web-tool
+  domain:
+  - structure-based
+  - libraries-datasets
+  tasks:
+  - molecular-docking
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: web tool
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: optional
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://www.swissdock.ch/
+  repository: []
+  documentation: https://www.swissdock.ch/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: mtiopenscreen
+  name: MTiOpenScreen
+  description: Web server for virtual screening of small-molecule libraries against protein targets.
+  catalogue: resource
+  resource_type: web-tool
+  domain:
+  - structure-based
+  - libraries-datasets
+  tasks:
+  - molecular-docking
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: web tool
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: optional
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://bioserv.rpbs.univ-paris-diderot.fr/services/MTiOpenScreen/
+  repository: []
+  documentation: https://bioserv.rpbs.univ-paris-diderot.fr/services/MTiOpenScreen/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: charmm-gui
+  name: CHARMM-GUI
+  description: Web-based interface for preparing molecular systems and input files for molecular simulations.
+  catalogue: resource
+  resource_type: web-tool
+  domain:
+  - molecular-dynamics
+  - libraries-datasets
+  tasks:
+  - molecular-dynamics
+  category:
+  - molecular-modelling
+  type: web tool
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://www.charmm-gui.org/
+  repository: []
+  documentation: https://www.charmm-gui.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: plumed
+  name: PLUMED
+  description: Open-source plugin for enhanced-sampling methods and analysis of molecular simulations.
+  catalogue: app
+  resource_type: software
+  domain:
+  - molecular-dynamics
+  - libraries-datasets
+  tasks:
+  - molecular-dynamics
+  category:
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://www.plumed.org/
+  repository: []
+  documentation: https://www.plumed.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: openff-sage
+  name: Open Force Field (Sage)
+  description: Open force-field parameter set and ecosystem for small-molecule molecular mechanics.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - molecular-dynamics
+  - libraries-datasets
+  tasks:
+  - molecular-dynamics
+  category:
+  - molecular-modelling
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://openforcefield.org/
+  repository: []
+  documentation: https://openforcefield.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: espaloma
+  name: Espaloma
+  description: Machine-learning force field framework for assigning molecular mechanics parameters to small molecules.
+  catalogue: app
+  resource_type: software
+  domain:
+  - molecular-dynamics
+  - libraries-datasets
+  tasks:
+  - molecular-dynamics
+  category:
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/choderalab/espaloma
+  repository: []
+  documentation: https://github.com/choderalab/espaloma
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: acpype
+  name: ACPYPE
+  description: Tool for generating AMBER and GROMACS topology files from small-molecule parameters.
+  catalogue: app
+  resource_type: software
+  domain:
+  - molecular-dynamics
+  - libraries-datasets
+  tasks:
+  - molecular-dynamics
+  category:
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/alanwilter/acpype
+  repository: []
+  documentation: https://github.com/alanwilter/acpype
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: pymbar
+  name: PyMBAR
+  description: Python toolkit for multistate Bennett acceptance ratio analysis and free-energy estimation.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - molecular-dynamics
+  - libraries-datasets
+  tasks:
+  - molecular-dynamics
+  category:
+  - molecular-modelling
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/choderalab/pymbar
+  repository: []
+  documentation: https://github.com/choderalab/pymbar
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: deeptime
+  name: deeptime
+  description: Python library for statistical analysis and machine learning of molecular dynamics and dynamical systems.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - molecular-dynamics
+  - libraries-datasets
+  tasks:
+  - molecular-dynamics
+  category:
+  - molecular-modelling
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://deeptime-ml.github.io/
+  repository: []
+  documentation: https://deeptime-ml.github.io/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: rdkit-js
+  name: RDKit.js
+  description: JavaScript/WebAssembly distribution of RDKit functionality for browser-based cheminformatics.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - cheminformatics
+  - libraries-datasets
+  tasks:
+  - structure-conversion
+  category:
+  - cheminformatics
+  - drug-discovery
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/rdkit/rdkit
+  repository: []
+  documentation: https://github.com/rdkit/rdkit
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: cdpkit
+  name: CDPKit
+  description: Open-source cheminformatics and molecular modeling toolkit with APIs and command-line utilities.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - cheminformatics
+  - libraries-datasets
+  tasks:
+  - structure-conversion
+  category:
+  - cheminformatics
+  - drug-discovery
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/molinfo-vienna/CDPKit
+  repository: []
+  documentation: https://github.com/molinfo-vienna/CDPKit
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: kekule-js
+  name: Kekule.js
+  description: JavaScript framework for chemical structure editing, rendering, and cheminformatics in web applications.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - cheminformatics
+  - libraries-datasets
+  tasks:
+  - structure-conversion
+  category:
+  - cheminformatics
+  - drug-discovery
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/partridgejiang/Kekule.js
+  repository: []
+  documentation: https://github.com/partridgejiang/Kekule.js
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: datamol
+  name: Datamol
+  description: Python toolkit that simplifies common cheminformatics workflows built around RDKit.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - cheminformatics
+  - libraries-datasets
+  tasks:
+  - structure-conversion
+  category:
+  - cheminformatics
+  - drug-discovery
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/datamol-io/datamol
+  repository: []
+  documentation: https://github.com/datamol-io/datamol
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: molfeat
+  name: molfeat
+  description: Python package for generating molecular features and fingerprints for machine learning.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - cheminformatics
+  - libraries-datasets
+  tasks:
+  - structure-conversion
+  category:
+  - cheminformatics
+  - drug-discovery
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/datamol-io/molfeat
+  repository: []
+  documentation: https://github.com/datamol-io/molfeat
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: scikit-mol
+  name: scikit-mol
+  description: Scikit-learn-compatible molecular featurization and cheminformatics tools.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - cheminformatics
+  - libraries-datasets
+  tasks:
+  - structure-conversion
+  category:
+  - cheminformatics
+  - drug-discovery
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/EBjerrum/scikit-mol
+  repository: []
+  documentation: https://github.com/EBjerrum/scikit-mol
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: molvs
+  name: MolVS
+  description: RDKit-based molecule validation, standardization, and normalization toolkit.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - cheminformatics
+  - libraries-datasets
+  tasks:
+  - structure-conversion
+  category:
+  - cheminformatics
+  - drug-discovery
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/mcs07/MolVS
+  repository: []
+  documentation: https://github.com/mcs07/MolVS
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: mordred
+  name: Mordred
+  description: Python package for calculating a broad range of molecular descriptors for QSAR and cheminformatics.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - cheminformatics
+  - libraries-datasets
+  tasks:
+  - structure-conversion
+  category:
+  - cheminformatics
+  - drug-discovery
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/mordred-descriptor/mordred
+  repository: []
+  documentation: https://github.com/mordred-descriptor/mordred
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: ketcher
+  name: Ketcher
+  description: Web-based chemical structure editor for drawing and editing molecular structures.
+  catalogue: app
+  resource_type: software
+  domain:
+  - cheminformatics
+  - libraries-datasets
+  tasks:
+  - structure-conversion
+  category:
+  - cheminformatics
+  - drug-discovery
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/epam/ketcher
+  repository: []
+  documentation: https://github.com/epam/ketcher
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: drugex
+  name: DrugEx
+  description: Framework for deep-learning-based de novo molecular design and optimization.
+  catalogue: app
+  resource_type: software
+  domain:
+  - de-novo-design
+  - libraries-datasets
+  tasks:
+  - generative-chemistry
+  category:
+  - drug-discovery
+  - machine-learning
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/CDDLeiden/DrugEx
+  repository: []
+  documentation: https://github.com/CDDLeiden/DrugEx
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: graphinvent
+  name: GraphINVENT
+  description: Graph neural network framework for generating molecular graphs for de novo design.
+  catalogue: app
+  resource_type: software
+  domain:
+  - de-novo-design
+  - libraries-datasets
+  tasks:
+  - generative-chemistry
+  category:
+  - drug-discovery
+  - machine-learning
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/MolecularAI/GraphINVENT
+  repository: []
+  documentation: https://github.com/MolecularAI/GraphINVENT
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: guacamol
+  name: GuacaMol
+  description: Benchmark suite for evaluating goal-directed molecular generation and distribution-learning models.
+  catalogue: resource
+  resource_type: dataset
+  domain:
+  - de-novo-design
+  - libraries-datasets
+  tasks:
+  - generative-chemistry
+  category:
+  - drug-discovery
+  - machine-learning
+  type: dataset
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: optional
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/BenevolentAI/guacamol
+  repository: []
+  documentation: https://github.com/BenevolentAI/guacamol
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: moses
+  name: MOSES
+  description: Benchmark suite and datasets for evaluating molecular generation models.
+  catalogue: resource
+  resource_type: dataset
+  domain:
+  - de-novo-design
+  - libraries-datasets
+  tasks:
+  - generative-chemistry
+  category:
+  - drug-discovery
+  - machine-learning
+  type: dataset
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: optional
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/molecularsets/moses
+  repository: []
+  documentation: https://github.com/molecularsets/moses
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: diffsbdd
+  name: DiffSBDD
+  description: Diffusion-based method for generating ligand structures conditioned on protein binding sites.
+  catalogue: app
+  resource_type: software
+  domain:
+  - de-novo-design
+  - libraries-datasets
+  tasks:
+  - generative-chemistry
+  category:
+  - drug-discovery
+  - machine-learning
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/arneschneuing/DiffSBDD
+  repository: []
+  documentation: https://github.com/arneschneuing/DiffSBDD
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: difflinker
+  name: DiffLinker
+  description: Diffusion-based generative method for linking molecular fragments in three-dimensional space.
+  catalogue: app
+  resource_type: software
+  domain:
+  - de-novo-design
+  - libraries-datasets
+  tasks:
+  - generative-chemistry
+  category:
+  - drug-discovery
+  - machine-learning
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/igashov/DiffLinker
+  repository: []
+  documentation: https://github.com/igashov/DiffLinker
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: autogrow4
+  name: AutoGrow4
+  description: Open-source evolutionary algorithm for structure-based de novo drug design.
+  catalogue: app
+  resource_type: software
+  domain:
+  - de-novo-design
+  - libraries-datasets
+  tasks:
+  - generative-chemistry
+  category:
+  - drug-discovery
+  - machine-learning
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/akamolecule/AutoGrow4
+  repository: []
+  documentation: https://github.com/akamolecule/AutoGrow4
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: rxnflow
+  name: RxnFlow
+  description: Generative framework for synthesizable molecule design using reaction-based flow networks.
+  catalogue: app
+  resource_type: software
+  domain:
+  - de-novo-design
+  - libraries-datasets
+  tasks:
+  - generative-chemistry
+  category:
+  - drug-discovery
+  - machine-learning
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: optional
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/SeonghwanSeo/RxnFlow
+  repository: []
+  documentation: https://github.com/SeonghwanSeo/RxnFlow
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: chemprop
+  name: Chemprop
+  description: Message-passing neural network framework for molecular property prediction.
+  catalogue: app
+  resource_type: software
+  domain:
+  - ligand-based-qsar
+  - libraries-datasets
+  tasks:
+  - qsar
+  category:
+  - drug-discovery
+  - machine-learning
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/chemprop/chemprop
+  repository: []
+  documentation: https://github.com/chemprop/chemprop
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: qsartuna
+  name: QSARtuna
+  description: Open-source automated machine-learning workflow for molecular property prediction and QSAR.
+  catalogue: app
+  resource_type: software
+  domain:
+  - ligand-based-qsar
+  - libraries-datasets
+  tasks:
+  - qsar
+  category:
+  - drug-discovery
+  - machine-learning
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/MolecularAI/QSARtuna
+  repository: []
+  documentation: https://github.com/MolecularAI/QSARtuna
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: scikit-learn
+  name: scikit-learn
+  description: General-purpose Python machine-learning library commonly used for QSAR model training and validation.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - ligand-based-qsar
+  - libraries-datasets
+  tasks:
+  - qsar
+  category:
+  - drug-discovery
+  - machine-learning
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://scikit-learn.org/
+  repository: []
+  documentation: https://scikit-learn.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: vnn-admet
+  name: vNN-ADMET
+  description: Virtual nearest-neighbor models for predicting ADMET-related properties from chemical structures.
+  catalogue: resource
+  resource_type: web-tool
+  domain:
+  - admet-prediction
+  - libraries-datasets
+  tasks:
+  - admet-prediction
+  category:
+  - drug-discovery
+  - machine-learning
+  type: web tool
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://vnnadmet.bhsai.org/
+  repository: []
+  documentation: https://vnnadmet.bhsai.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: scscore
+  name: SCScore
+  description: Synthetic complexity score based on machine learning for estimating molecular synthetic accessibility.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - retrosynthesis
+  - libraries-datasets
+  tasks:
+  - retrosynthesis
+  category:
+  - cheminformatics
+  - drug-discovery
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/connorcoley/scscore
+  repository: []
+  documentation: https://github.com/connorcoley/scscore
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: syba
+  name: SYBA
+  description: Bayesian model for estimating synthetic accessibility of organic molecules.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - retrosynthesis
+  - libraries-datasets
+  tasks:
+  - retrosynthesis
+  category:
+  - cheminformatics
+  - drug-discovery
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/lich-uct/syba
+  repository: []
+  documentation: https://github.com/lich-uct/syba
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: rascore
+  name: RAscore
+  description: Model for predicting whether a retrosynthesis planner can find a route for a molecule.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - retrosynthesis
+  - libraries-datasets
+  tasks:
+  - retrosynthesis
+  category:
+  - cheminformatics
+  - drug-discovery
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/reymond-group/RAscore
+  repository: []
+  documentation: https://github.com/reymond-group/RAscore
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: open-reaction-database
+  name: Open Reaction Database
+  description: Open schema and repository for sharing machine-readable organic reaction data.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  - libraries-datasets
+  tasks:
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://open-reaction-database.org/
+  repository: []
+  documentation: https://open-reaction-database.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: lotus
+  name: LOTUS Natural Products Online
+  description: Open natural-products database linking structures to taxonomic and literature information.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  - libraries-datasets
+  tasks:
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://lotus.naturalproducts.net/
+  repository: []
+  documentation: https://lotus.naturalproducts.net/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: coconut
+  name: COCONUT
+  description: Open collection of natural products with standardized chemical structures and identifiers.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  - libraries-datasets
+  tasks:
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://coconut.naturalproducts.net/
+  repository: []
+  documentation: https://coconut.naturalproducts.net/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: bindingdb
+  name: BindingDB
+  description: Public database of measured binding affinities for protein-ligand interactions.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  - libraries-datasets
+  tasks:
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://www.bindingdb.org/
+  repository: []
+  documentation: https://www.bindingdb.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: moleculenet
+  name: MoleculeNet
+  description: Benchmark collection for machine-learning tasks in molecular and materials sciences.
+  catalogue: resource
+  resource_type: dataset
+  domain:
+  - libraries-datasets
+  - libraries-datasets
+  tasks:
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: dataset
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://moleculenet.org/
+  repository: []
+  documentation: https://moleculenet.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: zinc22
+  name: ZINC-22
+  description: Chemical library resource for purchasable compounds and virtual screening.
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  - libraries-datasets
+  tasks:
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://cartblanche22.docking.org/
+  repository: []
+  documentation: https://cartblanche22.docking.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: snakemake
+  name: Snakemake
+  description: Workflow management system for reproducible and scalable data analysis pipelines.
+  catalogue: app
+  resource_type: software
+  domain:
+  - organization
+  - libraries-datasets
+  tasks:
+  - workflow-construction
+  category:
+  - utilities-and-workflows
+  - data-and-databases
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://snakemake.github.io/
+  repository: []
+  documentation: https://snakemake.github.io/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: nextflow
+  name: Nextflow
+  description: Workflow orchestration framework for portable, scalable computational pipelines.
+  catalogue: app
+  resource_type: software
+  domain:
+  - organization
+  - libraries-datasets
+  tasks:
+  - workflow-construction
+  category:
+  - utilities-and-workflows
+  - data-and-databases
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://www.nextflow.io/
+  repository: []
+  documentation: https://www.nextflow.io/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: galaxy
+  name: Galaxy
+  description: Web-based platform for accessible, reproducible computational research workflows.
+  catalogue: app
+  resource_type: software
+  domain:
+  - organization
+  - libraries-datasets
+  tasks:
+  - workflow-construction
+  category:
+  - utilities-and-workflows
+  - data-and-databases
+  type: platform
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - Project maintainers
+  website: https://galaxyproject.org/
+  repository: []
+  documentation: https://galaxyproject.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: dvc
+  name: DVC
+  description: Open-source data and machine-learning experiment versioning tools for reproducible projects.
+  catalogue: app
+  resource_type: software
+  domain:
+  - organization
+  - libraries-datasets
+  tasks:
+  - workflow-construction
+  category:
+  - utilities-and-workflows
+  - data-and-databases
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://dvc.org/
+  repository: []
+  documentation: https://dvc.org/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: obsidian
+  name: Obsidian
+  description: Knowledge-management application useful for organizing research notes and literature-linked project documentation.
+  catalogue: app
+  resource_type: software
+  domain:
+  - organization
+  - libraries-datasets
+  tasks:
+  - workflow-construction
+  category:
+  - utilities-and-workflows
+  - data-and-databases
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://obsidian.md/
+  repository: []
+  documentation: https://obsidian.md/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: blender-molecular-nodes
+  name: Blender + Molecular Nodes
+  description: Molecular visualization and rendering workflow combining Blender with the Molecular Nodes add-on.
+  catalogue: app
+  resource_type: software
+  domain:
+  - visualization
+  - libraries-datasets
+  tasks:
+  - molecular-visualization
+  category:
+  - visualization
+  - molecular-modelling
+  type: software
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - gui
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - binary
+  status: active
+  developers:
+  - Project maintainers
+  website: https://brs-llc.github.io/
+  repository: []
+  documentation: https://brs-llc.github.io/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
+
+- id: nglview
+  name: nglview
+  description: Jupyter widget for interactive molecular structure visualization using NGL Viewer.
+  catalogue: resource
+  resource_type: library
+  domain:
+  - visualization
+  - libraries-datasets
+  tasks:
+  - molecular-visualization
+  category:
+  - visualization
+  - molecular-modelling
+  type: library
+  access:
+  - free
+  source_available: false
+  license: Not verified
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - Project maintainers
+  website: https://github.com/nglviewer/nglview
+  repository: []
+  documentation: https://github.com/nglviewer/nglview
+  citation: []
+  chemisfree_status: curated-resource
+  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
