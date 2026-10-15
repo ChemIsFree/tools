@@ -10996,7 +10996,7 @@ tools:
   - molecular-modelling
   type: software
   access:
-  - open-source
+  - free
   source_available: true
   license: MIT (code; model/weight terms vary)
   platforms:
@@ -11188,7 +11188,7 @@ tools:
   platforms:
   - web
   interface:
-  - javascript
+  - api
   - api
   languages: []
   gpu: not-required
@@ -11225,7 +11225,7 @@ tools:
   platforms:
   - web
   interface:
-  - javascript
+  - api
   - api
   languages: []
   gpu: not-required
@@ -11292,19 +11292,17 @@ tools:
   type: software
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
-  - macos
-  - windows
   interface:
-  - gui
   - cli
+  - python
   languages: []
-  gpu: optional
+  gpu: recommended
   installation:
-  - binary
+  - source
   status: active
   developers:
   - Project maintainers
@@ -11653,14 +11651,15 @@ tools:
   - molecular-modelling
   type: library
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: MIT
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - python
-  - cli
   languages: []
   gpu: not-required
   installation:
@@ -11673,7 +11672,6 @@ tools:
   documentation: https://openforcefield.org/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: espaloma
@@ -11847,7 +11845,7 @@ tools:
   - macos
   - windows
   interface:
-  - javascript
+  - api
   - api
   languages: []
   gpu: not-required
@@ -11925,7 +11923,7 @@ tools:
   platforms:
   - web
   interface:
-  - javascript
+  - api
   - api
   languages: []
   gpu: not-required
