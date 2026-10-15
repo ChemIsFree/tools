@@ -17,7 +17,7 @@ Learn from known compounds, bioactivity measurements, pharmacophores, and ligand
 | [DataWarrior](https://openmolecules.org/datawarrior/) | Bioactivity Analysis; Data Curation; Chemical Data Analysis; Molecular Descriptors & Properties; Scaffold Analysis; QSAR & Predictive Modelling; Structure Conversion; Molecular Visualization | Free / Open Source | GUI / Web | Linux / Macos / Windows / Desktop | Curated Resource |
 | [Fragmenstein](https://github.com/matteoferla/Fragmenstein) | Generative Chemistry; Pharmacophore Modelling; Scaffold Analysis; Structure-Based Virtual Screening; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [KNIME Analytics Platform](https://www.knime.com/) | Chemical Data Analysis; Machine Learning; Workflow Construction; Pipeline Execution | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
-| [LIGSIFT](https://github.com) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [LIGSIFT](https://pubs.acs.org/doi/10.1021/ci200060s) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [LS-align](https://zhanggroup.org/LS-align/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [MolVE](https://github.com/drigoni/MolVE) | Chemical Data Analysis; Molecular Visualization; Machine Learning; Workflow Construction | Free / Open Source | GUI / Web | Linux | Curated Resource |
 | [OCHEM](https://ochem.eu/) | — | Free Web | GUI / Web | Web | Curated Resource |
