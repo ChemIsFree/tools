@@ -17,8 +17,6 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | [Fragmenstein](https://github.com/matteoferla/Fragmenstein) | Generative Chemistry; Pharmacophore Modelling; Scaffold Analysis; Structure-Based Virtual Screening; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [GNINA](https://gnina.github.io/gnina/) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux / Macos | Curated Resource |
 | [iScreen](https://iscreen.cau.ac.kr/) | — | Free Web | GUI / Web | Web | Curated Resource |
-| [LeDock](http://www.lephar.com/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
-| [LeView](https://github.com) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [LigPlot+](https://www.ebi.ac.uk/thornton-srv/software/LigPlus/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Meeko](https://meeko.readthedocs.io/) | Ligand Preparation; Protein Preparation; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [MGLTools / AutoDockTools](https://ccsb.scripps.edu/mgltools/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
@@ -34,7 +32,6 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | [PLIP](https://plip-tool.biotec.tu-dresden.de/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [PLIP (Protein-Ligand Interaction Profiler)](https://plip-tool.biotec.tu-dresden.de/plip-web/plip/index) | Binding-Site Analysis; Structure-Based Virtual Screening | Free | GUI / Web + CLI | Linux / Windows / Web / Other | Curated Resource |
 | [Pocket2Mol](https://github.com/pengxingang/Pocket2Mol) | Generative Chemistry; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux | Curated Resource |
-| [PocketFlow](https://github.com) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [PoseView](https://proteins.plus/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [ProLIF](https://prolif.readthedocs.io/) | Interaction Analysis; Data Curation; Chemical Data Analysis; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [PROPKA](https://github.com/jensengroup/propka) | Protein Preparation; Binding-Site Analysis | Free | CLI | Linux / Macos / Windows | Curated Resource |
@@ -51,14 +48,12 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
 | [Astex Diverse Set](https://www.ccdc.cam.ac.uk/) | dataset | — | Free | CLI |
-| [BigBind](https://github.com) | dataset | — | Free | CLI |
 | [Binding MOAD](https://bindingmoad.org/) | database | — | Free Web | CLI |
 | [CASF-2016](http://www.pdbbind.org.cn/) | dataset | — | Free | CLI |
 | [Chemistry Development Kit](https://cdk.github.io/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search | Free / Open Source | — |
 | [CrossDocked2020](https://bits.csb.pitt.edu/files/crossdocked_pocket10/) | dataset | — | Free | CLI |
 | [D3R / CSAR Datasets](https://drugdesigndata.org/) | dataset | — | Free Web | CLI |
 | [DEKOIS 2.0](https://www.dekois.com/) | dataset | — | Free Web | CLI |
-| [DUBS Dataset](https://github.com) | dataset | — | Free | CLI |
 | [PDBbind](http://www.pdbbind.org.cn/) | dataset | — | Free | CLI |
 | [PLINDER](https://github.com/plinder-org/plinder) | dataset | — | Free | CLI |
 | [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |

@@ -8,7 +8,6 @@ Learn from known compounds, bioactivity measurements, pharmacophores, and ligand
 
 | Application | Tasks | Access | Interface | Platforms | Status |
 |---|---|---|---|---|---|
-| [ADMET-boost](https://github.com) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [AIMSim](https://github.com/ersilia-os/aimsim) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Align-it](https://www.openbabel.org/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [chemfp](https://chemfp.com/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
@@ -17,7 +16,6 @@ Learn from known compounds, bioactivity measurements, pharmacophores, and ligand
 | [DataSAIL](https://github.com/kalininalab/DataSAIL) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [DataWarrior](https://openmolecules.org/datawarrior/) | Bioactivity Analysis; Data Curation; Chemical Data Analysis; Molecular Descriptors & Properties; Scaffold Analysis; QSAR & Predictive Modelling; Structure Conversion; Molecular Visualization | Free / Open Source | GUI / Web | Linux / Macos / Windows / Desktop | Curated Resource |
 | [Fragmenstein](https://github.com/matteoferla/Fragmenstein) | Generative Chemistry; Pharmacophore Modelling; Scaffold Analysis; Structure-Based Virtual Screening; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
-| [Interpret-ADMET](https://github.com) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [KNIME Analytics Platform](https://www.knime.com/) | Chemical Data Analysis; Machine Learning; Workflow Construction; Pipeline Execution | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [LIGSIFT](https://github.com) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [LS-align](https://zhanggroup.org/LS-align/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
@@ -29,7 +27,6 @@ Learn from known compounds, bioactivity measurements, pharmacophores, and ligand
 | [PharmaGist](https://bioinfo3d.cs.tau.ac.il/PharmaGist/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [Pharmit](https://pharmit.csb.pitt.edu/) | Pharmacophore Modelling; Ligand-Based Virtual Screening; Compound Library Search | Free | GUI / Web | Web | Curated Resource |
 | [REINVENT4](https://github.com/MolecularAI/REINVENT4) | Generative Chemistry; Scaffold Analysis; Chemical Space Analysis | Free / Open Source | CLI | Linux | Curated Resource |
-| [SHAFTS](https://pubs.acs.org/doi/10.1021/ci200060s) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Shape-it](https://www.openbabel.org/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [SwissSimilarity](https://www.swisssimilarity.ch/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [VEGA QSAR](https://www.vegahub.eu/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |

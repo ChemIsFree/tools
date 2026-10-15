@@ -9,7 +9,6 @@ Identify and characterize ligand-binding sites, cavities, and pockets on macromo
 | Application | Tasks | Access | Interface | Platforms | Status |
 |---|---|---|---|---|---|
 | [AE-PocketMiner](https://github.com/bowman-lab/ae-pocketminer) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
-| [AlloSite](https://github.com) | — | Free | GUI / Web | Web | Curated Resource |
 | [CAVIAR](https://jr-marchand.github.io/caviar/) | Binding-Site Analysis; Molecular Visualization | Free | GUI / Web + CLI | Linux / Windows / Desktop | Curated Resource |
 | [CavityPlus](http://pkumdl.cn/cavityplus/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [CB-Dock2](https://cadd.labshare.cn/cb-dock2/) | — | Free Web | GUI / Web | Web | Curated Resource |
@@ -37,7 +36,6 @@ Identify and characterize ligand-binding sites, cavities, and pockets on macromo
 |---|---|---|---|---|
 | [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) | database | Protein Structure Prediction; Binding-Site Analysis; Molecular Visualization | Free | GUI / Web |
 | [CryptoBench](https://github.com/skrhakv/CryptoBench) | dataset | — | Free | CLI |
-| [Ligand-Binding Site Comparison Benchmarks](https://github.com) | dataset | — | Free | CLI |
 | [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |
 
 ---

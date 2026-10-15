@@ -10,7 +10,6 @@ Compound collections, screening libraries, curated reference databases, and scie
 |---|---|---|---|---|---|
 | [ChEMBL Web Services](https://www.ebi.ac.uk/chembl/api/data/docs) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [Figshare](https://figshare.com/) | — | Free Web | GUI / Web | Web | Curated Resource |
-| [GenBench3D](https://github.com) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Pharmit](https://pharmit.csb.pitt.edu/) | Pharmacophore Modelling; Ligand-Based Virtual Screening; Compound Library Search | Free | GUI / Web | Web | Curated Resource |
 | [PubChem Identifier Exchange Service](https://pubchem.ncbi.nlm.nih.gov/idexchange/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [Zenodo](https://zenodo.org/) | — | Free Web | GUI / Web | Web | Curated Resource |
@@ -22,9 +21,6 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) | database | Protein Structure Prediction; Binding-Site Analysis; Molecular Visualization | Free | GUI / Web |
 | [AlphaMissense (precomputed predictions)](https://console.cloud.google.com/storage/browser/dm_alphamissense) | database | Target Assessment & Validation; Clinical & Regulatory Evidence | Free | GUI / Web |
 | [Astex Diverse Set](https://www.ccdc.cam.ac.uk/) | dataset | — | Free | CLI |
-| [Awesome Cheminformatics](https://github.com) | educational | — | Free | CLI |
-| [Awesome Chemistry Datasets](https://github.com) | educational | — | Free | CLI |
-| [BigBind](https://github.com) | dataset | — | Free | CLI |
 | [Binding MOAD](https://bindingmoad.org/) | database | — | Free Web | CLI |
 | [Biopython](https://biopython.org/) | library | Data Curation | Free / Open Source | — |
 | [CAS Common Chemistry](https://commonchemistry.cas.org/) | database | — | Free Web | CLI |
@@ -43,14 +39,12 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [DILIrank](https://www.fda.gov/science-research/bioinformatics-tools/dilirank) | dataset | — | Free Web | CLI |
 | [Drug Repurposing Hub](https://repo-hub.broadinstitute.org/repurposing) | database | — | Free Web | CLI |
 | [DrugBank](https://go.drugbank.com/) | database | Target Assessment & Validation; Bioactivity Analysis; Clinical & Regulatory Evidence | Free | GUI / Web |
-| [DUBS Dataset](https://github.com) | dataset | — | Free | CLI |
 | [Electron Microscopy Data Bank (EMDB)](https://www.ebi.ac.uk/emdb/) | database | — | Free Web | CLI |
 | [Enamine REAL](https://enamine.net/compound-collections/real-compounds) | database | Compound Library Search; Ligand-Based Virtual Screening; Inventory Management | Free | GUI / Web |
 | [GDB-17](https://gdb.unibe.ch/) | dataset | — | Free | CLI |
 | [hERG Central](https://hergcentral.org/) | database | — | Free Web | CLI |
 | [Human Metabolome Database (HMDB)](https://hmdb.ca/) | database | — | Free Web | CLI |
 | [IUPHAR/BPS Guide to Pharmacology (GtoPdb)](https://www.guidetopharmacology.org/) | database | Target Assessment & Validation; Bioactivity Analysis; Clinical & Regulatory Evidence | Free | GUI / Web |
-| [Ligand-Binding Site Comparison Benchmarks](https://github.com) | dataset | — | Free | CLI |
 | [MDAnalysis](https://www.mdanalysis.org/) | library | Trajectory Analysis | Free / Open Source | — |
 | [ModBase](https://modbase.compbio.ucsf.edu/) | database | — | Free Web | CLI |
 | [ModelArchive](https://modelarchive.org/) | database | — | Free Web | CLI |

@@ -11,7 +11,6 @@ Molecular simulations, trajectory analysis, and free-energy calculations.
 | [AmberTools](https://ambermd.org/AmberTools.php) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [BioBB Workflows](https://github.com/bioexcel/biobb_workflows) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [CGenFF](https://cgenff.umaryland.edu/) | — | Free Web | GUI / Web | Web | Curated Resource |
-| [CHAPERONg](https://github.com) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Desmond](https://www.schrodinger.com/platform/products/desmond/) | — | Commercial | CLI | Linux / Macos / Windows | Curated Resource |
 | [DynaMut2](https://biosig.lab.uq.edu.au/dynamut2/) | Target Assessment & Validation; Free-Energy Calculations | Free | GUI / Web | Web | Curated Resource |
 | [fpocket](https://github.com/Discngine/fpocket) | Binding-Site Analysis; Molecular Visualization; Trajectory Analysis | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |

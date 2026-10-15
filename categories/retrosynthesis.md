@@ -9,7 +9,6 @@ Plan synthetic routes, predict reactions, and assess retrosynthetic feasibility.
 | Application | Tasks | Access | Interface | Platforms | Status |
 |---|---|---|---|---|---|
 | [AiZynthFinder](https://github.com/MolecularAI/aizynthfinder) | Retrosynthesis; Synthetic Route Planning; Reaction Prediction | Free / Open Source | CLI | Linux | Curated Resource |
-| [BR-SAScore](https://github.com) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Chemical.AI](https://www.chemical.ai/) | — | Commercial | GUI / Web | Web | Curated Resource |
 | [Graph2Edits](https://github.com/Jamson-Zhong/Graph2Edits) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [LillyMol](https://github.com/IanAWatson/LillyMol) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |

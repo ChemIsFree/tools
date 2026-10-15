@@ -52,7 +52,6 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
-| [Awesome Cheminformatics](https://github.com) | educational | — | Free | CLI |
 | [Biopython](https://biopython.org/) | library | Data Curation | Free / Open Source | — |
 | [ChEMBL](https://www.ebi.ac.uk/chembl/) | database | Bioactivity Analysis; Data Curation | Free | GUI / Web |
 | [Chemistry Development Kit](https://cdk.github.io/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search | Free / Open Source | — |
