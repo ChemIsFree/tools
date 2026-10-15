@@ -104,7 +104,6 @@ domains:
       - assayer-denoptim
       - assayer-helm-gpt
       - assayer-ligan
-      - assayer-pcmol
       - assayer-predms
   ligand-based-discovery:
     tools:
