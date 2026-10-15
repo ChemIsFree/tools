@@ -4,39 +4,39 @@
 domains:
   target-identification:
     tools:
-      - cansar
-      - chembl-multitask-model
-      - ctd
-      - dapredict
+      - assayer-cansar
+      - assayer-chembl-multitask-target-prediction
+      - assayer-ctd
+      - assayer-dapredict
       - datawarrior
-      - deepcdr
-      - dgidb
+      - assayer-deepcdr
+      - assayer-dgidb
       - dynamut2
       - ftmap
-      - genemania
+      - assayer-genemania
       - open-targets
       - gpcrdb
-      - klifs
+      - assayer-open-targets-genetics
+      - assayer-klifs
       - ligtmap
-      - omnipath
-      - patentchem
-      - pdbe-kb
-      - plato
+      - assayer-omnipath
+      - assayer-patentchem
+      - assayer-pdbe-kb
+      - assayer-plato
       - ppb2
-      - proteinsplus
       - dogsitescorer
       - reactome
       - sea
-      - ssm-dta
-      - swisstargetprediction
+      - assayer-ssm-dta
+      - assayer-swisstargetprediction
       - targetnet
-      - transformercpi
+      - assayer-transformercpi
       - zinclick
       - pharmmapper
       - superpred
       - moltarpred
-      - fasttargetpred
-      - ttd
+      - assayer-fasttargetpred
+      - assayer-therapeutic-target-database
       - uniprot
       - drugbank
       - gtopdb
