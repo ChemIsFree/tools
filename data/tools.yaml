@@ -9653,3 +9653,82 @@ tools:
     status: "official-source-linked"
     last_checked: '2026-10-15'
   notes: "Treat the platform, SDK and each benchmark dataset separately. Check individual data licences and platform terms rather than assigning one blanket open-source status."
+- id: protenix
+  name: "Protenix"
+  description: "Open-source biomolecular complex structure prediction framework in the AlphaFold 3 family. Licence terms differ between source code and particular model-weight releases."
+  catalogue: app
+  domain:
+  - protein-structures
+  - structure-based
+  category:
+  - protein-structures
+  - structure-based
+  type: "software"
+  access:
+  - free
+  source_available: true
+  license: "Apache-2.0 for code; Protenix v2 model weights are proprietary/restricted according to the project release notes. Verify the precise release before use."
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  - cli
+  languages:
+  - "python"
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "ByteDance and project contributors"
+  website: "https://github.com/bytedance/Protenix"
+  repository: "https://github.com/bytedance/Protenix"
+  documentation: "https://github.com/bytedance/Protenix"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Keep model version and weight licence visible. A permissive code licence does not make restricted pretrained weights open-source or commercially reusable."
+
+- id: molcraft
+  name: "MolCRAFT"
+  description: "Research model for 3D structure-based drug design that generates molecular candidates in continuous parameter space and supports molecular optimisation."
+  catalogue: app
+  domain:
+  - de-novo-design
+  - structure-based
+  category:
+  - de-novo-design
+  - structure-based
+  type: "software"
+  access:
+  - free
+  source_available: true
+  license: "CC-BY-NC-SA (non-commercial; not an OSI-approved open-source software licence). Check the exact model/code bundle and terms before redistribution."
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  - cli
+  languages:
+  - "python"
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Tsinghua AI and related project contributors"
+  website: "https://github.com/GenSI-THUAIR/MolCRAFT"
+  repository: "https://github.com/GenSI-THUAIR/MolCRAFT"
+  documentation: "https://github.com/GenSI-THUAIR/MolCRAFT"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Research code and model resources are non-commercial under the project licence. Generated structures need chemical validity, synthesizability and target-relevant assessment."
