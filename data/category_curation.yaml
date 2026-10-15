@@ -601,6 +601,7 @@ category_curation:
       - 'Open3DQSAR'
       - 'DataSAIL'
       - 'QSPRpred'
+      - 'OPERA'
     admet-prediction:
       - 'SwissADME'
       - 'ADMETlab 3.0'
