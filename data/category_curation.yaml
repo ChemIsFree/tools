@@ -294,6 +294,41 @@ category_curation:
       license: "A self-hosted open-source edition is advertised alongside commercial hosted subscriptions; confirm the precise self-hosted release licence before tagging it open-source."
       notes: "Do not conflate hosted subscription terms with the self-hosted distribution."
 
+
+    - names: [AlphaFold Protein Structure Database, AlphaFold DB]
+      replace_categories: true
+      categories: [protein-structures, libraries-datasets]
+      notes: "Predicted protein structure database. Structures are useful as structural hypotheses, not as substitutes for relevant ligand-bound experimental complexes."
+
+    - names: [VEGA QSAR, VEGA]
+      replace_categories: true
+      categories: [admet-prediction, ligand-based-qsar]
+      access: [free, open-source]
+      source_available: true
+      license: "GPL-3.0"
+      website: "https://www.vegahub.eu/download/vega-qsar-download/"
+      documentation: "https://www.vegahub.eu/download/vega-qsar-download/"
+      notes: "The official download page declares GPL-3.0 for the VEGA QSAR software. Individual models still require scrutiny of endpoint definitions, applicability domains and reliability."
+
+    - names: [Human Metabolome Database, Human Metabolome Database (HMDB), HMDB]
+      replace_categories: true
+      categories: [libraries-datasets]
+      access: [free-web]
+      source_available: false
+      license: "CC BY-NC 4.0; commercial reuse and redistribution require explicit permission."
+      website: "https://hmdb.ca/"
+      notes: "HMDB is a metabolomics database, not a general-purpose compound library. Commercial reuse and redistribution require permission."
+
+    - names: [AE-PocketMiner]
+      replace_categories: true
+      categories: [binding-pockets]
+      access: [free, open-source]
+      source_available: true
+      license: "MIT"
+      website: "https://github.com/bowman-lab/ae-pocketminer"
+      repository: "https://github.com/bowman-lab/ae-pocketminer"
+      notes: "Official repository declares MIT. Local prediction in the documented environment requires Linux and a GPU; the legacy PocketMiner web interface is not the same model."
+
   category_membership:
     target-identification:
       - 'Open Targets Platform'
@@ -398,6 +433,7 @@ category_curation:
       - 'PoseView'
       - 'PandaMap'
       - 'PDBsum'
+      - 'Protein Design Visualizer (PDV)'
     binding-pockets:
       - 'P2Rank / PrankWeb'
       - 'P2Rank'
@@ -472,6 +508,7 @@ category_curation:
       - 'OpenFold'
       - 'Protenix'
       - 'PocketFlow'
+      - 'FlexAID'
     molecular-dynamics:
       - 'GROMACS'
       - 'OpenMM'
@@ -636,6 +673,7 @@ category_curation:
       - 'admetSAR 2.0'
       - 'ADMET-boost'
       - 'Interpret-ADMET'
+      - 'VEGA QSAR'
     retrosynthesis:
       - 'AiZynthFinder'
       - 'ASKCOS'
@@ -692,6 +730,7 @@ category_curation:
       - 'ChEMBL web services'
       - 'ChEMBL API'
       - 'InChI software'
+      - 'InChI Software'
     libraries-datasets:
       - 'ZINC-22'
       - 'ZINC20 informer set'
@@ -749,6 +788,10 @@ category_curation:
       - 'PLINDER'
       - 'Virtual Screening Validation Resources'
       - 'GenBench3D'
+      - 'LBS-comparison'
+      - 'USPTO Patent Reaction Dataset'
+      - 'Awesome Chemistry Datasets'
+      - 'Awesome Cheminformatics'
     organization:
       - 'Chemotion ELN'
       - 'Chemotion Repository'
@@ -785,3 +828,7 @@ category_curation:
       - 'Apptainer'
       - 'conda-lock'
       - 'Pixi'
+      - 'JupyterLab'
+      - 'Conda'
+      - 'Mamba'
+      - 'Docker Engine'
