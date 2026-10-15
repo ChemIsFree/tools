@@ -64,6 +64,19 @@ domains:
       - assayer-lacuna
       - meeko
       - assayer-observed-antibody-space-oas
+      - rcsb-pdb
+      - 3d-beacons
+      - alphafold-protein-structure-database
+      - emdb
+      - modbase
+      - modelarchive
+      - pdb-redo
+      - pdbe
+      - pdbj
+      - pdbsum
+      - swiss-model-repository
+      - uniprot
+      - wwpdb-validation-reports
       - openfold3
       - assayer-pep-sitefinder
       - assayer-peptidy
