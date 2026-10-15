@@ -42,7 +42,6 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | [PoseView](https://proteins.plus/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [ProLIF](https://prolif.readthedocs.io/) | Interaction Analysis; Data Curation; Chemical Data Analysis; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [PROPKA](https://github.com/jensengroup/propka) | Protein Preparation; Binding-Site Analysis | Free | CLI | Linux / Macos / Windows | Curated Resource |
-| [ProteinsPlus](https://proteins.plus/) | Binding-Site Analysis; Protein Preparation; Molecular Docking | Free | GUI / Web | Web | Curated Resource |
 | [Protenix](https://github.com/bytedance/Protenix) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [PyRx](https://pyrx.sourceforge.io/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [QuickVina 2](https://github.com/QVina/qvina) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |

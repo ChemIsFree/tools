@@ -11,14 +11,12 @@ Learn from known compounds, bioactivity measurements, pharmacophores, and ligand
 | [AIMSim](https://github.com/ersilia-os/aimsim) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Align-it](https://www.openbabel.org/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [BR-SAScore](https://pypi.org/project/BRSAScore/) | Synthetic Route Planning; QSAR & Predictive Modelling | Free | CLI | Linux / Windows | Curated Resource |
-| [ChEMBL Multitask Model](https://chembl.github.io/chembl_multitask_model/) | Target Assessment & Validation; Bioactivity Analysis; QSAR & Predictive Modelling | Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [chemfp](https://chemfp.com/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [ChemLint](https://github.com/molML/ChemLint) | Structure Conversion; Structure Search; Chemical Data Analysis; Machine Learning; Workflow Construction | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Chemprop](https://github.com/chemprop/chemprop) | QSAR & Predictive Modelling | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [CReM-pharm](https://github.com/ci-lab-cz/crem-pharm) | Generative Chemistry; Pharmacophore Modelling | Free / Open Source | CLI | Linux | Curated Resource |
 | [DataSAIL](https://github.com/kalininalab/DataSAIL) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [DataWarrior](https://openmolecules.org/datawarrior/) | Bioactivity Analysis; Data Curation; Chemical Data Analysis; Molecular Descriptors & Properties; Scaffold Analysis; QSAR & Predictive Modelling; Structure Conversion; Molecular Visualization | Free / Open Source | GUI / Web | Linux / Macos / Windows / Desktop | Curated Resource |
-| [DeepCDR](https://github.com/hauldhut/DeepCDR) | Bioactivity Analysis; QSAR & Predictive Modelling | Free | CLI | Linux | Curated Resource |
 | [Fragmenstein](https://github.com/matteoferla/Fragmenstein) | Generative Chemistry; Pharmacophore Modelling; Scaffold Analysis; Structure-Based Virtual Screening; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [KNIME Analytics Platform](https://www.knime.com/) | Chemical Data Analysis; Machine Learning; Workflow Construction; Pipeline Execution | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [LIGSIFT](https://pubs.acs.org/doi/10.1021/ci200060s) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
@@ -31,14 +29,11 @@ Learn from known compounds, bioactivity measurements, pharmacophores, and ligand
 | [PaDEL-Descriptor](http://www.yapcwsoft.com/dd/padeldescriptor/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [PharmaGist](https://bioinfo3d.cs.tau.ac.il/PharmaGist/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [Pharmit](https://pharmit.csb.pitt.edu/) | Pharmacophore Modelling; Ligand-Based Virtual Screening; Compound Library Search | Free | GUI / Web | Web | Curated Resource |
-| [PLATO](http://plato.uniba.it/) | Target Assessment & Validation; Bioactivity Analysis | Free | GUI / Web | Web | Curated Resource |
 | [QSARtuna](https://github.com/MolecularAI/QSARtuna) | QSAR & Predictive Modelling | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [REINVENT4](https://github.com/MolecularAI/REINVENT4) | Generative Chemistry; Scaffold Analysis; Chemical Space Analysis | Free / Open Source | CLI | Linux | Curated Resource |
 | [SHAFTS](https://www.lilab-ecust.cn/chemmapper/downloadform.html) | Ligand-Based Virtual Screening; Pharmacophore Modelling | Free | GUI / Web | Windows | Curated Resource |
 | [Shape-it](https://www.openbabel.org/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
-| [SSM-DTA](https://github.com/QizhiPei/SSM-DTA) | Bioactivity Analysis; QSAR & Predictive Modelling | Free | CLI | Linux | Curated Resource |
 | [SwissSimilarity](https://www.swisssimilarity.ch/) | — | Free Web | GUI / Web | Web | Curated Resource |
-| [TransformerCPI](https://github.com/lifanchen-simm/transformerCPI) | Target Assessment & Validation; Bioactivity Analysis; QSAR & Predictive Modelling | Free | CLI | Linux | Curated Resource |
 | [VEGA QSAR](https://www.vegahub.eu/download/vega-qsar-download/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [WEGA](http://www.csbio.sjtu.edu.cn/bioinf/WEGA/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [ZINCPharmer](https://zincpharmer.csb.pitt.edu/) | — | Free Web | GUI / Web | Web | Curated Resource |
@@ -55,7 +50,6 @@ Learn from known compounds, bioactivity measurements, pharmacophores, and ligand
 | [Enamine REAL](https://enamine.net/compound-collections/real-compounds) | database | Compound Library Search; Ligand-Based Virtual Screening; Inventory Management | Free | GUI / Web |
 | [molbloom](https://github.com/whitead/molbloom) | library | Compound Library Search; Ligand-Based Virtual Screening; Structure Search | Free / Open Source | CLI |
 | [MUV — Maximum Unbiased Validation](https://pubchem.ncbi.nlm.nih.gov/) | dataset | — | Free Web | CLI |
-| [Papyrus](https://github.com/OlivierBeckers/papyrus) | dataset | Benchmarks & Datasets; Bioactivity Analysis | Free | — |
 | [PDBbind](http://www.pdbbind.org.cn/) | dataset | — | Free | CLI |
 | [Pharos](https://pharos.nih.gov/) | database | Target Assessment & Validation; Bioactivity Analysis; Data Curation | Free | GUI / Web |
 | [PromptSMILES](https://github.com/compsciencelab/PromptSMILES) | library | Generative Chemistry; Scaffold Analysis | Free / Open Source | — |

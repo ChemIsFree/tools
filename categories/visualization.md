@@ -11,7 +11,6 @@ Molecular, protein–ligand, and scientific visualisation and interpretation.
 | [Avogadro](https://avogadro.cc/) | Molecular Visualization | Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [BIOVIA Discovery Studio Visualizer](https://discover.3ds.com/discovery-studio-visualizer-download) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Blender + Molecular Nodes](https://brs-llc.github.io/) | Molecular Visualization | Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
-| BREEZE | Molecular Visualization | Free | GUI / Web | Web | Curated Resource |
 | [CAVIAR](https://jr-marchand.github.io/caviar/) | Binding-Site Analysis; Molecular Visualization | Free | GUI / Web + CLI | Linux / Windows / Desktop | Curated Resource |
 | [CDK Depict](https://www.simolecule.com/cdkdepict/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [ClassyPose](https://github.com/vktrannguyen/Classy_Pose) | Molecular Docking; Structure-Based Virtual Screening; Interaction Analysis | Free / Open Source | — | Linux | Curated Resource |
