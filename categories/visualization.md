@@ -8,9 +8,9 @@ Molecular, protein–ligand, and scientific visualisation and interpretation.
 
 | Application | Tasks | Access | Interface | Platforms | Status |
 |---|---|---|---|---|---|
-| [Avogadro](https://avogadro.cc/) | Molecular Visualization | Free | GUI / Web + CLI | Linux | Curated Resource |
+| [Avogadro](https://avogadro.cc/) | Molecular Visualization | Free | GUI / Web + CLI | Linux / Macos / Windows | Curated Resource |
 | [BIOVIA Discovery Studio Visualizer](https://discover.3ds.com/discovery-studio-visualizer-download) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
-| [Blender + Molecular Nodes](https://brs-llc.github.io/) | Molecular Visualization | Free | GUI / Web + CLI | Linux | Curated Resource |
+| [Blender + Molecular Nodes](https://brs-llc.github.io/) | Molecular Visualization | Free | GUI / Web + CLI | Linux / Macos / Windows | Curated Resource |
 | [CAVIAR](https://jr-marchand.github.io/caviar/) | Binding-Site Analysis; Molecular Visualization | Free | GUI / Web + CLI | Linux / Windows / Desktop | Curated Resource |
 | [CDK Depict](https://www.simolecule.com/cdkdepict/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [ClassyPose](https://github.com/vktrannguyen/Classy_Pose) | Molecular Docking; Structure-Based Virtual Screening; Interaction Analysis | Free / Open Source | — | Linux | Curated Resource |
@@ -24,7 +24,7 @@ Molecular, protein–ligand, and scientific visualisation and interpretation.
 | [JupyterLab](https://jupyter.org/) | Workflow Construction; Scientific Visualization | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [LeView](http://www.pegase-biosciences.com/tools/leview/) | Molecular Visualization; Interaction Analysis | Free / Open Source | GUI / Web | Windows | Curated Resource |
 | [LigPlot+](https://www.ebi.ac.uk/thornton-srv/software/LigPlus/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
-| [Mol*](https://molstar.org/) | Molecular Visualization | Free | GUI / Web + CLI | Linux | Curated Resource |
+| [Mol*](https://molstar.org/) | Molecular Visualization | Free | GUI / Web + CLI | Linux / Macos / Windows | Curated Resource |
 | [MolVE](https://github.com/drigoni/MolVE) | Chemical Data Analysis; Molecular Visualization; Machine Learning; Workflow Construction | Free / Open Source | GUI / Web | Linux | Curated Resource |
 | [NCBI iCn3D](https://www.ncbi.nlm.nih.gov/Structure/icn3d/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [Open Drug Discovery Toolkit (ODDT)](https://oddt.readthedocs.io/) | Interaction Analysis; Molecular Docking; Structure-Based Virtual Screening; Bioactivity Analysis; Data Curation | Free / Open Source | — | Linux / Macos / Windows | Curated Resource |
