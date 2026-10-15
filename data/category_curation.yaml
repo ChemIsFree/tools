@@ -242,13 +242,6 @@ category_curation:
       documentation: https://enamine.net/compound-collections/real-compounds
       notes: "This is a commercial make-on-demand collection, not a free public compound dataset or open-source resource."
 
-    - names: [RSpace, RSpace ELN]
-      access: [free]
-      source_available: false
-      license: "The provider advertises a self-hosted open-source edition alongside commercial hosted subscriptions; confirm the exact self-hosted release licence before tagging it open-source."
-      notes: "Do not conflate hosted subscription terms with the self-hosted distribution."
-
-
     - names: [OpenFold3]
       replace_categories: true
       categories: [protein-structures, structure-based]
