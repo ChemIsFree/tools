@@ -24,7 +24,7 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 | [FAF-Drugs4](https://fafdrugs4.rpbs.univ-paris-diderot.fr/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [GAFF2 / Antechamber](https://ambermd.org/AmberTools.php) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Gemmi](https://gemmi.readthedocs.io/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
-| [InChI Software](https://www.inchi-trust.org/technical-faq/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [InChI Software](https://www.inchi-trust.org/downloads/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Jmol](https://jmol.sourceforge.net/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [JSME Molecular Editor](https://jsme-editor.github.io/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [KNIME Analytics Platform](https://www.knime.com/) | Chemical Data Analysis; Machine Learning; Workflow Construction; Pipeline Execution | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
@@ -37,6 +37,7 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 | [NISPO](https://github.com/oxpig/nispo) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [OECD QSAR Toolbox](https://qsartoolbox.org/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Open Drug Discovery Toolkit (ODDT)](https://oddt.readthedocs.io/) | Interaction Analysis; Molecular Docking; Structure-Based Virtual Screening; Bioactivity Analysis; Data Curation | Free / Open Source | — | Linux / Macos / Windows | Curated Resource |
+| [Open3DQSAR](https://sourceforge.net/projects/open3dqsar/) | QSAR & Predictive Modelling; Molecular Descriptors & Properties | Free / Open Source | GUI / Web + CLI | Linux / Windows | Curated Resource |
 | [OpenChemLib](https://github.com/Actelion/openchemlib) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [OSRA](https://cactus.nci.nih.gov/osra/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [PaDEL-Descriptor](http://www.yapcwsoft.com/dd/padeldescriptor/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
@@ -53,11 +54,11 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
+| [Awesome Cheminformatics](https://github.com/hsiaoyi0504/awesome-cheminformatics) | educational | Benchmarks & Datasets; Chemical Data Analysis | Free | GUI / Web |
 | [Biopython](https://biopython.org/) | library | Data Curation | Free / Open Source | — |
 | [ChEMBL](https://www.ebi.ac.uk/chembl/) | database | Bioactivity Analysis; Data Curation | Free | GUI / Web |
 | [Chemistry Development Kit](https://cdk.github.io/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search | Free / Open Source | — |
 | [ChemSpider](https://www.chemspider.com/) | database | — | Free Web | CLI |
-| [Human Metabolome Database (HMDB)](https://hmdb.ca/) | database | — | Free Web | CLI |
 | [molbloom](https://github.com/whitead/molbloom) | library | Compound Library Search; Ligand-Based Virtual Screening; Structure Search | Free / Open Source | CLI |
 | [Open Targets Platform](https://platform.opentargets.org/) | database | Target Assessment & Validation; Clinical & Regulatory Evidence; Data Curation | Free | GUI / Web |
 | [Pharos](https://pharos.nih.gov/) | database | Target Assessment & Validation; Bioactivity Analysis; Data Curation | Free | GUI / Web |

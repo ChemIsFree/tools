@@ -14,9 +14,12 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | [ClassyPose](https://github.com/vktrannguyen/Classy_Pose) | Molecular Docking; Structure-Based Virtual Screening; Interaction Analysis | Free / Open Source | — | Linux | Curated Resource |
 | [DOCK 6](https://dock.compbio.ucsf.edu/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [DockThor](https://dockthor.lncc.br/) | — | Free Web | GUI / Web | Web | Curated Resource |
+| [DUBS](https://github.com/chopralab/lemon/tree/master/dubs) | Structure-Based Virtual Screening; Benchmarks & Datasets | Free / Open Source | CLI | Linux | Curated Resource |
+| [FlexAID](https://github.com/NRGlab/FlexAID) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux | Curated Resource |
 | [Fragmenstein](https://github.com/matteoferla/Fragmenstein) | Generative Chemistry; Pharmacophore Modelling; Scaffold Analysis; Structure-Based Virtual Screening; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [GNINA](https://gnina.github.io/gnina/) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux / Macos | Curated Resource |
 | [iScreen](https://iscreen.cau.ac.kr/) | — | Free Web | GUI / Web | Web | Curated Resource |
+| [LeView](http://www.pegase-biosciences.com/tools/leview/) | Molecular Visualization; Interaction Analysis | Free / Open Source | GUI / Web | Windows | Curated Resource |
 | [LigPlot+](https://www.ebi.ac.uk/thornton-srv/software/LigPlus/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Meeko](https://meeko.readthedocs.io/) | Ligand Preparation; Protein Preparation; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [MGLTools / AutoDockTools](https://ccsb.scripps.edu/mgltools/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
@@ -51,6 +54,7 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
 | [Astex Diverse Set](https://www.ccdc.cam.ac.uk/) | dataset | — | Free | CLI |
+| [BigBind](https://github.com/molecularmodelinglab/bigbind) | dataset | Benchmarks & Datasets; Structure-Based Virtual Screening | Free | — |
 | [Binding MOAD](https://bindingmoad.org/) | database | — | Free Web | CLI |
 | [CASF-2016](http://www.pdbbind.org.cn/) | dataset | — | Free | CLI |
 | [Chemistry Development Kit](https://cdk.github.io/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search | Free / Open Source | — |

@@ -9,6 +9,7 @@ Plan synthetic routes, predict reactions, and assess retrosynthetic feasibility.
 | Application | Tasks | Access | Interface | Platforms | Status |
 |---|---|---|---|---|---|
 | [AiZynthFinder](https://github.com/MolecularAI/aizynthfinder) | Retrosynthesis; Synthetic Route Planning; Reaction Prediction | Free / Open Source | CLI | Linux | Curated Resource |
+| [BR-SAScore](https://pypi.org/project/BRSAScore/) | Synthetic Route Planning; QSAR & Predictive Modelling | Free | CLI | Linux / Windows | Curated Resource |
 | [Chemical.AI](https://www.chemical.ai/) | — | Commercial | GUI / Web | Web | Curated Resource |
 | [Graph2Edits](https://github.com/Jamson-Zhong/Graph2Edits) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [LillyMol](https://github.com/IanAWatson/LillyMol) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
@@ -20,6 +21,12 @@ Plan synthetic routes, predict reactions, and assess retrosynthetic feasibility.
 | [SyntheMol](https://github.com/swansonk14/SyntheMol) | Generative Chemistry; Synthetic Route Planning | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Synthetic Accessibility Score (SAscore)](https://github.com/rdkit/rdkit) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [SYNTHIA](https://www.molport.com/synthia/) | — | Commercial | GUI / Web | Web | Curated Resource |
+
+## Supporting Resources
+
+| Resource | Type | Tasks | Access | Interface |
+|---|---|---|---|---|
+| [USPTO Patent Reaction Dataset](https://www.uspto.gov/ip-policy/economic-research/research-datasets) | dataset | Benchmarks & Datasets; Reaction Prediction | Free Web | GUI / Web |
 
 ---
 

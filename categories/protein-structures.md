@@ -24,7 +24,9 @@ Experimental and predicted protein structures, structure retrieval, and protein 
 | [PDB2PQR](https://github.com/Electrostatics/pdb2pqr) | Protein Preparation; Structure Conversion | Free | GUI / Web + CLI | Linux / Macos / Windows / Web | Curated Resource |
 | [PDBFixer](https://github.com/openmm/pdbfixer) | Protein Preparation; Structure Conversion | Free | — | Linux / Macos / Windows | Curated Resource |
 | [PROPKA](https://github.com/jensengroup/propka) | Protein Preparation; Binding-Site Analysis | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [Protein Design Visualizer (PDV)](https://pdv.naturalantibody.com/) | Molecular Visualization; Protein Structure Prediction | Free | GUI / Web | Web | Curated Resource |
 | [Protenix](https://github.com/bytedance/Protenix) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [PyMOL (open-source build)](https://pymol.org/) | Molecular Visualization; 3D Structure Analysis | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [RoseTTAFold All-Atom](https://github.com/baker-laboratory/RoseTTAFold-All-Atom) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Swiss-PdbViewer](https://spdbv.unil.ch/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 
@@ -33,7 +35,7 @@ Experimental and predicted protein structures, structure retrieval, and protein 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
 | [3D-Beacons](https://3d-beacons.org/) | database | — | Free Web | GUI / Web |
-| [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) | database | Protein Structure Prediction; Binding-Site Analysis; Molecular Visualization | Free | GUI / Web |
+| [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) | database | Protein Structure Prediction; Benchmarks & Datasets | Free | GUI / Web |
 | [Electron Microscopy Data Bank (EMDB)](https://www.ebi.ac.uk/emdb/) | database | — | Free Web | CLI |
 | [ModBase](https://modbase.compbio.ucsf.edu/) | database | — | Free Web | CLI |
 | [ModelArchive](https://modelarchive.org/) | database | — | Free Web | CLI |
