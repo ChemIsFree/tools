@@ -9718,8 +9718,7 @@ tools:
   - web
   interface:
   - web
-  languages:
-  []
+  languages: []
   gpu: "not-required"
   installation:
   - web
@@ -9753,8 +9752,7 @@ tools:
   - web
   interface:
   - web
-  languages:
-  []
+  languages: []
   gpu: "not-required"
   installation:
   - web
@@ -9793,8 +9791,7 @@ tools:
   - windows
   interface:
   - cli
-  languages:
-  []
+  languages: []
   gpu: "not-required"
   installation:
   - source
@@ -9833,8 +9830,7 @@ tools:
   - windows
   interface:
   - cli
-  languages:
-  []
+  languages: []
   gpu: "not-required"
   installation:
   - source
@@ -9862,8 +9858,7 @@ tools:
   - de-novo-design
   - structure-based
   type: "software"
-  access:
-  []
+  access: []
   source_available: false
   license: "No licence file was found in the public repository; reuse, modification and redistribution rights are not established."
   platforms:
@@ -9872,8 +9867,7 @@ tools:
   - windows
   interface:
   - cli
-  languages:
-  []
+  languages: []
   gpu: "not-required"
   installation:
   - source
@@ -9899,8 +9893,7 @@ tools:
   category:
   - ligand-based-qsar
   type: "software"
-  access:
-  []
+  access: []
   source_available: false
   license: "No licence file was found in the public repository; reuse and redistribution terms need clarification."
   platforms:
@@ -9909,8 +9902,7 @@ tools:
   - windows
   interface:
   - cli
-  languages:
-  []
+  languages: []
   gpu: "not-required"
   installation:
   - source
@@ -9948,8 +9940,7 @@ tools:
   - windows
   interface:
   - cli
-  languages:
-  []
+  languages: []
   gpu: "not-required"
   installation:
   - source
@@ -9985,8 +9976,7 @@ tools:
   - windows
   interface:
   - cli
-  languages:
-  []
+  languages: []
   gpu: "not-required"
   installation:
   - source
@@ -10024,8 +10014,7 @@ tools:
   - windows
   interface:
   - cli
-  languages:
-  []
+  languages: []
   gpu: "not-required"
   installation:
   - source
