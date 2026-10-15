@@ -186,6 +186,44 @@ category_curation:
       documentation: https://www.researchspace.com/
       notes: "The hosted offering has subscription pricing; open-source self-hosting and hosted-service terms should not be conflated."
 
+    - names: [Indigo ELN]
+      catalogue: app
+      type: software
+      access: [free, open-source]
+      source_available: true
+      license: MIT
+      website: https://github.com/epam/Indigo-ELN-v.-2.0
+      repository: https://github.com/epam/Indigo-ELN-v.-2.0
+      documentation: https://github.com/epam/Indigo-ELN-v.-2.0
+      notes: "The repository is MIT-licensed, but the project README says the application is undergoing substantial transformation and its deployment documentation may be inconsistent; verify the selected release before adoption."
+
+    - names: [Obsidian]
+      catalogue: app
+      type: software
+      access: [free]
+      source_available: false
+      license: "Proprietary; current terms allow free use under defined conditions, with optional commercial/support licences; not open-source"
+      website: https://obsidian.md/
+      notes: "Obsidian stores notes locally by default. Review current personal, non-profit, commercial, Sync and Publish terms before selecting the relevant usage model."
+
+    - names: [LabTrove]
+      access: [free]
+      source_available: false
+      license: "No authoritative current software licence was confirmed in this audit; do not treat as open-source until verified"
+      notes: "Existing imported entry needs an official repository/licence check and confirmation of current maintenance before inclusion in a curated shortlist."
+
+    - names: [Open Reaction Database]
+      catalogue: resource
+      resource_type: dataset
+      type: dataset
+      access: [free-web]
+      source_available: false
+      license: "CC-BY-SA-4.0 for the data; Apache-2.0 for associated code"
+      website: https://open-reaction-database.org/
+      repository: https://github.com/open-reaction-database/ord-data
+      documentation: https://docs.open-reaction-database.org/en/stable/overview.html
+      notes: "The official dataset repository declares CC-BY-SA-4.0 for data and Apache-2.0 for code; these must not be conflated."
+
   category_membership:
     target-identification:
       - 'Open Targets Platform'
