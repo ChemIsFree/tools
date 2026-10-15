@@ -113,7 +113,11 @@ def main():
     with open(CURATION_FILE, "r", encoding="utf-8") as handle:
         curation_data = yaml.safe_load(handle) or {}
 
-    curated_keep = {\n        category_id: list((rule or {}).get("keep") or [])\n        for category_id, rule in (curation_data.get("category_curation", {}) or {}).items()\n        if isinstance(rule, dict) and rule.get("keep")\n    }
+    curated_keep = {
+        category_id: list((rule or {}).get("keep") or [])
+        for category_id, rule in (curation_data.get("category_curation", {}) or {}).items()
+        if isinstance(rule, dict) and rule.get("keep")
+    }
 
     tools = tools_data.get(
         "tools",
