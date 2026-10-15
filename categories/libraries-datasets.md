@@ -87,7 +87,7 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [Electron Microscopy Data Bank (EMDB)](https://www.ebi.ac.uk/emdb/) | database | — | Free Web | CLI |
 | [Enamine REAL](https://enamine.net/compound-collections/real-compounds) | database | Compound Library Search; Ligand-Based Virtual Screening; Inventory Management | Free | GUI / Web |
 | [Enrichr](https://maayanlab.cloud/Enrichr/) | web-tool | Target Assessment & Validation | Free | GUI / Web |
-| [FooDB](https://foodb.ca/) | database | Benchmarks & Datasets; Data Curation | Free | GUI / Web |
+| [FoodDB](https://foodb.ca/) | database | Benchmarks & Datasets; Data Curation | Free | GUI / Web |
 | [g:Profiler](https://biit.cs.ut.ee/gprofiler/) | web-tool | Target Assessment & Validation | Free | GUI / Web |
 | [GDB-17](https://gdb.unibe.ch/) | dataset | — | Free | CLI |
 | [GPCRdb](https://gpcrdb.org/) | database | Target Assessment & Validation; Bioactivity Analysis; Data Curation | Free | GUI / Web |

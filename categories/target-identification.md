@@ -21,7 +21,7 @@ Tools and evidence for discovering, prioritising, and validating biological targ
 | [FTMap](https://ftmap.bu.edu/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [GeneMANIA](https://genemania.org) | Target Assessment & Validation | Free | GUI / Web | Web | registry-listed |
 | [KLIFS](https://klifs.net) | Target Assessment & Validation; Binding-Site Analysis | Free | GUI / Web | Web | registry-listed |
-| [LigTMap](https://bidd.group/LigTMap/) | Target Assessment & Validation | Free | GUI / Web | Web | Curated Resource |
+| [LigTMap](https://bidd.group/LigTMap/) | Target Assessment & Validation | Free | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [MolTarPred](http://moltarpred.marseille.inserm.fr/) | Target Assessment & Validation; Bioactivity Analysis | Free | GUI / Web | Web | Curated Resource |
 | [OmniPath](https://omnipathdb.org) | Target Assessment & Validation | Free / Open Source | — | — | registry-listed |
 | [PatentChem](https://github.com/learningmatter-mit/PatentChem) | QSAR & Predictive Modelling; Machine Learning; Clinical & Regulatory Evidence; Chemical Data Analysis | Free / Open Source | — | — | registry-listed |
