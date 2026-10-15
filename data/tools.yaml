@@ -10066,3 +10066,476 @@ tools:
     status: "official-source-linked"
     last_checked: '2026-10-15'
   notes: "This is a discovery list, not a single validated prediction algorithm. Check the quality of each linked source and its license before reuse."
+
+- id: pdv
+  name: "Protein Design Visualizer (PDV)"
+  description: "Browser-based 3D protein and antibody structure visualizer for inspecting and communicating protein designs."
+  catalogue: app
+  domain: [visualization, protein-structures]
+  tasks: [molecular-visualization, protein-structure-prediction]
+  category: [structural-biology, visualization]
+  type: web-tool
+  access: [free]
+  source_available: false
+  license: "PolyForm Noncommercial 1.0.0; commercial use requires a separate organizational licence."
+  platforms: [web]
+  interface: [web]
+  languages: []
+  gpu: "not-required"
+  installation: [web]
+  status: active
+  developers: [NaturalAntibody]
+  website: "https://pdv.naturalantibody.com/"
+  repository: []
+  documentation: "https://pdv.naturalantibody.com/docs/docs.html"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: verified, last_checked: '2026-10-15'}
+  notes: "Official docs specify PolyForm Noncommercial 1.0.0. Do not mark open-source or use commercially without the appropriate paid licence."
+
+- id: leview
+  name: "LeView"
+  description: "Legacy program for generating two-dimensional diagrams of protein–ligand interactions from molecular structures."
+  catalogue: app
+  domain: [visualization, structure-based]
+  tasks: [molecular-visualization, interaction-analysis]
+  category: [molecular-visualization, protein-ligand-interactions]
+  type: software
+  access: [free, open-source]
+  source_available: true
+  license: "GNU General Public License per publication; exact version not specified."
+  platforms: [windows]
+  interface: [gui]
+  languages: []
+  gpu: "not-required"
+  installation: [local]
+  status: legacy
+  developers: [PEGASE-Biosciences]
+  website: "http://www.pegase-biosciences.com/tools/leview/"
+  repository: []
+  documentation: "https://pmc.ncbi.nlm.nih.gov/articles/PMC3765711/"
+  citation: ["https://pmc.ncbi.nlm.nih.gov/articles/PMC3765711/"]
+  chemisfree_status: curated-resource
+  verification: {status: official-source-linked, last_checked: '2026-10-15'}
+  notes: "The paper states that LeView is freely available under the GNU GPL. The project is old; verify download availability and compatibility."
+
+- id: flexaid
+  name: "FlexAID"
+  description: "Flexible protein–ligand docking program that samples ligand poses and receptor/ligand flexibility using a genetic algorithm."
+  catalogue: app
+  domain: [structure-based]
+  tasks: [molecular-docking, structure-based-screening]
+  category: [molecular-docking, virtual-screening]
+  type: software
+  access: [free, open-source]
+  source_available: true
+  license: "Apache-2.0"
+  platforms: [linux]
+  interface: [cli]
+  languages: []
+  gpu: "not-required"
+  installation: [source]
+  status: active
+  developers: [NRGlab]
+  website: "https://github.com/NRGlab/FlexAID"
+  repository: "https://github.com/NRGlab/FlexAID"
+  documentation: "https://github.com/NRGlab/FlexAID"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: verified, last_checked: '2026-10-15'}
+  notes: "FlexAID is a distinct docking program, not FlexAutoDock. The official repository declares Apache-2.0."
+
+- id: shafts
+  name: "SHAFTS"
+  description: "Hybrid 3D shape- and pharmacophore-based molecular similarity method for ligand-based virtual screening."
+  catalogue: app
+  domain: [ligand-based-qsar]
+  tasks: [ligand-based-screening, pharmacophore-modelling]
+  category: [ligand-based-screening, molecular-similarity]
+  type: software
+  access: [free]
+  source_available: false
+  license: "Custom provider EULA; free of charge, but no OSI-approved open-source licence identified."
+  platforms: [windows]
+  interface: [gui]
+  languages: []
+  gpu: "not-required"
+  installation: [local]
+  status: active
+  developers: [East China University of Science and Technology]
+  website: "https://www.lilab-ecust.cn/chemmapper/downloadform.html"
+  repository: []
+  documentation: "https://doi.org/10.1021/ci200060s"
+  citation: ["https://doi.org/10.1021/ci200060s"]
+  chemisfree_status: curated-resource
+  verification: {status: verified, last_checked: '2026-10-15'}
+  notes: "The official download page uses a provider EULA. Label it free, not open-source; check the terms before redistribution."
+
+- id: open3dqsar
+  name: "Open3DQSAR"
+  description: "Software for 3D-QSAR modelling, molecular alignment, field calculation and chemometric analysis."
+  catalogue: app
+  domain: [ligand-based-qsar, cheminformatics]
+  tasks: [qsar, molecular-descriptors-properties]
+  category: [qsar, 3d-qsar]
+  type: software
+  access: [free, open-source]
+  source_available: true
+  license: "GPL-3.0"
+  platforms: [linux, windows]
+  interface: [gui, cli]
+  languages: []
+  gpu: "not-required"
+  installation: [local]
+  status: legacy
+  developers: [Open3DQSAR contributors]
+  website: "https://sourceforge.net/projects/open3dqsar/"
+  repository: "https://sourceforge.net/projects/open3dqsar/"
+  documentation: "https://sourceforge.net/projects/open3dqsar/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: verified, last_checked: '2026-10-15'}
+  notes: "SourceForge identifies GPLv3 licensing. Last recorded release activity is from 2018, so present it as a legacy option."
+
+- id: plethem
+  name: "PLETHEM"
+  description: "Open-source physiologically based pharmacokinetic modelling framework for predicting chemical exposure and internal doses."
+  catalogue: app
+  domain: [admet-prediction]
+  tasks: [adme, physicochemical-properties]
+  category: [pharmacokinetics, pbpk]
+  type: software
+  access: [free, open-source]
+  source_available: true
+  license: "MIT"
+  platforms: [linux, macos, windows]
+  interface: [cli, programmatic]
+  languages: [R]
+  gpu: "not-required"
+  installation: [package-manager]
+  status: active
+  developers: [ScitoVation]
+  website: "https://scitovation.com/tools/plethem/"
+  repository: "https://cran.r-project.org/package=plethem"
+  documentation: "https://cran.r-project.org/package=plethem"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: verified, last_checked: '2026-10-15'}
+  notes: "PLETHEM focuses on PBPK and exposure modelling; its purpose differs from small-molecule endpoint predictors such as SwissADME or pkCSM."
+
+- id: merlin-expo
+  name: "MERLIN-Expo"
+  description: "Exposure and environmental-fate modelling system for exploring how chemicals move through environmental compartments and the human environment."
+  catalogue: app
+  domain: [admet-prediction]
+  tasks: [adme, physicochemical-properties]
+  category: [exposure-modelling, environmental-fate]
+  type: software
+  access: [free]
+  source_available: false
+  license: "Free download is advertised by the provider; no public open-source software licence was confirmed."
+  platforms: [windows]
+  interface: [gui]
+  languages: []
+  gpu: "not-required"
+  installation: [local]
+  status: active
+  developers: [MERLIN-Expo project]
+  website: "https://www.merlin-expo.eu/"
+  repository: []
+  documentation: "https://www.merlin-expo.eu/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: official-source-linked, last_checked: '2026-10-15'}
+  notes: "Primarily chemical fate/exposure modelling, not a conventional drug ADMET predictor. Do not label open-source without licence text."
+
+- id: br-sascore
+  name: "BR-SAScore"
+  description: "Building-block- and reaction-aware synthetic accessibility score that estimates synthesizability using building-block availability and reaction knowledge."
+  catalogue: app
+  domain: [retrosynthesis, ligand-based-qsar]
+  tasks: [route-planning, qsar]
+  category: [synthetic-accessibility, retrosynthesis]
+  type: software
+  access: [free]
+  source_available: true
+  license: "Public code is linked by the peer-reviewed paper; an explicit licence file was not confirmed in this audit."
+  platforms: [linux, windows]
+  interface: [cli, programmatic]
+  languages: [Python]
+  gpu: "not-required"
+  installation: [package-manager]
+  status: active
+  developers: [Seoul National University]
+  website: "https://pypi.org/project/BRSAScore/"
+  repository: "https://github.com/snu-micc/BR-SAScore"
+  documentation: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11267797/"
+  citation: ["https://doi.org/10.1186/s13321-024-00879-0"]
+  chemisfree_status: curated-resource
+  verification: {status: official-source-linked, last_checked: '2026-10-15'}
+  notes: "The 2024 paper reports improved agreement with synthesis-planner judgements and interpretable fragment contributions. Verify the repository licence before redistribution or commercial reuse."
+
+- id: bigbind
+  name: "BigBind"
+  description: "Large protein–ligand binding dataset and BayesBind virtual-screening benchmark built from structures and activity data."
+  catalogue: resource
+  resource_type: dataset
+  domain: [libraries-datasets, structure-based]
+  tasks: [benchmarks-datasets, structure-based-screening]
+  category: [protein-ligand, benchmark]
+  type: dataset
+  access: [free]
+  source_available: false
+  license: "MIT for repository code; dataset and third-party structure/activity components may carry separate terms."
+  platforms: [linux]
+  interface: [programmatic]
+  languages: []
+  gpu: "not-required"
+  installation: [download]
+  status: active
+  developers: [Molecular Modeling Lab]
+  website: "https://github.com/molecularmodelinglab/bigbind"
+  repository: "https://github.com/molecularmodelinglab/bigbind"
+  documentation: "https://github.com/molecularmodelinglab/bigbind"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: official-source-linked, last_checked: '2026-10-15'}
+  notes: "Record the exact release and benchmark split when using BigBind. The repository is MIT-licensed, but this does not settle terms for every third-party dataset component."
+
+- id: lbs-comparison
+  name: "LBS-comparison"
+  description: "Benchmark dataset and code for comparing ligand-binding-site prediction methods against curated structural reference cases."
+  catalogue: resource
+  resource_type: dataset
+  domain: [binding-pockets, libraries-datasets]
+  tasks: [binding-site-analysis, benchmarks-datasets]
+  category: [binding-site-prediction, benchmark]
+  type: dataset
+  access: [free, open-source]
+  source_available: true
+  license: "MIT for repository code; source structures and benchmark data retain their own provenance and terms."
+  platforms: [linux]
+  interface: [programmatic]
+  languages: [Python]
+  gpu: "not-required"
+  installation: [source]
+  status: active
+  developers: [University of Liverpool Computational Biology Group]
+  website: "https://github.com/bartongroup/LBS-comparison"
+  repository: "https://github.com/bartongroup/LBS-comparison"
+  documentation: "https://github.com/bartongroup/LBS-comparison"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: verified, last_checked: '2026-10-15'}
+  notes: "The official repository code is MIT-licensed. Underlying structures and benchmark components should still be attributed and reused under their respective terms."
+
+- id: dubs
+  name: "DUBS"
+  description: "Framework for generating Directory of Useful Benchmarking Sets for structure-based virtual-screening evaluation."
+  catalogue: app
+  domain: [structure-based, libraries-datasets]
+  tasks: [structure-based-screening, benchmarks-datasets]
+  category: [virtual-screening, benchmark-generation]
+  type: software
+  access: [free, open-source]
+  source_available: true
+  license: "BSD-3-Clause (parent Lemon repository)"
+  platforms: [linux]
+  interface: [cli, programmatic]
+  languages: [Python]
+  gpu: "not-required"
+  installation: [source]
+  status: active
+  developers: [Chopra Lab, Purdue University]
+  website: "https://github.com/chopralab/lemon/tree/master/dubs"
+  repository: "https://github.com/chopralab/lemon"
+  documentation: "https://github.com/chopralab/lemon"
+  citation: ["https://doi.org/10.1021/acs.jcim.0c00122"]
+  chemisfree_status: curated-resource
+  verification: {status: verified, last_checked: '2026-10-15'}
+  notes: "DUBS is software for generating benchmark sets, not a single fixed dataset. Its parent Lemon repository is BSD-3-Clause licensed."
+
+- id: uspto-reaction-dataset
+  name: "USPTO Patent Reaction Dataset"
+  description: "Patent-derived reaction data used to develop and evaluate reaction-prediction and retrosynthesis models."
+  catalogue: resource
+  resource_type: dataset
+  domain: [libraries-datasets, retrosynthesis]
+  tasks: [benchmarks-datasets, reaction-prediction]
+  category: [reaction-data, patent-data]
+  type: dataset
+  access: [free-web]
+  source_available: false
+  license: "Public patent records are accessible, but extracted reaction datasets and individual releases may have separate terms; verify the specific source."
+  platforms: [web]
+  interface: [web]
+  languages: []
+  gpu: "not-required"
+  installation: [web]
+  status: active
+  developers: [United States Patent and Trademark Office]
+  website: "https://www.uspto.gov/ip-policy/economic-research/research-datasets"
+  repository: []
+  documentation: "https://www.uspto.gov/ip-policy/economic-research/research-datasets"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: official-source-linked, last_checked: '2026-10-15'}
+  notes: "Points to USPTO research datasets and patent-derived reactions. Do not assume one blanket licence applies to all third-party reaction extractions."
+
+- id: awesome-chemistry-datasets
+  name: "Awesome Chemistry Datasets"
+  description: "Community-maintained index of chemistry datasets for machine learning, bioactivity, structures, reactions, metabolites and related tasks."
+  catalogue: resource
+  resource_type: educational
+  domain: [libraries-datasets]
+  tasks: [benchmarks-datasets]
+  category: [dataset-catalogue, curated-list]
+  type: resource
+  access: [free]
+  source_available: false
+  license: "CC0-1.0 for the curated list; each linked dataset has its own terms."
+  platforms: [web]
+  interface: [web]
+  languages: []
+  gpu: "not-required"
+  installation: [web]
+  status: active
+  developers: [Community contributors]
+  website: "https://github.com/kjappelbaum/awesome-chemistry-datasets"
+  repository: "https://github.com/kjappelbaum/awesome-chemistry-datasets"
+  documentation: "https://github.com/kjappelbaum/awesome-chemistry-datasets"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: verified, last_checked: '2026-10-15'}
+  notes: "The repository is CC0-1.0, but linked datasets may impose their own attribution, non-commercial, registration or redistribution conditions."
+
+- id: awesome-cheminformatics
+  name: "Awesome Cheminformatics"
+  description: "Community-maintained index of cheminformatics applications, libraries and resources, including visualization, docking, command-line and machine-learning tools."
+  catalogue: resource
+  resource_type: educational
+  domain: [libraries-datasets, cheminformatics]
+  tasks: [benchmarks-datasets, chemical-data-analysis]
+  category: [software-catalogue, curated-list]
+  type: resource
+  access: [free]
+  source_available: false
+  license: "No repository-wide licence was confirmed; individual links retain their own licences."
+  platforms: [web]
+  interface: [web]
+  languages: []
+  gpu: "not-required"
+  installation: [web]
+  status: active
+  developers: [Community contributors]
+  website: "https://github.com/hsiaoyi0504/awesome-cheminformatics"
+  repository: "https://github.com/hsiaoyi0504/awesome-cheminformatics"
+  documentation: "https://github.com/hsiaoyi0504/awesome-cheminformatics"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: official-source-linked, last_checked: '2026-10-15'}
+  notes: "A discovery index rather than a software package. Verify individual licences before downloading, modifying or redistributing linked tools."
+
+- id: jupyterlab
+  name: "JupyterLab"
+  description: "Interactive notebook environment for reproducible computational work, combining code, data, visualizations and narrative documentation."
+  catalogue: app
+  domain: [organization, visualization]
+  tasks: [workflow-construction, scientific-visualization]
+  category: [notebooks, reproducibility]
+  type: software
+  access: [free, open-source]
+  source_available: true
+  license: "BSD-3-Clause"
+  platforms: [linux, macos, windows]
+  interface: [gui, web, programmatic]
+  languages: [Python, R]
+  gpu: "not-required"
+  installation: [package-manager]
+  status: active
+  developers: [Project Jupyter]
+  website: "https://jupyter.org/"
+  repository: "https://github.com/jupyterlab/jupyterlab"
+  documentation: "https://jupyterlab.readthedocs.io/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: verified, last_checked: '2026-10-15'}
+  notes: "Notebooks, datasets and model outputs created with JupyterLab have their own licences and data-governance requirements."
+
+- id: conda
+  name: "Conda"
+  description: "Cross-platform package and environment manager for creating scientific software environments with native and Python dependencies."
+  catalogue: app
+  domain: [organization]
+  tasks: [research-infrastructure, workflow-construction]
+  category: [package-management, reproducibility]
+  type: software
+  access: [free, open-source]
+  source_available: true
+  license: "BSD-3-Clause (Conda source distribution)"
+  platforms: [linux, macos, windows]
+  interface: [cli]
+  languages: [Python]
+  gpu: "not-required"
+  installation: [package-manager]
+  status: active
+  developers: [Conda contributors]
+  website: "https://conda.org/"
+  repository: "https://github.com/conda/conda"
+  documentation: "https://docs.conda.io/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: official-source-linked, last_checked: '2026-10-15'}
+  notes: "Platform channels and individual packages can have separate licences. Use one environment manager consistently per project."
+
+- id: mamba
+  name: "Mamba"
+  description: "Fast alternative package and environment manager compatible with Conda-style environment specifications."
+  catalogue: app
+  domain: [organization]
+  tasks: [research-infrastructure, workflow-construction]
+  category: [package-management, reproducibility]
+  type: software
+  access: [free, open-source]
+  source_available: true
+  license: "BSD-3-Clause"
+  platforms: [linux, macos, windows]
+  interface: [cli]
+  languages: [C++]
+  gpu: "not-required"
+  installation: [package-manager]
+  status: active
+  developers: [QuantStack]
+  website: "https://mamba.readthedocs.io/"
+  repository: "https://github.com/mamba-org/mamba"
+  documentation: "https://mamba.readthedocs.io/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: verified, last_checked: '2026-10-15'}
+  notes: "Mamba uses Conda-compatible environment files. It can complement Conda but need not be a mandatory second manager."
+
+- id: docker-engine
+  name: "Docker Engine"
+  description: "Container runtime and tooling for packaging reproducible software environments for computational chemistry and drug-discovery workflows."
+  catalogue: app
+  domain: [organization]
+  tasks: [research-infrastructure, pipeline-execution]
+  category: [containers, reproducibility]
+  type: software
+  access: [free, open-source]
+  source_available: true
+  license: "Apache-2.0 for Moby/Docker Engine components; Docker Desktop has separate subscription terms."
+  platforms: [linux]
+  interface: [cli]
+  languages: [Go]
+  gpu: "not-required"
+  installation: [package-manager]
+  status: active
+  developers: [Docker]
+  website: "https://www.docker.com/"
+  repository: "https://github.com/moby/moby"
+  documentation: "https://docs.docker.com/engine/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: official-source-linked, last_checked: '2026-10-15'}
+  notes: "This record describes Docker Engine, not Docker Desktop. Check current licence terms before organisational or commercial use."
