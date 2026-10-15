@@ -27,6 +27,7 @@ category_curation:
       - "PLATO"
       - "PPB2"
       - "ProteinsPlus"
+      - "ProteinsPlus / DoGSiteScorer"
       - "DogSiteScorer"
       - "Reactome"
       - "SEA"
