@@ -22,9 +22,11 @@ Predict physicochemical, absorption, distribution, metabolism, excretion, and to
 | [FAME 3](https://nerdd.zbh.uni-hamburg.de/fame3/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [GLORYx](https://github.com/volkamerlab/GLORYx) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [httk](https://github.com/USEPA/CompTox-HTTK) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [MERLIN-Expo](https://www.merlin-expo.eu/) | ADME Prediction; Physicochemical Properties | Free | GUI / Web | Windows | Curated Resource |
 | [OCHEM](https://ochem.eu/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [OECD QSAR Toolbox](https://qsartoolbox.org/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [pkCSM](https://biosig.lab.uq.edu.au/pkcsm/) | ADME Prediction; Toxicity Prediction; Drug-Likeness | Free | GUI / Web | Web | Curated Resource |
+| [PLETHEM](https://scitovation.com/tools/plethem/) | ADME Prediction; Physicochemical Properties | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [ProTox 3.0](https://tox.charite.de/protox3/) | Toxicity Prediction; Drug-Likeness | Free | GUI / Web | Web | Curated Resource |
 | [SMARTCyp](https://smartcyp.sund.ku.dk/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [SwissADME](http://www.swissadme.ch/) | Physicochemical Properties; ADME Prediction; Drug-Likeness | Free | GUI / Web | Web | Curated Resource |

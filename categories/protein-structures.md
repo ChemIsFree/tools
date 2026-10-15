@@ -24,6 +24,7 @@ Experimental and predicted protein structures, structure retrieval, and protein 
 | [PDB2PQR](https://github.com/Electrostatics/pdb2pqr) | Protein Preparation; Structure Conversion | Free | GUI / Web + CLI | Linux / Macos / Windows / Web | Curated Resource |
 | [PDBFixer](https://github.com/openmm/pdbfixer) | Protein Preparation; Structure Conversion | Free | — | Linux / Macos / Windows | Curated Resource |
 | [PROPKA](https://github.com/jensengroup/propka) | Protein Preparation; Binding-Site Analysis | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [Protein Design Visualizer (PDV)](https://pdv.naturalantibody.com/) | Molecular Visualization; Protein Structure Prediction | Free | GUI / Web | Web | Curated Resource |
 | [Protenix](https://github.com/bytedance/Protenix) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [RoseTTAFold All-Atom](https://github.com/baker-laboratory/RoseTTAFold-All-Atom) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Swiss-PdbViewer](https://spdbv.unil.ch/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |

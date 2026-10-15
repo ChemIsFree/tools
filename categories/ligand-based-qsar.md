@@ -10,6 +10,7 @@ Learn from known compounds, bioactivity measurements, pharmacophores, and ligand
 |---|---|---|---|---|---|
 | [AIMSim](https://github.com/ersilia-os/aimsim) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Align-it](https://www.openbabel.org/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [BR-SAScore](https://pypi.org/project/BRSAScore/) | Synthetic Route Planning; QSAR & Predictive Modelling | Free | CLI | Linux / Windows | Curated Resource |
 | [chemfp](https://chemfp.com/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [ChemLint](https://github.com/molML/ChemLint) | Structure Conversion; Structure Search; Chemical Data Analysis; Machine Learning; Workflow Construction | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [CReM-pharm](https://github.com/ci-lab-cz/crem-pharm) | Generative Chemistry; Pharmacophore Modelling | Free / Open Source | CLI | Linux | Curated Resource |
@@ -22,11 +23,13 @@ Learn from known compounds, bioactivity measurements, pharmacophores, and ligand
 | [MolVE](https://github.com/drigoni/MolVE) | Chemical Data Analysis; Molecular Visualization; Machine Learning; Workflow Construction | Free / Open Source | GUI / Web | Linux | Curated Resource |
 | [OCHEM](https://ochem.eu/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [Open Drug Discovery Toolkit (ODDT)](https://oddt.readthedocs.io/) | Interaction Analysis; Molecular Docking; Structure-Based Virtual Screening; Bioactivity Analysis; Data Curation | Free / Open Source | — | Linux / Macos / Windows | Curated Resource |
+| [Open3DQSAR](https://sourceforge.net/projects/open3dqsar/) | QSAR & Predictive Modelling; Molecular Descriptors & Properties | Free / Open Source | GUI / Web + CLI | Linux / Windows | Curated Resource |
 | [OptiPharm](https://github.com/Supercomputacion-Algoritmos/OptiPharm) | — | — | CLI | Linux / Macos / Windows | Curated Resource |
 | [PaDEL-Descriptor](http://www.yapcwsoft.com/dd/padeldescriptor/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [PharmaGist](https://bioinfo3d.cs.tau.ac.il/PharmaGist/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [Pharmit](https://pharmit.csb.pitt.edu/) | Pharmacophore Modelling; Ligand-Based Virtual Screening; Compound Library Search | Free | GUI / Web | Web | Curated Resource |
 | [REINVENT4](https://github.com/MolecularAI/REINVENT4) | Generative Chemistry; Scaffold Analysis; Chemical Space Analysis | Free / Open Source | CLI | Linux | Curated Resource |
+| [SHAFTS](https://www.lilab-ecust.cn/chemmapper/downloadform.html) | Ligand-Based Virtual Screening; Pharmacophore Modelling | Free | GUI / Web | Windows | Curated Resource |
 | [Shape-it](https://www.openbabel.org/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [SwissSimilarity](https://www.swisssimilarity.ch/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [VEGA QSAR](https://www.vegahub.eu/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |

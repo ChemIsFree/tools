@@ -14,19 +14,23 @@ Manage compounds, inventories, experiments, computing resources, and reproducibl
 | [CHAPERONg](https://abeebyekeen.com/chaperong-online/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [ChemLint](https://github.com/molML/ChemLint) | Structure Conversion; Structure Search; Chemical Data Analysis; Machine Learning; Workflow Construction | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Chemotion ELN](https://www.chemotion.net/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [Conda](https://conda.org/) | Research Computing & Infrastructure; Workflow Construction | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [conda-lock](https://github.com/conda/conda-lock) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [COSMIC2](https://www.cosmic2.org/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [DataLad](https://www.datalad.org/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [DataWarrior](https://openmolecules.org/datawarrior/) | Bioactivity Analysis; Data Curation; Chemical Data Analysis; Molecular Descriptors & Properties; Scaffold Analysis; QSAR & Predictive Modelling; Structure Conversion; Molecular Visualization | Free / Open Source | GUI / Web | Linux / Macos / Windows / Desktop | Curated Resource |
+| [Docker Engine](https://www.docker.com/) | Research Computing & Infrastructure; Pipeline Execution | Free / Open Source | CLI | Linux | Curated Resource |
 | [eLabFTW](https://www.elabftw.net/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Figshare](https://figshare.com/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [Git](https://git-scm.com/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [GitHub](https://github.com/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [GROMACS](https://www.gromacs.org/) | Molecular Dynamics; Trajectory Analysis; Free-Energy Calculations; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [JabRef](https://www.jabref.org/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [JupyterLab](https://jupyter.org/) | Workflow Construction; Scientific Visualization | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [KNIME Analytics Platform](https://www.knime.com/) | Chemical Data Analysis; Machine Learning; Workflow Construction; Pipeline Execution | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [LabIMotion](https://www.labimotion.org/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [LinChemIn](https://github.com/syngenta/linchemin) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [Mamba](https://mamba.readthedocs.io/) | Research Computing & Infrastructure; Workflow Construction | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [MolVE](https://github.com/drigoni/MolVE) | Chemical Data Analysis; Molecular Visualization; Machine Learning; Workflow Construction | Free / Open Source | GUI / Web | Linux | Curated Resource |
 | [myChEMBL](https://github.com/chembl/mychembl) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Open Drug Discovery Toolkit (ODDT)](https://oddt.readthedocs.io/) | Interaction Analysis; Molecular Docking; Structure-Based Virtual Screening; Bioactivity Analysis; Data Curation | Free / Open Source | — | Linux / Macos / Windows | Curated Resource |

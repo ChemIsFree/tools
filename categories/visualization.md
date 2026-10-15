@@ -19,6 +19,8 @@ Molecular, protein–ligand, and scientific visualisation and interpretation.
 | [gmx_MMPBSA](https://github.com/Valdes-Tresanco-MS/gmx_MMPBSA) | Free-Energy Calculations; Molecular Dynamics; Trajectory Analysis | Free / Open Source | CLI | Linux | Curated Resource |
 | [GROMACS](https://www.gromacs.org/) | Molecular Dynamics; Trajectory Analysis; Free-Energy Calculations; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Jmol](https://jmol.sourceforge.net/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [JupyterLab](https://jupyter.org/) | Workflow Construction; Scientific Visualization | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
+| [LeView](http://www.pegase-biosciences.com/tools/leview/) | Molecular Visualization; Interaction Analysis | Free / Open Source | GUI / Web | Windows | Curated Resource |
 | [LigPlot+](https://www.ebi.ac.uk/thornton-srv/software/LigPlus/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [MolVE](https://github.com/drigoni/MolVE) | Chemical Data Analysis; Molecular Visualization; Machine Learning; Workflow Construction | Free / Open Source | GUI / Web | Linux | Curated Resource |
 | [NCBI iCn3D](https://www.ncbi.nlm.nih.gov/Structure/icn3d/) | — | Free Web | GUI / Web | Web | Curated Resource |
@@ -28,6 +30,7 @@ Molecular, protein–ligand, and scientific visualisation and interpretation.
 | [PLIP](https://plip-tool.biotec.tu-dresden.de/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [PoseView](https://proteins.plus/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [ProLIF](https://prolif.readthedocs.io/) | Interaction Analysis; Data Curation; Chemical Data Analysis; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [Protein Design Visualizer (PDV)](https://pdv.naturalantibody.com/) | Molecular Visualization; Protein Structure Prediction | Free | GUI / Web | Web | Curated Resource |
 | [py3Dmol](https://github.com/3dmol/py3Dmol) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [PyMOL Open-Source](https://www.pymol.org/) | Molecular Visualization; 3D Structure Analysis; Binding-Site Analysis | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [Swiss-PdbViewer](https://spdbv.unil.ch/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |

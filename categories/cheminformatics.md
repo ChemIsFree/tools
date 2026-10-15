@@ -37,6 +37,7 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 | [NISPO](https://github.com/oxpig/nispo) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [OECD QSAR Toolbox](https://qsartoolbox.org/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Open Drug Discovery Toolkit (ODDT)](https://oddt.readthedocs.io/) | Interaction Analysis; Molecular Docking; Structure-Based Virtual Screening; Bioactivity Analysis; Data Curation | Free / Open Source | — | Linux / Macos / Windows | Curated Resource |
+| [Open3DQSAR](https://sourceforge.net/projects/open3dqsar/) | QSAR & Predictive Modelling; Molecular Descriptors & Properties | Free / Open Source | GUI / Web + CLI | Linux / Windows | Curated Resource |
 | [OpenChemLib](https://github.com/Actelion/openchemlib) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [OSRA](https://cactus.nci.nih.gov/osra/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [PaDEL-Descriptor](http://www.yapcwsoft.com/dd/padeldescriptor/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
@@ -53,6 +54,7 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
+| [Awesome Cheminformatics](https://github.com/hsiaoyi0504/awesome-cheminformatics) | educational | Benchmarks & Datasets; Chemical Data Analysis | Free | GUI / Web |
 | [Biopython](https://biopython.org/) | library | Data Curation | Free / Open Source | — |
 | [ChEMBL](https://www.ebi.ac.uk/chembl/) | database | Bioactivity Analysis; Data Curation | Free | GUI / Web |
 | [Chemistry Development Kit](https://cdk.github.io/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search | Free / Open Source | — |
