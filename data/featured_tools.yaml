@@ -2,6 +2,44 @@
 # IDs refer to entries in data/tools.yaml or data/assayer_free_registry.json.
 # Order within each list determines display priority. Full records remain searchable.
 domains:
+  target-identification:
+    tools:
+      - cansar
+      - chembl-multitask-model
+      - ctd
+      - dapredict
+      - datawarrior
+      - deepcdr
+      - dgidb
+      - dynamut2
+      - ftmap
+      - genemania
+      - open-targets
+      - gpcrdb
+      - klifs
+      - ligtmap
+      - omnipath
+      - patentchem
+      - pdbe-kb
+      - plato
+      - ppb2
+      - proteinsplus
+      - dogsitescorer
+      - reactome
+      - sea
+      - ssm-dta
+      - swisstargetprediction
+      - targetnet
+      - transformercpi
+      - zinclick
+      - pharmmapper
+      - superpred
+      - moltarpred
+      - fasttargetpred
+      - ttd
+      - uniprot
+      - drugbank
+      - gtopdb
   chemical-structures:
     tools:
       - catalist
