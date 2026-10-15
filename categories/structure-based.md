@@ -20,6 +20,7 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | [LigPlot+](https://www.ebi.ac.uk/thornton-srv/software/LigPlus/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Meeko](https://meeko.readthedocs.io/) | Ligand Preparation; Protein Preparation; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [MGLTools / AutoDockTools](https://ccsb.scripps.edu/mgltools/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [MolCRAFT](https://github.com/GenSI-THUAIR/MolCRAFT) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [MolSnapper](https://github.com/oxpig/MolSnapper) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Open Babel](https://openbabel.org/) | Structure Conversion; Ligand Preparation | Free / Open Source | GUI / Web + CLI | Linux / Macos / Windows / Desktop | Curated Resource |
 | [Open Drug Discovery Toolkit (ODDT)](https://oddt.readthedocs.io/) | Interaction Analysis; Molecular Docking; Structure-Based Virtual Screening; Bioactivity Analysis; Data Curation | Free / Open Source | — | Linux / Macos / Windows | Curated Resource |
@@ -35,6 +36,7 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | [PoseView](https://proteins.plus/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [ProLIF](https://prolif.readthedocs.io/) | Interaction Analysis; Data Curation; Chemical Data Analysis; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [PROPKA](https://github.com/jensengroup/propka) | Protein Preparation; Binding-Site Analysis | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [Protenix](https://github.com/bytedance/Protenix) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [PyRx](https://pyrx.sourceforge.io/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [QuickVina 2](https://github.com/QVina/qvina) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [rDock](https://github.com/CBDD/rDock) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux | Curated Resource |

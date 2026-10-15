@@ -13,6 +13,7 @@ Generate and design novel small molecules, fragments, scaffolds, or protein/pept
 | [DeLinker](https://github.com/oxpig/DeLinker) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Fragmenstein](https://github.com/matteoferla/Fragmenstein) | Generative Chemistry; Pharmacophore Modelling; Scaffold Analysis; Structure-Based Virtual Screening; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [LigBuilder V3](http://202.127.18.221/LigBuilder/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [MolCRAFT](https://github.com/GenSI-THUAIR/MolCRAFT) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [MolGPT](https://github.com/devalab/molgpt) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [MolSnapper](https://github.com/oxpig/MolSnapper) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Pocket2Mol](https://github.com/pengxingang/Pocket2Mol) | Generative Chemistry; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux | Curated Resource |
