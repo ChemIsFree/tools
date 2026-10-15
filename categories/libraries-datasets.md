@@ -16,9 +16,9 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [Boltz-2](https://github.com/jwohlwend/boltz) | Protein Structure Prediction | Open Source | CLI | Linux / Macos | Curated Resource |
 | [ChEMBL Web Services](https://www.ebi.ac.uk/chembl/api/data/docs) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [Chemprop](https://github.com/chemprop/chemprop) | QSAR & Predictive Modelling | Free | CLI | Linux / Macos / Windows | Curated Resource |
-| [ColabFold](https://github.com/sokrypton/ColabFold) | Protein Structure Prediction | Open Source | GUI / Web + CLI | Linux / Web | Curated Resource |
+| [ColabFold](https://github.com/sokrypton/ColabFold) | Protein Structure Prediction | Free | GUI / Web + CLI | Linux / Web | Curated Resource |
 | [Cytoscape](https://cytoscape.org/) | Target Assessment & Validation | Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
-| [DeepPocket](https://github.com/ckaykendall/DeepPocket) | Binding-Site Analysis | Free | GUI / Web + CLI | Linux / Macos / Windows | Curated Resource |
+| [DeepPocket](https://github.com/ckaykendall/DeepPocket) | Binding-Site Analysis | Free | CLI | Linux | Curated Resource |
 | [DiffLinker](https://github.com/igashov/DiffLinker) | Generative Chemistry | Free | CLI | Linux | Curated Resource |
 | [DiffSBDD](https://github.com/arneschneuing/DiffSBDD) | Generative Chemistry | Free | CLI | Linux | Curated Resource |
 | [DrugEx](https://github.com/CDDLeiden/DrugEx) | Generative Chemistry | Free | CLI | Linux | Curated Resource |
@@ -110,7 +110,7 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [NCI Open Database](https://cactus.nci.nih.gov/download/nci/) | database | — | Free Web | CLI |
 | [NGL Viewer](https://nglviewer.org/) | library | Molecular Visualization | Open Source | — |
 | [nglview](https://github.com/nglviewer/nglview) | library | Molecular Visualization | Open Source | — |
-| [Open Force Field (Sage)](https://openforcefield.org/) | library | Molecular Dynamics | Free | CLI |
+| [Open Force Field (Sage)](https://openforcefield.org/) | library | Molecular Dynamics | Open Source | — |
 | [Open Reaction Database](https://open-reaction-database.org/) | database | Benchmarks & Datasets | Free | GUI / Web |
 | [Open Targets Platform](https://platform.opentargets.org/) | database | Target Assessment & Validation; Clinical & Regulatory Evidence; Data Curation | Free | GUI / Web |
 | [OpenADMET Models](https://openadmet.org/) | library | — | Free / Open Source | CLI |

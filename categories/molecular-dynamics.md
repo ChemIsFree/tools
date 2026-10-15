@@ -44,7 +44,7 @@ Molecular simulations, trajectory analysis, and free-energy calculations.
 | [CHARMM-GUI](https://www.charmm-gui.org/) | web-tool | Molecular Dynamics | Free | GUI / Web |
 | [deeptime](https://deeptime-ml.github.io/) | library | Molecular Dynamics | Open Source | — |
 | [MDAnalysis](https://www.mdanalysis.org/) | library | Trajectory Analysis | Free / Open Source | — |
-| [Open Force Field (Sage)](https://openforcefield.org/) | library | Molecular Dynamics | Free | CLI |
+| [Open Force Field (Sage)](https://openforcefield.org/) | library | Molecular Dynamics | Open Source | — |
 | [OpenMM](https://openmm.org/) | library | Molecular Dynamics | Free / Open Source | CLI |
 | [PyMBAR](https://github.com/choderalab/pymbar) | library | Molecular Dynamics | Open Source | — |
 

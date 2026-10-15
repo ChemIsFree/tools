@@ -10,7 +10,7 @@ Experimental and predicted protein structures, structure retrieval, and protein 
 |---|---|---|---|---|---|
 | [AlphaFold Server](https://alphafoldserver.com/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [Boltz-2](https://github.com/jwohlwend/boltz) | Protein Structure Prediction | Open Source | CLI | Linux / Macos | Curated Resource |
-| [ColabFold](https://github.com/sokrypton/ColabFold) | Protein Structure Prediction | Open Source | GUI / Web + CLI | Linux / Web | Curated Resource |
+| [ColabFold](https://github.com/sokrypton/ColabFold) | Protein Structure Prediction | Free | GUI / Web + CLI | Linux / Web | Curated Resource |
 | [COSMIC2](https://www.cosmic2.org/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [ESMFold](https://esmatlas.com/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Foldseek](https://search.foldseek.com/) | Protein Structure Prediction; Binding-Site Analysis; 3D Structure Analysis | Free / Open Source | CLI | Linux | Curated Resource |
