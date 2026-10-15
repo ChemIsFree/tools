@@ -72,6 +72,7 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [RDKit](https://www.rdkit.org/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search; Chemical Space Analysis | Free / Open Source | — |
 | [SWISS-MODEL Repository](https://swissmodel.expasy.org/repository/) | database | — | Free Web | CLI |
 | [Therapeutics Data Commons (TDC)](https://tdcommons.ai/) | library | Benchmarks & Datasets; Machine Learning; QSAR & Predictive Modelling; ADME Prediction; Toxicity Prediction; Bioactivity Analysis | Free / Open Source | — |
+| [Therapeutics Data Commons — ADMET Benchmark Group](https://tdcommons.ai/benchmark/admet_group/overview/) | dataset | Benchmarks & Datasets | Free | — |
 | [Therapeutics Data Commons — ADMET Benchmarks](https://tdcommons.ai/) | dataset | — | Free | CLI |
 | [Tox21](https://www.epa.gov/comptox-tools/toxicity-forecaster-toxt21) | dataset | — | Free Web | CLI |
 | [UniChem](https://www.ebi.ac.uk/unichem/) | database | — | Free Web | GUI / Web |

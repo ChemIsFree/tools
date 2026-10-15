@@ -9,6 +9,7 @@ Predict physicochemical, absorption, distribution, metabolism, excretion, and to
 | Application | Tasks | Access | Interface | Platforms | Status |
 |---|---|---|---|---|---|
 | [ADMET-AI](https://admet.ai.greenstonebio.com/) | ADME Prediction; Toxicity Prediction; Drug-Likeness; Physicochemical Properties | Free / Open Source | GUI / Web + CLI | Linux / Macos / Windows / Web | Curated Resource |
+| [ADMETboost](https://ai-druglab.smu.edu/admet) | ADME Prediction; Toxicity Prediction; Physicochemical Properties | Free Web | GUI / Web | Web | Curated Resource |
 | [ADMETlab 3.0](https://admetlab3.scbdd.com/) | ADME Prediction; Toxicity Prediction; Drug-Likeness; Physicochemical Properties | Free | GUI / Web | Web | Curated Resource |
 | [admetSAR 2.0](http://lmmd.ecust.edu.cn/admetsar2/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [admetSAR 3.0](http://lmmd.ecust.edu.cn/admetsar3/) | — | Free Web | GUI / Web | Web | Curated Resource |
@@ -27,6 +28,7 @@ Predict physicochemical, absorption, distribution, metabolism, excretion, and to
 | [OECD QSAR Toolbox](https://qsartoolbox.org/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [pkCSM](https://biosig.lab.uq.edu.au/pkcsm/) | ADME Prediction; Toxicity Prediction; Drug-Likeness | Free | GUI / Web | Web | Curated Resource |
 | [PLETHEM](https://scitovation.com/tools/plethem/) | ADME Prediction; Physicochemical Properties | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [Pred-hERG](https://predherg.labmol.com.br/) | Toxicity Prediction | Free Web | GUI / Web | Web | Curated Resource |
 | [ProTox 3.0](https://tox.charite.de/protox3/) | Toxicity Prediction; Drug-Likeness | Free | GUI / Web | Web | Curated Resource |
 | [SMARTCyp](https://smartcyp.sund.ku.dk/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [SwissADME](http://www.swissadme.ch/) | Physicochemical Properties; ADME Prediction; Drug-Likeness | Free | GUI / Web | Web | Curated Resource |
@@ -45,6 +47,7 @@ Predict physicochemical, absorption, distribution, metabolism, excretion, and to
 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | database | Molecular Descriptors & Properties; Structure Search; Bioactivity Analysis | Free | GUI / Web |
 | [RDKit](https://www.rdkit.org/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search; Chemical Space Analysis | Free / Open Source | — |
 | [Therapeutics Data Commons (TDC)](https://tdcommons.ai/) | library | Benchmarks & Datasets; Machine Learning; QSAR & Predictive Modelling; ADME Prediction; Toxicity Prediction; Bioactivity Analysis | Free / Open Source | — |
+| [Therapeutics Data Commons — ADMET Benchmark Group](https://tdcommons.ai/benchmark/admet_group/overview/) | dataset | Benchmarks & Datasets | Free | — |
 | [Therapeutics Data Commons — ADMET Benchmarks](https://tdcommons.ai/) | dataset | — | Free | CLI |
 | [Tox21](https://www.epa.gov/comptox-tools/toxicity-forecaster-toxt21) | dataset | — | Free Web | CLI |
 
