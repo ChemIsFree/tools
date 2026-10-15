@@ -1084,8 +1084,8 @@ tools:
   description: "Web server for estimating how protein mutations affect protein stability and flexibility using complementary graph-based and normal-mode approaches."
   catalogue: app
   domain:
-  - target-identification
-  - molecular-dynamics
+  - "target-identification"
+  - "molecular-dynamics"
   tasks:
   - target-assessment
   - free-energy
@@ -1172,14 +1172,14 @@ tools:
   description: Free open-source cheminformatics desktop application for chemical structure editing, descriptor calculations, activity/property analysis, chemical-space visualization, and database searching including ChEMBL.
   catalogue: app
   domain:
-  - target-identification
-  - visualization
-  - cheminformatics
-  - de-novo-design
-  - ligand-based-qsar
-  - admet-prediction
-  - nomenclature-format-conversion
-  - organization
+  - "target-identification"
+  - "visualization"
+  - "cheminformatics"
+  - "de-novo-design"
+  - "ligand-based-qsar"
+  - "admet-prediction"
+  - "nomenclature-format-conversion"
+  - "organization"
   tasks:
   - bioactivity-analysis
   - data-curation
@@ -1964,12 +1964,9 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - target-identification
-  - protein-structures
-  - structure-based
-  - cheminformatics
-  - libraries-datasets
-  - organization
+  - "target-identification"
+  - "libraries-datasets"
+  - "protein-structures"
   tasks:
   - target-assessment
   - data-curation
@@ -2058,10 +2055,8 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - target-identification
-  - cheminformatics
-  - libraries-datasets
-  - organization
+  - "target-identification"
+  - "libraries-datasets"
   tasks:
   - target-assessment
   - clinical-evidence
@@ -3026,8 +3021,8 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - target-identification
-  - libraries-datasets
+  - "target-identification"
+  - "libraries-datasets"
   tasks:
   - target-assessment
   - bioactivity-analysis
@@ -3069,8 +3064,8 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - target-identification
-  - libraries-datasets
+  - "target-identification"
+  - "libraries-datasets"
   tasks:
   - target-assessment
   - bioactivity-analysis
@@ -9702,8 +9697,8 @@ tools:
   description: "Web-based fragment-mapping platform that identifies hot spots on protein surfaces by mapping small organic probe molecules and ranking energetically favourable binding regions."
   catalogue: app
   domain:
-  - target-identification
-  - binding-pockets
+  - "target-identification"
+  - "binding-pockets"
   category:
   - target-identification
   - binding-pockets
@@ -9738,7 +9733,8 @@ tools:
   description: "Binding-site detection and druggability-scoring service in the ProteinsPlus structural-analysis ecosystem, identifying cavities and estimating their druggability."
   catalogue: app
   domain:
-  - binding-pockets
+  - "target-identification"
+  - "binding-pockets"
   category:
   - binding-pockets
   type: "web-tool"
@@ -10770,8 +10766,8 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - target-identification
-  - libraries-datasets
+  - "target-identification"
+  - "libraries-datasets"
   tasks:
   - target-assessment
   category:
@@ -10804,16 +10800,15 @@ tools:
 - id: sea
   name: Similarity Ensemble Approach (SEA)
   description: Ligand-similarity method for predicting potential protein targets from sets of known ligands.
-  catalogue: resource
+  catalogue: "app"
   domain:
-  - target-identification
-  - libraries-datasets
+  - "target-identification"
   tasks:
-  - target-assessment
+  - "target-assessment"
   category:
-  - data-and-databases
-  - drug-discovery
-  type: web-tool
+  - "drug-discovery"
+  - "target-prediction"
+  type: "web-tool"
   access:
   - free
   source_available: false
@@ -10840,16 +10835,15 @@ tools:
 - id: ligtmap
   name: LigTMap
   description: Ligand-based target prediction resource for mapping small molecules to potential protein targets.
-  catalogue: resource
+  catalogue: "app"
   domain:
-  - target-identification
-  - libraries-datasets
+  - "target-identification"
   tasks:
-  - target-assessment
+  - "target-assessment"
   category:
-  - data-and-databases
-  - drug-discovery
-  type: web-tool
+  - "drug-discovery"
+  - "target-prediction"
+  type: "web-tool"
   access:
   - free
   source_available: false
@@ -10857,7 +10851,7 @@ tools:
   platforms:
   - web
   interface:
-  - web
+  - "web"
   languages: []
   gpu: not-required
   installation:
@@ -10876,16 +10870,15 @@ tools:
 - id: targetnet
   name: TargetNet
   description: Web resource for ligand-based prediction of potential drug-target interactions.
-  catalogue: resource
+  catalogue: "app"
   domain:
-  - target-identification
-  - libraries-datasets
+  - "target-identification"
   tasks:
-  - target-assessment
+  - "target-assessment"
   category:
-  - data-and-databases
-  - drug-discovery
-  type: web-tool
+  - "drug-discovery"
+  - "target-prediction"
+  type: "web-tool"
   access:
   - free
   source_available: false
@@ -10912,16 +10905,17 @@ tools:
 - id: ppb2
   name: PPB2
   description: Web server for predicting plasma protein binding of small molecules.
-  catalogue: resource
+  catalogue: "app"
   domain:
-  - admet-prediction
-  - libraries-datasets
+  - "target-identification"
+  - "admet-prediction"
   tasks:
-  - adme
+  - "target-assessment"
+  - "adme"
   category:
-  - drug-discovery
-  - machine-learning
-  type: web-tool
+  - "drug-discovery"
+  - "machine-learning"
+  type: "web-tool"
   access:
   - free
   source_available: false
@@ -13225,5 +13219,1416 @@ tools:
   website: https://github.com/nglviewer/nglview
   repository: []
   documentation: https://github.com/nglviewer/nglview
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: cansar
+  name: "canSAR"
+  description: "Integrated cancer research knowledgebase supporting target identification, target prioritisation, and drug discovery."
+  catalogue: app
+  domain:
+  - target-identification
+  tasks:
+  - target-assessment
+  category:
+  - drug-discovery
+  - target-prediction
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://cansar.icr.ac.uk/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+  notes: "Hosted research platform; verify current service and reuse terms."
+
+- id: chembl-multitask-model
+  name: "ChEMBL Multitask Model"
+  description: "Multitask model for predicting compound activity across multiple ChEMBL targets."
+  catalogue: app
+  domain:
+  - target-identification
+  - ligand-based-qsar
+  tasks:
+  - target-assessment
+  - bioactivity-analysis
+  - qsar
+  category:
+  - drug-discovery
+  - target-prediction
+  - machine-learning
+  type: software
+  access:
+  - open-source
+  source_available: true
+  license: "MIT (code); ChEMBL training data terms apply"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://chembl.github.io/chembl_multitask_model/
+  repository: https://github.com/chembl/chembl_multitask_model
+  documentation: https://chembl.github.io/chembl_multitask_model/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: "Model code is MIT-licensed; review the ChEMBL data licence and the selected model release separately."
+
+- id: ctd
+  name: "Comparative Toxicogenomics Database (CTD)"
+  description: "Curated database linking chemicals, genes, diseases, and toxicogenomic evidence."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://ctdbase.org/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: dapredict
+  name: "DAPredict"
+  description: "Computational prediction tool for drug–target associations."
+  catalogue: app
+  domain:
+  - target-identification
+  tasks:
+  - target-assessment
+  category:
+  - drug-discovery
+  - target-prediction
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: ""
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+  notes: "Official endpoint and licence need source-level verification before publishing a direct link."
+
+- id: deepcdr
+  name: "DeepCDR"
+  description: "Deep learning framework for predicting drug response using chemical structures and cancer cell-line omics."
+  catalogue: app
+  domain:
+  - target-identification
+  - ligand-based-qsar
+  tasks:
+  - bioactivity-analysis
+  - qsar
+  category:
+  - drug-discovery
+  - machine-learning
+  type: software
+  access:
+  - free
+  source_available: true
+  license: "Not verified"
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - source
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://github.com/hauldhut/DeepCDR
+  repository: https://github.com/hauldhut/DeepCDR
+  documentation: https://github.com/hauldhut/DeepCDR
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: dgidb
+  name: "Drug–Gene Interaction Database (DGIdb)"
+  description: "Aggregates evidence on drug–gene interactions and druggability."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  - bioactivity-analysis
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://www.dgidb.org/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: genemania
+  name: "GeneMANIA"
+  description: "Gene function prediction and functional association network exploration tool."
+  catalogue: app
+  domain:
+  - target-identification
+  tasks:
+  - target-assessment
+  category:
+  - drug-discovery
+  - target-prediction
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://genemania.org/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: gpcrdb
+  name: "GPCRdb"
+  description: "Specialist database of GPCR sequence, structure, ligand pharmacology, and mutations."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  - bioactivity-analysis
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://gpcrdb.org/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: klifs
+  name: "KLIFS"
+  description: "Kinase–ligand interaction fingerprint and structural database for kinase binding sites and ligands."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  - bioactivity-analysis
+  - binding-site-analysis
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://klifs.net/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: omnipath
+  name: "OmniPath"
+  description: "Knowledgebase and resources for signalling pathways and molecular interaction networks."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: true
+  license: "Not verified"
+  platforms:
+  - web
+  - linux
+  - macos
+  - windows
+  interface:
+  - web
+  - api
+  - python
+  - r
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  - pip
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://omnipathdb.org/
+  repository: https://github.com/saezlab/omnipath
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: patentchem
+  name: "PatentChem"
+  description: "Patent-focused chemical and bioactivity search resource for drug-discovery research."
+  catalogue: app
+  domain:
+  - target-identification
+  tasks:
+  - target-assessment
+  - bioactivity-analysis
+  category:
+  - drug-discovery
+  - target-prediction
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://patentchem.com/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+  notes: "Verify the official service identity, availability, and reuse terms."
+
+- id: pdbe-kb
+  name: "PDBe-KB"
+  description: "Knowledgebase integrating structural and functional annotations for macromolecular structures."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - target-identification
+  - protein-structures
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  - protein-preparation
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://www.ebi.ac.uk/pdbe/pdbe-kb/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: plato
+  name: "PLATO"
+  description: "Polypharmacology prediction platform for ligand-based target fishing and bioactivity profiling."
+  catalogue: app
+  domain:
+  - target-identification
+  - ligand-based-qsar
+  tasks:
+  - target-assessment
+  - bioactivity-analysis
+  category:
+  - drug-discovery
+  - target-prediction
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: "Hosted service; verify current terms"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: http://plato.uniba.it/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: proteinsplus
+  name: "ProteinsPlus"
+  description: "Web platform for structure-based drug-design tasks, including binding-site analysis and DoGSiteScorer."
+  catalogue: app
+  domain:
+  - target-identification
+  - binding-pockets
+  - structure-based
+  tasks:
+  - binding-site-analysis
+  - protein-preparation
+  - molecular-docking
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: "Hosted service; verify current terms"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://proteins.plus/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: ssm-dta
+  name: "SSM-DTA"
+  description: "Deep-learning framework for drug–target affinity prediction using semi-supervised and multitask learning."
+  catalogue: app
+  domain:
+  - target-identification
+  - ligand-based-qsar
+  tasks:
+  - bioactivity-analysis
+  - qsar
+  category:
+  - drug-discovery
+  - machine-learning
+  type: software
+  access:
+  - free
+  source_available: true
+  license: "MIT"
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - source
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://github.com/QizhiPei/SSM-DTA
+  repository: https://github.com/QizhiPei/SSM-DTA
+  documentation: https://github.com/QizhiPei/SSM-DTA
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: swisstargetprediction
+  name: "SwissTargetPrediction"
+  description: "Web-based prediction of likely macromolecular targets for bioactive small molecules."
+  catalogue: app
+  domain:
+  - target-identification
+  tasks:
+  - target-assessment
+  - bioactivity-analysis
+  category:
+  - drug-discovery
+  - target-prediction
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: "Hosted service; verify current terms"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: http://www.swisstargetprediction.ch/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: transformercpi
+  name: "TransformerCPI"
+  description: "Transformer-based model for compound–protein interaction prediction."
+  catalogue: app
+  domain:
+  - target-identification
+  - ligand-based-qsar
+  tasks:
+  - target-assessment
+  - bioactivity-analysis
+  - qsar
+  category:
+  - drug-discovery
+  - machine-learning
+  type: software
+  access:
+  - free
+  source_available: true
+  license: "Not verified"
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - source
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://github.com/lifanchen-simm/transformerCPI
+  repository: https://github.com/lifanchen-simm/transformerCPI
+  documentation: https://github.com/lifanchen-simm/transformerCPI
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: zinclick
+  name: "ZINClick"
+  description: "Database and search interface for purchasable click-chemistry building blocks and compounds."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - compound-library-search
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://zinclick.zinc.docking.org/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: ttd
+  name: "Therapeutic Target Database (TTD)"
+  description: "Database of therapeutic targets, target druggability, associated diseases, and drugs."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  - bioactivity-analysis
+  - clinical-evidence
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://db.idrblab.net/ttd/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: fasttargetpred
+  name: "FastTargetPred"
+  description: "Web-based tool for fast prediction of potential protein targets for small molecules."
+  catalogue: app
+  domain:
+  - target-identification
+  tasks:
+  - target-assessment
+  - bioactivity-analysis
+  category:
+  - drug-discovery
+  - target-prediction
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: ""
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+  notes: "Official endpoint and licence require verification; the record is classified as a target-prediction tool as requested."
+
+- id: breeze
+  name: "BREEZE"
+  description: "Molecular and scientific visualisation tool."
+  catalogue: app
+  domain:
+  - visualization
+  tasks:
+  - molecular-visualization
+  category:
+  - visualization
+  - drug-discovery
+  type: web-tool
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: ""
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+  notes: "Official URL and precise product identity require verification before linking."
+
+- id: cmaup
+  name: "CMAUP"
+  description: "Database of medicinal and edible plants with chemical constituents and related annotations."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  tasks:
+  - benchmarks-datasets
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://bidd.group/CMAUP/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: dresis
+  name: "DRESIS"
+  description: "Database resource for drug resistance information and related biomedical evidence."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  tasks:
+  - benchmarks-datasets
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://dresis.ch/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: drkg
+  name: "Drug Repurposing Knowledge Graph (DRKG)"
+  description: "Knowledge graph integrating drug, disease, gene, and biological relationship data for drug repurposing."
+  catalogue: resource
+  resource_type: dataset
+  domain:
+  - libraries-datasets
+  tasks:
+  - benchmarks-datasets
+  category:
+  - data-and-databases
+  - drug-discovery
+  - machine-learning
+  type: dataset
+  access:
+  - free
+  source_available: true
+  license: "Not verified"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - source
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://github.com/gnn4dr/DRKG
+  repository: https://github.com/gnn4dr/DRKG
+  documentation: https://github.com/gnn4dr/DRKG
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: clinicaltrials-gov
+  name: "ClinicalTrials.gov"
+  description: "Public registry of clinical studies and trial results."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  tasks:
+  - clinical-evidence
+  - benchmarks-datasets
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Public database; source-specific record terms apply"
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://clinicaltrials.gov/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: drugs-at-fda
+  name: "Drugs@FDA"
+  description: "FDA database of approved drug products and regulatory review information."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  tasks:
+  - clinical-evidence
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Public government information; verify record-specific terms"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://www.accessdata.fda.gov/scripts/cder/daf/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: espacenet
+  name: "Espacenet"
+  description: "Patent search database covering patent publications from multiple jurisdictions."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  tasks:
+  - benchmarks-datasets
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Service and document reuse terms vary by source"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://worldwide.espacenet.com/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: fooddb
+  name: "FooDB"
+  description: "Food database linking food constituents, chemical structures, and associated data."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  tasks:
+  - benchmarks-datasets
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://foodb.ca/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: google-patents
+  name: "Google Patents"
+  description: "Search interface for patent publications and patent-related metadata."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  tasks:
+  - benchmarks-datasets
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Search service; source-document reuse terms vary"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://patents.google.com/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: human-protein-atlas
+  name: "Human Protein Atlas"
+  description: "Database of human protein expression, localisation, and tissue/cell-type annotation."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://www.proteinatlas.org/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: idsm
+  name: "IDSM"
+  description: "Database resource referenced for drug-discovery research; detailed scope and source require verification."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  tasks:
+  - benchmarks-datasets
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: ""
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+  notes: "The acronym and authoritative source URL need confirmation before adding a direct link."
+
+- id: npass
+  name: "NPASS"
+  description: "Natural products activity and species-source database."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  tasks:
+  - benchmarks-datasets
+  - bioactivity-analysis
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://bidd.group/NPASS/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: openfda
+  name: "openFDA"
+  description: "FDA open-data APIs for drug, device, food, and other regulatory datasets."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  tasks:
+  - clinical-evidence
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Public government data; individual datasets may carry source-specific terms"
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://open.fda.gov/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: papyrus
+  name: "Papyrus"
+  description: "Standardised bioactivity dataset for machine-learning and ligand-based modelling."
+  catalogue: resource
+  resource_type: dataset
+  domain:
+  - libraries-datasets
+  - ligand-based-qsar
+  tasks:
+  - benchmarks-datasets
+  - bioactivity-analysis
+  category:
+  - data-and-databases
+  - drug-discovery
+  - machine-learning
+  type: dataset
+  access:
+  - free
+  source_available: true
+  license: "Not verified"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  languages: []
+  gpu: not-required
+  installation:
+  - pip
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://github.com/OlivierBeckers/papyrus
+  repository: https://github.com/OlivierBeckers/papyrus
+  documentation: https://github.com/OlivierBeckers/papyrus
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: pemt
+  name: "PEMT"
+  description: "Patent enrichment tool for extracting chemical and gene-related information from patent literature."
+  catalogue: app
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  - data-curation
+  category:
+  - drug-discovery
+  - data-and-databases
+  type: software
+  access:
+  - free
+  source_available: true
+  license: "Not verified"
+  platforms:
+  - linux
+  interface:
+  - python
+  - cli
+  languages: []
+  gpu: not-required
+  installation:
+  - source
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://github.com/OlivierBeckers/PEMT
+  repository: https://github.com/OlivierBeckers/PEMT
+  documentation: https://github.com/OlivierBeckers/PEMT
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: perunpdb
+  name: "PeruNPDB"
+  description: "Database of Peruvian natural products and related chemical information."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  tasks:
+  - benchmarks-datasets
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://perunpdb.com.pe/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: protac-db
+  name: "PROTAC-DB"
+  description: "Database of PROTAC structures, target proteins, E3 ligases, and bioactivity data."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  tasks:
+  - benchmarks-datasets
+  - bioactivity-analysis
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://protacdb.com/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: pubmed
+  name: "PubMed"
+  description: "Biomedical literature database supporting search and retrieval of biomedical publications."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - libraries-datasets
+  tasks:
+  - benchmarks-datasets
+  - data-curation
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Public bibliographic database; full-text rights vary by article"
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://pubmed.ncbi.nlm.nih.gov/
+  repository: []
+  documentation: ""
+  citation: []
+  chemisfree_status: curated-resource
+
+- id: open-targets-genetics
+  name: "Open Targets Genetics"
+  description: "Genetics-focused resource for exploring genetic evidence linking variants, genes, and diseases."
+  catalogue: resource
+  resource_type: database
+  domain:
+  - target-identification
+  - libraries-datasets
+  tasks:
+  - target-assessment
+  - clinical-evidence
+  category:
+  - data-and-databases
+  - drug-discovery
+  type: database
+  access:
+  - free
+  source_available: false
+  license: "Not verified"
+  platforms:
+  - web
+  interface:
+  - web
+  - api
+  languages: []
+  gpu: not-required
+  installation:
+  - web
+  status: active
+  developers:
+  - "Project maintainers"
+  website: https://genetics.opentargets.org/
+  repository: []
+  documentation: ""
   citation: []
   chemisfree_status: curated-resource
