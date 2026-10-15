@@ -10486,32 +10486,6 @@ tools:
   verification: {status: official-source-linked, last_checked: '2026-10-15'}
   notes: "Platform channels and individual packages can have separate licences. Use one environment manager consistently per project."
 
-- id: mamba
-  name: "Mamba"
-  description: "Fast alternative package and environment manager compatible with Conda-style environment specifications."
-  catalogue: app
-  domain: [organization]
-  tasks: [research-infrastructure, workflow-construction]
-  category: [package-management, reproducibility]
-  type: software
-  access: [free, open-source]
-  source_available: true
-  license: "BSD-3-Clause"
-  platforms: [linux, macos, windows]
-  interface: [cli]
-  languages: [C++]
-  gpu: "not-required"
-  installation: [package-manager]
-  status: active
-  developers: [QuantStack]
-  website: "https://mamba.readthedocs.io/"
-  repository: "https://github.com/mamba-org/mamba"
-  documentation: "https://mamba.readthedocs.io/"
-  citation: []
-  chemisfree_status: curated-resource
-  verification: {status: verified, last_checked: '2026-10-15'}
-  notes: "Mamba uses Conda-compatible environment files. It can complement Conda but need not be a mandatory second manager."
-
 - id: docker-engine
   name: "Docker Engine"
   description: "Container runtime and tooling for packaging reproducible software environments for computational chemistry and drug-discovery workflows."
@@ -10616,3 +10590,29 @@ tools:
   chemisfree_status: curated-resource
   verification: {status: official-source-linked, last_checked: '2026-10-15'}
   notes: "The benchmark group spans multiple endpoints and uses scaffold-based splits. Treat it as a benchmark resource, not a standalone ADMET prediction model."
+
+- id: pymol-open-source-build
+  name: "PyMOL (open-source build)"
+  description: "Molecular visualization program for interactive exploration of protein structures, ligands, binding sites, molecular surfaces and publication-quality structural figures."
+  catalogue: app
+  domain: [visualization, protein-structures]
+  tasks: [molecular-visualization, three-dimensional-analysis]
+  category: [molecular-visualization, structural-biology]
+  type: software
+  access: [free, open-source]
+  source_available: true
+  license: "GPL-2.0-only for the open-source build; commercial PyMOL distributions have separate licensing."
+  platforms: [linux, macos, windows]
+  interface: [gui, programmatic]
+  languages: [Python, C]
+  gpu: "not-required"
+  installation: [package-manager, source]
+  status: active
+  developers: [Schrödinger and PyMOL open-source contributors]
+  website: "https://pymol.org/"
+  repository: "https://github.com/schrodinger/pymol-open-source"
+  documentation: "https://pymolwiki.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: official-source-linked, last_checked: '2026-10-15'}
+  notes: "This entry describes the GPL open-source distribution, not the separately licensed commercial PyMOL builds. Check platform packaging and current repository terms."
