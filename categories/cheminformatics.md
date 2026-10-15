@@ -27,6 +27,7 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 | [InChI Software](https://www.inchi-trust.org/downloads/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Jmol](https://jmol.sourceforge.net/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [JSME Molecular Editor](https://jsme-editor.github.io/) | — | Free Web | GUI / Web | Web | Curated Resource |
+| [Ketcher](https://github.com/epam/ketcher) | Chemical Data Analysis | Free | GUI / Web + CLI | Linux / Macos / Windows | Curated Resource |
 | [KNIME Analytics Platform](https://www.knime.com/) | Chemical Data Analysis; Machine Learning; Workflow Construction; Pipeline Execution | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [LillyMol](https://github.com/IanAWatson/LillyMol) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [LS-align](https://zhanggroup.org/LS-align/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
@@ -56,16 +57,24 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 |---|---|---|---|---|
 | [Awesome Cheminformatics](https://github.com/hsiaoyi0504/awesome-cheminformatics) | educational | Benchmarks & Datasets; Chemical Data Analysis | Free | GUI / Web |
 | [Biopython](https://biopython.org/) | library | Data Curation | Free / Open Source | — |
+| [CDPKit](https://github.com/molinfo-vienna/CDPKit) | library | Chemical Data Analysis | Free | CLI |
 | [ChEMBL](https://www.ebi.ac.uk/chembl/) | database | Bioactivity Analysis; Data Curation | Free | GUI / Web |
 | [Chemistry Development Kit](https://cdk.github.io/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search | Free / Open Source | — |
 | [ChemSpider](https://www.chemspider.com/) | database | — | Free Web | CLI |
+| [Datamol](https://github.com/datamol-io/datamol) | library | Chemical Data Analysis | Free | CLI |
+| [Kekule.js](https://github.com/partridgejiang/Kekule.js) | library | Chemical Data Analysis | Free | CLI |
 | [molbloom](https://github.com/whitead/molbloom) | library | Compound Library Search; Ligand-Based Virtual Screening; Structure Search | Free / Open Source | CLI |
+| [molfeat](https://github.com/datamol-io/molfeat) | library | Chemical Data Analysis | Free | CLI |
+| [MolVS](https://github.com/mcs07/MolVS) | library | Chemical Data Analysis | Free | CLI |
+| [Mordred](https://github.com/mordred-descriptor/mordred) | library | Chemical Data Analysis | Free | CLI |
 | [Open Targets Platform](https://platform.opentargets.org/) | database | Target Assessment & Validation; Clinical & Regulatory Evidence; Data Curation | Free | GUI / Web |
 | [Pharos](https://pharos.nih.gov/) | database | Target Assessment & Validation; Bioactivity Analysis; Data Curation | Free | GUI / Web |
 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | database | Molecular Descriptors & Properties; Structure Search; Bioactivity Analysis | Free | GUI / Web |
 | [QMugs](https://www.nature.com/articles/s41597-022-01390-7) | dataset | — | Free | CLI |
 | [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |
 | [RDKit](https://www.rdkit.org/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search; Chemical Space Analysis | Free / Open Source | — |
+| [RDKit.js](https://github.com/rdkit/rdkit) | library | Chemical Data Analysis | Free | CLI |
+| [scikit-mol](https://github.com/EBjerrum/scikit-mol) | library | Chemical Data Analysis | Free | CLI |
 | [TeachOpenCADD](https://github.com/volkamerlab/teachopencadd) | educational | — | Free | CLI |
 | [UniProt](https://www.uniprot.org/) | database | Target Assessment & Validation; Data Curation; Protein Preparation | Free | GUI / Web |
 
