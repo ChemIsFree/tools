@@ -113,7 +113,11 @@ def main():
     with open(CURATION_FILE, "r", encoding="utf-8") as handle:
         curation_data = yaml.safe_load(handle) or {}
 
-    target_keep = (curation_data.get("category_curation", {}).get("target-identification", {}) or {}).get("keep", [])
+    curated_keep = {
+        category_id: list((rule or {}).get("keep") or [])
+        for category_id, rule in (curation_data.get("category_curation", {}) or {}).items()
+        if isinstance(rule, dict) and rule.get("keep")
+    }
 
     tools = tools_data.get(
         "tools",
@@ -151,10 +155,11 @@ def main():
 
     for domain_id, domain in domains.items():
 
-        if domain_id == "target-identification":
-            # Target Identification is an editorial shortlist, not an automatic
-            # keyword bucket. Include maintained records plus matching Assayer entries,
-            # while preferring maintained records when names or official URLs overlap.
+        if domain_id in curated_keep:
+            # Editorial categories use an explicit shortlist, including imported Assayer
+            # records when they provide the best existing metadata. Reuse records rather
+            # than creating duplicate rows for the same name or official URL.
+            selected_keep = curated_keep[domain_id]
             primary_names = {normalized_name(tool.get("name")) for tool in tools}
             primary_urls = {
                 str(tool.get("website") or "").strip().lower().rstrip("/")
@@ -163,27 +168,30 @@ def main():
             curated_imports = []
             for source_item in imported_tools:
                 item = dict(source_item)
-                if not name_matches(item, target_keep):
+                if not name_matches(item, selected_keep):
                     continue
                 item_name = normalized_name(item.get("name"))
                 item_url = str(item.get("website") or "").strip().lower().rstrip("/")
                 if item_name in primary_names or (item_url and item_url in primary_urls):
                     continue
-                # Apply the same explicit classification overrides used by the website build.
+                curated_imports.append(item)
+
+            curated_pool = [dict(tool) for tool in tools] + curated_imports
+            for item in curated_pool:
                 for override in (curation_data.get("category_curation", {}) or {}).get("record_overrides", []):
                     if name_matches(item, override.get("names") or []):
                         for field in ("name", "description", "catalogue", "resource_type", "type", "access",
-                                      "source_available", "license", "platforms", "interface", "website",
-                                      "repository", "documentation", "notes", "chemisfree_status"):
+                                      "source_available", "license", "platforms", "interface", "languages",
+                                      "gpu", "installation", "status", "developers", "website", "repository",
+                                      "documentation", "citation", "notes", "verification", "chemisfree_status",
+                                      "interface_classification"):
                             if field in override and override[field] is not None:
                                 item[field] = override[field]
                         if override.get("clear_resource_type"):
                             item.pop("resource_type", None)
-                curated_imports.append(item)
-            target_pool = tools + curated_imports
             domain_tools = [
-                tool for tool in target_pool
-                if name_matches(tool, target_keep)
+                tool for tool in curated_pool
+                if name_matches(tool, selected_keep)
             ]
         else:
             domain_tools = [

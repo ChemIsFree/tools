@@ -47,6 +47,49 @@ category_curation:
       - "DrugBank"
       - "GtoPdb"
 
+  protein-structures:
+    keep:
+      - "AlphaFold Server"
+      - "AntiFold"
+      - "AbAdapt"
+      - "Boltz-2"
+      - "CavitySpace"
+      - "Chimera"
+      - "blatant-why"
+      - "Chai-1"
+      - "chroma"
+      - "CognitionBioChem"
+      - "COSMIC2"
+      - "CSM-AB"
+      - "Deep-AVPpred"
+      - "E2EDNA"
+      - "ESMFold"
+      - "FLAPP"
+      - "Foldseek"
+      - "HNADOCK"
+      - "iAREA-AFFINITY"
+      - "lacuna"
+      - "Meeko"
+      - "Observed Antibody Space (OAS)"
+      - "OpenFold3"
+      - "PEP-SiteFinder"
+      - "peptidy"
+      - "ProBiS-Fold"
+      - "PROPKA"
+      - "Protein Design Visualizer (PDV)"
+      - "Protenix"
+      - "PyMOL Open-Source"
+      - "RoseTTAFold"
+      - "RoseTTAFold All-Atom"
+      - "RFdiffusion"
+      - "RNAapt3D"
+      - "RPocket"
+      - "SAbDab / SAbPred"
+      - "SWISS-MODEL"
+      - "Swiss-PdbViewer"
+      - "Uni-Fold"
+      - "Zebra3D"
+
   record_overrides:
     - names: [BREEZE]
       replace_categories: true
@@ -101,7 +144,7 @@ category_curation:
 
     - names: [Chai-1]
       replace_categories: true
-      categories: [protein-structures]
+      categories: [protein-structures, structure-based]
       access: [free, open-source]
       source_available: true
       license: Apache-2.0
@@ -296,6 +339,94 @@ category_curation:
       repository: "https://github.com/bowman-lab/ae-pocketminer"
       notes: "Official repository declares MIT. Local prediction in the documented environment requires Linux and a GPU; the legacy PocketMiner web interface is not the same model."
 
+
+    - names: [AntiFold, AbAdapt, CSM-AB, Deep-AVPpred, FLAPP, HNADOCK, iAREA-AFFINITY, PEP-SiteFinder, ProBiS-Fold, RNAapt3D, Uni-Fold]
+      add_categories: [protein-structures]
+
+    - names: [CavitySpace]
+      add_categories: [protein-structures, binding-pockets]
+
+    - names: [Chimera]
+      add_categories: [protein-structures]
+
+    - names: [CognitionBioChem]
+      add_categories: [protein-structures]
+      description: >-
+        CognitionBioChem is a structural pharmacology workbench for cognition-related CNS targets. It runs Boltz-2 locally for structure prediction, computes chemical and physicochemical properties, validates records against a data contract, and attaches provenance to every reported value. Its pre-registered studies include structure and affinity analyses; affinity predictions are not calibrated experimental measurements and are not free-energy estimates.
+
+    - names: [blatant-why]
+      add_categories: [protein-structures, de-novo-design]
+
+    - names: [DENOPTIM]
+      add_categories: [de-novo-design]
+      description: >-
+        DENOPTIM (De Novo OPTimization of In/organic Molecules) is software for de novo design and virtual screening of functional organic and inorganic compounds. It assembles candidate molecules from building blocks or fragments, evaluates each candidate against a user-defined fitness function, and generates new candidates guided by the properties of known compounds. It runs on Windows, macOS, and Linux and provides a graphical interface for configuring experiments, editing molecular fragments, and inspecting results; computationally intensive experiments run as background batch jobs.
+
+    - names: [PCMol]
+      add_categories: [structure-based]
+
+    - names: [LiGAN]
+      replace_categories: true
+      categories: [structure-based, de-novo-design]
+
+    - names: [helm-gpt]
+      replace_categories: true
+      categories: [de-novo-design]
+
+    - names: [PredMS]
+      replace_categories: true
+      categories: [ligand-based-qsar, de-novo-design]
+
+    - names: [Protenix-Dock]
+      replace_categories: true
+      categories: [structure-based]
+
+    - names: [pyDockSAXS]
+      replace_categories: true
+      categories: [structure-based]
+
+    - names: [phytochemdb]
+      replace_categories: true
+      categories: [ligand-based-qsar, structure-based, libraries-datasets]
+      catalogue: resource
+      resource_type: database
+      type: database
+      notes: "A freely accessible phytochemical database containing plant-derived compounds, chemical structures, calculated physicochemical and ADME-related properties, and search/download facilities. Check source terms before bulk reuse or redistribution."
+
+    - names: [Observed Antibody Space, Observed Antibody Space (OAS)]
+      replace_categories: true
+      categories: [protein-structures, libraries-datasets]
+      catalogue: resource
+      resource_type: database
+      type: database
+      notes: "A database of cleaned, annotated antibody-sequence repertoires, including unpaired and paired heavy/light-chain sequence datasets. Sequence downloads are available through the OAS web interface."
+
+    - names: [RPocket]
+      replace_categories: true
+      categories: [protein-structures, libraries-datasets]
+      catalogue: resource
+      resource_type: database
+      type: database
+      notes: "A database of RNA pocket topology and RNA–ligand information for exploring RNA structural pockets."
+
+    - names: [SAbDab / SAbPred]
+      replace_categories: true
+      categories: [protein-structures, libraries-datasets]
+      catalogue: resource
+      resource_type: database
+      type: database
+      notes: "A collection of antibody structure and sequence resources, including the Structural Antibody Database (SAbDab) and related antibody analysis/design tools under SAbPred. Follow the linked source terms for data reuse."
+
+    - names: [Zebra3D]
+      add_categories: [protein-structures]
+      description: >-
+        Zebra3D analyzes three-dimensional alignments of homologous protein structures to identify subfamily-specific regions (SSRs): local structural elements that are spatially conserved within protein subfamilies but differ between them. It prioritizes SSRs using measures of three-dimensional specificity and statistical significance, and classifies proteins into subfamilies separately for each region. The results can help investigate functional diversity and conformational plasticity across protein superfamilies, guide protein-engineering hypotheses, and reveal structural variability near binding sites. The companion Mustguseal server can automatically collect and superimpose homologous PDB structures and run Zebra3D with default settings online.
+    
+    - names: [lacuna]
+      add_categories: [protein-structures]
+      description: >-
+        Lacuna discovers cryptic protein-binding pockets that are not visible in a single static structure. It generates a conformational ensemble from an input structure, detects pockets in each conformer, clusters corresponding pockets across the ensemble, and ranks candidate sites using a fitted model with a continuous crypticity score. It can emit docking-ready Boltz constraints and AutoDock Vina boxes. The default normal-mode-analysis backend runs without a GPU; optional extras support additional sampling backends.
+
   category_membership:
     target-identification:
       - 'Open Targets Platform'
@@ -336,41 +467,46 @@ category_curation:
       - 'GeneMANIA'
       - 'FastTargetPred'
     protein-structures:
-      - 'RCSB PDB'
-      - 'Protein Data Bank'
-      - 'PDBe'
-      - 'PDBj'
-      - 'PDBe-KB'
-      - 'PDB-REDO'
-      - 'EMDB'
-      - 'Electron Microscopy Data Bank'
-      - 'wwPDB validation reports'
-      - 'wwPDB validation'
-      - 'AlphaFold DB'
-      - 'AlphaFold Protein Structure Database'
-      - '3D-Beacons'
-      - 'AlphaFill'
-      - 'SWISS-MODEL Repository'
-      - 'ModBase'
-      - 'ModelArchive'
-      - 'Boltz-2'
-      - 'Boltz'
-      - 'OpenFold3'
-      - 'OpenFold'
-      - 'ColabFold'
-      - 'Chai-1'
-      - 'AlphaFold 3 Server'
-      - 'AlphaFold Server'
-      - 'ESMFold'
-      - 'RoseTTAFold All-Atom'
-      - 'RoseTTAFold'
-      - 'OmegaFold'
-      - 'I-TASSER'
-      - 'COSMIC2'
-      - 'SWISS-MODEL'
-      - 'MODELLER'
-      - 'Modeller'
-      - 'Protenix'
+      - "AlphaFold Server"
+      - "AntiFold"
+      - "AbAdapt"
+      - "Boltz-2"
+      - "CavitySpace"
+      - "Chimera"
+      - "blatant-why"
+      - "Chai-1"
+      - "chroma"
+      - "CognitionBioChem"
+      - "COSMIC2"
+      - "CSM-AB"
+      - "Deep-AVPpred"
+      - "E2EDNA"
+      - "ESMFold"
+      - "FLAPP"
+      - "Foldseek"
+      - "HNADOCK"
+      - "iAREA-AFFINITY"
+      - "lacuna"
+      - "Meeko"
+      - "Observed Antibody Space (OAS)"
+      - "OpenFold3"
+      - "PEP-SiteFinder"
+      - "peptidy"
+      - "ProBiS-Fold"
+      - "PROPKA"
+      - "Protein Design Visualizer (PDV)"
+      - "Protenix"
+      - "PyMOL Open-Source"
+      - "RoseTTAFold"
+      - "RoseTTAFold All-Atom"
+      - "RFdiffusion"
+      - "RNAapt3D"
+      - "RPocket"
+      - "SAbDab / SAbPred"
+      - "SWISS-MODEL"
+      - "Swiss-PdbViewer"
+      - "Uni-Fold"
+      - "Zebra3D"
     visualization:
       - 'UCSF ChimeraX'
       - 'ChimeraX'

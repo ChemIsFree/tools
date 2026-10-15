@@ -104,6 +104,56 @@ assert expected_target_keep <= set(target_keep), (
     "The Target Identification keep-list is missing: "
     f"{sorted(expected_target_keep - set(target_keep))}"
 )
+protein_keep = set((category_curation.get("protein-structures") or {}).get("keep") or [])
+expected_protein_keep = {
+    "AlphaFold Server", "AntiFold", "AbAdapt", "Boltz-2", "CavitySpace", "Chimera",
+    "blatant-why", "Chai-1", "chroma", "CognitionBioChem", "COSMIC2", "CSM-AB",
+    "Deep-AVPpred", "E2EDNA", "ESMFold", "FLAPP", "Foldseek", "HNADOCK",
+    "iAREA-AFFINITY", "lacuna", "Meeko", "Observed Antibody Space (OAS)", "OpenFold3",
+    "PEP-SiteFinder", "peptidy", "ProBiS-Fold", "PROPKA", "Protein Design Visualizer (PDV)",
+    "Protenix", "PyMOL Open-Source", "RoseTTAFold", "RoseTTAFold All-Atom",
+    "RFdiffusion", "RNAapt3D", "RPocket", "SAbDab / SAbPred", "SWISS-MODEL",
+    "Swiss-PdbViewer", "Uni-Fold", "Zebra3D"
+}
+assert expected_protein_keep <= protein_keep, (
+    "The Protein Structures curated keep-list is missing: "
+    f"{sorted(expected_protein_keep - protein_keep)}"
+)
+excluded_from_protein = {
+    "DENOPTIM", "helm-gpt", "LiGAN", "PCMol", "phytochemdb", "PredMS",
+    "Protenix-Dock", "pyDockSAXS"
+}
+assert not (protein_keep & excluded_from_protein), (
+    "Tools explicitly assigned to other categories must not be kept in Protein Structures: "
+    f"{sorted(protein_keep & excluded_from_protein)}"
+)
+membership = (category_curation.get("category_membership") or {}).get("protein-structures", [])
+assert set(membership) == protein_keep, (
+    "Protein Structures category memberships should match its editorial keep-list exactly."
+)
+featured_data = yaml.safe_load((ROOT / "data" / "featured_tools.yaml").read_text(encoding="utf-8")) or {}
+featured_domains = featured_data.get("domains", {}) or {}
+featured_protein = set((featured_domains.get("protein-structures") or {}).get("tools") or [])
+assert "boltz-2" in featured_protein and "assayer-boltz" not in featured_protein, (
+    "Boltz-2 should use its single maintained catalogue ID in Protein Structures."
+)
+assert "assayer-cavityspace" in set((featured_domains.get("binding-pockets") or {}).get("tools") or []), (
+    "CavitySpace should be featured in Binding Pockets as well as Protein Structures."
+)
+for name in ("Observed Antibody Space", "RPocket", "SAbDab / SAbPred", "phytochemdb"):
+    override = next((row for row in category_curation.get("record_overrides", [])
+                     if any(re.sub(r"[^a-z0-9]+", "", value.lower()) == re.sub(r"[^a-z0-9]+", "", name.lower())
+                            for value in row.get("names", []))), None)
+    assert override and override.get("catalogue") == "resource" and override.get("resource_type") == "database", (
+        f"{name} must be classified as a database/resource."
+    )
+for name in ("CognitionBioChem", "DENOPTIM", "lacuna", "Zebra3D"):
+    override = next((row for row in category_curation.get("record_overrides", [])
+                     if name in row.get("names", [])), None)
+    assert override and not re.search(r"(?:…|\.\.\.)\s*$", str(override.get("description", ""))), (
+        f"{name} must have a complete, non-ellipsized description override."
+    )
+
 overrides = category_curation.get("record_overrides", [])
 override_names = {
     name
