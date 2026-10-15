@@ -25,7 +25,7 @@ def normalized_name(value):
 def name_matches(tool, aliases):
     values = [normalized_name(tool.get("name")), normalized_name(tool.get("id"))]
     targets = [normalized_name(alias) for alias in aliases]
-    return any(value and target and (value == target or (len(target) >= 5 and target in value))
+    return any(value and target and (value == target or (value.startswith("assayer") and value.endswith(target)))
                for value in values for target in targets)
 
 
