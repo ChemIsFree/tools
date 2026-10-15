@@ -40,6 +40,51 @@ domains:
       - uniprot
       - drugbank
       - gtopdb
+  protein-structures:
+    tools:
+      - alphafold-3-server
+      - assayer-antifold
+      - assayer-abadapt
+      - boltz-2
+      - assayer-cavityspace
+      - assayer-chimera
+      - assayer-blatant-why
+      - assayer-chai-1
+      - assayer-chroma
+      - assayer-cognitionbiochem
+      - cosmic2
+      - assayer-csm-ab
+      - assayer-deep-avppred
+      - assayer-e2edna
+      - esmfold
+      - assayer-flapp
+      - foldseek
+      - assayer-hnadock
+      - assayer-iarea-affinity
+      - assayer-lacuna
+      - meeko
+      - assayer-observed-antibody-space-oas
+      - openfold3
+      - assayer-pep-sitefinder
+      - assayer-peptidy
+      - propka
+      - pdv
+      - assayer-probis-fold
+      - protenix
+      - rosettafold
+      - rosettafold-all-atom
+      - assayer-rfdiffusion
+      - assayer-rnaapt3d
+      - pymol-open-source
+      - assayer-rpocket
+      - assayer-sabdab-sabpred
+      - assayer-swiss-model
+      - swiss-pdb-viewer
+      - assayer-uni-fold
+      - assayer-zebra3d
+  binding-pockets:
+    tools:
+      - assayer-cavityspace
   chemical-structures:
     tools:
       - catalist
@@ -72,6 +117,11 @@ domains:
       - assayer-uni-mol
       - opera
       - assayer-opera
+      - assayer-denoptim
+      - assayer-helm-gpt
+      - assayer-pcmol
+      - assayer-predms
+      - assayer-phytochemdb
   structure-based-discovery:
     tools:
       - gnina
@@ -81,7 +131,7 @@ domains:
       - assayer-dynamicbind
       - assayer-colabfold
       - assayer-esm-facebookresearch
-      - assayer-boltz
+      - boltz-2
       - assayer-p2rank
       - assayer-fpocket
       - assayer-proteinsplus-dogsitescorer
@@ -93,6 +143,9 @@ domains:
       - assayer-charmm-gui
       - assayer-virtualflow
       - dynamut2
+      - assayer-ligan
+      - assayer-protenix-dock
+      - assayer-pydocksaxs
   molecular-properties-admet:
     tools:
       - assayer-swissadme
