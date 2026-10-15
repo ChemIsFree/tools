@@ -3109,3 +3109,6594 @@ tools:
     GtoPdb is a database for target identification and should be visible in both Target Identification
     and Libraries and Datasets. As of 2026, website use requires registration and API access requires
     an API key. Check the current terms before use in commercial settings.
+- id: humanbase
+  name: "HumanBase"
+  description: "Tissue- and cell-type-specific human gene-function and interaction networks for prioritising candidate disease genes and interpreting gene sets."
+  catalogue: app
+  domain:
+  - target-identification
+  category:
+  - target-identification
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Web service; no separate software licence identified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://humanbase.io/"
+  repository: []
+  documentation: "https://humanbase.io/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Uses data-driven associations rather than only literature-derived knowledge. Treat network associations as prioritisation evidence, not causal proof."
+
+- id: toppgene-suite
+  name: "ToppGene Suite"
+  description: "Web suite for candidate-gene prioritisation, gene-list functional enrichment, network-based ranking and disease-gene analysis."
+  catalogue: app
+  domain:
+  - target-identification
+  category:
+  - target-identification
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Web service; consult the provider terms for reuse of results and data"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://toppgene.cchmc.org/"
+  repository: []
+  documentation: "https://toppgene.cchmc.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The suite combines functional annotation and protein-interaction network evidence; results depend on input gene sets and annotation coverage."
+
+- id: pdbe
+  name: "PDBe"
+  description: "Protein Data Bank in Europe portal for searching, downloading, validating and analysing experimentally determined macromolecular structures."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - protein-structures
+  category:
+  - protein-structures
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Resource-specific data and service terms; check individual data records and EMBL-EBI terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.ebi.ac.uk/pdbe/"
+  repository: []
+  documentation: "https://www.ebi.ac.uk/pdbe/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A wwPDB partner. Includes structural search, APIs and structure-analysis services."
+
+- id: pdbj
+  name: "PDBj"
+  description: "Protein Data Bank Japan, providing macromolecular structure records, integrated services, sequence and structure search, and electron-microscopy data access."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - protein-structures
+  category:
+  - protein-structures
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Data and services follow wwPDB and resource-specific terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://pdbj.org/"
+  repository: []
+  documentation: "https://pdbj.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A wwPDB partner and one of the official EMDB distribution sites."
+
+- id: pdb-redo
+  name: "PDB-REDO"
+  description: "Automated crystallographic structure refinement, rebuilding and validation service with an archive of optimised PDB structures, maps and model-change information."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - protein-structures
+  category:
+  - protein-structures
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Data usage terms are specified by PDB-REDO; review the current data-use licence"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://pdb-redo.eu/"
+  repository: []
+  documentation: "https://pdb-redo.eu/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Submitting refinement jobs requires an account. The archived optimised structures can be downloaded individually."
+
+- id: emdb
+  name: "Electron Microscopy Data Bank (EMDB)"
+  description: "Archive of three-dimensional electron-microscopy maps and associated metadata for biological macromolecules and complexes."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - protein-structures
+  - libraries-datasets
+  category:
+  - protein-structures
+  - libraries-datasets
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Entry- and resource-specific terms; consult the data provenance and terms for reuse"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.ebi.ac.uk/emdb/"
+  repository: []
+  documentation: "https://www.ebi.ac.uk/emdb/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful alongside PDB coordinates when assessing cryo-EM structures and map-to-model fit."
+
+- id: wwpdb-validation-reports
+  name: "wwPDB Validation Reports"
+  description: "Standardised validation reports for macromolecular structures, summarising geometry, clashes, model quality and fit to experimental data."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - protein-structures
+  category:
+  - protein-structures
+  type: "web-service"
+  access:
+  - free-web
+  source_available: false
+  license: "Validation reports are provided by wwPDB; follow the applicable structure-data terms"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.wwpdb.org/validation/validation-reports"
+  repository: []
+  documentation: "https://www.wwpdb.org/validation/validation-reports"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Use the report to assess experimental structure quality before docking or interaction analysis."
+
+- id: 3d-beacons
+  name: "3D-Beacons"
+  description: "Federated service for discovering and retrieving predicted protein structures from multiple structure-prediction resources using a common interface."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - protein-structures
+  category:
+  - protein-structures
+  type: "web-service"
+  access:
+  - free-web
+  source_available: false
+  license: "Underlying structure sources have their own terms; review provenance for each model"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://3d-beacons.org/"
+  repository: []
+  documentation: "https://3d-beacons.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Model availability and permitted downstream use depend on the source database linked for each structure."
+
+- id: swiss-model-repository
+  name: "SWISS-MODEL Repository"
+  description: "Repository of automatically generated homology models of protein structures, indexed by sequence and linked to modelling metadata."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - protein-structures
+  - libraries-datasets
+  category:
+  - protein-structures
+  - libraries-datasets
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Repository and individual model records have applicable terms; check the record metadata"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://swissmodel.expasy.org/repository/"
+  repository: []
+  documentation: "https://swissmodel.expasy.org/repository/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Distinct from the SWISS-MODEL modelling workspace, although both belong to the same service ecosystem."
+
+- id: modbase
+  name: "ModBase"
+  description: "Database of annotated comparative protein structure models, with alignment and modelling information for model interpretation."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - protein-structures
+  - libraries-datasets
+  category:
+  - protein-structures
+  - libraries-datasets
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Database terms and the underlying template/model source terms apply; verify before redistribution"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://modbase.compbio.ucsf.edu/"
+  repository: []
+  documentation: "https://modbase.compbio.ucsf.edu/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Older comparative modelling resource; check model date and availability before relying on a record."
+
+- id: modelarchive
+  name: "ModelArchive"
+  description: "Archive for depositing and accessing computationally predicted macromolecular structure models with model metadata and provenance."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - protein-structures
+  - libraries-datasets
+  category:
+  - protein-structures
+  - libraries-datasets
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Per-model terms may apply; inspect the record and archive policies"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://modelarchive.org/"
+  repository: []
+  documentation: "https://modelarchive.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for finding predicted structures not represented as experimental entries in the PDB."
+
+- id: openfold3
+  name: "OpenFold3"
+  description: "Research implementation for predicting biomolecular complex structures involving proteins, nucleic acids and ligands; model releases and inference tooling are version-specific."
+  catalogue: app
+  domain:
+  - protein-structures
+  - structure-based
+  category:
+  - protein-structures
+  - structure-based
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Apache-2.0 code; model weights or hosted containers may carry separate model-specific terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://openfold.io/"
+  repository: "https://github.com/aqlaboratory/openfold-3"
+  documentation: "https://openfold.io/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Research-preview code and model distributions are not interchangeable. Check the exact weights/container licence and GPU requirements before deployment."
+
+- id: alphafold-3-server
+  name: "AlphaFold Server"
+  description: "Hosted AlphaFold 3 service for predicting biomolecular complex structures from sequence and molecular inputs without configuring local inference infrastructure."
+  catalogue: app
+  domain:
+  - protein-structures
+  - structure-based
+  category:
+  - protein-structures
+  - structure-based
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Apache-2.0 source code; model parameters and server outputs are governed by separate non-commercial-use terms"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://alphafoldserver.com/"
+  repository: "https://github.com/google-deepmind/alphafold3"
+  documentation: "https://alphafoldserver.com/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Server outputs are restricted to non-commercial use and must not be used in commercial research or automated docking/interaction-prediction systems. Model weights are not covered by the code licence; read the current output and weights terms before use."
+
+- id: esmfold
+  name: "ESMFold"
+  description: "Protein structure-prediction model using protein language-model representations to infer structures from amino-acid sequences."
+  catalogue: app
+  domain:
+  - protein-structures
+  category:
+  - protein-structures
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Code and model/data components have distinct terms; verify the current repository and model weights before redistribution"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://esmatlas.com/"
+  repository: "https://github.com/facebookresearch/esm"
+  documentation: "https://esmatlas.com/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "ESM Atlas provides an online structure-prediction route. Local inference has hardware and model-version requirements."
+
+- id: rosettafold-all-atom
+  name: "RoseTTAFold All-Atom"
+  description: "Research model for predicting structures of biomolecular complexes containing proteins, nucleic acids, small molecules and other molecular components."
+  catalogue: app
+  domain:
+  - protein-structures
+  - structure-based
+  category:
+  - protein-structures
+  - structure-based
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Code and model weights have different licence conditions; the RoseTTAFold model weights are non-commercial unless separately licensed"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/baker-laboratory/RoseTTAFold-All-Atom"
+  repository: "https://github.com/baker-laboratory/RoseTTAFold-All-Atom"
+  documentation: "https://github.com/baker-laboratory/RoseTTAFold-All-Atom"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Do not infer that the model weights are open-source from the code licence. Review the Rosetta-DL terms before commercial use."
+
+- id: omegafold
+  name: "OmegaFold"
+  description: "Protein structure-prediction model that estimates 3D structures from amino-acid sequences without requiring a multiple-sequence alignment at inference."
+  catalogue: app
+  domain:
+  - protein-structures
+  category:
+  - protein-structures
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Repository and model-weight licence terms should be checked for the selected release"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/HeliXonProtein/OmegaFold"
+  repository: "https://github.com/HeliXonProtein/OmegaFold"
+  documentation: "https://github.com/HeliXonProtein/OmegaFold"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Research software; verify maintenance status, model terms and hardware dependencies before selecting it for routine production use."
+
+- id: i-tasser
+  name: "I-TASSER"
+  description: "Integrated protein-structure and function prediction server using threading, model assembly and structure-based function annotation."
+  catalogue: app
+  domain:
+  - protein-structures
+  category:
+  - protein-structures
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Academic/non-commercial use terms apply; contact the provider regarding commercial use"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://zhanggroup.org/I-TASSER/"
+  repository: []
+  documentation: "https://zhanggroup.org/I-TASSER/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Provides structure and function predictions; review server terms and prediction confidence before using outputs."
+
+- id: cosmic2
+  name: "COSMIC2"
+  description: "Cloud platform for running and comparing structural-biology workflows, including several protein-structure-prediction pipelines."
+  catalogue: app
+  domain:
+  - protein-structures
+  - organization
+  category:
+  - protein-structures
+  - organization
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Hosted platform; use the current service terms and check each backend model's licence"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.cosmic2.org/"
+  repository: []
+  documentation: "https://www.cosmic2.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A workflow platform that exposes several backends; it is not a distinct structure-prediction model. Backend availability and terms can differ."
+
+- id: modeller
+  name: "MODELLER"
+  description: "Comparative protein-structure modelling software for constructing homology models from sequence alignments and known template structures."
+  catalogue: app
+  domain:
+  - protein-structures
+  category:
+  - protein-structures
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Free for qualifying academic/non-profit use under its terms; commercial use requires a separate licence"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://salilab.org/modeller/"
+  repository: []
+  documentation: "https://salilab.org/modeller/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Proprietary academic-use distribution, not open-source software. Read the current licence terms for the intended institution and use."
+
+- id: chimerax
+  name: "UCSF ChimeraX"
+  description: "Modern molecular visualisation and analysis application for proteins, nucleic acids, molecular complexes, density maps and scientific figures."
+  catalogue: app
+  domain:
+  - visualization
+  category:
+  - visualization
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Academic, non-profit and government-sponsored research licence; commercial use requires a separate written agreement"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.cgl.ucsf.edu/chimerax/"
+  repository: "https://github.com/RBVI/ChimeraX"
+  documentation: "https://www.cgl.ucsf.edu/chimerax/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The application is not open-source for unrestricted commercial use. The source repository's licence terms restrict use to non-commercial research unless separately licensed."
+
+- id: vmd
+  name: "VMD — Visual Molecular Dynamics"
+  description: "Molecular visualisation and analysis application designed for biomolecular structures, molecular dynamics trajectories and large simulation systems."
+  catalogue: app
+  domain:
+  - visualization
+  - molecular-dynamics
+  category:
+  - visualization
+  - molecular-dynamics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Free for academic/non-commercial use under the provider's terms; verify commercial-use requirements"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.ks.uiuc.edu/Research/vmd/"
+  repository: []
+  documentation: "https://www.ks.uiuc.edu/Research/vmd/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Especially useful for trajectories and membrane systems. Check current licensing conditions before commercial use."
+
+- id: jmol
+  name: "Jmol"
+  description: "Open-source molecular viewer for interactive 3D structures, chemical models and browser-based molecular visualisation."
+  catalogue: app
+  domain:
+  - visualization
+  - cheminformatics
+  category:
+  - visualization
+  - cheminformatics
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "LGPL-2.1-or-later (check individual components and distribution)"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://jmol.sourceforge.net/"
+  repository: "https://github.com/BobHanson/Jmol-SwingJS"
+  documentation: "https://jmol.sourceforge.net/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A long-standing option for interactive molecular visualisation and education."
+
+- id: swiss-pdb-viewer
+  name: "Swiss-PdbViewer"
+  description: "Molecular graphics program for inspecting protein structures, comparing models and exploring residue-level structural differences."
+  catalogue: app
+  domain:
+  - visualization
+  - protein-structures
+  category:
+  - visualization
+  - protein-structures
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Provider-specific distribution terms; check current licence before reuse or redistribution"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://spdbv.unil.ch/"
+  repository: []
+  documentation: "https://spdbv.unil.ch/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Established structural-biology tool; confirm current platform compatibility and licence terms before selecting it for a new workflow."
+
+- id: biovia-discovery-studio-visualizer
+  name: "BIOVIA Discovery Studio Visualizer"
+  description: "Molecular visualisation application for viewing biomolecules, ligand interactions and structures in the BIOVIA ecosystem."
+  catalogue: app
+  domain:
+  - visualization
+  category:
+  - visualization
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Proprietary software under Dassault Systèmes terms; free download does not imply open-source or unrestricted commercial reuse"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://discover.3ds.com/discovery-studio-visualizer-download"
+  repository: []
+  documentation: "https://discover.3ds.com/discovery-studio-visualizer-download"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Review the current end-user licence and organisation-specific conditions before use. Not an open-source package."
+
+- id: icn3d
+  name: "NCBI iCn3D"
+  description: "Browser-based 3D structure viewer connecting molecular structures with protein or nucleotide sequence annotations and 2D interaction diagrams."
+  catalogue: app
+  domain:
+  - visualization
+  - protein-structures
+  category:
+  - visualization
+  - protein-structures
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Public NCBI web service; inspect code and data terms separately if redistributing"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.ncbi.nlm.nih.gov/Structure/icn3d/"
+  repository: "https://github.com/ncbi/icn3d"
+  documentation: "https://www.ncbi.nlm.nih.gov/Structure/icn3d/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Good for quick structure inspection and sharing interactive molecular views without installing a desktop viewer."
+
+- id: py3dmol
+  name: "py3Dmol"
+  description: "Python wrapper that displays interactive 3Dmol.js molecular visualisations inside Jupyter notebooks and other Python environments."
+  catalogue: app
+  domain:
+  - visualization
+  category:
+  - visualization
+  type: "library"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "BSD-3-Clause"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/3dmol/py3Dmol"
+  repository: "https://github.com/3dmol/py3Dmol"
+  documentation: "https://github.com/3dmol/py3Dmol"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Particularly useful for sharing molecular visualisations in computational notebooks. Not a standalone desktop viewer."
+
+- id: plip
+  name: "PLIP"
+  description: "Protein–ligand interaction profiler that detects and reports non-covalent interactions from complex structures and creates interaction diagrams."
+  catalogue: app
+  domain:
+  - visualization
+  - structure-based
+  category:
+  - visualization
+  - structure-based
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "BSD-3-Clause"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://plip-tool.biotec.tu-dresden.de/"
+  repository: "https://github.com/pharmai/plip"
+  documentation: "https://plip-tool.biotec.tu-dresden.de/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Use a chemically valid protein–ligand complex and inspect protonation/atom assignments; automated interaction detection is not experimental evidence."
+
+- id: ligplot-plus
+  name: "LigPlot+"
+  description: "Desktop application for generating and editing 2D diagrams of protein–ligand and protein–nucleic-acid interactions."
+  catalogue: app
+  domain:
+  - visualization
+  - structure-based
+  category:
+  - visualization
+  - structure-based
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Free for academic institutions; requires a confidentiality agreement and may require a fee for non-academic use; not open-source"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.ebi.ac.uk/thornton-srv/software/LigPlus/"
+  repository: []
+  documentation: "https://www.ebi.ac.uk/thornton-srv/software/LigPlus/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The provider states academic-use conditions. Check the current download process and licence before use in industry."
+
+- id: poseview
+  name: "PoseView"
+  description: "Protein–ligand interaction diagram tool associated with the ProteinsPlus structural-analysis ecosystem."
+  catalogue: app
+  domain:
+  - visualization
+  - structure-based
+  category:
+  - visualization
+  - structure-based
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Provider service terms apply; no unrestricted open-source licence is inferred"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://proteins.plus/"
+  repository: []
+  documentation: "https://proteins.plus/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "PoseView is a service within a broader platform rather than necessarily an independently distributed software package."
+
+- id: pandamap
+  name: "PandaMap"
+  description: "Python package for visualising protein–ligand interaction networks and estimating empirical binding-affinity features from complex structures."
+  catalogue: app
+  domain:
+  - visualization
+  - structure-based
+  category:
+  - visualization
+  - structure-based
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/pritampanda15/PandaMap"
+  repository: "https://github.com/pritampanda15/PandaMap"
+  documentation: "https://github.com/pritampanda15/PandaMap"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Released in 2026 with a published usage citation. Affinity estimates are empirical computational outputs, not measured binding data."
+
+- id: pdbsum
+  name: "PDBsum"
+  description: "Structural summary resource providing schematic diagrams of protein structures, domain organisation, ligand interactions and structure-quality features."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - visualization
+  - protein-structures
+  category:
+  - visualization
+  - protein-structures
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Resource-specific terms; consult EMBL-EBI terms and the cited source record"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.ebi.ac.uk/thornton-srv/databases/pdbsum/"
+  repository: []
+  documentation: "https://www.ebi.ac.uk/thornton-srv/databases/pdbsum/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful as a rapid companion to PDB entries, but verify key interaction conclusions against the coordinates."
+
+- id: mdpocket
+  name: "MDpocket"
+  description: "Trajectory-based cavity analysis program from the fpocket ecosystem for identifying and characterising binding pockets across molecular-dynamics simulations."
+  catalogue: app
+  domain:
+  - binding-pockets
+  - molecular-dynamics
+  category:
+  - binding-pockets
+  - molecular-dynamics
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT (fpocket project; verify the exact release/component)"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/Discngine/fpocket"
+  repository: "https://github.com/Discngine/fpocket"
+  documentation: "https://github.com/Discngine/fpocket"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A component in the fpocket suite rather than a wholly unrelated product. Useful for pocket dynamics and transient cavity analysis."
+
+- id: pykvfinder
+  name: "KVFinder / pyKVFinder"
+  description: "Tools for detecting and analysing cavities and binding pockets in macromolecular structures, including a Python interface for reproducible pocket analysis."
+  catalogue: app
+  domain:
+  - binding-pockets
+  category:
+  - binding-pockets
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Repository-specific licence; check current LICENSE before redistribution"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/LBC-LNBio/KVFinder"
+  repository: "https://github.com/LBC-LNBio/KVFinder"
+  documentation: "https://github.com/LBC-LNBio/KVFinder"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The web service and Python implementation are related but can have different dependencies and deployment requirements."
+
+- id: pyvol
+  name: "PyVOL"
+  description: "Python toolkit for locating and characterising protein cavities and voids from molecular structures."
+  catalogue: app
+  domain:
+  - binding-pockets
+  category:
+  - binding-pockets
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT (official repository)"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/schlessinger-lab/pyvol"
+  repository: "https://github.com/schlessinger-lab/pyvol"
+  documentation: "https://github.com/schlessinger-lab/pyvol"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Can be used to assess pocket geometry; pocket identification does not alone prove ligandability or druggability."
+
+- id: povme
+  name: "POVME 2.0"
+  description: "Pocket-volume measurement software for estimating binding-pocket volumes and their changes across sets of protein conformations."
+  catalogue: app
+  domain:
+  - binding-pockets
+  - molecular-dynamics
+  category:
+  - binding-pockets
+  - molecular-dynamics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "BSD-style terms in the source distribution; verify the current release licence"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/POVME/POVME"
+  repository: "https://github.com/POVME/POVME"
+  documentation: "https://github.com/POVME/POVME"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Often used to compare cavity volume across conformational ensembles and molecular-dynamics snapshots."
+
+- id: grasp
+  name: "GrASP"
+  description: "Computational method for identifying cryptic binding pockets by analysing protein surface and structural features."
+  catalogue: app
+  domain:
+  - binding-pockets
+  category:
+  - binding-pockets
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check repository licence and dependencies before redistribution"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/schlessinger-lab/GrASP"
+  repository: "https://github.com/schlessinger-lab/GrASP"
+  documentation: "https://github.com/schlessinger-lab/GrASP"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Research implementation; inspect the paper and prepared inputs to understand the intended pocket-detection setting."
+
+- id: vnegnn
+  name: "VN-EGNN"
+  description: "Geometric deep-learning model for protein–ligand or binding-site prediction using equivariant graph representations."
+  catalogue: app
+  domain:
+  - binding-pockets
+  category:
+  - binding-pockets
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Repository/model-weight terms should be checked separately for the chosen checkpoint"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/ml-jku/vnegnn"
+  repository: "https://github.com/ml-jku/vnegnn"
+  documentation: "https://github.com/ml-jku/vnegnn"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Research code with ML dependencies and GPU requirements; benchmark conditions and exact model weights matter."
+
+- id: ifsitepred
+  name: "IF-SitePred"
+  description: "Web-based protein binding-site prediction service for identifying likely ligand-binding residues and pockets."
+  catalogue: app
+  domain:
+  - binding-pockets
+  category:
+  - binding-pockets
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Web-service terms; no separate open-source software licence identified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://bioinformatics.charite.de/ifsited/"
+  repository: []
+  documentation: "https://bioinformatics.charite.de/ifsited/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Confirm server availability and supported input formats before relying on it in an automated pipeline."
+
+- id: ftflex
+  name: "FTFlex"
+  description: "Flexible-protein extension in the FTMap ecosystem for exploring pocket complementarity when side-chain conformations are considered."
+  catalogue: app
+  domain:
+  - binding-pockets
+  category:
+  - binding-pockets
+  type: "software"
+  access:
+  - free-web
+  source_available: false
+  license: "Provider-specific research software terms; no standalone open-source licence confirmed"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://ftmap.bu.edu/"
+  repository: []
+  documentation: "https://ftmap.bu.edu/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Related to FTMap and should be presented as part of the FTMap ecosystem unless a separate maintained implementation is identified."
+
+- id: ftmove
+  name: "FTMove"
+  description: "FTMap-related workflow for assessing pocket flexibility and ligand movement within protein binding regions."
+  catalogue: app
+  domain:
+  - binding-pockets
+  category:
+  - binding-pockets
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Provider-specific research software terms; no standalone open-source licence confirmed"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://ftmap.bu.edu/"
+  repository: []
+  documentation: "https://ftmap.bu.edu/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Treat as an FTMap-associated capability rather than an unrelated docking engine; verify current interface availability."
+
+- id: ae-pocketminer
+  name: "AE-PocketMiner"
+  description: "Attention-enabled geometric deep-learning model that predicts cryptic binding pockets and their allosteric coupling from a single protein structure."
+  catalogue: app
+  domain:
+  - binding-pockets
+  category:
+  - binding-pockets
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/bowman-lab/ae-pocketminer"
+  repository: "https://github.com/bowman-lab/ae-pocketminer"
+  documentation: "https://github.com/bowman-lab/ae-pocketminer"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Official repository requires Linux and a GPU for the tested local environment. The legacy PocketMiner web interface is not the same as this model."
+
+- id: cryptosite
+  name: "CryptoSite"
+  description: "Research protocol for predicting cryptic protein binding sites using structural features and conformational modelling."
+  catalogue: app
+  domain:
+  - binding-pockets
+  category:
+  - binding-pockets
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Component and dependency licences vary; verify the current repository before reuse"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://cryptosite.readthedocs.io/en/latest/"
+  repository: []
+  documentation: "https://cryptosite.readthedocs.io/en/latest/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The protocol uses separate dependencies and model components. Confirm availability of the original implementation and terms before deployment."
+
+- id: cryptobench
+  name: "CryptoBench"
+  description: "Benchmark and dataset for evaluating cryptic binding-site prediction methods against a curated set of protein structures."
+  catalogue: resource
+  resource_type: "dataset"
+  domain:
+  - binding-pockets
+  - libraries-datasets
+  category:
+  - binding-pockets
+  - libraries-datasets
+  type: "dataset"
+  access:
+  - free
+  source_available: false
+  license: "Dataset-specific terms; check the repository and linked OSF release before redistribution"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/skrhakv/CryptoBench"
+  repository: "https://github.com/skrhakv/CryptoBench"
+  documentation: "https://github.com/skrhakv/CryptoBench"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A 2025 research benchmark. Keep dataset membership, structure provenance and benchmark protocol attached to results."
+
+- id: stingallo
+  name: "STINGAllo"
+  description: "Web resource for predicting allosteric site-forming residues in protein structures and viewing the predicted sites interactively."
+  catalogue: app
+  domain:
+  - binding-pockets
+  category:
+  - binding-pockets
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Service terms and any underlying datasets should be checked; a software licence is not inferred from public access"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.stingallo.cbi.cnptia.embrapa.br/"
+  repository: []
+  documentation: "https://www.stingallo.cbi.cnptia.embrapa.br/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Accepts protein structures or PDB identifiers and offers an API. Treat predictions as hypotheses for follow-up analysis."
+
+- id: cavityplus
+  name: "CavityPlus"
+  description: "Web platform for protein cavity detection and analysis, including pharmacophore-based pocket characterisation and allosteric-site analysis."
+  catalogue: app
+  domain:
+  - binding-pockets
+  category:
+  - binding-pockets
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Web service; no unrestricted software licence identified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "http://pkumdl.cn/cavityplus/"
+  repository: []
+  documentation: "http://pkumdl.cn/cavityplus/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The platform covers multiple cavity-analysis tasks. Verify current server availability and terms before using it in a production pipeline."
+
+- id: quickvina2
+  name: "QuickVina 2"
+  description: "Accelerated AutoDock Vina-derived docking engine designed for higher-throughput molecular docking."
+  catalogue: app
+  domain:
+  - structure-based
+  category:
+  - structure-based
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check the official repository licence for the selected version before redistribution"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/QVina/qvina"
+  repository: "https://github.com/QVina/qvina"
+  documentation: "https://github.com/QVina/qvina"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A speed-focused docking option; benchmark on the target's structures rather than assuming faster docking means higher accuracy."
+
+- id: dock6
+  name: "DOCK 6"
+  description: "Molecular docking and scoring suite supporting ligand placement, flexible docking, grid-based scoring and structure-based screening."
+  catalogue: app
+  domain:
+  - structure-based
+  category:
+  - structure-based
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "BSD-3-Clause"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://dock.compbio.ucsf.edu/"
+  repository: "https://github.com/docking-org/dock6"
+  documentation: "https://dock.compbio.ucsf.edu/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Version 6.13.1 is available in the official project ecosystem. Check external force-field and data dependencies separately."
+
+- id: plants
+  name: "PLANTS"
+  description: "Protein–ligand docking program using ant-colony optimisation for pose prediction and scoring."
+  catalogue: app
+  domain:
+  - structure-based
+  category:
+  - structure-based
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Academic-use licence; commercial use requires separate permission/licensing"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "http://www.tcd.uni-konstanz.de/research/plants.php"
+  repository: []
+  documentation: "http://www.tcd.uni-konstanz.de/research/plants.php"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Not open-source and not unrestricted for commercial use. Use the appropriate licence for the intended institution."
+
+- id: pyrx
+  name: "PyRx"
+  description: "Graphical workflow for preparing ligand libraries and running virtual screening with supported docking backends."
+  catalogue: app
+  domain:
+  - structure-based
+  category:
+  - structure-based
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check current application and bundled-backend licences separately"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://pyrx.sourceforge.io/"
+  repository: []
+  documentation: "https://pyrx.sourceforge.io/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The application wrapper and each docking backend can have separate terms. Ensure the selected backend is permitted for the intended use."
+
+- id: dockthor
+  name: "DockThor"
+  description: "Web-based protein–ligand docking platform for pose prediction and scoring, with an associated virtual-screening workflow."
+  catalogue: app
+  domain:
+  - structure-based
+  category:
+  - structure-based
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Hosted-service terms apply; no open-source licence is inferred for the service"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://dockthor.lncc.br/"
+  repository: []
+  documentation: "https://dockthor.lncc.br/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The service can be useful when installation is inconvenient; check input limits, output terms and current service availability."
+
+- id: cb-dock2
+  name: "CB-Dock2"
+  description: "Web server that predicts binding pockets and performs cavity-guided protein–ligand docking with automated pocket identification."
+  catalogue: app
+  domain:
+  - structure-based
+  - binding-pockets
+  category:
+  - structure-based
+  - binding-pockets
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Hosted service; check current terms and any restrictions on submitted structures"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://cadd.labshare.cn/cb-dock2/"
+  repository: []
+  documentation: "https://cadd.labshare.cn/cb-dock2/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Combines pocket detection with docking. Review predicted pocket placement and benchmark pose quality before using the result."
+
+- id: iscreen
+  name: "iScreen"
+  description: "Web-enabled molecular docking and virtual-screening resource for exploring potential ligand–target interactions."
+  catalogue: app
+  domain:
+  - structure-based
+  category:
+  - structure-based
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Service-specific terms; no independent open-source software licence identified"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://iscreen.cau.ac.kr/"
+  repository: []
+  documentation: "https://iscreen.cau.ac.kr/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Confirm current server availability, library coverage and restrictions on automated or commercial use."
+
+- id: mgltools-autodocktools
+  name: "MGLTools / AutoDockTools"
+  description: "Graphical and scripting utilities for preparing macromolecules and ligands for AutoDock-family molecular docking workflows."
+  catalogue: app
+  domain:
+  - structure-based
+  - protein-structures
+  - nomenclature-format-conversion
+  category:
+  - structure-based
+  - protein-structures
+  - nomenclature-format-conversion
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Component-specific licence terms apply; verify redistribution and commercial-use conditions for the version used"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://ccsb.scripps.edu/mgltools/"
+  repository: []
+  documentation: "https://ccsb.scripps.edu/mgltools/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Legacy preparation workflows may depend on older Python runtimes. Prefer current Meeko workflows when appropriate."
+
+- id: ambertools
+  name: "AmberTools"
+  description: "Suite of biomolecular simulation preparation, analysis and modelling utilities, including antechamber, cpptraj and MMPBSA.py-related workflows."
+  catalogue: app
+  domain:
+  - molecular-dynamics
+  category:
+  - molecular-dynamics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "AmberTools contains multiple components with component-specific licences; consult the current licence files"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://ambermd.org/AmberTools.php"
+  repository: []
+  documentation: "https://ambermd.org/AmberTools.php"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "GAFF/GAFF2, antechamber, cpptraj and MMPBSA.py are components or associated tools in the Amber ecosystem and should not be mistaken for unrelated complete MD engines."
+
+- id: namd
+  name: "NAMD"
+  description: "Parallel molecular-dynamics engine designed for high-performance simulation of large biomolecular systems."
+  catalogue: app
+  domain:
+  - molecular-dynamics
+  category:
+  - molecular-dynamics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Free for academic/non-commercial use under provider terms; commercial-use terms may differ"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.ks.uiuc.edu/Research/namd/"
+  repository: []
+  documentation: "https://www.ks.uiuc.edu/Research/namd/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Check current licence and download requirements for commercial or institutional use."
+
+- id: desmond
+  name: "Desmond"
+  description: "High-performance molecular-dynamics engine integrated into the Schrödinger molecular-modelling ecosystem."
+  catalogue: app
+  domain:
+  - molecular-dynamics
+  category:
+  - molecular-dynamics
+  type: "software"
+  access:
+  - commercial
+  source_available: false
+  license: "Proprietary; available under Schrödinger academic or commercial licence programmes"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.schrodinger.com/platform/products/desmond/"
+  repository: []
+  documentation: "https://www.schrodinger.com/platform/products/desmond/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Do not label as open-source. Access depends on the Schrödinger licence applicable to the institution."
+
+- id: qwikmd
+  name: "QwikMD"
+  description: "Guided setup interface for preparing and running molecular-dynamics simulations in the VMD/NAMD ecosystem."
+  catalogue: app
+  domain:
+  - molecular-dynamics
+  - organization
+  category:
+  - molecular-dynamics
+  - organization
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Follow the VMD/NAMD and QwikMD component terms; not a standalone commercial-use licence"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.ks.uiuc.edu/Research/vmd/plugins/qwikmd/"
+  repository: []
+  documentation: "https://www.ks.uiuc.edu/Research/vmd/plugins/qwikmd/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A guided interface intended to reduce setup burden for biomolecular MD."
+
+- id: biobb-workflows
+  name: "BioBB Workflows"
+  description: "Reusable BioExcel building blocks and workflows for assembling reproducible biomolecular modelling and simulation pipelines."
+  catalogue: app
+  domain:
+  - molecular-dynamics
+  - organization
+  category:
+  - molecular-dynamics
+  - organization
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check the repository and each component's licence; the workflow and wrapped tools may differ"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/bioexcel/biobb_workflows"
+  repository: "https://github.com/bioexcel/biobb_workflows"
+  documentation: "https://github.com/bioexcel/biobb_workflows"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Workflow definitions orchestrate external tools; container, executable and force-field licences still apply."
+
+- id: openmmdl
+  name: "OpenMMDL"
+  description: "Toolkit for setting up and analysing molecular-dynamics simulations, including workflows for ligand-bound biomolecular systems."
+  catalogue: app
+  domain:
+  - molecular-dynamics
+  category:
+  - molecular-dynamics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "See the official repository licence and third-party dependencies"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/wolberlab/OpenMMDL"
+  repository: "https://github.com/wolberlab/OpenMMDL"
+  documentation: "https://github.com/wolberlab/OpenMMDL"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A programmatic workflow built around OpenMM. Check currently supported OpenMM versions and dependencies."
+
+- id: openmm-setup
+  name: "OpenMM-Setup"
+  description: "Graphical setup utility for preparing systems for OpenMM molecular-dynamics simulations."
+  catalogue: app
+  domain:
+  - molecular-dynamics
+  category:
+  - molecular-dynamics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check the repository licence and compatibility with the installed OpenMM release"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/openmm/openmm-setup"
+  repository: "https://github.com/openmm/openmm-setup"
+  documentation: "https://github.com/openmm/openmm-setup"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for initial preparation, but verify active support and the suitability of the generated system before long simulations."
+
+- id: mdweb
+  name: "MDWeb"
+  description: "Web environment for preparing biomolecular systems and setting up or analysing molecular-dynamics workflows."
+  catalogue: app
+  domain:
+  - molecular-dynamics
+  category:
+  - molecular-dynamics
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Hosted service; software/data reuse terms should be checked separately"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://mmb.irbbarcelona.org/MDWeb/"
+  repository: []
+  documentation: "https://mmb.irbbarcelona.org/MDWeb/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "An older established web resource; confirm that the specific workflow you need is still supported."
+
+- id: cgenff
+  name: "CGenFF"
+  description: "CHARMM General Force Field resources and tools for assigning parameters to drug-like small molecules for CHARMM simulations."
+  catalogue: app
+  domain:
+  - molecular-dynamics
+  category:
+  - molecular-dynamics
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Provider-specific usage and force-field terms; not open-source software by default"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://cgenff.umaryland.edu/"
+  repository: []
+  documentation: "https://cgenff.umaryland.edu/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Force-field parameter quality and penalties need review before simulation; check applicable institutional terms."
+
+- id: ligpargen
+  name: "LigParGen"
+  description: "Web service for generating OPLS-compatible parameters and simulation files for small molecules."
+  catalogue: app
+  domain:
+  - molecular-dynamics
+  category:
+  - molecular-dynamics
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Web-service terms and force-field licence conditions apply"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://zarbi.chem.yale.edu/ligpargen/"
+  repository: []
+  documentation: "https://zarbi.chem.yale.edu/ligpargen/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Inspect parameter quality, protonation and atom typing before running production simulations."
+
+- id: swissparam
+  name: "SwissParam"
+  description: "Web service for generating CHARMM-compatible force-field parameters for small organic molecules."
+  catalogue: app
+  domain:
+  - molecular-dynamics
+  category:
+  - molecular-dynamics
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Web-service and force-field terms apply; verify any redistribution restrictions"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.swissparam.ch/"
+  repository: []
+  documentation: "https://www.swissparam.ch/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for system preparation but requires a scientific check of ligand parameters and protonation."
+
+- id: lomap
+  name: "LoMap"
+  description: "Ligand mapping algorithm for identifying common substructures and proposing atom mappings between related molecules for relative free-energy calculations."
+  catalogue: app
+  domain:
+  - molecular-dynamics
+  category:
+  - molecular-dynamics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "OpenFreeEnergy project licensing varies by package; check the specific LoMap distribution"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/OpenFreeEnergy/industry-benchmarks"
+  repository: "https://github.com/OpenFreeEnergy/industry-benchmarks"
+  documentation: "https://github.com/OpenFreeEnergy/industry-benchmarks"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "An important preparation step for relative free-energy workflows, not a complete free-energy simulation engine."
+
+- id: pyemma
+  name: "PyEMMA"
+  description: "Python toolkit for Markov-state modelling and analysis of molecular-dynamics trajectories."
+  catalogue: app
+  domain:
+  - molecular-dynamics
+  category:
+  - molecular-dynamics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check current repository licence and maintenance status"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/markovmodel/PyEMMA"
+  repository: "https://github.com/markovmodel/PyEMMA"
+  documentation: "https://github.com/markovmodel/PyEMMA"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Established trajectory-analysis toolkit; confirm supported Python/dependency versions before adopting it in a new pipeline."
+
+- id: openchemlib
+  name: "OpenChemLib"
+  description: "Java-based cheminformatics toolkit for molecular structures, fingerprints, descriptors, reaction handling and chemical rendering."
+  catalogue: app
+  domain:
+  - cheminformatics
+  category:
+  - cheminformatics
+  type: "library"
+  access:
+  - free
+  source_available: false
+  license: "Check current official repository licence and any component-specific terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/Actelion/openchemlib"
+  repository: "https://github.com/Actelion/openchemlib"
+  documentation: "https://github.com/Actelion/openchemlib"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Developer-facing toolkit rather than a standalone graphical chemistry application."
+
+- id: padel
+  name: "PaDEL-Descriptor"
+  description: "Software for calculating a broad set of molecular descriptors and fingerprints for QSAR, chemoinformatics and similarity modelling."
+  catalogue: app
+  domain:
+  - cheminformatics
+  - ligand-based-qsar
+  category:
+  - cheminformatics
+  - ligand-based-qsar
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check the published package terms for the distributed version; do not infer an open-source licence from free download"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "http://www.yapcwsoft.com/dd/padeldescriptor/"
+  repository: []
+  documentation: "http://www.yapcwsoft.com/dd/padeldescriptor/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A practical descriptor-generation utility; ensure standardisation and missing-value handling before model training."
+
+- id: tmap
+  name: "TMAP"
+  description: "MinHash-based technique and software for visualising large chemical spaces as interactive minimum-spanning trees."
+  catalogue: app
+  domain:
+  - cheminformatics
+  - visualization
+  category:
+  - cheminformatics
+  - visualization
+  type: "library"
+  access:
+  - free
+  source_available: false
+  license: "Verify the current repository licence and required dependencies"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/reymond-group/tmap"
+  repository: "https://github.com/reymond-group/tmap"
+  documentation: "https://github.com/reymond-group/tmap"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Designed for large collections; works alongside chemical fingerprints and indexing tools rather than replacing data curation."
+
+- id: chemmine-tools
+  name: "ChemMine Tools"
+  description: "Web-based cheminformatics workbench for chemical structure search, similarity analysis, clustering and compound-set analysis."
+  catalogue: app
+  domain:
+  - cheminformatics
+  category:
+  - cheminformatics
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Hosted service terms and the underlying data/tool licences should be checked"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://chemminetools.ucr.edu/"
+  repository: []
+  documentation: "https://chemminetools.ucr.edu/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "An older browser-based toolset; confirm current service availability and supported structure formats."
+
+- id: chembl-beaker
+  name: "ChEMBL Beaker"
+  description: "Chemical structure utility service in the ChEMBL ecosystem for standardising, converting and processing compound representations through APIs."
+  catalogue: app
+  domain:
+  - cheminformatics
+  - nomenclature-format-conversion
+  category:
+  - cheminformatics
+  - nomenclature-format-conversion
+  type: "web-service"
+  access:
+  - free-web
+  source_available: false
+  license: "EMBL-EBI service terms and data-specific licences apply"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.ebi.ac.uk/chembl/beta/beaker/"
+  repository: []
+  documentation: "https://www.ebi.ac.uk/chembl/beta/beaker/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for API-driven chemical structure handling; distinguish Beaker services from the ChEMBL bioactivity database."
+
+- id: mychembl
+  name: "myChEMBL"
+  description: "Deployable ChEMBL environment bundling chemistry databases, web applications and cheminformatics services for local use."
+  catalogue: app
+  domain:
+  - cheminformatics
+  - organization
+  category:
+  - cheminformatics
+  - organization
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Component-specific open-source and data terms apply; check the selected release"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/chembl/mychembl"
+  repository: "https://github.com/chembl/mychembl"
+  documentation: "https://github.com/chembl/mychembl"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A self-hosted environment rather than a hosted public ChEMBL endpoint; assess maintenance before choosing it for a new deployment."
+
+- id: teachopencadd
+  name: "TeachOpenCADD"
+  description: "Open educational materials and Jupyter-based tutorials for computational drug discovery, from data retrieval to modelling and docking."
+  catalogue: resource
+  resource_type: "educational"
+  domain:
+  - cheminformatics
+  - organization
+  category:
+  - cheminformatics
+  - organization
+  type: "tutorial"
+  access:
+  - free
+  source_available: false
+  license: "Repository and tutorial-data licences should be checked individually"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/volkamerlab/teachopencadd"
+  repository: "https://github.com/volkamerlab/teachopencadd"
+  documentation: "https://github.com/volkamerlab/teachopencadd"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for learning and reproducible training; not an independent cheminformatics engine."
+
+- id: jsme
+  name: "JSME Molecular Editor"
+  description: "Lightweight browser-based 2D chemical structure editor for drawing and exporting small-molecule representations."
+  catalogue: app
+  domain:
+  - cheminformatics
+  - nomenclature-format-conversion
+  category:
+  - cheminformatics
+  - nomenclature-format-conversion
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "JSME terms specify conditions for academic and commercial use; check the current licence before embedding"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://jsme-editor.github.io/"
+  repository: "https://github.com/jsme-editor/jsme-editor.github.io"
+  documentation: "https://jsme-editor.github.io/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for data-entry forms and lightweight molecule drawing; embedding in another site may require separate permission."
+
+- id: cdk-depict
+  name: "CDK Depict"
+  description: "Web and API-based chemical structure depiction service built around the Chemistry Development Kit."
+  catalogue: app
+  domain:
+  - cheminformatics
+  - nomenclature-format-conversion
+  - visualization
+  category:
+  - cheminformatics
+  - nomenclature-format-conversion
+  - visualization
+  type: "web-service"
+  access:
+  - free-web
+  source_available: false
+  license: "CDK is open-source; service hosting and any associated terms should be checked separately"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.simolecule.com/cdkdepict/"
+  repository: []
+  documentation: "https://www.simolecule.com/cdkdepict/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A practical way to generate 2D structure images from SMILES or related chemical representations."
+
+- id: dimorphite-dl
+  name: "Dimorphite-DL"
+  description: "Open-source utility for enumerating plausible small-molecule ionisation states across a specified pH range."
+  catalogue: app
+  domain:
+  - cheminformatics
+  - admet-prediction
+  category:
+  - cheminformatics
+  - admet-prediction
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/durrantlab/dimorphite_dl"
+  repository: "https://github.com/durrantlab/dimorphite_dl"
+  documentation: "https://github.com/durrantlab/dimorphite_dl"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Protonation states affect descriptor calculations, docking and predicted physicochemical properties; inspect the generated forms for unusual molecules."
+
+- id: chemfp
+  name: "chemfp"
+  description: "Fingerprint processing and similarity-search toolkit designed for high-throughput chemical library search and integration with chemistry toolkits."
+  catalogue: app
+  domain:
+  - cheminformatics
+  - ligand-based-qsar
+  category:
+  - cheminformatics
+  - ligand-based-qsar
+  type: "library"
+  access:
+  - free
+  source_available: false
+  license: "Licence varies by product/version and feature; confirm the exact terms before redistribution or commercial use"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://chemfp.com/"
+  repository: []
+  documentation: "https://chemfp.com/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Do not label the entire project open-source without checking the licence for the selected version."
+
+- id: aimsim
+  name: "AIMSim"
+  description: "Python toolkit for analysing molecular similarity, chemical-space distributions and redundancy in compound collections."
+  catalogue: app
+  domain:
+  - cheminformatics
+  - ligand-based-qsar
+  category:
+  - cheminformatics
+  - ligand-based-qsar
+  type: "library"
+  access:
+  - free
+  source_available: false
+  license: "Check the current official repository licence"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/ersilia-os/aimsim"
+  repository: "https://github.com/ersilia-os/aimsim"
+  documentation: "https://github.com/ersilia-os/aimsim"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for exploratory compound-set analysis before QSAR or virtual screening."
+
+- id: molgpt
+  name: "MolGPT"
+  description: "Transformer-based generative model for generating small-molecule representations from learned sequence patterns."
+  catalogue: app
+  domain:
+  - de-novo-design
+  category:
+  - de-novo-design
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check the repository and pretrained model terms separately"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/devalab/molgpt"
+  repository: "https://github.com/devalab/molgpt"
+  documentation: "https://github.com/devalab/molgpt"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Research implementation; generated molecules require valence, novelty, synthesizability and pharmacology checks."
+
+- id: stoned-selfies
+  name: "STONED-SELFIES"
+  description: "Molecular mutation and exploration approach using SELFIES representations to generate structural variants for chemical-space exploration."
+  catalogue: app
+  domain:
+  - de-novo-design
+  - cheminformatics
+  category:
+  - de-novo-design
+  - cheminformatics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check repository and dependency licences for the selected version"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/aspuru-guzik-group/stoned-selfies"
+  repository: "https://github.com/aspuru-guzik-group/stoned-selfies"
+  documentation: "https://github.com/aspuru-guzik-group/stoned-selfies"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Produces candidates by molecular representation mutation; valid string encodings do not guarantee synthesizability or desirable properties."
+
+- id: molsnapper
+  name: "MolSnapper"
+  description: "Research model that conditions a 3D diffusion-based molecular generator on structural pockets for structure-based drug design."
+  catalogue: app
+  domain:
+  - de-novo-design
+  - structure-based
+  category:
+  - de-novo-design
+  - structure-based
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check the repository's current licence and the separate pretrained model-weight terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/oxpig/MolSnapper"
+  repository: "https://github.com/oxpig/MolSnapper"
+  documentation: "https://github.com/oxpig/MolSnapper"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The documented workflow uses MolDiff pretrained weights and GPU-enabled Python dependencies; reproduce the paper's conditions before comparison."
+
+- id: delinker
+  name: "DeLinker"
+  description: "Deep generative method for designing 3D molecular linkers that connect supplied fragments while respecting their relative geometry."
+  catalogue: app
+  domain:
+  - de-novo-design
+  category:
+  - de-novo-design
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check the current repository and model-weight terms before redistribution"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/oxpig/DeLinker"
+  repository: "https://github.com/oxpig/DeLinker"
+  documentation: "https://github.com/oxpig/DeLinker"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Designed for fragment linking and related linker-design tasks; generated compounds still require chemical and synthetic review."
+
+- id: ligbuilder-v3
+  name: "LigBuilder V3"
+  description: "De novo ligand-design environment for generating candidate compounds within protein binding sites."
+  catalogue: app
+  domain:
+  - de-novo-design
+  category:
+  - de-novo-design
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Research-use terms should be confirmed with the maintainers; no unrestricted open-source licence inferred"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "http://202.127.18.221/LigBuilder/"
+  repository: []
+  documentation: "http://202.127.18.221/LigBuilder/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Legacy research software. Verify the download endpoint, build compatibility and current usage conditions before adopting it."
+
+- id: synformer
+  name: "SynFormer"
+  description: "Generative chemistry model for proposing molecules through synthesis-aware sequence or reaction-based representations."
+  catalogue: app
+  domain:
+  - de-novo-design
+  category:
+  - de-novo-design
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check repository and pretrained-model terms for the current release"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/wenhao-gao/synformer"
+  repository: "https://github.com/wenhao-gao/synformer"
+  documentation: "https://github.com/wenhao-gao/synformer"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Research code; assess generated candidates against realistic reagents, reaction conditions and synthetic feasibility."
+
+- id: synflownet
+  name: "SynFlowNet"
+  description: "GFlowNet-based molecular generation framework incorporating a chemical synthesis action space and reward-driven sampling."
+  catalogue: app
+  domain:
+  - de-novo-design
+  category:
+  - de-novo-design
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT for the implementation according to the official project dependencies; verify full bundled terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/mirunacrt/synflownet"
+  repository: "https://github.com/mirunacrt/synflownet"
+  documentation: "https://github.com/mirunacrt/synflownet"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Designed to generate diverse molecules with synthesis constraints; results depend on reaction/action space coverage."
+
+- id: synnet
+  name: "SynNet"
+  description: "Retrosynthesis-aware molecular generation framework that builds target compounds from purchasable building blocks through reaction sequences."
+  catalogue: app
+  domain:
+  - de-novo-design
+  - retrosynthesis
+  category:
+  - de-novo-design
+  - retrosynthesis
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check repository licence and bundled building-block/reaction data terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/wengong-jin/nips19-synnet"
+  repository: "https://github.com/wengong-jin/nips19-synnet"
+  documentation: "https://github.com/wengong-jin/nips19-synnet"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Research prototype; route feasibility and reagent availability require independent verification."
+
+- id: syntalinker
+  name: "SyntaLinker"
+  description: "Conditional molecular-generation method for designing new chemical linkers between user-specified fragments."
+  catalogue: app
+  domain:
+  - de-novo-design
+  category:
+  - de-novo-design
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check repository and pretrained weights for the selected release"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/ycjing/SyntaLinker"
+  repository: "https://github.com/ycjing/SyntaLinker"
+  documentation: "https://github.com/ycjing/SyntaLinker"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for fragment-constrained design; needs chemistry, synthesizability and target-context validation."
+
+- id: swisssimilarity
+  name: "SwissSimilarity"
+  description: "Web platform for ligand-based virtual screening using chemical fingerprints, molecular shape and pharmacophore similarity against compound libraries."
+  catalogue: app
+  domain:
+  - ligand-based-qsar
+  category:
+  - ligand-based-qsar
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "CC-BY 4.0 for website content as stated in official terms; service features and datasets may have additional terms"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.swisssimilarity.ch/"
+  repository: []
+  documentation: "https://www.swisssimilarity.ch/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The web service is useful for scaffold hopping and analogue search; cite the database/model version used."
+
+- id: zincpharmer
+  name: "ZINCPharmer"
+  description: "Web-based pharmacophore search tool for identifying purchasable molecules that match a query pharmacophore."
+  catalogue: app
+  domain:
+  - ligand-based-qsar
+  category:
+  - ligand-based-qsar
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Hosted service and underlying ZINC collection terms apply"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://zincpharmer.csb.pitt.edu/"
+  repository: []
+  documentation: "https://zincpharmer.csb.pitt.edu/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Search results depend on the selected library, pharmacophore constraints and database version."
+
+- id: ls-align
+  name: "LS-align"
+  description: "Algorithm and software for aligning ligand molecular structures using local shape and feature information."
+  catalogue: app
+  domain:
+  - ligand-based-qsar
+  - cheminformatics
+  category:
+  - ligand-based-qsar
+  - cheminformatics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Provider-specific research software terms; verify commercial-use conditions"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://zhanggroup.org/LS-align/"
+  repository: []
+  documentation: "https://zhanggroup.org/LS-align/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for structure alignment and 3D ligand comparison; performance depends on molecular conformations."
+
+- id: shape-it
+  name: "Shape-it"
+  description: "Command-line utility for generating conformers and preparing molecules for 3D shape-based similarity workflows."
+  catalogue: app
+  domain:
+  - ligand-based-qsar
+  - cheminformatics
+  category:
+  - ligand-based-qsar
+  - cheminformatics
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "Check the Open Babel distribution and version terms for the particular utility"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.openbabel.org/"
+  repository: []
+  documentation: "https://www.openbabel.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Part of the shape/pharmacophore tooling ecosystem; verify that the chosen Open Babel release still distributes this utility."
+
+- id: align-it
+  name: "Align-it"
+  description: "Pharmacophore alignment and comparison utility for matching chemical features in 3D ligand structures."
+  catalogue: app
+  domain:
+  - ligand-based-qsar
+  - cheminformatics
+  category:
+  - ligand-based-qsar
+  - cheminformatics
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "Check the Open Babel distribution and version terms for the particular utility"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.openbabel.org/"
+  repository: []
+  documentation: "https://www.openbabel.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Often used alongside Shape-it. Verify availability in the selected package version before adding it to a workflow."
+
+- id: ligsift
+  name: "LIGSIFT"
+  description: "3D molecular similarity method for ligand-based virtual screening and scaffold-hopping evaluation."
+  catalogue: app
+  domain:
+  - ligand-based-qsar
+  category:
+  - ligand-based-qsar
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check the original paper and canonical source for licensing before redistribution"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://pubs.acs.org/doi/10.1021/ci200060s"
+  repository: []
+  documentation: "https://pubs.acs.org/doi/10.1021/ci200060s"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "paper-linked-source-needs-review"
+    last_checked: '2026-10-15'
+  notes: "Research-method entry; software availability and dependencies should be checked before operational use."
+
+- id: wega
+  name: "WEGA"
+  description: "Weighted Gaussian-shape and pharmacophore similarity method for ranking ligand analogues in 3D virtual screening."
+  catalogue: app
+  domain:
+  - ligand-based-qsar
+  category:
+  - ligand-based-qsar
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Current implementation licence and availability should be confirmed with the maintainer"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "http://www.csbio.sjtu.edu.cn/bioinf/WEGA/"
+  repository: []
+  documentation: "http://www.csbio.sjtu.edu.cn/bioinf/WEGA/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Established research method; confirm the current executable and benchmark protocol before inclusion in tutorials."
+
+- id: pharmagist
+  name: "PharmaGist"
+  description: "Web server for generating and matching ligand-based pharmacophores from sets of active molecules."
+  catalogue: app
+  domain:
+  - ligand-based-qsar
+  category:
+  - ligand-based-qsar
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Hosted service terms; no unrestricted software licence inferred"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://bioinfo3d.cs.tau.ac.il/PharmaGist/"
+  repository: []
+  documentation: "https://bioinfo3d.cs.tau.ac.il/PharmaGist/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Uses aligned ligand features to identify shared pharmacophore patterns; results depend on input conformations and actives."
+
+- id: ochem
+  name: "OCHEM"
+  description: "Online chemical modelling environment for storing chemical datasets, training or applying QSAR models, and predicting molecular properties."
+  catalogue: app
+  domain:
+  - ligand-based-qsar
+  - admet-prediction
+  category:
+  - ligand-based-qsar
+  - admet-prediction
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Proprietary service licence restricted to non-commercial purposes; individual data and model terms differ"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://ochem.eu/"
+  repository: []
+  documentation: "https://ochem.eu/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Official terms restrict use of the OCHEM software to non-commercial purposes. Do not label the platform open-source or assume model/data reuse is unrestricted."
+
+- id: datasail
+  name: "DataSAIL"
+  description: "Framework for constructing similarity-aware data splits that reduce chemical or biological information leakage in machine-learning evaluation."
+  catalogue: app
+  domain:
+  - ligand-based-qsar
+  category:
+  - ligand-based-qsar
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check the official repository licence and supported split methods"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/kalininalab/DataSAIL"
+  repository: "https://github.com/kalininalab/DataSAIL"
+  documentation: "https://github.com/kalininalab/DataSAIL"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for testing whether QSAR models generalise across chemical series rather than only interpolate between close analogues."
+
+- id: admetsar3
+  name: "admetSAR 3.0"
+  description: "Web server for searching, predicting and optimising compound absorption, distribution, metabolism, excretion and toxicity properties across multiple endpoints."
+  catalogue: app
+  domain:
+  - admet-prediction
+  category:
+  - admet-prediction
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Hosted service and underlying model/data terms; no open-source software licence inferred"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "http://lmmd.ecust.edu.cn/admetsar3/"
+  repository: []
+  documentation: "http://lmmd.ecust.edu.cn/admetsar3/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Model predictions have endpoint-specific applicability domains and uncertainty; do not treat them as experimental ADMET measurements."
+
+- id: faf-drugs4
+  name: "FAF-Drugs4"
+  description: "Web platform for preparing and filtering small-molecule libraries using physicochemical, drug-likeness, toxicity-alert and compound-quality rules."
+  catalogue: app
+  domain:
+  - admet-prediction
+  - cheminformatics
+  category:
+  - admet-prediction
+  - cheminformatics
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Hosted service terms and component licences should be checked"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://fafdrugs4.rpbs.univ-paris-diderot.fr/"
+  repository: []
+  documentation: "https://fafdrugs4.rpbs.univ-paris-diderot.fr/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Filtering thresholds should be adapted to the intended modality and target rather than treated as universal rules."
+
+- id: toxtree
+  name: "Toxtree"
+  description: "Rule-based toxicity and hazard prediction application implementing decision trees, structural alerts and chemical-category workflows."
+  catalogue: app
+  domain:
+  - admet-prediction
+  category:
+  - admet-prediction
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check the current release licence and third-party rule-set terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://toxtree.sourceforge.net/"
+  repository: "https://sourceforge.net/projects/toxtree/"
+  documentation: "https://toxtree.sourceforge.net/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A transparent rule-based screening tool rather than a substitute for a regulatory assessment or experimental toxicology."
+
+- id: vega
+  name: "VEGA QSAR"
+  description: "Platform for accessing and applying QSAR models for toxicological and environmental endpoints, including applicability-domain and reliability information."
+  catalogue: app
+  domain:
+  - admet-prediction
+  - ligand-based-qsar
+  category:
+  - admet-prediction
+  - ligand-based-qsar
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Platform and model-specific terms apply; not all models share a common licence"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.vegahub.eu/"
+  repository: []
+  documentation: "https://www.vegahub.eu/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Check the model-specific reliability, training domain and endpoint definitions before use."
+
+- id: oecd-qsar-toolbox
+  name: "OECD QSAR Toolbox"
+  description: "Chemical hazard-assessment software supporting chemical grouping, read-across, QSAR prediction and use of existing experimental data to fill toxicity data gaps."
+  catalogue: app
+  domain:
+  - admet-prediction
+  - cheminformatics
+  category:
+  - admet-prediction
+  - cheminformatics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Proprietary/EULA-based distribution; not open-source"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://qsartoolbox.org/"
+  repository: []
+  documentation: "https://qsartoolbox.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Tool access is subject to its user agreement and data-component terms. Confirm current version and download process."
+
+- id: epa-test
+  name: "EPA T.E.S.T."
+  description: "U.S. EPA Toxicity Estimation Software Tool for estimating selected chemical toxicity endpoints using QSAR methods."
+  catalogue: app
+  domain:
+  - admet-prediction
+  category:
+  - admet-prediction
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "EPA distribution and third-party component terms apply; verify the current package licence"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.epa.gov/comptox-tools/test"
+  repository: []
+  documentation: "https://www.epa.gov/comptox-tools/test"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Review training domains, endpoint definitions and uncertainty before interpreting predictions."
+
+- id: biotransformer
+  name: "BioTransformer 3.0"
+  description: "Biotransformation prediction tool for proposing metabolite structures and reaction pathways for xenobiotics, drugs and environmental chemicals."
+  catalogue: app
+  domain:
+  - admet-prediction
+  - cheminformatics
+  category:
+  - admet-prediction
+  - cheminformatics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check the current package and model/resource licences"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://biotransformer.ca/"
+  repository: []
+  documentation: "https://biotransformer.ca/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Predicted transformation products are candidates requiring experimental or orthogonal computational validation."
+
+- id: smartcyp
+  name: "SMARTCyp"
+  description: "Rule- and fragment-based prediction of likely sites of cytochrome P450-mediated metabolism in small molecules."
+  catalogue: app
+  domain:
+  - admet-prediction
+  category:
+  - admet-prediction
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Service and model terms should be confirmed for the selected version"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://smartcyp.sund.ku.dk/"
+  repository: []
+  documentation: "https://smartcyp.sund.ku.dk/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Use as a qualitative metabolic-site hypothesis, not a direct prediction of in-vivo clearance."
+
+- id: fame-3
+  name: "FAME 3"
+  description: "Machine-learning tool for predicting sites of metabolic transformation in small molecules."
+  catalogue: app
+  domain:
+  - admet-prediction
+  category:
+  - admet-prediction
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Model availability is restricted to permitted non-commercial use; commercial use requires a separate licence"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://nerdd.zbh.uni-hamburg.de/fame3/"
+  repository: []
+  documentation: "https://nerdd.zbh.uni-hamburg.de/fame3/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Do not assume that access to source code permits commercial use of pretrained models. FAME models may also be dependencies of other metabolic-prediction tools."
+
+- id: gloryx
+  name: "GLORYx"
+  description: "Tool for predicting phase I and phase II metabolic transformation products and likely metabolism sites of small molecules."
+  catalogue: app
+  domain:
+  - admet-prediction
+  category:
+  - admet-prediction
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "GPL-3.0 code; FAME 3 model terms apply separately and may restrict commercial use"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/volkamerlab/GLORYx"
+  repository: "https://github.com/volkamerlab/GLORYx"
+  documentation: "https://github.com/volkamerlab/GLORYx"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The implementation's open-source licence does not override third-party model restrictions. Check the model component being used."
+
+- id: httk
+  name: "httk"
+  description: "EPA Toxicokinetic Toolkit for modelling chemical toxicokinetics, including in-vitro-to-in-vivo extrapolation and population variability."
+  catalogue: app
+  domain:
+  - admet-prediction
+  category:
+  - admet-prediction
+  type: "library"
+  access:
+  - free
+  source_available: false
+  license: "Check the current repository licence and individual data sources"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/USEPA/CompTox-HTTK"
+  repository: "https://github.com/USEPA/CompTox-HTTK"
+  documentation: "https://github.com/USEPA/CompTox-HTTK"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for exposure and toxicokinetic modelling; endpoint and parameter assumptions must be documented."
+
+- id: tdc-admet-benchmarks
+  name: "Therapeutics Data Commons — ADMET Benchmarks"
+  description: "Benchmark tasks and datasets for evaluating machine-learning methods on ADMET and related therapeutic data tasks."
+  catalogue: resource
+  resource_type: "dataset"
+  domain:
+  - admet-prediction
+  - libraries-datasets
+  category:
+  - admet-prediction
+  - libraries-datasets
+  type: "benchmark"
+  access:
+  - free
+  source_available: false
+  license: "Licences vary by dataset and benchmark; inspect each dataset's provenance and terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://tdcommons.ai/"
+  repository: "https://github.com/mims-harvard/TDC"
+  documentation: "https://tdcommons.ai/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A benchmark collection rather than one prediction model. Record the specific task, dataset version and split when comparing models."
+
+- id: admetar2
+  name: "admetSAR 2.0"
+  description: "Earlier version of the admetSAR web platform for estimating absorption, distribution, metabolism, excretion and toxicity properties."
+  catalogue: app
+  domain:
+  - admet-prediction
+  category:
+  - admet-prediction
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Hosted service and model terms; no open-source licence inferred"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "http://lmmd.ecust.edu.cn/admetsar2/"
+  repository: []
+  documentation: "http://lmmd.ecust.edu.cn/admetsar2/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The newer admetSAR 3.0 service should generally be preferred when its endpoints cover the use case. Keep version numbers explicit."
+
+- id: lillymol
+  name: "LillyMol"
+  description: "Large collection of cheminformatics and molecular-design utilities used for chemical data processing, analogue analysis and computational drug discovery."
+  catalogue: app
+  domain:
+  - retrosynthesis
+  - cheminformatics
+  category:
+  - retrosynthesis
+  - cheminformatics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check the repository and individual component licences before reuse"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/IanAWatson/LillyMol"
+  repository: "https://github.com/IanAWatson/LillyMol"
+  documentation: "https://github.com/IanAWatson/LillyMol"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A developer-oriented toolkit with a broad range of utilities, not a single graphical end-user application."
+
+- id: chemical-ai
+  name: "Chemical.AI"
+  description: "Commercial AI-based chemistry platform offering synthesis planning and reaction prediction capabilities."
+  catalogue: app
+  domain:
+  - retrosynthesis
+  category:
+  - retrosynthesis
+  type: "web-tool"
+  access:
+  - commercial
+  source_available: false
+  license: "Proprietary commercial service; subscription or commercial terms apply"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.chemical.ai/"
+  repository: []
+  documentation: "https://www.chemical.ai/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Included as a representative commercial option. Check current access, export and confidentiality terms before uploading compound structures."
+
+- id: localretro
+  name: "LocalRetro"
+  description: "Retrosynthesis model that predicts reaction-centre edits and precursor suggestions using local chemical environments."
+  catalogue: app
+  domain:
+  - retrosynthesis
+  category:
+  - retrosynthesis
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check the current repository licence and pretrained model terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/kaist-silab/LocalRetro"
+  repository: "https://github.com/kaist-silab/LocalRetro"
+  documentation: "https://github.com/kaist-silab/LocalRetro"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Research model; route suggestions require independent reaction feasibility and commercial building-block checks."
+
+- id: graph2edits
+  name: "Graph2Edits"
+  description: "Graph neural network approach for retrosynthesis prediction through sequential molecular graph edits."
+  catalogue: app
+  domain:
+  - retrosynthesis
+  category:
+  - retrosynthesis
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/Jamson-Zhong/Graph2Edits"
+  repository: "https://github.com/Jamson-Zhong/Graph2Edits"
+  documentation: "https://github.com/Jamson-Zhong/Graph2Edits"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A research implementation with published code and trained model assets; verify the licence for any external data dependencies."
+
+- id: megan
+  name: "MEGAN"
+  description: "Molecule Edit Graph Attention Network for retrosynthesis prediction, modelling reaction transformations as a sequence of graph edits."
+  catalogue: app
+  domain:
+  - retrosynthesis
+  category:
+  - retrosynthesis
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/molecule-one/megan"
+  repository: "https://github.com/molecule-one/megan"
+  documentation: "https://github.com/molecule-one/megan"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The repository provides evaluation scripts and pretrained model files. Check the dataset's licence separately from code."
+
+- id: linchemin
+  name: "LinChemIn"
+  description: "Python framework for processing, normalising, comparing and analysing chemical reaction pathways and retrosynthesis trees."
+  catalogue: app
+  domain:
+  - retrosynthesis
+  - organization
+  category:
+  - retrosynthesis
+  - organization
+  type: "library"
+  access:
+  - free
+  source_available: false
+  license: "Check the current repository licence"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/syngenta/linchemin"
+  repository: "https://github.com/syngenta/linchemin"
+  documentation: "https://github.com/syngenta/linchemin"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for standardising multi-step routes and evaluating route-search algorithms."
+
+- id: sa-score
+  name: "Synthetic Accessibility Score (SAscore)"
+  description: "Heuristic score estimating how synthetically accessible a molecule may be from its structural features and fragment contributions."
+  catalogue: app
+  domain:
+  - retrosynthesis
+  - de-novo-design
+  category:
+  - retrosynthesis
+  - de-novo-design
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Implementation and training-data terms depend on the specific distribution; cite the original method"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/rdkit/rdkit"
+  repository: "https://github.com/rdkit/rdkit"
+  documentation: "https://github.com/rdkit/rdkit"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A heuristic prioritisation measure, not a route planner and not a substitute for retrosynthetic analysis."
+
+- id: synthia
+  name: "SYNTHIA"
+  description: "Commercial retrosynthesis and synthetic-route planning platform designed to generate and rank routes toward target molecules."
+  catalogue: app
+  domain:
+  - retrosynthesis
+  category:
+  - retrosynthesis
+  type: "web-tool"
+  access:
+  - commercial
+  source_available: false
+  license: "Proprietary commercial service; subscription/licence required"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.molport.com/synthia/"
+  repository: []
+  documentation: "https://www.molport.com/synthia/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Route suggestions are computational recommendations; verify reaction precedent, availability and laboratory feasibility independently."
+
+- id: spaya
+  name: "Spaya"
+  description: "AI-enabled retrosynthesis and route-planning platform for proposing synthetic routes from commercially available building blocks."
+  catalogue: app
+  domain:
+  - retrosynthesis
+  category:
+  - retrosynthesis
+  type: "web-tool"
+  access:
+  - commercial
+  source_available: false
+  license: "Proprietary service; check current subscription and data-use terms"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://spaya.ai/"
+  repository: []
+  documentation: "https://spaya.ai/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful as a commercial route-planning comparator. Review confidentiality terms before uploading proprietary structures."
+
+- id: py2opsin
+  name: "py2opsin"
+  description: "Python interface for converting chemical names into structure representations by calling OPSIN."
+  catalogue: app
+  domain:
+  - nomenclature-format-conversion
+  - cheminformatics
+  category:
+  - nomenclature-format-conversion
+  - cheminformatics
+  type: "library"
+  access:
+  - free
+  source_available: false
+  license: "Check the current repository licence and OPSIN dependency terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/rdkit/py2opsin"
+  repository: "https://github.com/rdkit/py2opsin"
+  documentation: "https://github.com/rdkit/py2opsin"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A helper wrapper rather than a separate name-to-structure algorithm."
+
+- id: nci-chemical-identifier-resolver
+  name: "NCI/CADD Chemical Identifier Resolver"
+  description: "Web service and API for converting between chemical names, CAS numbers, SMILES, InChI and other chemical identifier formats."
+  catalogue: app
+  domain:
+  - nomenclature-format-conversion
+  - cheminformatics
+  category:
+  - nomenclature-format-conversion
+  - cheminformatics
+  type: "web-service"
+  access:
+  - free-web
+  source_available: false
+  license: "Public service and source data terms apply; check specific provider terms before bulk redistribution"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://cactus.nci.nih.gov/chemical/structure/"
+  repository: []
+  documentation: "https://cactus.nci.nih.gov/chemical/structure/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Supports browser and URL-based requests for rapid identifier conversion and structure lookup."
+
+- id: stout-v2
+  name: "STOUT V2"
+  description: "Machine-learning system for translating molecular structures into systematic chemical names and related textual representations."
+  catalogue: app
+  domain:
+  - nomenclature-format-conversion
+  - cheminformatics
+  category:
+  - nomenclature-format-conversion
+  - cheminformatics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check the repository and model licence for the exact version"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/Kohulan/Smiles-TO-iUpac"
+  repository: "https://github.com/Kohulan/Smiles-TO-iUpac"
+  documentation: "https://github.com/Kohulan/Smiles-TO-iUpac"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Model-generated nomenclature should be checked for correctness and may differ from preferred names in curated databases."
+
+- id: nispo
+  name: "NISPO"
+  description: "Open-source Python package for generating chemical IUPAC names from molecular structures, with round-trip checks through OPSIN."
+  catalogue: app
+  domain:
+  - nomenclature-format-conversion
+  - cheminformatics
+  category:
+  - nomenclature-format-conversion
+  - cheminformatics
+  type: "library"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "BSD-3-Clause"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/oxpig/nispo"
+  repository: "https://github.com/oxpig/nispo"
+  documentation: "https://github.com/oxpig/nispo"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The published benchmark emphasises OPSIN round-trip validity; generated names are not guaranteed to match preferred database nomenclature."
+
+- id: inchi-software
+  name: "InChI Software"
+  description: "Official software for generating and handling the International Chemical Identifier and InChIKey from molecular structures."
+  catalogue: app
+  domain:
+  - nomenclature-format-conversion
+  - cheminformatics
+  category:
+  - nomenclature-format-conversion
+  - cheminformatics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "InChI software is distributed under its own licence; review the current release terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.inchi-trust.org/technical-faq/"
+  repository: []
+  documentation: "https://www.inchi-trust.org/technical-faq/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A foundational identifier tool for interoperable chemical records. Distinguish the standard/specification from the software package."
+
+- id: deepsmiles
+  name: "DeepSMILES"
+  description: "Alternative line notation for representing molecular structures and reducing some syntactic constraints of conventional SMILES."
+  catalogue: app
+  domain:
+  - nomenclature-format-conversion
+  - cheminformatics
+  category:
+  - nomenclature-format-conversion
+  - cheminformatics
+  type: "library"
+  access:
+  - free
+  source_available: false
+  license: "Check the official repository licence"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/asylnlp/DeepSMILES"
+  repository: "https://github.com/asylnlp/DeepSMILES"
+  documentation: "https://github.com/asylnlp/DeepSMILES"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A representation format and toolkit rather than a molecule generator; interoperability requires explicit conversion."
+
+- id: gemmi
+  name: "Gemmi"
+  description: "Library and command-line tools for crystallographic and macromolecular structural data, including PDB/mmCIF parsing and coordinate processing."
+  catalogue: app
+  domain:
+  - nomenclature-format-conversion
+  - protein-structures
+  - cheminformatics
+  category:
+  - nomenclature-format-conversion
+  - protein-structures
+  - cheminformatics
+  type: "library"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MPL-2.0 (check bundled dependencies)"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://gemmi.readthedocs.io/"
+  repository: "https://github.com/project-gemmi/gemmi"
+  documentation: "https://gemmi.readthedocs.io/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Especially useful for reliable structural-file processing in Python and C++ pipelines."
+
+- id: decimer-ai
+  name: "DECIMER.ai"
+  description: "Chemical image recognition service for converting molecular depictions in papers and images into machine-readable molecular structures."
+  catalogue: app
+  domain:
+  - nomenclature-format-conversion
+  - cheminformatics
+  category:
+  - nomenclature-format-conversion
+  - cheminformatics
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Check the current code, model-weight and hosted-service terms separately"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://decimer.ai/"
+  repository: "https://github.com/Kohulan/DECIMER-Image-to-SMILES"
+  documentation: "https://decimer.ai/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Image-to-structure outputs require visual checking, especially for stereochemistry, charges and low-resolution depictions."
+
+- id: molscribe
+  name: "MolScribe"
+  description: "Vision-based model and software for recognising chemical structure depictions and converting them into molecular graphs and SMILES."
+  catalogue: app
+  domain:
+  - nomenclature-format-conversion
+  - cheminformatics
+  category:
+  - nomenclature-format-conversion
+  - cheminformatics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check the official repository and model terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/thomas0809/MolScribe"
+  repository: "https://github.com/thomas0809/MolScribe"
+  documentation: "https://github.com/thomas0809/MolScribe"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for digitising chemical images; verify recognition of stereochemistry, abbreviations and complex ring systems."
+
+- id: osra
+  name: "OSRA"
+  description: "Optical structure recognition software for converting chemical structure images into computer-readable molecular representations."
+  catalogue: app
+  domain:
+  - nomenclature-format-conversion
+  - cheminformatics
+  category:
+  - nomenclature-format-conversion
+  - cheminformatics
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Check current distribution and dependency licence terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://cactus.nci.nih.gov/osra/"
+  repository: []
+  documentation: "https://cactus.nci.nih.gov/osra/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Legacy but useful for batch processing; recognition quality depends on resolution and image quality."
+
+- id: unichem
+  name: "UniChem"
+  description: "EMBL-EBI chemical cross-reference service that links compound identifiers across public chemistry resources."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - nomenclature-format-conversion
+  - libraries-datasets
+  category:
+  - nomenclature-format-conversion
+  - libraries-datasets
+  type: "web-service"
+  access:
+  - free-web
+  source_available: false
+  license: "EMBL-EBI and resource-specific data terms apply"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.ebi.ac.uk/unichem/"
+  repository: []
+  documentation: "https://www.ebi.ac.uk/unichem/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for connecting compound identifiers between databases; preserve source IDs and record provenance."
+
+- id: pubchem-identifier-exchange
+  name: "PubChem Identifier Exchange Service"
+  description: "PubChem service for translating chemical identifiers and matching chemical structures across representations."
+  catalogue: app
+  domain:
+  - nomenclature-format-conversion
+  - libraries-datasets
+  category:
+  - nomenclature-format-conversion
+  - libraries-datasets
+  type: "web-service"
+  access:
+  - free-web
+  source_available: false
+  license: "NIH/PubChem service; individual source records can carry separate rights and provenance"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://pubchem.ncbi.nlm.nih.gov/idexchange/"
+  repository: []
+  documentation: "https://pubchem.ncbi.nlm.nih.gov/idexchange/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for large-scale identifier matching. Confirm exact-match versus structure-match settings before interpreting results."
+
+- id: cas-common-chemistry
+  name: "CAS Common Chemistry"
+  description: "Searchable public chemistry resource for common substances with curated identifiers and basic chemical information."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - nomenclature-format-conversion
+  - libraries-datasets
+  category:
+  - nomenclature-format-conversion
+  - libraries-datasets
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "CC BY-NC 4.0 for public CAS Common Chemistry content; commercial API/content use requires separate licensing"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://commonchemistry.cas.org/"
+  repository: []
+  documentation: "https://commonchemistry.cas.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Not open for unrestricted commercial data reuse. It covers a subset of CAS REGISTRY, not the full commercial database."
+
+- id: chembl-web-services
+  name: "ChEMBL Web Services"
+  description: "Public API for querying ChEMBL bioactivity, targets, assays, molecules and curated drug-discovery data programmatically."
+  catalogue: app
+  domain:
+  - nomenclature-format-conversion
+  - libraries-datasets
+  - target-identification
+  category:
+  - nomenclature-format-conversion
+  - libraries-datasets
+  - target-identification
+  type: "web-service"
+  access:
+  - free-web
+  source_available: false
+  license: "ChEMBL data and EMBL-EBI service terms apply; check dataset provenance and citation requirements"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.ebi.ac.uk/chembl/api/data/docs"
+  repository: []
+  documentation: "https://www.ebi.ac.uk/chembl/api/data/docs"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "This is an API/service entry rather than a duplicate of the ChEMBL database card."
+
+- id: zinc20-informer-set
+  name: "ZINC20 Informer Set"
+  description: "Compound collection and search resource associated with the ZINC20 library ecosystem for sourcing and exploring purchasable compounds."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - libraries-datasets
+  category:
+  - libraries-datasets
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Compound sourcing, download and redistribution terms depend on vendor and ZINC access policy"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://zinc20.docking.org/"
+  repository: []
+  documentation: "https://zinc20.docking.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Availability and purchasability are time-dependent; verify supplier, stock and terms at the time of selection."
+
+- id: pubchem-bioassay
+  name: "PubChem BioAssay"
+  description: "Repository of biological screening results and assay descriptions linked to chemical substances and bioactivity records."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - libraries-datasets
+  - target-identification
+  - ligand-based-qsar
+  category:
+  - libraries-datasets
+  - target-identification
+  - ligand-based-qsar
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Source-specific data rights and citations apply to contributing assay records"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://pubchem.ncbi.nlm.nih.gov/"
+  repository: []
+  documentation: "https://pubchem.ncbi.nlm.nih.gov/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Inspect assay protocols, activity definitions and depositor provenance before combining measurements."
+
+- id: chemspider
+  name: "ChemSpider"
+  description: "Chemical structure database providing identifiers, structure lookup, properties and links to external chemistry sources."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - libraries-datasets
+  - cheminformatics
+  category:
+  - libraries-datasets
+  - cheminformatics
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Access and reuse terms depend on data source, API and account conditions; check current provider terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.chemspider.com/"
+  repository: []
+  documentation: "https://www.chemspider.com/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A useful structure-identification resource; do not assume unrestricted bulk redistribution or commercial reuse."
+
+- id: drug-repurposing-hub
+  name: "Drug Repurposing Hub"
+  description: "Curated annotation resource for approved drugs, clinical-trial compounds and preclinical tool compounds with mechanisms, targets and indications."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - libraries-datasets
+  - target-identification
+  category:
+  - libraries-datasets
+  - target-identification
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Metadata CC BY 4.0 for research use; commercial redistribution restrictions apply, and physical compound library access requires an MTA"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://repo-hub.broadinstitute.org/repurposing"
+  repository: []
+  documentation: "https://repo-hub.broadinstitute.org/repurposing"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Public annotations are downloadable without registration; obtaining assay-ready compounds requires institutional agreement and may involve cost recovery."
+
+- id: nci-open-database
+  name: "NCI Open Database"
+  description: "Publicly accessible collection of small molecules associated with National Cancer Institute chemical resources and screening records."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - libraries-datasets
+  category:
+  - libraries-datasets
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Check source-specific terms and release documentation before bulk redistribution"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://cactus.nci.nih.gov/download/nci/"
+  repository: []
+  documentation: "https://cactus.nci.nih.gov/download/nci/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A historical compound collection; verify the exact release and identifiers before using it as a contemporary screening library."
+
+- id: gdb17
+  name: "GDB-17"
+  description: "Enumerated database of small organic molecules up to 17 heavy atoms, designed for chemical-space exploration and molecular-generation research."
+  catalogue: resource
+  resource_type: "dataset"
+  domain:
+  - libraries-datasets
+  - de-novo-design
+  category:
+  - libraries-datasets
+  - de-novo-design
+  type: "dataset"
+  access:
+  - free
+  source_available: false
+  license: "Access and redistribution conditions are controlled by the database maintainers; verify current research-use terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://gdb.unibe.ch/"
+  repository: []
+  documentation: "https://gdb.unibe.ch/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A theoretical enumerated chemical space, not a list of compounds confirmed to be commercially available or synthesised."
+
+- id: pdbbind
+  name: "PDBbind"
+  description: "Collection of protein–ligand complexes associated with experimentally measured binding affinities for docking and affinity-modelling benchmarks."
+  catalogue: resource
+  resource_type: "dataset"
+  domain:
+  - libraries-datasets
+  - structure-based
+  - ligand-based-qsar
+  category:
+  - libraries-datasets
+  - structure-based
+  - ligand-based-qsar
+  type: "dataset"
+  access:
+  - free
+  source_available: false
+  license: "Release-specific access and redistribution terms apply; check the current dataset agreement"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "http://www.pdbbind.org.cn/"
+  repository: []
+  documentation: "http://www.pdbbind.org.cn/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Record the release, affinity field, split protocol and structure filtering when reporting benchmarking performance."
+
+- id: binding-moad
+  name: "Binding MOAD"
+  description: "Curated database of protein–ligand complexes with binding affinity information and structural annotations."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - libraries-datasets
+  - structure-based
+  - ligand-based-qsar
+  category:
+  - libraries-datasets
+  - structure-based
+  - ligand-based-qsar
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Database-specific terms and PDB/source record conditions apply"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://bindingmoad.org/"
+  repository: []
+  documentation: "https://bindingmoad.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A useful complement to PDBbind with focus on high-quality ligand complexes and binding-affinity information."
+
+- id: crossdocked2020
+  name: "CrossDocked2020"
+  description: "Protein–ligand structural dataset for evaluating cross-docking, pose prediction and structure-based modelling methods."
+  catalogue: resource
+  resource_type: "dataset"
+  domain:
+  - libraries-datasets
+  - structure-based
+  category:
+  - libraries-datasets
+  - structure-based
+  type: "dataset"
+  access:
+  - free
+  source_available: false
+  license: "Dataset terms and source PDB record conditions apply; inspect the selected download release"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://bits.csb.pitt.edu/files/crossdocked_pocket10/"
+  repository: []
+  documentation: "https://bits.csb.pitt.edu/files/crossdocked_pocket10/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Benchmark results depend strongly on split construction, homologous pockets and leakage prevention."
+
+- id: casf-2016
+  name: "CASF-2016"
+  description: "Comparative assessment benchmark for evaluating protein–ligand scoring, docking and ranking power against a curated complex set."
+  catalogue: resource
+  resource_type: "dataset"
+  domain:
+  - libraries-datasets
+  - structure-based
+  category:
+  - libraries-datasets
+  - structure-based
+  type: "benchmark"
+  access:
+  - free
+  source_available: false
+  license: "PDBbind benchmark distribution terms apply"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "http://www.pdbbind.org.cn/"
+  repository: []
+  documentation: "http://www.pdbbind.org.cn/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Usually distributed as part of PDBbind benchmark materials; record the exact release and benchmark protocol."
+
+- id: astex-diverse-set
+  name: "Astex Diverse Set"
+  description: "Curated set of protein–ligand crystal complexes historically used to assess docking pose prediction and molecular recognition."
+  catalogue: resource
+  resource_type: "dataset"
+  domain:
+  - libraries-datasets
+  - structure-based
+  category:
+  - libraries-datasets
+  - structure-based
+  type: "dataset"
+  access:
+  - free
+  source_available: false
+  license: "Structure/source data and redistribution terms may be restricted; check CCDC and source-entry terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.ccdc.cam.ac.uk/"
+  repository: []
+  documentation: "https://www.ccdc.cam.ac.uk/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A widely cited benchmark set, but the availability of a download does not imply open redistribution rights."
+
+- id: d3r-csar-datasets
+  name: "D3R / CSAR Datasets"
+  description: "Community challenge datasets for evaluating computational drug-discovery methods, including protein–ligand affinity prediction and structure-based modelling."
+  catalogue: resource
+  resource_type: "dataset"
+  domain:
+  - libraries-datasets
+  - structure-based
+  - ligand-based-qsar
+  category:
+  - libraries-datasets
+  - structure-based
+  - ligand-based-qsar
+  type: "dataset"
+  access:
+  - free-web
+  source_available: false
+  license: "Release-specific participant and data-use terms apply; review each challenge archive"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://drugdesigndata.org/"
+  repository: []
+  documentation: "https://drugdesigndata.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Some data may be available only after challenge registration or under specific use conditions."
+
+- id: dekois-2
+  name: "DEKOIS 2.0"
+  description: "Benchmark collection for retrospective virtual-screening evaluation using active compounds and property-matched decoys."
+  catalogue: resource
+  resource_type: "dataset"
+  domain:
+  - libraries-datasets
+  - structure-based
+  - ligand-based-qsar
+  category:
+  - libraries-datasets
+  - structure-based
+  - ligand-based-qsar
+  type: "benchmark"
+  access:
+  - free-web
+  source_available: false
+  license: "Dataset-specific terms; cite the relevant version and original benchmark paper"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.dekois.com/"
+  repository: []
+  documentation: "https://www.dekois.com/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Benchmark composition and decoy quality influence enrichment results; disclose protocol and preprocessing."
+
+- id: muv
+  name: "MUV — Maximum Unbiased Validation"
+  description: "Benchmark dataset designed to evaluate virtual-screening methods using assay-derived actives and carefully constructed decoy sets."
+  catalogue: resource
+  resource_type: "dataset"
+  domain:
+  - libraries-datasets
+  - ligand-based-qsar
+  category:
+  - libraries-datasets
+  - ligand-based-qsar
+  type: "benchmark"
+  access:
+  - free-web
+  source_available: false
+  license: "Source assay and benchmark terms apply; document the exact MUV release"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://pubchem.ncbi.nlm.nih.gov/"
+  repository: []
+  documentation: "https://pubchem.ncbi.nlm.nih.gov/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A benchmark collection rather than an application. Treat its assay definitions and decoy protocol as part of the dataset."
+
+- id: tox21
+  name: "Tox21"
+  description: "Toxicology screening dataset from the Tox21 programme covering multiple toxicity-related in-vitro assays."
+  catalogue: resource
+  resource_type: "dataset"
+  domain:
+  - libraries-datasets
+  - admet-prediction
+  category:
+  - libraries-datasets
+  - admet-prediction
+  type: "dataset"
+  access:
+  - free-web
+  source_available: false
+  license: "Public-sector dataset with source-specific terms and citation requirements"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.epa.gov/comptox-tools/toxicity-forecaster-toxt21"
+  repository: []
+  documentation: "https://www.epa.gov/comptox-tools/toxicity-forecaster-toxt21"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Endpoint assay conditions, aggregation rules and label imbalance matter for benchmark comparability."
+
+- id: dilirank
+  name: "DILIrank"
+  description: "FDA-curated dataset ranking drugs by their potential to cause drug-induced liver injury based on clinical evidence and expert review."
+  catalogue: resource
+  resource_type: "dataset"
+  domain:
+  - libraries-datasets
+  - admet-prediction
+  category:
+  - libraries-datasets
+  - admet-prediction
+  type: "dataset"
+  access:
+  - free-web
+  source_available: false
+  license: "FDA data source terms apply; confirm the version and required citations"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.fda.gov/science-research/bioinformatics-tools/dilirank"
+  repository: []
+  documentation: "https://www.fda.gov/science-research/bioinformatics-tools/dilirank"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "An endpoint-specific reference dataset; not a comprehensive or experimentally uniform liver-toxicity assay."
+
+- id: herg-central
+  name: "hERG Central"
+  description: "Reference resource for hERG-related pharmacology and ion-channel data used in cardiac-safety assessment and predictive modelling."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - libraries-datasets
+  - admet-prediction
+  category:
+  - libraries-datasets
+  - admet-prediction
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Database-specific licence and reuse terms should be verified before redistribution"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://hergcentral.org/"
+  repository: []
+  documentation: "https://hergcentral.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Confirm assay methods, units and experimental context when combining hERG measurements from different sources."
+
+- id: hmdb
+  name: "Human Metabolome Database (HMDB)"
+  description: "Curated database of human metabolites, chemical structures, concentration data and associated biological and clinical information."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - libraries-datasets
+  - cheminformatics
+  category:
+  - libraries-datasets
+  - cheminformatics
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Database-specific licence and bulk download conditions apply; check current access terms"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://hmdb.ca/"
+  repository: []
+  documentation: "https://hmdb.ca/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Strong resource for metabolomics and endogenous small molecules; not a general synthetic compound library."
+
+- id: database-commons
+  name: "Database Commons"
+  description: "Catalogue and search portal for biological databases and data resources across molecular biology and biomedicine."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - libraries-datasets
+  category:
+  - libraries-datasets
+  type: "database"
+  access:
+  - free-web
+  source_available: false
+  license: "Underlying databases have distinct terms; follow each database's licence and citation policy"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://db.idrblab.net/db/"
+  repository: []
+  documentation: "https://db.idrblab.net/db/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Use as a resource-discovery index; check individual source databases for content access and reuse."
+
+- id: qmugs
+  name: "QMugs"
+  description: "Dataset of drug-like molecules, conformers and quantum-mechanical properties for molecular modelling and machine-learning research."
+  catalogue: resource
+  resource_type: "dataset"
+  domain:
+  - libraries-datasets
+  - cheminformatics
+  category:
+  - libraries-datasets
+  - cheminformatics
+  type: "dataset"
+  access:
+  - free
+  source_available: false
+  license: "Dataset access and reuse terms should be checked at the official release source"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.nature.com/articles/s41597-022-01390-7"
+  repository: []
+  documentation: "https://www.nature.com/articles/s41597-022-01390-7"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for molecular-property and conformational modelling; track molecule standardisation and calculation provenance."
+
+- id: plinder
+  name: "PLINDER"
+  description: "Protein–ligand structure and benchmark resource designed to support evaluation of structure-based drug-discovery methods."
+  catalogue: resource
+  resource_type: "dataset"
+  domain:
+  - libraries-datasets
+  - structure-based
+  category:
+  - libraries-datasets
+  - structure-based
+  type: "dataset"
+  access:
+  - free
+  source_available: false
+  license: "Dataset components and individual source records have separate terms; inspect the precise release"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/plinder-org/plinder"
+  repository: "https://github.com/plinder-org/plinder"
+  documentation: "https://github.com/plinder-org/plinder"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "A recent benchmark. Check data-version notes because some affinity annotations or processing components may be unavailable in particular releases."
+
+- id: chemotion-eln
+  name: "Chemotion ELN"
+  description: "Electronic laboratory notebook designed for chemistry, capturing experiments, substances, reactions and research data."
+  catalogue: app
+  domain:
+  - organization
+  category:
+  - organization
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "AGPL-3.0-or-later"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.chemotion.net/"
+  repository: "https://github.com/ComPlat/chemotion_ELN"
+  documentation: "https://www.chemotion.net/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Self-hosting requires deployment and maintenance. Related repository services have separate components and licences."
+
+- id: chemotion-repository
+  name: "Chemotion Repository"
+  description: "Repository for chemistry samples, reactions and associated research data with structured metadata and deposition workflows."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - organization
+  - libraries-datasets
+  category:
+  - organization
+  - libraries-datasets
+  type: "database"
+  access:
+  - free-web
+  - open-source
+  source_available: true
+  license: "AGPL-3.0-or-later for the repository software; deposited data terms depend on each record"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.chemotion-repository.net/"
+  repository: "https://github.com/ComPlat/chemotion_REPO"
+  documentation: "https://www.chemotion-repository.net/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Distinguish repository software licensing from the licences attached to submitted data and samples."
+
+- id: labimotion
+  name: "LabIMotion"
+  description: "Laboratory information-management and electronic lab-notebook tooling intended to support structured research data capture."
+  catalogue: app
+  domain:
+  - organization
+  category:
+  - organization
+  type: "software"
+  access:
+  - free
+  source_available: false
+  license: "Verify current software licence and deployment terms with the maintainers"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.labimotion.org/"
+  repository: []
+  documentation: "https://www.labimotion.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Linked to the Chemotion/NFDI4Chem ecosystem; confirm the exact component and licence before deployment."
+
+- id: elabftw
+  name: "eLabFTW"
+  description: "Open-source electronic lab notebook and laboratory-management system for documenting experiments, resources and team workflows."
+  catalogue: app
+  domain:
+  - organization
+  category:
+  - organization
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "AGPL-3.0"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.elabftw.net/"
+  repository: "https://github.com/elabftw/elabftw"
+  documentation: "https://www.elabftw.net/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Can be self-hosted; review the operational security and data-backup requirements before storing regulated or sensitive laboratory records."
+
+- id: openbis
+  name: "openBIS"
+  description: "Research data management platform for organising experimental data, samples, metadata and laboratory workflows."
+  catalogue: app
+  domain:
+  - organization
+  category:
+  - organization
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "Component-specific open-source licences; check the current distribution"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://openbis.ch/"
+  repository: "https://github.com/openBIS"
+  documentation: "https://openbis.ch/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Institutional deployment requires infrastructure and metadata design; verify the licence of each installed component."
+
+- id: open-enventory
+  name: "Open Enventory"
+  description: "Browser-based chemical inventory and electronic laboratory notebook for managing substances, stock, spectroscopy and literature records."
+  catalogue: app
+  domain:
+  - organization
+  category:
+  - organization
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "AGPL-3.0"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://sourceforge.net/projects/enventory/"
+  repository: "https://github.com/khoivan88/open_enventory-modified_for_US"
+  documentation: "https://sourceforge.net/projects/enventory/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The current project has recent SourceForge releases; the linked GitHub repository is a fork. Review deployment and maintenance requirements."
+
+- id: rspace-eln
+  name: "RSpace ELN"
+  description: "Electronic research notebook and research-data management platform for recording experiments and collaborating across research teams."
+  catalogue: app
+  domain:
+  - organization
+  category:
+  - organization
+  type: "software"
+  access:
+  - commercial
+  source_available: false
+  license: "Commercial deployment/licensing available; the provider also advertises an open-source self-hosted edition—verify the exact edition and licence"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.researchspace.com/"
+  repository: []
+  documentation: "https://www.researchspace.com/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Pricing and licence differ by hosting model and institution; not every hosted service feature is unrestricted or free."
+
+- id: git
+  name: "Git"
+  description: "Distributed version-control system for tracking changes to code, notebooks, configuration files and analysis workflows."
+  catalogue: app
+  domain:
+  - organization
+  category:
+  - organization
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "GPL-2.0-only"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://git-scm.com/"
+  repository: "https://github.com/git/git"
+  documentation: "https://git-scm.com/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Versioning analysis scripts and configuration is important for reproducibility, but raw large datasets often need a separate data-versioning approach."
+
+- id: github
+  name: "GitHub"
+  description: "Hosted repository and collaboration platform for source code, issue tracking, version history, automation and project documentation."
+  catalogue: app
+  domain:
+  - organization
+  category:
+  - organization
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Proprietary hosted service with free and paid plans; code hosted on the platform has separate licences"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/"
+  repository: []
+  documentation: "https://github.com/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The platform is not itself open-source. Check repository visibility, organisation policy, secrets handling and terms before uploading data."
+
+- id: zotero
+  name: "Zotero"
+  description: "Reference manager for collecting, organising, annotating and citing scientific literature with browser capture and citation integrations."
+  catalogue: app
+  domain:
+  - organization
+  category:
+  - organization
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "AGPL-3.0"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.zotero.org/"
+  repository: "https://github.com/zotero/zotero"
+  documentation: "https://www.zotero.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for managing scientific sources; cloud storage and collaboration features have their own capacity and service terms."
+
+- id: jabref
+  name: "JabRef"
+  description: "Open-source reference manager for organising scholarly literature and BibTeX/BibLaTeX libraries."
+  catalogue: app
+  domain:
+  - organization
+  category:
+  - organization
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.jabref.org/"
+  repository: "https://github.com/JabRef/jabref"
+  documentation: "https://www.jabref.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for researchers maintaining citation libraries and LaTeX manuscripts."
+
+- id: zenodo
+  name: "Zenodo"
+  description: "General-purpose research repository for archiving and sharing publications, code releases, datasets and other research outputs with persistent DOIs."
+  catalogue: app
+  domain:
+  - organization
+  - libraries-datasets
+  category:
+  - organization
+  - libraries-datasets
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Hosted service; each deposited item has its own licence chosen by the depositor"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://zenodo.org/"
+  repository: []
+  documentation: "https://zenodo.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The platform is not a blanket licence for deposited content; inspect the licence and metadata on each record."
+
+- id: figshare
+  name: "Figshare"
+  description: "Hosted repository platform for sharing datasets, figures, supplementary information and other research outputs with persistent identifiers."
+  catalogue: app
+  domain:
+  - organization
+  - libraries-datasets
+  category:
+  - organization
+  - libraries-datasets
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Hosted service; licences are assigned per deposited item and institutional configuration"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://figshare.com/"
+  repository: []
+  documentation: "https://figshare.com/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Check the item-level licence and any embargo or institutional access rules before reusing data."
+
+- id: osf
+  name: "Open Science Framework (OSF)"
+  description: "Research project platform for organising files, preregistrations, collaborators, materials and public or private project records."
+  catalogue: app
+  domain:
+  - organization
+  category:
+  - organization
+  type: "web-tool"
+  access:
+  - free-web
+  source_available: false
+  license: "Hosted service terms apply; individual content has its own copyright/licence"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://osf.io/"
+  repository: []
+  documentation: "https://osf.io/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for transparent project organisation and preregistration; avoid uploading sensitive data to a public project."
+
+- id: chemrxiv
+  name: "ChemRxiv"
+  description: "Preprint server for chemistry research manuscripts and supporting information."
+  catalogue: resource
+  resource_type: "database"
+  domain:
+  - organization
+  - libraries-datasets
+  category:
+  - organization
+  - libraries-datasets
+  type: "repository"
+  access:
+  - free-web
+  source_available: false
+  license: "Terms and licences vary by submission and article; review the individual preprint record"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://chemrxiv.org/"
+  repository: []
+  documentation: "https://chemrxiv.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Preprints have not necessarily undergone peer review; cite the version and check for a later peer-reviewed article."
+
+- id: datalad
+  name: "DataLad"
+  description: "Toolset for versioning, distributing and reproducibly describing data collections and computational research projects."
+  catalogue: app
+  domain:
+  - organization
+  category:
+  - organization
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT for core DataLad; extension and dataset components may have separate licences"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://www.datalad.org/"
+  repository: "https://github.com/datalad/datalad"
+  documentation: "https://www.datalad.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for datasets too large for ordinary Git version control; data-access credentials and underlying dataset licences remain separate."
+
+- id: apptainer
+  name: "Apptainer"
+  description: "Container platform used on HPC systems to package and run software environments reproducibly without requiring a root daemon."
+  catalogue: app
+  domain:
+  - organization
+  category:
+  - organization
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "BSD-3-Clause"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://apptainer.org/"
+  repository: "https://github.com/apptainer/apptainer"
+  documentation: "https://apptainer.org/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Useful for reproducible docking, simulation and machine-learning environments on university clusters."
+
+- id: conda-lock
+  name: "conda-lock"
+  description: "Tool for generating deterministic environment lockfiles that pin package versions across supported platforms."
+  catalogue: app
+  domain:
+  - organization
+  category:
+  - organization
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "BSD-3-Clause"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://github.com/conda/conda-lock"
+  repository: "https://github.com/conda/conda-lock"
+  documentation: "https://github.com/conda/conda-lock"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Lockfiles help preserve software environments; they do not freeze external databases, model weights or remote service behaviour."
+
+- id: pixi
+  name: "Pixi"
+  description: "Project-oriented package and environment manager with lockfiles for reproducible scientific software environments."
+  catalogue: app
+  domain:
+  - organization
+  category:
+  - organization
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "BSD-3-Clause"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - cli
+  languages:
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://pixi.sh/"
+  repository: "https://github.com/prefix-dev/pixi"
+  documentation: "https://pixi.sh/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Can simplify multi-language environments. Do not use alongside every environment manager by default; choose one appropriate to the project."
+- id: openadmet-models
+  name: "OpenADMET Models"
+  description: "Open machine-learning workflows and model architectures for building, training and evaluating ADMET predictors, with accompanying examples and benchmark assets."
+  catalogue: resource
+  resource_type: library
+  domain:
+  - admet-prediction
+  - libraries-datasets
+  category:
+  - admet-prediction
+  - libraries-datasets
+  type: "library"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "MIT for OpenADMET Models code; data and model assets may use separate licences (often CC BY 4.0)"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  - cli
+  languages:
+  - "python"
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://openadmet.org/"
+  repository: "https://github.com/OpenADMET/openadmet-models"
+  documentation: "https://docs.openadmet.org/en/latest/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "The code licence is MIT according to the official repository. Check the licence attached to each dataset or model before reuse; do not assume one licence covers the whole OpenADMET ecosystem."
+
+- id: polaris-benchmarks
+  name: "Polaris"
+  description: "Platform and benchmark ecosystem for evaluating molecular-property and drug-discovery models with versioned datasets, tasks and reproducible evaluation workflows."
+  catalogue: resource
+  resource_type: dataset
+  domain:
+  - admet-prediction
+  - libraries-datasets
+  category:
+  - admet-prediction
+  - libraries-datasets
+  type: "benchmark"
+  access:
+  - free-web
+  source_available: false
+  license: "Platform terms apply; each benchmark dataset has its own licence and data-use conditions"
+  platforms:
+  - web
+  interface:
+  - web
+  languages:
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Project maintainers"
+  website: "https://polarishub.io/"
+  repository: "https://github.com/polarishub/polaris"
+  documentation: "https://polarishub.io/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Treat the platform, SDK and each benchmark dataset separately. Check individual data licences and platform terms rather than assigning one blanket open-source status."
+- id: protenix
+  name: "Protenix"
+  description: "Open-source biomolecular complex structure prediction framework in the AlphaFold 3 family. Licence terms differ between source code and particular model-weight releases."
+  catalogue: app
+  domain:
+  - protein-structures
+  - structure-based
+  category:
+  - protein-structures
+  - structure-based
+  type: "software"
+  access:
+  - free
+  source_available: true
+  license: "Apache-2.0 for code; Protenix v2 model weights are proprietary/restricted according to the project release notes. Verify the precise release before use."
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  - cli
+  languages:
+  - "python"
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "ByteDance and project contributors"
+  website: "https://github.com/bytedance/Protenix"
+  repository: "https://github.com/bytedance/Protenix"
+  documentation: "https://github.com/bytedance/Protenix"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Keep model version and weight licence visible. A permissive code licence does not make restricted pretrained weights open-source or commercially reusable."
+
+- id: molcraft
+  name: "MolCRAFT"
+  description: "Research model for 3D structure-based drug design that generates molecular candidates in continuous parameter space and supports molecular optimisation."
+  catalogue: app
+  domain:
+  - de-novo-design
+  - structure-based
+  category:
+  - de-novo-design
+  - structure-based
+  type: "software"
+  access:
+  - free
+  source_available: true
+  license: "CC-BY-NC-SA (non-commercial; not an OSI-approved open-source software licence). Check the exact model/code bundle and terms before redistribution."
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - python
+  - cli
+  languages:
+  - "python"
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Tsinghua AI and related project contributors"
+  website: "https://github.com/GenSI-THUAIR/MolCRAFT"
+  repository: "https://github.com/GenSI-THUAIR/MolCRAFT"
+  documentation: "https://github.com/GenSI-THUAIR/MolCRAFT"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "Research code and model resources are non-commercial under the project licence. Generated structures need chemical validity, synthesizability and target-relevant assessment."
+- id: crosstalkr
+  name: "crosstalkr"
+  description: "R package for analysing biological networks and prioritising drug targets and disease subnetworks from protein–protein interaction networks, including in-silico node-repression experiments."
+  catalogue: app
+  domain:
+  - target-identification
+  category:
+  - target-identification
+  type: "software"
+  access:
+  - free
+  - open-source
+  source_available: true
+  license: "GPL-3.0-or-later"
+  platforms:
+  - linux
+  - macos
+  - windows
+  interface:
+  - r
+  - cli
+  languages:
+  - "R"
+  - "C++"
+  gpu: "not-required"
+  installation:
+  - source
+  status: "active"
+  developers:
+  - "Davis Weaver and contributors"
+  website: "https://cran.r-project.org/package=crosstalkr"
+  repository: "https://github.com/DavisWeaver/crosstalkr"
+  documentation: "https://github.com/DavisWeaver/crosstalkr"
+  citation: "https://doi.org/10.1371/journal.pcbi.1008755"
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-reviewed"
+    last_checked: '2026-10-15'
+  notes: "Combines PPI subnetwork extraction, node ranking and in-silico repression for drug-target and disease-network prioritisation. Uses external network resources such as STRING and BioGRID."
+

@@ -8,11 +8,27 @@ Molecular simulations, trajectory analysis, and free-energy calculations.
 
 | Application | Tasks | Access | Interface | Platforms | Status |
 |---|---|---|---|---|---|
+| [AmberTools](https://ambermd.org/AmberTools.php) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [BioBB Workflows](https://github.com/bioexcel/biobb_workflows) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [CGenFF](https://cgenff.umaryland.edu/) | — | Free Web | GUI / Web | Web | Curated Resource |
+| [Desmond](https://www.schrodinger.com/platform/products/desmond/) | — | Commercial | CLI | Linux / Macos / Windows | Curated Resource |
 | [DynaMut2](https://biosig.lab.uq.edu.au/dynamut2/) | Target Assessment & Validation; Free-Energy Calculations | Free | GUI / Web | Web | Curated Resource |
 | [fpocket](https://github.com/Discngine/fpocket) | Binding-Site Analysis; Molecular Visualization; Trajectory Analysis | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [gmx_MMPBSA](https://github.com/Valdes-Tresanco-MS/gmx_MMPBSA) | Free-Energy Calculations; Molecular Dynamics; Trajectory Analysis | Free / Open Source | CLI | Linux | Curated Resource |
 | [GROMACS](https://www.gromacs.org/) | Molecular Dynamics; Trajectory Analysis; Free-Energy Calculations; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [LigParGen](https://zarbi.chem.yale.edu/ligpargen/) | — | Free Web | GUI / Web | Web | Curated Resource |
+| [LoMap](https://github.com/OpenFreeEnergy/industry-benchmarks) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [MDpocket](https://github.com/Discngine/fpocket) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [MDWeb](https://mmb.irbbarcelona.org/MDWeb/) | — | Free Web | GUI / Web | Web | Curated Resource |
+| [NAMD](https://www.ks.uiuc.edu/Research/namd/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [OpenFE](https://openfree.energy/) | Free-Energy Calculations; Molecular Dynamics; Pipeline Execution | Free / Open Source | CLI | Linux | Curated Resource |
+| [OpenMM-Setup](https://github.com/openmm/openmm-setup) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [OpenMMDL](https://github.com/wolberlab/OpenMMDL) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [POVME 2.0](https://github.com/POVME/POVME) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [PyEMMA](https://github.com/markovmodel/PyEMMA) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [QwikMD](https://www.ks.uiuc.edu/Research/vmd/plugins/qwikmd/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [SwissParam](https://www.swissparam.ch/) | — | Free Web | GUI / Web | Web | Curated Resource |
+| [VMD — Visual Molecular Dynamics](https://www.ks.uiuc.edu/Research/vmd/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 
 ## Supporting Resources
 

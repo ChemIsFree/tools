@@ -42,6 +42,43 @@ category_curation:
       - UniProt
       - DrugBank
       - GtoPdb
+      - 'Open Targets Platform'
+      - 'Open Targets'
+      - 'Pharos / TCRD'
+      - 'Pharos'
+      - 'Target Central Resource Database'
+      - 'Therapeutic Target Database (TTD)'
+      - 'Therapeutic Target Database'
+      - 'TTD'
+      - 'canSAR'
+      - 'DepMap'
+      - 'Human Protein Atlas'
+      - 'DisGeNET'
+      - 'UniProt'
+      - 'DrugBank'
+      - 'STRING'
+      - 'STRING database'
+      - 'Cytoscape'
+      - 'crosstalkr'
+      - 'Enrichr'
+      - 'g:Profiler'
+      - 'gProfiler'
+      - 'Reactome'
+      - 'SwissTargetPrediction'
+      - 'SEA (Similarity Ensemble Approach)'
+      - 'SEA'
+      - 'Similarity Ensemble Approach'
+      - 'LigTMap'
+      - 'PharmMapper'
+      - 'SuperPred'
+      - 'TargetNet'
+      - 'PPB2'
+      - 'MolTarPred'
+      - 'HumanBase'
+      - 'ToppGene Suite'
+      - 'ToppGene'
+      - 'GeneMANIA'
+      - 'FastTargetPred'
 
   record_overrides:
     - names: [BREEZE]
@@ -79,3 +116,668 @@ category_curation:
       catalogue: app
       type: software
       clear_resource_type: true
+
+    - names: [Boltz, Boltz-2]
+      replace_categories: true
+      categories: [protein-structures, structure-based]
+      name: Boltz-2
+      description: "Biomolecular complex structure prediction and binding-affinity prediction model; use the exact model release and benchmark context when interpreting affinity estimates."
+      catalogue: app
+      type: software
+      access: [free, open-source]
+      source_available: true
+      license: MIT
+      website: https://github.com/jwohlwend/boltz
+      repository: https://github.com/jwohlwend/boltz
+      documentation: https://github.com/jwohlwend/boltz
+      notes: "Boltz-2 code and model release are distributed under MIT terms according to the official project. Predicted affinity is not experimental affinity."
+
+    - names: [Chai-1]
+      replace_categories: true
+      categories: [protein-structures]
+      access: [free, open-source]
+      source_available: true
+      license: Apache-2.0
+      website: https://github.com/chaidiscovery/chai-lab
+      repository: https://github.com/chaidiscovery/chai-lab
+      documentation: https://github.com/chaidiscovery/chai-lab
+      notes: "Official code and model weights are distributed under Apache-2.0 according to the project repository; verify third-party components and model version separately."
+
+    - names: [Enamine REAL, Enamine REAL database]
+      catalogue: resource
+      resource_type: library
+      type: database
+      access: [commercial]
+      source_available: false
+      license: "Commercial compound collection; access and redistribution depend on Enamine terms and order agreements"
+      website: https://enamine.net/compound-collections/real-compounds
+      repository: []
+      documentation: https://enamine.net/compound-collections/real-compounds
+      notes: "A purchasable compound library, not a free public dataset. Catalogue metadata may be discoverable, but compound access and reuse follow vendor terms."
+
+    - names: [PASSer]
+      catalogue: app
+      type: web-tool
+      access: [free-web]
+      source_available: false
+      license: "Hosted research service; no blanket open-source licence inferred"
+      website: https://passer.smu.edu/
+      notes: "Treat PASSer as an online allosteric-site prediction service. Verify service availability and terms before automating requests."
+
+    - names: [Indigo ELN]
+      catalogue: app
+      type: software
+      access: [free, open-source]
+      source_available: true
+      license: MIT
+      website: https://github.com/epam/Indigo-ELN-v.-2.0
+      repository: https://github.com/epam/Indigo-ELN-v.-2.0
+      documentation: https://github.com/epam/Indigo-ELN-v.-2.0
+      notes: "The repository is MIT-licensed, but the project README says the application is undergoing substantial transformation and its deployment documentation may be inconsistent; verify the selected release before adoption."
+
+    - names: [Obsidian]
+      catalogue: app
+      type: software
+      access: [free]
+      source_available: false
+      license: "Proprietary; current terms allow free use under defined conditions, with optional commercial/support licences; not open-source"
+      website: https://obsidian.md/
+      notes: "Obsidian stores notes locally by default. Review current personal, non-profit, commercial, Sync and Publish terms before selecting the relevant usage model."
+
+    - names: [LabTrove]
+      access: [free]
+      source_available: false
+      license: "No authoritative current software licence was confirmed in this audit; do not treat as open-source until verified"
+      notes: "Existing imported entry needs an official repository/licence check and confirmation of current maintenance before inclusion in a curated shortlist."
+
+    - names: [Open Reaction Database]
+      catalogue: resource
+      resource_type: dataset
+      type: dataset
+      access: [free-web]
+      source_available: false
+      license: "CC-BY-SA-4.0 for the data; Apache-2.0 for associated code"
+      website: https://open-reaction-database.org/
+      repository: https://github.com/open-reaction-database/ord-data
+      documentation: https://docs.open-reaction-database.org/en/stable/overview.html
+      notes: "The official dataset repository declares CC-BY-SA-4.0 for data and Apache-2.0 for code; these must not be conflated."
+
+
+    - names: [OpenFold3]
+      replace_categories: true
+      categories: [protein-structures, structure-based]
+      name: OpenFold3
+      catalogue: app
+      type: software
+      access: [free, open-source]
+      source_available: true
+      license: Apache-2.0
+      website: https://openfold.io/
+      repository: https://github.com/aqlaboratory/openfold-3
+      documentation: https://openfold-3.readthedocs.io/en/latest/
+      notes: "OpenFold3-preview is a research implementation based on AlphaFold 3. The official source repository uses Apache-2.0. It remains a preview, so confirm model capability, parameter release and inference status for the selected version."
+
+    - names: [Protenix]
+      replace_categories: true
+      categories: [protein-structures, structure-based]
+      access: [free]
+      source_available: false
+      license: "Apache-2.0 for code; Protenix v2 model weights are proprietary/restricted. Do not assume the full pretrained model is open-source."
+      notes: "The code repository is Apache-2.0; current Protenix v2 model weights have separate restrictions. Check the exact model release and terms before use."
+
+    - names: [Protenix-Dock]
+      replace_categories: true
+      categories: [structure-based]
+      notes: "This is the separate Protenix-Dock entry; keep it distinct from the Protenix structure-prediction implementation."
+
+    - names: [Enamine REAL]
+      catalogue: resource
+      resource_type: library
+      type: database
+      access: [commercial]
+      source_available: false
+      license: "Commercial supplier terms; compound access, bulk download, reuse and ordering depend on Enamine agreements."
+      website: https://enamine.net/compound-collections/real-compounds
+      repository: []
+      documentation: https://enamine.net/compound-collections/real-compounds
+      notes: "This is a commercial make-on-demand collection, not a free public compound dataset or open-source resource."
+
+    - names: [OpenFold3]
+      replace_categories: true
+      categories: [protein-structures, structure-based]
+      name: OpenFold3
+      catalogue: app
+      type: software
+      access: [free, open-source]
+      source_available: true
+      license: Apache-2.0
+      website: https://openfold.io/
+      repository: https://github.com/aqlaboratory/openfold-3
+      documentation: https://openfold-3.readthedocs.io/en/latest/
+      notes: "OpenFold3-preview is a research implementation based on AlphaFold 3. The official repository uses Apache-2.0; it remains a preview, so confirm model capability and inference status for the selected release."
+
+    - names: [Protenix]
+      replace_categories: true
+      categories: [protein-structures, structure-based]
+      access: [free]
+      source_available: false
+      license: "Apache-2.0 code; Protenix v2 model weights are proprietary/restricted. Do not assume the full pretrained model is open-source."
+      notes: "The code repository is Apache-2.0; current Protenix v2 model weights have separate restrictions. Check the exact model release and terms before use."
+
+    - names: [Protenix-Dock]
+      replace_categories: true
+      categories: [structure-based]
+
+    - names: [MolCRAFT]
+      access: [free]
+      source_available: false
+      license: "CC-BY-NC-SA-4.0; non-commercial and share-alike terms. Not an OSI-approved open-source software licence."
+      notes: "The official repository is CC-BY-NC-SA-4.0. Do not give this entry an open-source badge or use it for commercial work without permission."
+
+    - names: [Enamine REAL]
+      replace_categories: true
+      categories: [libraries-datasets]
+      catalogue: resource
+      resource_type: library
+      type: database
+      access: [commercial]
+      source_available: false
+      license: "Commercial supplier terms; compound access, bulk download, reuse and ordering depend on Enamine agreements."
+      website: https://enamine.net/compound-collections/real-compounds
+      repository: []
+      documentation: https://enamine.net/compound-collections/real-compounds
+      notes: "This is a commercial make-on-demand collection, not a free public compound dataset or open-source resource."
+
+    - names: [RSpace, RSpace ELN]
+      access: [free]
+      source_available: false
+      license: "A self-hosted open-source edition is advertised alongside commercial hosted subscriptions; confirm the precise self-hosted release licence before tagging it open-source."
+      notes: "Do not conflate hosted subscription terms with the self-hosted distribution."
+
+  category_membership:
+    target-identification:
+      - 'Open Targets Platform'
+      - 'Open Targets'
+      - 'Pharos / TCRD'
+      - 'Pharos'
+      - 'Target Central Resource Database'
+      - 'Therapeutic Target Database (TTD)'
+      - 'Therapeutic Target Database'
+      - 'TTD'
+      - 'canSAR'
+      - 'DepMap'
+      - 'Human Protein Atlas'
+      - 'DisGeNET'
+      - 'UniProt'
+      - 'DrugBank'
+      - 'STRING'
+      - 'STRING database'
+      - 'Cytoscape'
+      - 'crosstalkr'
+      - 'Enrichr'
+      - 'g:Profiler'
+      - 'gProfiler'
+      - 'Reactome'
+      - 'SwissTargetPrediction'
+      - 'SEA (Similarity Ensemble Approach)'
+      - 'SEA'
+      - 'Similarity Ensemble Approach'
+      - 'LigTMap'
+      - 'PharmMapper'
+      - 'SuperPred'
+      - 'TargetNet'
+      - 'PPB2'
+      - 'MolTarPred'
+      - 'HumanBase'
+      - 'ToppGene Suite'
+      - 'ToppGene'
+      - 'GeneMANIA'
+      - 'FastTargetPred'
+    protein-structures:
+      - 'RCSB PDB'
+      - 'Protein Data Bank'
+      - 'PDBe'
+      - 'PDBj'
+      - 'PDBe-KB'
+      - 'PDB-REDO'
+      - 'EMDB'
+      - 'Electron Microscopy Data Bank'
+      - 'wwPDB validation reports'
+      - 'wwPDB validation'
+      - 'AlphaFold DB'
+      - 'AlphaFold Protein Structure Database'
+      - '3D-Beacons'
+      - 'AlphaFill'
+      - 'SWISS-MODEL Repository'
+      - 'ModBase'
+      - 'ModelArchive'
+      - 'Boltz-2'
+      - 'Boltz'
+      - 'OpenFold3'
+      - 'OpenFold'
+      - 'ColabFold'
+      - 'Chai-1'
+      - 'AlphaFold 3 Server'
+      - 'AlphaFold Server'
+      - 'ESMFold'
+      - 'RoseTTAFold All-Atom'
+      - 'RoseTTAFold'
+      - 'OmegaFold'
+      - 'I-TASSER'
+      - 'COSMIC2'
+      - 'SWISS-MODEL'
+      - 'MODELLER'
+      - 'Modeller'
+      - 'Protenix'
+    visualization:
+      - 'UCSF ChimeraX'
+      - 'ChimeraX'
+      - 'PyMOL open-source build'
+      - 'PyMOL'
+      - 'VMD'
+      - 'Avogadro'
+      - 'Jmol'
+      - 'Swiss-PdbViewer'
+      - 'BIOVIA Discovery Studio Visualizer'
+      - 'Discovery Studio Visualizer'
+      - 'Blender + Molecular Nodes'
+      - 'Molecular Nodes'
+      - 'Mol*'
+      - 'Molstar'
+      - '3Dmol.js'
+      - 'NGL'
+      - 'NGL Viewer'
+      - 'iCn3D'
+      - 'PDV'
+      - 'py3Dmol'
+      - 'nglview'
+      - 'PLIP'
+      - 'ProLIF'
+      - 'LigPlot+'
+      - 'LeView'
+      - 'PoseView'
+      - 'PandaMap'
+      - 'PDBsum'
+    binding-pockets:
+      - 'P2Rank / PrankWeb'
+      - 'P2Rank'
+      - 'PrankWeb'
+      - 'fpocket'
+      - 'mdpocket'
+      - 'CASTp'
+      - 'DoGSiteScorer'
+      - 'KVFinder-web / pyKVFinder'
+      - 'KVFinder'
+      - 'pyKVFinder'
+      - 'PyVOL'
+      - 'POVME 2.0'
+      - 'POVME'
+      - 'DeepPocket'
+      - 'GrASP'
+      - 'VN-EGNN'
+      - 'IF-SitePred'
+      - 'lbs-comparison'
+      - 'FTMap'
+      - 'FTFlex'
+      - 'FTMove'
+      - 'PocketMiner'
+      - 'AE-PocketMiner'
+      - 'CryptoSite'
+      - 'CryptoBench'
+      - 'STINGAllo'
+      - 'AlloSite'
+      - 'PASSer'
+      - 'CavityPlus'
+    structure-based:
+      - 'AutoDock Vina'
+      - 'Vina'
+      - 'GNINA'
+      - 'Smina'
+      - 'QuickVina 2'
+      - 'Uni-Dock'
+      - 'AutoDock-GPU'
+      - 'Vina-GPU'
+      - 'DOCK 6'
+      - 'DOCK6'
+      - 'rDock / RxDock'
+      - 'rDock'
+      - 'RxDock'
+      - 'PLANTS'
+      - 'LeDock'
+      - 'HADDOCK / HADDOCK3'
+      - 'HADDOCK'
+      - 'PyRx'
+      - 'SwissDock'
+      - 'DockThor-VS'
+      - 'DockThor'
+      - 'CB-Dock2'
+      - 'MTiOpenScreen'
+      - 'iScreen'
+      - 'FlexAutoDock'
+      - 'Pharmit'
+      - 'DiffDock / DiffDock-L'
+      - 'DiffDock'
+      - 'PoseBusters'
+      - 'Meeko'
+      - 'MGLTools / AutoDockTools'
+      - 'MGLTools'
+      - 'AutoDockTools'
+      - 'PDBFixer'
+      - 'PDB2PQR / PROPKA'
+      - 'PDB2PQR'
+      - 'PROPKA'
+      - 'Boltz-2'
+      - 'Boltz'
+      - 'OpenFold3'
+      - 'OpenFold'
+      - 'Protenix'
+    molecular-dynamics:
+      - 'GROMACS'
+      - 'OpenMM'
+      - 'AmberTools'
+      - 'NAMD'
+      - 'Desmond'
+      - 'CHARMM-GUI'
+      - 'QwikMD'
+      - 'BioBB Workflows'
+      - 'BioBB'
+      - 'OpenMMDL'
+      - 'CHAPERONg'
+      - 'OpenMM-Setup'
+      - 'MDWeb'
+      - 'OpenFF (Sage)'
+      - 'OpenFF'
+      - 'Sage force field'
+      - 'GAFF2 / antechamber'
+      - 'GAFF2'
+      - 'antechamber'
+      - 'Espaloma'
+      - 'ACPYPE'
+      - 'CGenFF'
+      - 'LigParGen'
+      - 'SwissParam'
+      - 'PLUMED'
+      - 'OpenFE'
+      - 'BioSimSpace'
+      - 'BindFlow'
+      - 'perses'
+      - 'pymbar'
+      - 'Lomap'
+      - 'gmx_MMPBSA'
+      - 'MMPBSA.py'
+      - 'MDAnalysis'
+      - 'MDTraj'
+      - 'cpptraj / pytraj'
+      - 'cpptraj'
+      - 'pytraj'
+      - 'PyEMMA'
+      - 'deeptime'
+      - 'mdpocket'
+    cheminformatics:
+      - 'RDKit'
+      - 'RDKit.js'
+      - 'Open Babel'
+      - 'CDK'
+      - 'Chemistry Development Kit'
+      - 'CDPKit'
+      - 'OpenChemLib'
+      - 'Kekule.js'
+      - 'Datamol'
+      - 'molfeat'
+      - 'scikit-mol'
+      - 'DataWarrior'
+      - 'KNIME'
+      - 'ChEMBL Structure Pipeline'
+      - 'MolVS'
+      - 'Mordred'
+      - 'PaDEL'
+      - 'TMAP'
+      - 'ChemPlot'
+      - 'mmpdb'
+      - 'orbIC'
+      - 'ChemMine Tools'
+      - 'ChEMBL Beaker'
+      - 'myChEMBL'
+      - 'OPSIN'
+      - 'TeachOpenCADD'
+      - 'Ketcher'
+      - 'JSME'
+      - 'CDK Depict'
+      - 'Dimorphite-DL'
+      - 'chemfp'
+      - 'AIMSim'
+    de-novo-design:
+      - 'REINVENT 4'
+      - 'REINVENT4'
+      - 'DrugEx'
+      - 'GraphINVENT'
+      - 'MolGPT'
+      - 'STONED / SELFIES'
+      - 'STONED'
+      - 'GuacaMol'
+      - 'MOSES'
+      - 'DiffSBDD'
+      - 'DrugFlow'
+      - 'Pocket2Mol'
+      - 'TargetDiff'
+      - 'PocketFlow'
+      - 'MolSnapper'
+      - 'MolCRAFT'
+      - 'DiffLinker'
+      - 'DeLinker'
+      - 'AutoGrow4'
+      - 'LigBuilder V3'
+      - 'LigBuilder'
+      - 'SynFormer'
+      - 'SynFlowNet'
+      - 'RxnFlow'
+      - 'SynNet'
+      - 'GenBench3D'
+      - 'PoseBusters'
+      - 'SyntaLinker'
+    ligand-based-qsar:
+      - 'VSFlow'
+      - 'SwissSimilarity'
+      - 'Pharmit'
+      - 'ZINCPharmer'
+      - 'LS-align'
+      - 'Shape-it'
+      - 'Align-it'
+      - 'LIGSIFT'
+      - 'SHAFTS'
+      - 'WEGA'
+      - 'PharmaGist'
+      - 'OptiPharm'
+      - 'virtual-screening-validation'
+      - 'Chemprop'
+      - 'QSARtuna'
+      - 'KNIME QSAR workflows'
+      - 'KNIME QSAR'
+      - 'DeepChem'
+      - 'scikit-learn'
+      - 'scikit-mol'
+      - 'OCHEM'
+      - 'Open3DQSAR'
+      - 'DataSAIL'
+      - 'QSPRpred'
+    admet-prediction:
+      - 'SwissADME'
+      - 'ADMETlab 3.0'
+      - 'ADMETlab'
+      - 'ADMET-AI'
+      - 'pkCSM'
+      - 'admetSAR 3.0'
+      - 'FAF-Drugs4'
+      - 'vNN-ADMET'
+      - 'ProTox 3.0'
+      - 'Toxtree'
+      - 'OPERA'
+      - 'VEGA'
+      - 'OECD QSAR Toolbox'
+      - 'EPA T.E.S.T.'
+      - 'T.E.S.T.'
+      - 'BioTransformer 3.0'
+      - 'BioTransformer'
+      - 'SMARTCyp'
+      - 'FAME 3'
+      - 'GLORYx'
+      - 'Open Systems Pharmacology'
+      - 'PK-Sim'
+      - 'MoBi'
+      - 'httk'
+      - 'PLETHEM'
+      - 'MERLIN-Expo'
+      - 'TDC ADMET Benchmark Group'
+      - 'TDC ADMET'
+      - 'OpenADMET'
+      - 'Polaris'
+      - 'admetSAR 2.0'
+      - 'ADMET-boost'
+      - 'Interpret-ADMET'
+    retrosynthesis:
+      - 'AiZynthFinder'
+      - 'ASKCOS'
+      - 'Syntheseus'
+      - 'LillyMol'
+      - 'IBM RXN for Chemistry'
+      - 'IBM RXN'
+      - 'Chemical.AI'
+      - 'Molecular Transformer'
+      - 'Chemformer'
+      - 'Retro*'
+      - 'LocalRetro'
+      - 'Graph2Edits'
+      - 'MEGAN'
+      - 'LinChemIn'
+      - 'SAscore'
+      - 'Synthetic Accessibility Score'
+      - 'SCScore'
+      - 'SYBA'
+      - 'RAscore'
+      - 'BR-SAScore'
+      - 'Synthia'
+      - 'Spaya'
+    nomenclature-format-conversion:
+      - 'OPSIN'
+      - 'py2opsin'
+      - 'NCI/CADD Chemical Identifier Resolver'
+      - 'Chemical Identifier Resolver'
+      - 'PubChem PUG REST'
+      - 'PubChemPy'
+      - 'STOUT V2'
+      - 'NISPO'
+      - 'Open Babel'
+      - 'RDKit'
+      - 'CDK'
+      - 'Meeko'
+      - 'InChI / InChIKey'
+      - 'InChI'
+      - 'InChIKey'
+      - 'SELFIES'
+      - 'DeepSMILES'
+      - 'MDAnalysis'
+      - 'MDTraj'
+      - 'ParmEd'
+      - 'gemmi'
+      - 'DECIMER.ai'
+      - 'DECIMER'
+      - 'MolScribe'
+      - 'OSRA'
+      - 'UniChem'
+      - 'PubChem Identifier Exchange Service'
+      - 'PubChem Identifier Exchange'
+      - 'CAS Common Chemistry'
+      - 'ChEMBL web services'
+      - 'ChEMBL API'
+      - 'InChI software'
+    libraries-datasets:
+      - 'ZINC-22'
+      - 'ZINC20 informer set'
+      - 'ZINC20'
+      - 'Enamine REAL'
+      - 'PubChem'
+      - 'PubChem BioAssay'
+      - 'ChEMBL'
+      - 'DrugBank'
+      - 'ChemSpider'
+      - 'COCONUT 2.0'
+      - 'COCONUT'
+      - 'LOTUS'
+      - 'Drug Repurposing Hub'
+      - 'NCI Open Database'
+      - 'GDB-17'
+      - 'BindingDB'
+      - 'Guide to Pharmacology'
+      - 'GtoPdb'
+      - 'Papyrus'
+      - 'PDBbind'
+      - 'Binding MOAD'
+      - 'BigBind'
+      - 'CrossDocked2020'
+      - 'DUD-E'
+      - 'LIT-PCBA'
+      - 'CASF-2016'
+      - 'Astex Diverse Set'
+      - 'PoseBusters benchmark set'
+      - 'PoseBusters benchmark'
+      - 'DUBS'
+      - 'D3R / CSAR datasets'
+      - 'D3R'
+      - 'CSAR datasets'
+      - 'DEKOIS 2.0'
+      - 'DEKOIS'
+      - 'MUV'
+      - 'MoleculeNet'
+      - 'Therapeutics Data Commons'
+      - 'TDC'
+      - 'Tox21'
+      - 'Polaris'
+      - 'OpenADMET'
+      - 'DILIrank'
+      - 'hERG Central'
+      - 'B3DB'
+      - 'USPTO reactions'
+      - 'USPTO'
+      - 'Open Reaction Database'
+      - 'HMDB'
+      - 'awesome-chemistry-datasets'
+      - 'awesome-cheminformatics'
+      - 'Database Commons'
+      - 'QMugs'
+      - 'PLINDER'
+    organization:
+      - 'Chemotion ELN'
+      - 'Chemotion Repository'
+      - 'LabIMotion'
+      - 'eLabFTW'
+      - 'openBIS'
+      - 'Indigo ELN'
+      - 'LabTrove'
+      - 'Open Enventory'
+      - 'RSpace'
+      - 'Jupyter + Git'
+      - 'Jupyter'
+      - 'KNIME'
+      - 'Snakemake'
+      - 'Nextflow'
+      - 'Galaxy'
+      - 'conda / mamba'
+      - 'conda'
+      - 'mamba'
+      - 'Docker'
+      - 'Git / GitHub'
+      - 'Git'
+      - 'GitHub'
+      - 'DVC'
+      - 'Zotero'
+      - 'JabRef'
+      - 'Obsidian'
+      - 'Zenodo'
+      - 'Figshare'
+      - 'OSF'
+      - 'Open Science Framework'
+      - 'ChemRxiv'
+      - 'DataLad'
+      - 'Apptainer'
+      - 'conda-lock'
+      - 'Pixi'
