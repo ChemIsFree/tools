@@ -10537,3 +10537,82 @@ tools:
   chemisfree_status: curated-resource
   verification: {status: official-source-linked, last_checked: '2026-10-15'}
   notes: "This record describes Docker Engine, not Docker Desktop. Check current licence terms before organisational or commercial use."
+
+- id: admetboost
+  name: "ADMETboost"
+  description: "Web-based ensemble model for predicting 22 ADMET endpoints from molecular SMILES using fingerprints, descriptors and tree-based learning."
+  catalogue: app
+  domain: [admet-prediction]
+  tasks: [adme, toxicity, physicochemical-properties]
+  category: [admet-prediction, machine-learning]
+  type: web-tool
+  access: [free-web]
+  source_available: false
+  license: "Public research web server; no blanket software licence inferred for hosted service or model assets."
+  platforms: [web]
+  interface: [web]
+  languages: []
+  gpu: "not-required"
+  installation: [web]
+  status: active
+  developers: [Tao Research Group, Southern Methodist University]
+  website: "https://ai-druglab.smu.edu/admet"
+  repository: []
+  documentation: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9903341/"
+  citation: ["https://doi.org/10.1007/s00894-022-05373-8"]
+  chemisfree_status: curated-resource
+  verification: {status: verified, last_checked: '2026-10-15'}
+  notes: "The paper reports evaluation on the 22-task TDC ADMET benchmark group. The web service returns predictions, not measured ADMET endpoints; confirm applicability domains and the current model version."
+
+- id: pred-herg
+  name: "Pred-hERG"
+  description: "Web server for predicting whether small molecules may block the hERG potassium channel, with binary and multiclass predictions and atom-contribution maps."
+  catalogue: app
+  domain: [admet-prediction]
+  tasks: [toxicity]
+  category: [cardiotoxicity, hERG]
+  type: web-tool
+  access: [free-web]
+  source_available: false
+  license: "Public web service; no blanket open-source software licence was confirmed."
+  platforms: [web]
+  interface: [web]
+  languages: []
+  gpu: "not-required"
+  installation: [web]
+  status: active
+  developers: [Laboratory of Medicinal and Computational Chemistry]
+  website: "https://predherg.labmol.com.br/"
+  repository: []
+  documentation: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5720373/"
+  citation: ["https://pmc.ncbi.nlm.nih.gov/articles/PMC5720373/"]
+  chemisfree_status: curated-resource
+  verification: {status: official-source-linked, last_checked: '2026-10-15'}
+  notes: "A computational screening flag for potential hERG liability, not a replacement for electrophysiology or regulatory safety assessment."
+
+- id: tdc-admet-benchmark-group
+  name: "Therapeutics Data Commons — ADMET Benchmark Group"
+  description: "Collection of 22 curated ADMET prediction datasets with standardised train/validation/test splits and evaluation metrics for model comparison."
+  catalogue: resource
+  resource_type: dataset
+  domain: [admet-prediction, libraries-datasets]
+  tasks: [benchmarks-datasets]
+  category: [admet-benchmark, machine-learning]
+  type: dataset
+  access: [free]
+  source_available: false
+  license: "Licensing and redistribution terms vary by underlying dataset; consult each benchmark's source and TDC's current terms."
+  platforms: [linux, macos, windows]
+  interface: [programmatic]
+  languages: [Python]
+  gpu: "not-required"
+  installation: [package-manager]
+  status: active
+  developers: [Therapeutics Data Commons contributors]
+  website: "https://tdcommons.ai/benchmark/admet_group/overview/"
+  repository: []
+  documentation: "https://tdcommons.ai/benchmark/admet_group/overview/"
+  citation: []
+  chemisfree_status: curated-resource
+  verification: {status: official-source-linked, last_checked: '2026-10-15'}
+  notes: "The benchmark group spans multiple endpoints and uses scaffold-based splits. Treat it as a benchmark resource, not a standalone ADMET prediction model."
