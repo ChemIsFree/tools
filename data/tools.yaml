@@ -10844,16 +10844,18 @@ tools:
   type: "web-tool"
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
-  - web
+  - linux
+  - macos
+  - windows
   interface:
   - "web"
   languages: []
   gpu: not-required
   installation:
-  - web
+  - source
   status: active
   developers:
   - Project maintainers
