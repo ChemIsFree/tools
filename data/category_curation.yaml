@@ -117,6 +117,75 @@ category_curation:
       type: software
       clear_resource_type: true
 
+    - names: [Boltz, Boltz-2]
+      replace_categories: true
+      categories: [protein-structures, structure-based]
+      name: Boltz-2
+      description: "Biomolecular complex structure prediction and binding-affinity prediction model; use the exact model release and benchmark context when interpreting affinity estimates."
+      catalogue: app
+      type: software
+      access: [free, open-source]
+      source_available: true
+      license: MIT
+      website: https://github.com/jwohlwend/boltz
+      repository: https://github.com/jwohlwend/boltz
+      documentation: https://github.com/jwohlwend/boltz
+      notes: "Boltz-2 code and model release are distributed under MIT terms according to the official project. Predicted affinity is not experimental affinity."
+
+    - names: [Chai-1]
+      replace_categories: true
+      categories: [protein-structures]
+      access: [free, open-source]
+      source_available: true
+      license: Apache-2.0
+      website: https://github.com/chaidiscovery/chai-lab
+      repository: https://github.com/chaidiscovery/chai-lab
+      documentation: https://github.com/chaidiscovery/chai-lab
+      notes: "Official code and model weights are distributed under Apache-2.0 according to the project repository; verify third-party components and model version separately."
+
+    - names: [Open Reaction Database]
+      catalogue: resource
+      resource_type: dataset
+      type: dataset
+      access: [free-web]
+      source_available: false
+      license: "CC-BY-SA-4.0 for dataset records; Apache-2.0 for code"
+      website: https://open-reaction-database.org/
+      repository: https://github.com/open-reaction-database/ord-data
+      documentation: https://docs.open-reaction-database.org/en/stable/overview.html
+      notes: "The dataset and code have separate licences: ORD data are CC-BY-SA-4.0; associated code in ord-data is Apache-2.0."
+
+    - names: [Enamine REAL, Enamine REAL database]
+      catalogue: resource
+      resource_type: library
+      type: database
+      access: [commercial]
+      source_available: false
+      license: "Commercial compound collection; access and redistribution depend on Enamine terms and order agreements"
+      website: https://enamine.net/compound-collections/real-compounds
+      repository: []
+      documentation: https://enamine.net/compound-collections/real-compounds
+      notes: "A purchasable compound library, not a free public dataset. Catalogue metadata may be discoverable, but compound access and reuse follow vendor terms."
+
+    - names: [PASSer]
+      catalogue: app
+      type: web-tool
+      access: [free-web]
+      source_available: false
+      license: "Hosted research service; no blanket open-source licence inferred"
+      website: https://passer.smu.edu/
+      notes: "Treat PASSer as an online allosteric-site prediction service. Verify service availability and terms before automating requests."
+
+    - names: [RSpace, RSpace ELN]
+      catalogue: app
+      type: software
+      access: [free, open-source]
+      source_available: true
+      license: "Provider advertises an open-source self-hosted edition alongside commercial hosted subscriptions; confirm the selected edition and licence"
+      website: https://www.researchspace.com/
+      documentation: https://www.researchspace.com/
+      notes: "The hosted offering has subscription pricing; open-source self-hosting and hosted-service terms should not be conflated."
+
   category_membership:
     target-identification:
       - 'Open Targets Platform'
