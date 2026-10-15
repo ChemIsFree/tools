@@ -42,6 +42,7 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | [PoseView](https://proteins.plus/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [ProLIF](https://prolif.readthedocs.io/) | Interaction Analysis; Data Curation; Chemical Data Analysis; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [PROPKA](https://github.com/jensengroup/propka) | Protein Preparation; Binding-Site Analysis | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [ProteinsPlus](https://proteins.plus/) | Binding-Site Analysis; Protein Preparation; Molecular Docking | Free | GUI / Web | Web | Curated Resource |
 | [Protenix](https://github.com/bytedance/Protenix) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [PyRx](https://pyrx.sourceforge.io/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [QuickVina 2](https://github.com/QVina/qvina) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
@@ -71,7 +72,6 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |
 | [RDKit](https://www.rdkit.org/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search; Chemical Space Analysis | Free / Open Source | — |
 | [SwissDock](https://www.swissdock.ch/) | web-service | Molecular Docking | Free | GUI / Web |
-| [UniProt](https://www.uniprot.org/) | database | Target Assessment & Validation; Data Curation; Protein Preparation | Free | GUI / Web |
 | [ZINC](https://zinc.docking.org/) | database | Ligand-Based Virtual Screening; Structure-Based Virtual Screening | Free | GUI / Web |
 
 ---

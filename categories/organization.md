@@ -60,10 +60,8 @@ Manage compounds, inventories, experiments, computing resources, and reproducibl
 | [Chemotion Repository](https://www.chemotion-repository.net/) | database | — | Free Web / Open Source | CLI |
 | [ChemRxiv](https://chemrxiv.org/) | database | — | Free Web | CLI |
 | [Enamine REAL](https://enamine.net/compound-collections/real-compounds) | database | Compound Library Search; Ligand-Based Virtual Screening; Inventory Management | Free | GUI / Web |
-| [Open Targets Platform](https://platform.opentargets.org/) | database | Target Assessment & Validation; Clinical & Regulatory Evidence; Data Curation | Free | GUI / Web |
 | [Pharos](https://pharos.nih.gov/) | database | Target Assessment & Validation; Bioactivity Analysis; Data Curation | Free | GUI / Web |
 | [TeachOpenCADD](https://github.com/volkamerlab/teachopencadd) | educational | — | Free | CLI |
-| [UniProt](https://www.uniprot.org/) | database | Target Assessment & Validation; Data Curation; Protein Preparation | Free | GUI / Web |
 
 ---
 

@@ -45,6 +45,7 @@ Experimental and predicted protein structures, structure retrieval, and protein 
 | [ModelArchive](https://modelarchive.org/) | database | — | Free Web | CLI |
 | [PDB-REDO](https://pdb-redo.eu/) | database | — | Free Web | CLI |
 | [PDBe](https://www.ebi.ac.uk/pdbe/) | database | — | Free Web | CLI |
+| [PDBe-KB](https://www.ebi.ac.uk/pdbe/pdbe-kb/) | database | Target Assessment & Validation; Protein Preparation; Data Curation | Free | GUI / Web |
 | [PDBj](https://pdbj.org/) | database | — | Free Web | CLI |
 | [PDBsum](https://www.ebi.ac.uk/thornton-srv/databases/pdbsum/) | database | — | Free Web | CLI |
 | [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |
