@@ -10633,7 +10633,7 @@ tools:
   access:
   - free
   source_available: false
-  license: Not verified
+  license: CC BY 4.0 (database content)
   platforms:
   - web
   interface:
@@ -10651,7 +10651,6 @@ tools:
   documentation: https://string-db.org/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: cytoscape
@@ -10668,16 +10667,15 @@ tools:
   - drug-discovery
   type: software
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: LGPL-2.1
   platforms:
   - linux
   - macos
   - windows
   interface:
   - gui
-  - cli
   languages: []
   gpu: not-required
   installation:
@@ -10690,7 +10688,6 @@ tools:
   documentation: https://cytoscape.org/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: enrichr
@@ -10705,7 +10702,7 @@ tools:
   category:
   - data-and-databases
   - drug-discovery
-  type: web tool
+  type: web-tool
   access:
   - free
   source_available: false
@@ -10714,6 +10711,7 @@ tools:
   - web
   interface:
   - web
+  - api
   languages: []
   gpu: not-required
   installation:
@@ -10741,15 +10739,16 @@ tools:
   category:
   - data-and-databases
   - drug-discovery
-  type: web tool
+  type: web-tool
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - web
   interface:
   - web
+  - api
   languages: []
   gpu: not-required
   installation:
@@ -10781,8 +10780,8 @@ tools:
   type: database
   access:
   - free
-  source_available: false
-  license: Not verified
+  source_available: true
+  license: CC BY 4.0 (content)
   platforms:
   - web
   interface:
@@ -10800,7 +10799,6 @@ tools:
   documentation: https://reactome.org/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: sea
@@ -10815,7 +10813,7 @@ tools:
   category:
   - data-and-databases
   - drug-discovery
-  type: web tool
+  type: web-tool
   access:
   - free
   source_available: false
@@ -10851,7 +10849,7 @@ tools:
   category:
   - data-and-databases
   - drug-discovery
-  type: web tool
+  type: web-tool
   access:
   - free
   source_available: false
@@ -10887,7 +10885,7 @@ tools:
   category:
   - data-and-databases
   - drug-discovery
-  type: web tool
+  type: web-tool
   access:
   - free
   source_available: false
@@ -10923,7 +10921,7 @@ tools:
   category:
   - drug-discovery
   - machine-learning
-  type: web tool
+  type: web-tool
   access:
   - free
   source_available: false
@@ -10963,13 +10961,12 @@ tools:
   type: database
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - web
   interface:
   - web
-  - api
   languages: []
   gpu: optional
   installation:
@@ -10999,20 +10996,21 @@ tools:
   - molecular-modelling
   type: software
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: MIT (code; model/weight terms vary)
   platforms:
   - linux
-  - macos
-  - windows
+  - web
   interface:
-  - gui
   - cli
+  - python
+  - notebook
+  - web
   languages: []
-  gpu: optional
+  gpu: recommended
   installation:
-  - binary
+  - pip
   status: active
   developers:
   - Project maintainers
@@ -11021,7 +11019,6 @@ tools:
   documentation: https://github.com/sokrypton/ColabFold
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: boltz-2
@@ -11038,20 +11035,19 @@ tools:
   - molecular-modelling
   type: software
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: MIT
   platforms:
   - linux
   - macos
-  - windows
   interface:
-  - gui
   - cli
+  - python
   languages: []
-  gpu: optional
+  gpu: recommended
   installation:
-  - binary
+  - pip
   status: active
   developers:
   - Project maintainers
@@ -11060,7 +11056,6 @@ tools:
   documentation: https://github.com/jwohlwend/boltz
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: rosettafold
@@ -11077,20 +11072,18 @@ tools:
   - molecular-modelling
   type: software
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: BSD-3-Clause (code; check model/data terms)
   platforms:
   - linux
-  - macos
-  - windows
   interface:
-  - gui
   - cli
+  - python
   languages: []
-  gpu: optional
+  gpu: recommended
   installation:
-  - binary
+  - source
   status: active
   developers:
   - Project maintainers
@@ -11099,7 +11092,6 @@ tools:
   documentation: https://github.com/RosettaCommons/RoseTTAFold
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: avogadro
@@ -11116,16 +11108,15 @@ tools:
   - molecular-modelling
   type: software
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: GPL-2.0-or-later
   platforms:
   - linux
   - macos
   - windows
   interface:
   - gui
-  - cli
   languages: []
   gpu: not-required
   installation:
@@ -11138,7 +11129,6 @@ tools:
   documentation: https://avogadro.cc/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: molstar
@@ -11155,20 +11145,18 @@ tools:
   - molecular-modelling
   type: software
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: MIT
   platforms:
-  - linux
-  - macos
-  - windows
+  - web
   interface:
-  - gui
-  - cli
+  - web
+  - api
   languages: []
   gpu: not-required
   installation:
-  - binary
+  - web
   status: active
   developers:
   - Project maintainers
@@ -11177,7 +11165,6 @@ tools:
   documentation: https://molstar.org/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: 3dmol-js
@@ -11195,18 +11182,18 @@ tools:
   - molecular-modelling
   type: library
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: BSD-3-Clause
   platforms:
-  - linux
+  - web
   interface:
-  - python
-  - cli
+  - javascript
+  - api
   languages: []
   gpu: not-required
   installation:
-  - pip
+  - source
   status: active
   developers:
   - Project maintainers
@@ -11215,7 +11202,6 @@ tools:
   documentation: https://3dmol.csb.pitt.edu/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: ngl-viewer
@@ -11233,18 +11219,18 @@ tools:
   - molecular-modelling
   type: library
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: MIT
   platforms:
-  - linux
+  - web
   interface:
-  - python
-  - cli
+  - javascript
+  - api
   languages: []
   gpu: not-required
   installation:
-  - pip
+  - source
   status: active
   developers:
   - Project maintainers
@@ -11253,7 +11239,6 @@ tools:
   documentation: https://nglviewer.org/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: castp
@@ -11268,7 +11253,7 @@ tools:
   category:
   - molecular-modelling
   - drug-discovery
-  type: web tool
+  type: web-tool
   access:
   - free
   source_available: false
@@ -11346,19 +11331,17 @@ tools:
   type: software
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
-  - macos
-  - windows
   interface:
-  - gui
   - cli
+  - python
   languages: []
-  gpu: optional
+  gpu: recommended
   installation:
-  - binary
+  - source
   status: active
   developers:
   - Project maintainers
@@ -11384,20 +11367,17 @@ tools:
   - molecular-modelling
   type: software
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: GPL-3.0
   platforms:
   - linux
-  - macos
-  - windows
   interface:
-  - gui
   - cli
   languages: []
-  gpu: optional
+  gpu: required
   installation:
-  - binary
+  - source
   status: active
   developers:
   - Project maintainers
@@ -11406,7 +11386,6 @@ tools:
   documentation: https://github.com/ccsb-scripps/AutoDock-GPU
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: vina-gpu
@@ -11424,19 +11403,16 @@ tools:
   type: software
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
-  - macos
-  - windows
   interface:
-  - gui
   - cli
   languages: []
-  gpu: optional
+  gpu: required
   installation:
-  - binary
+  - source
   status: active
   developers:
   - Project maintainers
@@ -11463,19 +11439,16 @@ tools:
   type: software
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
-  - macos
-  - windows
   interface:
-  - gui
   - cli
   languages: []
-  gpu: optional
+  gpu: required
   installation:
-  - binary
+  - source
   status: active
   developers:
   - Project maintainers
@@ -11501,20 +11474,18 @@ tools:
   - molecular-modelling
   type: software
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: Apache-2.0
   platforms:
   - linux
-  - macos
-  - windows
   interface:
-  - gui
   - cli
+  - python
   languages: []
   gpu: optional
   installation:
-  - binary
+  - pip
   status: active
   developers:
   - Project maintainers
@@ -11523,7 +11494,6 @@ tools:
   documentation: https://github.com/haddocking/haddock3
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: swissdock
@@ -11538,7 +11508,7 @@ tools:
   category:
   - drug-discovery
   - molecular-modelling
-  type: web tool
+  type: web-service
   access:
   - free
   source_available: false
@@ -11574,7 +11544,7 @@ tools:
   category:
   - drug-discovery
   - molecular-modelling
-  type: web tool
+  type: web-service
   access:
   - free
   source_available: false
@@ -11609,7 +11579,7 @@ tools:
   - molecular-dynamics
   category:
   - molecular-modelling
-  type: web tool
+  type: web-tool
   access:
   - free
   source_available: false
@@ -11646,20 +11616,19 @@ tools:
   - molecular-modelling
   type: software
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: LGPL-3.0
   platforms:
   - linux
   - macos
   - windows
   interface:
-  - gui
   - cli
   languages: []
-  gpu: not-required
+  gpu: optional
   installation:
-  - binary
+  - source
   status: active
   developers:
   - Project maintainers
@@ -11668,7 +11637,6 @@ tools:
   documentation: https://www.plumed.org/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: openff-sage
@@ -11719,22 +11687,20 @@ tools:
   - molecular-dynamics
   category:
   - molecular-modelling
-  type: software
+  type: library
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
   - macos
-  - windows
   interface:
-  - gui
-  - cli
+  - python
   languages: []
-  gpu: not-required
+  gpu: optional
   installation:
-  - binary
+  - pip
   status: active
   developers:
   - Project maintainers
@@ -11760,19 +11726,18 @@ tools:
   type: software
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
   - macos
-  - windows
   interface:
-  - gui
   - cli
+  - python
   languages: []
   gpu: not-required
   installation:
-  - binary
+  - pip
   status: active
   developers:
   - Project maintainers
@@ -11798,14 +11763,15 @@ tools:
   - molecular-modelling
   type: library
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: MIT
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - python
-  - cli
   languages: []
   gpu: not-required
   installation:
@@ -11818,7 +11784,6 @@ tools:
   documentation: https://github.com/choderalab/pymbar
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: deeptime
@@ -11835,14 +11800,15 @@ tools:
   - molecular-modelling
   type: library
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: BSD-3-Clause
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - python
-  - cli
   languages: []
   gpu: not-required
   installation:
@@ -11855,7 +11821,6 @@ tools:
   documentation: https://deeptime-ml.github.io/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: rdkit-js
@@ -11873,18 +11838,21 @@ tools:
   - drug-discovery
   type: library
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: BSD-3-Clause
   platforms:
+  - web
   - linux
+  - macos
+  - windows
   interface:
-  - python
-  - cli
+  - javascript
+  - api
   languages: []
   gpu: not-required
   installation:
-  - pip
+  - source
   status: active
   developers:
   - Project maintainers
@@ -11893,7 +11861,6 @@ tools:
   documentation: https://github.com/rdkit/rdkit
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: cdpkit
@@ -11912,16 +11879,19 @@ tools:
   type: library
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - python
   - cli
   languages: []
   gpu: not-required
   installation:
+  - binary
   - pip
   status: active
   developers:
@@ -11950,17 +11920,17 @@ tools:
   type: library
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
-  - linux
+  - web
   interface:
-  - python
-  - cli
+  - javascript
+  - api
   languages: []
   gpu: not-required
   installation:
-  - pip
+  - source
   status: active
   developers:
   - Project maintainers
@@ -11987,14 +11957,15 @@ tools:
   - drug-discovery
   type: library
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: Apache-2.0
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - python
-  - cli
   languages: []
   gpu: not-required
   installation:
@@ -12007,7 +11978,6 @@ tools:
   documentation: https://github.com/datamol-io/datamol
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: molfeat
@@ -12025,16 +11995,17 @@ tools:
   - drug-discovery
   type: library
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: Apache-2.0
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - python
-  - cli
   languages: []
-  gpu: not-required
+  gpu: optional
   installation:
   - pip
   status: active
@@ -12045,7 +12016,6 @@ tools:
   documentation: https://github.com/datamol-io/molfeat
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: scikit-mol
@@ -12064,13 +12034,14 @@ tools:
   type: library
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - python
-  - cli
   languages: []
   gpu: not-required
   installation:
@@ -12102,13 +12073,14 @@ tools:
   type: library
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - python
-  - cli
   languages: []
   gpu: not-required
   installation:
@@ -12139,14 +12111,15 @@ tools:
   - drug-discovery
   type: library
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: BSD-3-Clause
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - python
-  - cli
   languages: []
   gpu: not-required
   installation:
@@ -12159,7 +12132,6 @@ tools:
   documentation: https://github.com/mordred-descriptor/mordred
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: ketcher
@@ -12176,20 +12148,22 @@ tools:
   - drug-discovery
   type: software
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: Apache-2.0
   platforms:
+  - web
   - linux
   - macos
   - windows
   interface:
   - gui
-  - cli
+  - web
   languages: []
   gpu: not-required
   installation:
-  - binary
+  - web
+  - source
   status: active
   developers:
   - Project maintainers
@@ -12198,7 +12172,6 @@ tools:
   documentation: https://github.com/epam/ketcher
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: drugex
@@ -12216,19 +12189,17 @@ tools:
   type: software
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
-  - macos
-  - windows
   interface:
-  - gui
+  - python
   - cli
   languages: []
-  gpu: optional
+  gpu: recommended
   installation:
-  - binary
+  - pip
   status: active
   developers:
   - Project maintainers
@@ -12255,19 +12226,17 @@ tools:
   type: software
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
-  - macos
-  - windows
   interface:
-  - gui
+  - python
   - cli
   languages: []
-  gpu: optional
+  gpu: recommended
   installation:
-  - binary
+  - source
   status: active
   developers:
   - Project maintainers
@@ -12292,20 +12261,21 @@ tools:
   category:
   - drug-discovery
   - machine-learning
-  type: dataset
+  type: library
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
-  - web
+  - linux
+  - macos
+  - windows
   interface:
-  - web
-  - api
+  - python
   languages: []
-  gpu: optional
+  gpu: not-required
   installation:
-  - web
+  - pip
   status: active
   developers:
   - Project maintainers
@@ -12330,20 +12300,21 @@ tools:
   category:
   - drug-discovery
   - machine-learning
-  type: dataset
+  type: library
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
-  - web
+  - linux
+  - macos
+  - windows
   interface:
-  - web
-  - api
+  - python
   languages: []
-  gpu: optional
+  gpu: not-required
   installation:
-  - web
+  - pip
   status: active
   developers:
   - Project maintainers
@@ -12370,19 +12341,17 @@ tools:
   type: software
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
-  - macos
-  - windows
   interface:
-  - gui
+  - python
   - cli
   languages: []
-  gpu: optional
+  gpu: recommended
   installation:
-  - binary
+  - source
   status: active
   developers:
   - Project maintainers
@@ -12409,19 +12378,17 @@ tools:
   type: software
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
-  - macos
-  - windows
   interface:
-  - gui
+  - python
   - cli
   languages: []
-  gpu: optional
+  gpu: recommended
   installation:
-  - binary
+  - source
   status: active
   developers:
   - Project maintainers
@@ -12448,19 +12415,17 @@ tools:
   type: software
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
-  - macos
-  - windows
   interface:
-  - gui
+  - python
   - cli
   languages: []
-  gpu: optional
+  gpu: not-required
   installation:
-  - binary
+  - source
   status: active
   developers:
   - Project maintainers
@@ -12487,19 +12452,17 @@ tools:
   type: software
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
-  - macos
-  - windows
   interface:
-  - gui
+  - python
   - cli
   languages: []
-  gpu: optional
+  gpu: recommended
   installation:
-  - binary
+  - source
   status: active
   developers:
   - Project maintainers
@@ -12526,19 +12489,19 @@ tools:
   type: software
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
   - macos
   - windows
   interface:
-  - gui
+  - python
   - cli
   languages: []
-  gpu: not-required
+  gpu: optional
   installation:
-  - binary
+  - pip
   status: active
   developers:
   - Project maintainers
@@ -12565,19 +12528,19 @@ tools:
   type: software
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
   - macos
   - windows
   interface:
-  - gui
+  - python
   - cli
   languages: []
-  gpu: not-required
+  gpu: optional
   installation:
-  - binary
+  - pip
   status: active
   developers:
   - Project maintainers
@@ -12604,14 +12567,15 @@ tools:
   - machine-learning
   type: library
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: BSD-3-Clause
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - python
-  - cli
   languages: []
   gpu: not-required
   installation:
@@ -12624,7 +12588,6 @@ tools:
   documentation: https://scikit-learn.org/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: vnn-admet
@@ -12639,7 +12602,7 @@ tools:
   category:
   - drug-discovery
   - machine-learning
-  type: web tool
+  type: web-tool
   access:
   - free
   source_available: false
@@ -12679,10 +12642,12 @@ tools:
   type: library
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - python
   - cli
@@ -12717,13 +12682,14 @@ tools:
   type: library
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - python
-  - cli
   languages: []
   gpu: not-required
   installation:
@@ -12755,13 +12721,14 @@ tools:
   type: library
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - python
-  - cli
   languages: []
   gpu: not-required
   installation:
@@ -12793,7 +12760,7 @@ tools:
   type: database
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - web
@@ -12831,7 +12798,7 @@ tools:
   type: database
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - web
@@ -12869,7 +12836,7 @@ tools:
   type: database
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
   - web
@@ -12945,17 +12912,18 @@ tools:
   type: dataset
   access:
   - free
-  source_available: false
+  source_available: true
   license: Not verified
   platforms:
-  - web
+  - linux
+  - macos
+  - windows
   interface:
-  - web
-  - api
+  - python
   languages: []
-  gpu: not-required
+  gpu: optional
   installation:
-  - web
+  - pip
   status: active
   developers:
   - Project maintainers
@@ -13019,20 +12987,20 @@ tools:
   - data-and-databases
   type: software
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: MIT
   platforms:
   - linux
   - macos
   - windows
   interface:
-  - gui
   - cli
+  - python
   languages: []
   gpu: not-required
   installation:
-  - binary
+  - pip
   status: active
   developers:
   - Project maintainers
@@ -13041,7 +13009,6 @@ tools:
   documentation: https://snakemake.github.io/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: nextflow
@@ -13058,15 +13025,14 @@ tools:
   - data-and-databases
   type: software
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: Apache-2.0
   platforms:
   - linux
   - macos
   - windows
   interface:
-  - gui
   - cli
   languages: []
   gpu: not-required
@@ -13080,7 +13046,6 @@ tools:
   documentation: https://www.nextflow.io/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: galaxy
@@ -13097,16 +13062,19 @@ tools:
   - data-and-databases
   type: platform
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: MIT (Galaxy core; tool licenses vary)
   platforms:
   - web
+  - linux
   interface:
   - web
+  - api
   languages: []
   gpu: not-required
   installation:
+  - source
   - web
   status: active
   developers:
@@ -13116,7 +13084,6 @@ tools:
   documentation: https://galaxyproject.org/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: dvc
@@ -13133,20 +13100,20 @@ tools:
   - data-and-databases
   type: software
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: Apache-2.0
   platforms:
   - linux
   - macos
   - windows
   interface:
-  - gui
   - cli
+  - python
   languages: []
   gpu: not-required
   installation:
-  - binary
+  - pip
   status: active
   developers:
   - Project maintainers
@@ -13155,7 +13122,6 @@ tools:
   documentation: https://dvc.org/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: obsidian
@@ -13174,14 +13140,13 @@ tools:
   access:
   - free
   source_available: false
-  license: Not verified
+  license: Proprietary; free for personal use
   platforms:
   - linux
   - macos
   - windows
   interface:
   - gui
-  - cli
   languages: []
   gpu: not-required
   installation:
@@ -13194,7 +13159,6 @@ tools:
   documentation: https://obsidian.md/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: blender-molecular-nodes
@@ -13211,18 +13175,18 @@ tools:
   - molecular-modelling
   type: software
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: Blender GPL-3.0-or-later; Molecular Nodes license varies by component
   platforms:
   - linux
   - macos
   - windows
   interface:
   - gui
-  - cli
+  - python
   languages: []
-  gpu: not-required
+  gpu: optional
   installation:
   - binary
   status: active
@@ -13233,7 +13197,6 @@ tools:
   documentation: https://brs-llc.github.io/
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
 
 
 - id: nglview
@@ -13251,14 +13214,16 @@ tools:
   - molecular-modelling
   type: library
   access:
-  - free
-  source_available: false
-  license: Not verified
+  - open-source
+  source_available: true
+  license: BSD-3-Clause
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - python
-  - cli
+  - notebook
   languages: []
   gpu: not-required
   installation:
@@ -13271,4 +13236,3 @@ tools:
   documentation: https://github.com/nglviewer/nglview
   citation: []
   chemisfree_status: curated-resource
-  notes: License and redistribution terms have not yet been independently verified for this entry; do not imply open-source status without checking the official project terms.
