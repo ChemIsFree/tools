@@ -3,82 +3,47 @@
 category_curation:
   target-identification:
     keep:
-      - canSAR
-      - ChEMBL multitask model
-      - ChEMBL Multitask Target Prediction
-      - ChEMBL multitask target prediction
-      - ChEMBL multitask target prediction model
-      - CTD
-      - DAPredict
-      - DataWarrior
-      - DeepCDR
-      - DGIdb
-      - DynaMut2
-      - FTMap
-      - GeneMANIA
-      - Open Targets
-      - GPCRdb
-      - KLIFS
-      - LigTMap
-      - OmniPath
-      - PatentChem
-      - PDBe-KB
-      - PLATO
-      - PPB2
-      - ProteinsPlus
-      - DogSiteScorer
-      - Reactome
-      - SEA
-      - SSM-DTA
-      - SwissTargetPrediction
-      - TargetNet
-      - TransformerCPI
-      - ZINClick
-      - PharmMapper
-      - SuperPred
-      - MolTarPred
-      - FastTargetPred
-      - Therapeutic Target Database
-      - UniProt
-      - DrugBank
-      - GtoPdb
-      - 'Open Targets Platform'
-      - 'Open Targets'
-      - 'Pharos / TCRD'
-      - 'Pharos'
-      - 'Target Central Resource Database'
-      - 'Therapeutic Target Database (TTD)'
-      - 'Therapeutic Target Database'
-      - 'TTD'
-      - 'canSAR'
-      - 'DepMap'
-      - 'Human Protein Atlas'
-      - 'DisGeNET'
-      - 'UniProt'
-      - 'DrugBank'
-      - 'STRING'
-      - 'STRING database'
-      - 'Cytoscape'
-      - 'crosstalkr'
-      - 'Enrichr'
-      - 'g:Profiler'
-      - 'gProfiler'
-      - 'Reactome'
-      - 'SwissTargetPrediction'
-      - 'SEA (Similarity Ensemble Approach)'
-      - 'SEA'
-      - 'Similarity Ensemble Approach'
-      - 'LigTMap'
-      - 'PharmMapper'
-      - 'SuperPred'
-      - 'TargetNet'
-      - 'PPB2'
-      - 'MolTarPred'
-      - 'HumanBase'
-      - 'ToppGene Suite'
-      - 'ToppGene'
-      - 'GeneMANIA'
-      - 'FastTargetPred'
+      - "canSAR"
+      - "ChEMBL multitask model"
+      - "ChEMBL Multitask Model"
+      - "ChEMBL Multitask Target Prediction"
+      - "CTD"
+      - "DAPredict"
+      - "DataWarrior"
+      - "DeepCDR"
+      - "DGIdb"
+      - "DynaMut2"
+      - "FTMap"
+      - "GeneMANIA"
+      - "Open Targets"
+      - "Open Targets Platform"
+      - "GPCRdb"
+      - "KLIFS"
+      - "LigTMap"
+      - "OmniPath"
+      - "PatentChem"
+      - "PDBe-KB"
+      - "PLATO"
+      - "PPB2"
+      - "ProteinsPlus"
+      - "DogSiteScorer"
+      - "Reactome"
+      - "SEA"
+      - "SSM-DTA"
+      - "SwissTargetPrediction"
+      - "TargetNet"
+      - "TransformerCPI"
+      - "ZINClick"
+      - "PharmMapper"
+      - "SuperPred"
+      - "MolTarPred"
+      - "FastTargetPred"
+      - "Therapeutic Target Database"
+      - "Therapeutic Target Database (TTD)"
+      - "TTD"
+      - "UniProt"
+      - "DrugBank"
+      - "GtoPdb"
 
   record_overrides:
     - names: [BREEZE]
