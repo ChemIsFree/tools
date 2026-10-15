@@ -4645,7 +4645,7 @@ tools:
   developers:
   - "Project maintainers"
   website: "https://cryptosite.readthedocs.io/en/latest/"
-  repository: "https://github.com"
+  repository: []
   documentation: "https://cryptosite.readthedocs.io/en/latest/"
   citation: []
   chemisfree_status: curated-resource
@@ -6503,13 +6503,13 @@ tools:
   status: "active"
   developers:
   - "Project maintainers"
-  website: "https://github.com"
+  website: "https://pubs.acs.org/doi/10.1021/ci200060s"
   repository: []
-  documentation: "https://github.com"
+  documentation: "https://pubs.acs.org/doi/10.1021/ci200060s"
   citation: []
   chemisfree_status: curated-resource
   verification:
-    status: "official-source-linked"
+    status: "paper-linked-source-needs-review"
     last_checked: '2026-10-15'
   notes: "Research-method entry; software availability and dependencies should be checked before operational use."
 
