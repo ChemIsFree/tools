@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 import re
 
 import yaml
@@ -9,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[2]
 TOOLS_FILE = ROOT / "data" / "tools.yaml"
 TAXONOMY_FILE = ROOT / "data" / "taxonomy.yaml"
 CURATION_FILE = ROOT / "data" / "category_curation.yaml"
+ASSAYER_FILE = ROOT / "data" / "assayer_free_registry.json"
 CATEGORIES_DIR = ROOT / "categories"
 
 
@@ -118,6 +120,9 @@ def main():
         []
     )
 
+    with open(ASSAYER_FILE, "r", encoding="utf-8") as handle:
+        imported_tools = json.load(handle)
+
     domains = taxonomy.get(
         "domains",
         {}
@@ -148,9 +153,25 @@ def main():
 
         if domain_id == "target-identification":
             # Target Identification is an editorial shortlist, not an automatic
-            # keyword bucket. Keep only the names approved in category_curation.yaml.
+            # keyword bucket. Include maintained records plus matching Assayer entries,
+            # while preferring maintained records when names or official URLs overlap.
+            primary_names = {normalized_name(tool.get("name")) for tool in tools}
+            primary_urls = {
+                str(tool.get("website") or "").strip().lower().rstrip("/")
+                for tool in tools if tool.get("website")
+            }
+            curated_imports = []
+            for item in imported_tools:
+                if not name_matches(item, target_keep):
+                    continue
+                item_name = normalized_name(item.get("name"))
+                item_url = str(item.get("website") or "").strip().lower().rstrip("/")
+                if item_name in primary_names or (item_url and item_url in primary_urls):
+                    continue
+                curated_imports.append(item)
+            target_pool = tools + curated_imports
             domain_tools = [
-                tool for tool in tools
+                tool for tool in target_pool
                 if name_matches(tool, target_keep)
             ]
         else:
