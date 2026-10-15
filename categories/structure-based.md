@@ -10,6 +10,7 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 |---|---|---|---|---|---|
 | [AlphaFold Server](https://alphafoldserver.com/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [AutoDock Vina](https://vina.scripps.edu/) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [AutoDock-GPU](https://github.com/ccsb-scripps/AutoDock-GPU) | Molecular Docking | Open Source | CLI | Linux | Curated Resource |
 | [CB-Dock2](https://cadd.labshare.cn/cb-dock2/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [ClassyPose](https://github.com/vktrannguyen/Classy_Pose) | Molecular Docking; Structure-Based Virtual Screening; Interaction Analysis | Free / Open Source | — | Linux | Curated Resource |
 | [DOCK 6](https://dock.compbio.ucsf.edu/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
@@ -18,6 +19,7 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | [FlexAID](https://github.com/NRGlab/FlexAID) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux | Curated Resource |
 | [Fragmenstein](https://github.com/matteoferla/Fragmenstein) | Generative Chemistry; Pharmacophore Modelling; Scaffold Analysis; Structure-Based Virtual Screening; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [GNINA](https://gnina.github.io/gnina/) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux / Macos | Curated Resource |
+| [HADDOCK3](https://github.com/haddocking/haddock3) | Molecular Docking | Open Source | CLI | Linux | Curated Resource |
 | [iScreen](https://iscreen.cau.ac.kr/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [LeView](http://www.pegase-biosciences.com/tools/leview/) | Molecular Visualization; Interaction Analysis | Free / Open Source | GUI / Web | Windows | Curated Resource |
 | [LigPlot+](https://www.ebi.ac.uk/thornton-srv/software/LigPlus/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
@@ -47,6 +49,8 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | [Ringtail](https://github.com/forlilab/Ringtail) | Structure-Based Virtual Screening; Molecular Docking; Data Curation; Pipeline Execution | Free / Open Source | CLI | Linux | Curated Resource |
 | [RoseTTAFold All-Atom](https://github.com/baker-laboratory/RoseTTAFold-All-Atom) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [smina](https://github.com/mwojcikowski/smina) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux / Macos | Curated Resource |
+| [Uni-Dock](https://github.com/dptech-corp/Uni-Dock) | Molecular Docking | Free | CLI | Linux | Curated Resource |
+| [Vina-GPU](https://github.com/DeltaGroupNJUPT/Vina-GPU) | Molecular Docking | Free | CLI | Linux | Curated Resource |
 | [VirtualFlow](https://virtual-flow.org/) | Structure-Based Virtual Screening; Molecular Docking; Pipeline Execution; Workflow Construction | Free / Open Source | CLI | Linux / Cloud | Curated Resource |
 
 ## Supporting Resources
@@ -61,10 +65,12 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | [CrossDocked2020](https://bits.csb.pitt.edu/files/crossdocked_pocket10/) | dataset | — | Free | CLI |
 | [D3R / CSAR Datasets](https://drugdesigndata.org/) | dataset | — | Free Web | CLI |
 | [DEKOIS 2.0](https://www.dekois.com/) | dataset | — | Free Web | CLI |
+| [MTiOpenScreen](https://bioserv.rpbs.univ-paris-diderot.fr/services/MTiOpenScreen/) | web-service | Molecular Docking | Free | GUI / Web |
 | [PDBbind](http://www.pdbbind.org.cn/) | dataset | — | Free | CLI |
 | [PLINDER](https://github.com/plinder-org/plinder) | dataset | — | Free | CLI |
 | [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |
 | [RDKit](https://www.rdkit.org/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search; Chemical Space Analysis | Free / Open Source | — |
+| [SwissDock](https://www.swissdock.ch/) | web-service | Molecular Docking | Free | GUI / Web |
 | [UniProt](https://www.uniprot.org/) | database | Target Assessment & Validation; Data Curation; Protein Preparation | Free | GUI / Web |
 | [ZINC](https://zinc.docking.org/) | database | Ligand-Based Virtual Screening; Structure-Based Virtual Screening | Free | GUI / Web |
 

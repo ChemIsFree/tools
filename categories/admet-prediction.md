@@ -44,12 +44,14 @@ Predict physicochemical, absorption, distribution, metabolism, excretion, and to
 | [hERG Central](https://hergcentral.org/) | database | — | Free Web | CLI |
 | [OpenADMET Models](https://openadmet.org/) | library | — | Free / Open Source | CLI |
 | [Polaris](https://polarishub.io/) | dataset | — | Free Web | GUI / Web |
+| [PPB2](https://ppb2.gdb.tools/) | web-tool | ADME Prediction | Free | GUI / Web |
 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | database | Molecular Descriptors & Properties; Structure Search; Bioactivity Analysis | Free | GUI / Web |
 | [RDKit](https://www.rdkit.org/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search; Chemical Space Analysis | Free / Open Source | — |
 | [Therapeutics Data Commons (TDC)](https://tdcommons.ai/) | library | Benchmarks & Datasets; Machine Learning; QSAR & Predictive Modelling; ADME Prediction; Toxicity Prediction; Bioactivity Analysis | Free / Open Source | — |
 | [Therapeutics Data Commons — ADMET Benchmark Group](https://tdcommons.ai/benchmark/admet_group/overview/) | dataset | Benchmarks & Datasets | Free | — |
 | [Therapeutics Data Commons — ADMET Benchmarks](https://tdcommons.ai/) | dataset | — | Free | CLI |
 | [Tox21](https://www.epa.gov/comptox-tools/toxicity-forecaster-toxt21) | dataset | — | Free Web | CLI |
+| [vNN-ADMET](https://vnnadmet.bhsai.org/) | web-tool | ADME Prediction | Free | GUI / Web |
 
 ---
 
