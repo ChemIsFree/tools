@@ -26,7 +26,7 @@ Identify and characterize ligand-binding sites, cavities, and pockets on macromo
 | [MDpocket](https://github.com/Discngine/fpocket) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [P2Rank](https://prankweb.cz/) | Binding-Site Analysis; Protein Preparation; Molecular Visualization | Free / Open Source | GUI / Web + CLI | Linux / Macos / Windows / Web | Curated Resource |
 | [PLIP (Protein-Ligand Interaction Profiler)](https://plip-tool.biotec.tu-dresden.de/plip-web/plip/index) | Binding-Site Analysis; Structure-Based Virtual Screening | Free | GUI / Web + CLI | Linux / Windows / Web / Other | Curated Resource |
-| [PocketMiner](https://github.com/rdk/pocketminer) | Binding-Site Analysis | Free | GUI / Web + CLI | Linux / Macos / Windows | Curated Resource |
+| [PocketMiner](https://github.com/rdk/pocketminer) | Binding-Site Analysis | Free | CLI | Linux | Curated Resource |
 | [POVME 2.0](https://github.com/POVME/POVME) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [PROPKA](https://github.com/jensengroup/propka) | Protein Preparation; Binding-Site Analysis | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [PyMOL Open-Source](https://www.pymol.org/) | Molecular Visualization; 3D Structure Analysis; Binding-Site Analysis | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
@@ -38,7 +38,7 @@ Identify and characterize ligand-binding sites, cavities, and pockets on macromo
 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
-| [CASTp](http://sts.bioe.uic.edu/castp/) | web tool | Binding-Site Analysis | Free | GUI / Web |
+| [CASTp](http://sts.bioe.uic.edu/castp/) | web-tool | Binding-Site Analysis | Free | GUI / Web |
 | [CryptoBench](https://github.com/skrhakv/CryptoBench) | dataset | — | Free | CLI |
 | [LBS-comparison](https://github.com/bartongroup/LBS-comparison) | dataset | Binding-Site Analysis; Benchmarks & Datasets | Free / Open Source | — |
 | [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |
