@@ -46,7 +46,7 @@ Molecular, protein–ligand, and scientific visualisation and interpretation.
 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
-| [3Dmol.js](https://3dmol.csb.pitt.edu/) | library | Molecular Visualization | Open Source | — |
+| [3Dmol.js](https://3dmol.csb.pitt.edu/) | library | Molecular Visualization | Open Source | GUI / Web |
 | [MDAnalysis](https://www.mdanalysis.org/) | library | Trajectory Analysis | Free / Open Source | — |
 | [NGL Viewer](https://nglviewer.org/) | library | Molecular Visualization | Open Source | — |
 | [nglview](https://github.com/nglviewer/nglview) | library | Molecular Visualization | Open Source | — |

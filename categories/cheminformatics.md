@@ -62,7 +62,7 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 | [Chemistry Development Kit](https://cdk.github.io/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search | Free / Open Source | — |
 | [ChemSpider](https://www.chemspider.com/) | database | — | Free Web | CLI |
 | [Datamol](https://github.com/datamol-io/datamol) | library | Chemical Data Analysis | Open Source | — |
-| [Kekule.js](https://github.com/partridgejiang/Kekule.js) | library | Chemical Data Analysis | Free | — |
+| [Kekule.js](https://github.com/partridgejiang/Kekule.js) | library | Chemical Data Analysis | Free | GUI / Web |
 | [molbloom](https://github.com/whitead/molbloom) | library | Compound Library Search; Ligand-Based Virtual Screening; Structure Search | Free / Open Source | CLI |
 | [molfeat](https://github.com/datamol-io/molfeat) | library | Chemical Data Analysis | Open Source | — |
 | [MolVS](https://github.com/mcs07/MolVS) | library | Chemical Data Analysis | Free | — |
@@ -73,7 +73,7 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 | [QMugs](https://www.nature.com/articles/s41597-022-01390-7) | dataset | — | Free | CLI |
 | [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |
 | [RDKit](https://www.rdkit.org/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search; Chemical Space Analysis | Free / Open Source | — |
-| [RDKit.js](https://github.com/rdkit/rdkit) | library | Chemical Data Analysis | Open Source | — |
+| [RDKit.js](https://github.com/rdkit/rdkit) | library | Chemical Data Analysis | Open Source | GUI / Web |
 | [scikit-mol](https://github.com/EBjerrum/scikit-mol) | library | Chemical Data Analysis | Free | — |
 | [TeachOpenCADD](https://github.com/volkamerlab/teachopencadd) | educational | — | Free | CLI |
 | [UniProt](https://www.uniprot.org/) | database | Target Assessment & Validation; Data Curation; Protein Preparation | Free | GUI / Web |

@@ -50,7 +50,7 @@ Compound collections, screening libraries, curated reference databases, and scie
 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
-| [3Dmol.js](https://3dmol.csb.pitt.edu/) | library | Molecular Visualization | Open Source | — |
+| [3Dmol.js](https://3dmol.csb.pitt.edu/) | library | Molecular Visualization | Open Source | GUI / Web |
 | [AlphaFill](https://alphafill.eu/) | database | Protein Structure Prediction | Free | GUI / Web |
 | [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) | database | Protein Structure Prediction; Benchmarks & Datasets | Free | GUI / Web |
 | [AlphaMissense (precomputed predictions)](https://console.cloud.google.com/storage/browser/dm_alphamissense) | database | Target Assessment & Validation; Clinical & Regulatory Evidence | Free | GUI / Web |
@@ -92,7 +92,7 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [hERG Central](https://hergcentral.org/) | database | — | Free Web | CLI |
 | [Human Metabolome Database (HMDB)](https://hmdb.ca/) | database | — | Free Web | CLI |
 | [IUPHAR/BPS Guide to Pharmacology (GtoPdb)](https://www.guidetopharmacology.org/) | database | Target Assessment & Validation; Bioactivity Analysis; Clinical & Regulatory Evidence | Free | GUI / Web |
-| [Kekule.js](https://github.com/partridgejiang/Kekule.js) | library | Chemical Data Analysis | Free | — |
+| [Kekule.js](https://github.com/partridgejiang/Kekule.js) | library | Chemical Data Analysis | Free | GUI / Web |
 | [LBS-comparison](https://github.com/bartongroup/LBS-comparison) | dataset | Binding-Site Analysis; Benchmarks & Datasets | Free / Open Source | — |
 | [LigTMap](https://bidd.group/LigTMap/) | web-tool | Target Assessment & Validation | Free | GUI / Web |
 | [LOTUS Natural Products Online](https://lotus.naturalproducts.net/) | database | Benchmarks & Datasets | Free | GUI / Web |
@@ -128,7 +128,7 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [RAscore](https://github.com/reymond-group/RAscore) | library | Retrosynthesis | Free | — |
 | [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |
 | [RDKit](https://www.rdkit.org/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search; Chemical Space Analysis | Free / Open Source | — |
-| [RDKit.js](https://github.com/rdkit/rdkit) | library | Chemical Data Analysis | Open Source | — |
+| [RDKit.js](https://github.com/rdkit/rdkit) | library | Chemical Data Analysis | Open Source | GUI / Web |
 | [Reactome](https://reactome.org/) | database | Target Assessment & Validation | Free | GUI / Web |
 | [scikit-learn](https://scikit-learn.org/) | library | QSAR & Predictive Modelling | Open Source | — |
 | [scikit-mol](https://github.com/EBjerrum/scikit-mol) | library | Chemical Data Analysis | Free | — |
