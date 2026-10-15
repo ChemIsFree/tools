@@ -2,6 +2,44 @@
 # IDs refer to entries in data/tools.yaml or data/assayer_free_registry.json.
 # Order within each list determines display priority. Full records remain searchable.
 domains:
+  target-identification:
+    tools:
+      - assayer-cansar
+      - assayer-chembl-multitask-target-prediction
+      - assayer-ctd
+      - assayer-dapredict
+      - datawarrior
+      - assayer-deepcdr
+      - assayer-dgidb
+      - dynamut2
+      - ftmap
+      - assayer-genemania
+      - open-targets
+      - gpcrdb
+      - assayer-open-targets-genetics
+      - assayer-klifs
+      - ligtmap
+      - assayer-omnipath
+      - assayer-patentchem
+      - assayer-pdbe-kb
+      - assayer-plato
+      - ppb2
+      - dogsitescorer
+      - reactome
+      - sea
+      - assayer-ssm-dta
+      - assayer-swisstargetprediction
+      - targetnet
+      - assayer-transformercpi
+      - zinclick
+      - pharmmapper
+      - superpred
+      - moltarpred
+      - assayer-fasttargetpred
+      - assayer-therapeutic-target-database
+      - uniprot
+      - drugbank
+      - gtopdb
   chemical-structures:
     tools:
       - catalist
@@ -32,6 +70,8 @@ domains:
       - assayer-crem-dock
       - assayer-deeppurpose
       - assayer-uni-mol
+      - opera
+      - assayer-opera
   structure-based-discovery:
     tools:
       - gnina
@@ -65,6 +105,8 @@ domains:
       - assayer-openadmet
       - assayer-chembl-downloader
       - assayer-open-systems-pharmacology-pk-sim-mobi
+      - opera
+      - assayer-opera
   synthesis-reaction-design:
     tools:
       - synthemol

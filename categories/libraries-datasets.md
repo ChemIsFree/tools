@@ -39,6 +39,7 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [PocketMiner](https://github.com/rdk/pocketminer) | Binding-Site Analysis | Free | CLI | Linux | Curated Resource |
 | [PubChem Identifier Exchange Service](https://pubchem.ncbi.nlm.nih.gov/idexchange/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [QSARtuna](https://github.com/MolecularAI/QSARtuna) | QSAR & Predictive Modelling | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [Reactome](https://reactome.org/) | Target Assessment & Validation | Free | GUI / Web | Web | Curated Resource |
 | [RoseTTAFold](https://github.com/RosettaCommons/RoseTTAFold) | Protein Structure Prediction | Open Source | CLI | Linux | Curated Resource |
 | [RxnFlow](https://github.com/SeonghwanSeo/RxnFlow) | Generative Chemistry | Free | CLI | Linux | Curated Resource |
 | [Snakemake](https://snakemake.github.io/) | Workflow Construction | Open Source | CLI | Linux / Macos / Windows | Curated Resource |
@@ -86,15 +87,16 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [Electron Microscopy Data Bank (EMDB)](https://www.ebi.ac.uk/emdb/) | database | — | Free Web | CLI |
 | [Enamine REAL](https://enamine.net/compound-collections/real-compounds) | database | Compound Library Search; Ligand-Based Virtual Screening; Inventory Management | Free | GUI / Web |
 | [Enrichr](https://maayanlab.cloud/Enrichr/) | web-tool | Target Assessment & Validation | Free | GUI / Web |
+| [FoodDB](https://foodb.ca/) | database | Benchmarks & Datasets; Data Curation | Free | GUI / Web |
 | [g:Profiler](https://biit.cs.ut.ee/gprofiler/) | web-tool | Target Assessment & Validation | Free | GUI / Web |
 | [GDB-17](https://gdb.unibe.ch/) | dataset | — | Free | CLI |
+| [GPCRdb](https://gpcrdb.org/) | database | Target Assessment & Validation; Bioactivity Analysis; Data Curation | Free | GUI / Web |
 | [GuacaMol](https://github.com/BenevolentAI/guacamol) | dataset | Generative Chemistry | Free | — |
 | [hERG Central](https://hergcentral.org/) | database | — | Free Web | CLI |
 | [Human Metabolome Database (HMDB)](https://hmdb.ca/) | database | — | Free Web | CLI |
 | [IUPHAR/BPS Guide to Pharmacology (GtoPdb)](https://www.guidetopharmacology.org/) | database | Target Assessment & Validation; Bioactivity Analysis; Clinical & Regulatory Evidence | Free | GUI / Web |
 | [Kekule.js](https://github.com/partridgejiang/Kekule.js) | library | Chemical Data Analysis | Free | GUI / Web |
 | [LBS-comparison](https://github.com/bartongroup/LBS-comparison) | dataset | Binding-Site Analysis; Benchmarks & Datasets | Free / Open Source | — |
-| [LigTMap](https://bidd.group/LigTMap/) | web-tool | Target Assessment & Validation | Free | GUI / Web |
 | [LOTUS Natural Products Online](https://lotus.naturalproducts.net/) | database | Benchmarks & Datasets | Free | GUI / Web |
 | [MDAnalysis](https://www.mdanalysis.org/) | library | Trajectory Analysis | Free / Open Source | — |
 | [ModBase](https://modbase.compbio.ucsf.edu/) | database | — | Free Web | CLI |
@@ -119,7 +121,6 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [Pharos](https://pharos.nih.gov/) | database | Target Assessment & Validation; Bioactivity Analysis; Data Curation | Free | GUI / Web |
 | [PLINDER](https://github.com/plinder-org/plinder) | dataset | — | Free | CLI |
 | [Polaris](https://polarishub.io/) | dataset | — | Free Web | GUI / Web |
-| [PPB2](https://ppb2.gdb.tools/) | web-tool | ADME Prediction | Free | GUI / Web |
 | [PromptSMILES](https://github.com/compsciencelab/PromptSMILES) | library | Generative Chemistry; Scaffold Analysis | Free / Open Source | — |
 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | database | Molecular Descriptors & Properties; Structure Search; Bioactivity Analysis | Free | GUI / Web |
 | [PubChem BioAssay](https://pubchem.ncbi.nlm.nih.gov/) | database | — | Free Web | CLI |
@@ -129,16 +130,13 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |
 | [RDKit](https://www.rdkit.org/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search; Chemical Space Analysis | Free / Open Source | — |
 | [RDKit.js](https://github.com/rdkit/rdkit) | library | Chemical Data Analysis | Open Source | GUI / Web |
-| [Reactome](https://reactome.org/) | database | Target Assessment & Validation | Free | GUI / Web |
 | [scikit-learn](https://scikit-learn.org/) | library | QSAR & Predictive Modelling | Open Source | — |
 | [scikit-mol](https://github.com/EBjerrum/scikit-mol) | library | Chemical Data Analysis | Free | — |
 | [SCScore](https://github.com/connorcoley/scscore) | library | Retrosynthesis | Free | CLI |
-| [Similarity Ensemble Approach (SEA)](https://sea.bkslab.org/) | web-tool | Target Assessment & Validation | Free | GUI / Web |
 | [STRING](https://string-db.org/) | database | Target Assessment & Validation | Free | GUI / Web |
 | [SWISS-MODEL Repository](https://swissmodel.expasy.org/repository/) | database | — | Free Web | CLI |
 | [SwissDock](https://www.swissdock.ch/) | web-service | Molecular Docking | Free | GUI / Web |
 | [SYBA](https://github.com/lich-uct/syba) | library | Retrosynthesis | Free | — |
-| [TargetNet](https://targetnet.scbdd.com/) | web-tool | Target Assessment & Validation | Free | GUI / Web |
 | [Therapeutics Data Commons (TDC)](https://tdcommons.ai/) | library | Benchmarks & Datasets; Machine Learning; QSAR & Predictive Modelling; ADME Prediction; Toxicity Prediction; Bioactivity Analysis | Free / Open Source | — |
 | [Therapeutics Data Commons — ADMET Benchmark Group](https://tdcommons.ai/benchmark/admet_group/overview/) | dataset | Benchmarks & Datasets | Free | — |
 | [Therapeutics Data Commons — ADMET Benchmarks](https://tdcommons.ai/) | dataset | — | Free | CLI |
@@ -151,6 +149,7 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [ZINC](https://zinc.docking.org/) | database | Ligand-Based Virtual Screening; Structure-Based Virtual Screening | Free | GUI / Web |
 | [ZINC-22](https://cartblanche22.docking.org/) | database | Benchmarks & Datasets | Free | GUI / Web |
 | [ZINC20 Informer Set](https://zinc20.docking.org/) | database | — | Free Web | CLI |
+| [ZINClick](https://zinclick.zinc.docking.org/) | database | Compound Library Search; Data Curation | Free | GUI / Web |
 
 ---
 

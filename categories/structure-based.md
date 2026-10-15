@@ -71,7 +71,6 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |
 | [RDKit](https://www.rdkit.org/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search; Chemical Space Analysis | Free / Open Source | — |
 | [SwissDock](https://www.swissdock.ch/) | web-service | Molecular Docking | Free | GUI / Web |
-| [UniProt](https://www.uniprot.org/) | database | Target Assessment & Validation; Data Curation; Protein Preparation | Free | GUI / Web |
 | [ZINC](https://zinc.docking.org/) | database | Ligand-Based Virtual Screening; Structure-Based Virtual Screening | Free | GUI / Web |
 
 ---

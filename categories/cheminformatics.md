@@ -67,7 +67,6 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 | [molfeat](https://github.com/datamol-io/molfeat) | library | Chemical Data Analysis | Open Source | — |
 | [MolVS](https://github.com/mcs07/MolVS) | library | Chemical Data Analysis | Free | — |
 | [Mordred](https://github.com/mordred-descriptor/mordred) | library | Chemical Data Analysis | Open Source | — |
-| [Open Targets Platform](https://platform.opentargets.org/) | database | Target Assessment & Validation; Clinical & Regulatory Evidence; Data Curation | Free | GUI / Web |
 | [Pharos](https://pharos.nih.gov/) | database | Target Assessment & Validation; Bioactivity Analysis; Data Curation | Free | GUI / Web |
 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | database | Molecular Descriptors & Properties; Structure Search; Bioactivity Analysis | Free | GUI / Web |
 | [QMugs](https://www.nature.com/articles/s41597-022-01390-7) | dataset | — | Free | CLI |
@@ -76,7 +75,6 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 | [RDKit.js](https://github.com/rdkit/rdkit) | library | Chemical Data Analysis | Open Source | GUI / Web |
 | [scikit-mol](https://github.com/EBjerrum/scikit-mol) | library | Chemical Data Analysis | Free | — |
 | [TeachOpenCADD](https://github.com/volkamerlab/teachopencadd) | educational | — | Free | CLI |
-| [UniProt](https://www.uniprot.org/) | database | Target Assessment & Validation; Data Curation; Protein Preparation | Free | GUI / Web |
 
 ---
 

@@ -28,6 +28,7 @@ Predict physicochemical, absorption, distribution, metabolism, excretion, and to
 | [OECD QSAR Toolbox](https://qsartoolbox.org/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [pkCSM](https://biosig.lab.uq.edu.au/pkcsm/) | ADME Prediction; Toxicity Prediction; Drug-Likeness | Free | GUI / Web | Web | Curated Resource |
 | [PLETHEM](https://scitovation.com/tools/plethem/) | ADME Prediction; Physicochemical Properties | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [PPB2](https://ppb2.gdb.tools/) | Target Assessment & Validation; ADME Prediction | Free | GUI / Web | Web | Curated Resource |
 | [Pred-hERG](https://predherg.labmol.com.br/) | Toxicity Prediction | Free Web | GUI / Web | Web | Curated Resource |
 | [ProTox 3.0](https://tox.charite.de/protox3/) | Toxicity Prediction; Drug-Likeness | Free | GUI / Web | Web | Curated Resource |
 | [SMARTCyp](https://smartcyp.sund.ku.dk/) | — | Free Web | GUI / Web | Web | Curated Resource |
@@ -44,7 +45,6 @@ Predict physicochemical, absorption, distribution, metabolism, excretion, and to
 | [hERG Central](https://hergcentral.org/) | database | — | Free Web | CLI |
 | [OpenADMET Models](https://openadmet.org/) | library | — | Free / Open Source | CLI |
 | [Polaris](https://polarishub.io/) | dataset | — | Free Web | GUI / Web |
-| [PPB2](https://ppb2.gdb.tools/) | web-tool | ADME Prediction | Free | GUI / Web |
 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | database | Molecular Descriptors & Properties; Structure Search; Bioactivity Analysis | Free | GUI / Web |
 | [RDKit](https://www.rdkit.org/) | library | Structure Conversion; Ligand Preparation; Molecular Descriptors & Properties; Structure Search; Chemical Space Analysis | Free / Open Source | — |
 | [Therapeutics Data Commons (TDC)](https://tdcommons.ai/) | library | Benchmarks & Datasets; Machine Learning; QSAR & Predictive Modelling; ADME Prediction; Toxicity Prediction; Bioactivity Analysis | Free / Open Source | — |
