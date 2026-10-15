@@ -30,7 +30,6 @@ Manage compounds, inventories, experiments, computing resources, and reproducibl
 | [KNIME Analytics Platform](https://www.knime.com/) | Chemical Data Analysis; Machine Learning; Workflow Construction; Pipeline Execution | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [LabIMotion](https://www.labimotion.org/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [LinChemIn](https://github.com/syngenta/linchemin) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
-| [Mamba](https://mamba.readthedocs.io/) | Research Computing & Infrastructure; Workflow Construction | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [MolVE](https://github.com/drigoni/MolVE) | Chemical Data Analysis; Molecular Visualization; Machine Learning; Workflow Construction | Free / Open Source | GUI / Web | Linux | Curated Resource |
 | [myChEMBL](https://github.com/chembl/mychembl) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Open Drug Discovery Toolkit (ODDT)](https://oddt.readthedocs.io/) | Interaction Analysis; Molecular Docking; Structure-Based Virtual Screening; Bioactivity Analysis; Data Curation | Free / Open Source | — | Linux / Macos / Windows | Curated Resource |

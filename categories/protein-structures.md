@@ -26,6 +26,7 @@ Experimental and predicted protein structures, structure retrieval, and protein 
 | [PROPKA](https://github.com/jensengroup/propka) | Protein Preparation; Binding-Site Analysis | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Protein Design Visualizer (PDV)](https://pdv.naturalantibody.com/) | Molecular Visualization; Protein Structure Prediction | Free | GUI / Web | Web | Curated Resource |
 | [Protenix](https://github.com/bytedance/Protenix) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [PyMOL (open-source build)](https://pymol.org/) | Molecular Visualization; 3D Structure Analysis | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [RoseTTAFold All-Atom](https://github.com/baker-laboratory/RoseTTAFold-All-Atom) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Swiss-PdbViewer](https://spdbv.unil.ch/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 

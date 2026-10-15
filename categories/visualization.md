@@ -32,6 +32,7 @@ Molecular, protein–ligand, and scientific visualisation and interpretation.
 | [ProLIF](https://prolif.readthedocs.io/) | Interaction Analysis; Data Curation; Chemical Data Analysis; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Protein Design Visualizer (PDV)](https://pdv.naturalantibody.com/) | Molecular Visualization; Protein Structure Prediction | Free | GUI / Web | Web | Curated Resource |
 | [py3Dmol](https://github.com/3dmol/py3Dmol) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [PyMOL (open-source build)](https://pymol.org/) | Molecular Visualization; 3D Structure Analysis | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [PyMOL Open-Source](https://www.pymol.org/) | Molecular Visualization; 3D Structure Analysis; Binding-Site Analysis | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [Swiss-PdbViewer](https://spdbv.unil.ch/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [TMAP](https://github.com/reymond-group/tmap) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
