@@ -3115,7 +3115,7 @@ tools:
   domain:
   - target-identification
   category:
-  - target-identification
+  - data-and-databases
   type: "web-tool"
   access:
   - free-web
@@ -3149,7 +3149,7 @@ tools:
   domain:
   - target-identification
   category:
-  - target-identification
+  - data-and-databases
   type: "web-tool"
   access:
   - free-web
@@ -3184,7 +3184,7 @@ tools:
   domain:
   - protein-structures
   category:
-  - protein-structures
+  - molecular-modelling
   type: "database"
   access:
   - free-web
@@ -3221,7 +3221,7 @@ tools:
   domain:
   - protein-structures
   category:
-  - protein-structures
+  - molecular-modelling
   type: "database"
   access:
   - free-web
@@ -3258,7 +3258,7 @@ tools:
   domain:
   - protein-structures
   category:
-  - protein-structures
+  - molecular-modelling
   type: "database"
   access:
   - free-web
@@ -3294,10 +3294,8 @@ tools:
   resource_type: "database"
   domain:
   - protein-structures
-  - libraries-datasets
   category:
-  - protein-structures
-  - libraries-datasets
+  - molecular-modelling
   type: "database"
   access:
   - free-web
@@ -3334,7 +3332,7 @@ tools:
   domain:
   - protein-structures
   category:
-  - protein-structures
+  - molecular-modelling
   type: "web-service"
   access:
   - free-web
@@ -3369,7 +3367,7 @@ tools:
   domain:
   - protein-structures
   category:
-  - protein-structures
+  - molecular-modelling
   type: "web-service"
   access:
   - free-web
@@ -3403,10 +3401,8 @@ tools:
   resource_type: "database"
   domain:
   - protein-structures
-  - libraries-datasets
   category:
-  - protein-structures
-  - libraries-datasets
+  - molecular-modelling
   type: "database"
   access:
   - free-web
@@ -3442,10 +3438,8 @@ tools:
   resource_type: "database"
   domain:
   - protein-structures
-  - libraries-datasets
   category:
-  - protein-structures
-  - libraries-datasets
+  - molecular-modelling
   type: "database"
   access:
   - free-web
@@ -3481,10 +3475,8 @@ tools:
   resource_type: "database"
   domain:
   - protein-structures
-  - libraries-datasets
   category:
-  - protein-structures
-  - libraries-datasets
+  - molecular-modelling
   type: "database"
   access:
   - free-web
@@ -3521,8 +3513,7 @@ tools:
   - protein-structures
   - structure-based
   category:
-  - protein-structures
-  - structure-based
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -3559,8 +3550,7 @@ tools:
   - protein-structures
   - structure-based
   category:
-  - protein-structures
-  - structure-based
+  - molecular-modelling
   type: "web-tool"
   access:
   - free-web
@@ -3594,7 +3584,7 @@ tools:
   domain:
   - protein-structures
   category:
-  - protein-structures
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -3631,8 +3621,7 @@ tools:
   - protein-structures
   - structure-based
   category:
-  - protein-structures
-  - structure-based
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -3668,7 +3657,7 @@ tools:
   domain:
   - protein-structures
   category:
-  - protein-structures
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -3704,7 +3693,7 @@ tools:
   domain:
   - protein-structures
   category:
-  - protein-structures
+  - molecular-modelling
   type: "web-tool"
   access:
   - free-web
@@ -3739,8 +3728,7 @@ tools:
   - protein-structures
   - organization
   category:
-  - protein-structures
-  - organization
+  - molecular-modelling
   type: "web-tool"
   access:
   - free-web
@@ -3774,7 +3762,7 @@ tools:
   domain:
   - protein-structures
   category:
-  - protein-structures
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -3848,7 +3836,6 @@ tools:
   - molecular-dynamics
   category:
   - visualization
-  - molecular-dynamics
   type: "software"
   access:
   - free
@@ -3886,7 +3873,6 @@ tools:
   - cheminformatics
   category:
   - visualization
-  - cheminformatics
   type: "software"
   access:
   - free
@@ -3925,7 +3911,6 @@ tools:
   - protein-structures
   category:
   - visualization
-  - protein-structures
   type: "software"
   access:
   - free
@@ -3999,7 +3984,6 @@ tools:
   - protein-structures
   category:
   - visualization
-  - protein-structures
   type: "web-tool"
   access:
   - free-web
@@ -4072,7 +4056,6 @@ tools:
   - structure-based
   category:
   - visualization
-  - structure-based
   type: "software"
   access:
   - free
@@ -4111,7 +4094,6 @@ tools:
   - structure-based
   category:
   - visualization
-  - structure-based
   type: "software"
   access:
   - free
@@ -4149,7 +4131,6 @@ tools:
   - structure-based
   category:
   - visualization
-  - structure-based
   type: "web-tool"
   access:
   - free-web
@@ -4185,7 +4166,6 @@ tools:
   - structure-based
   category:
   - visualization
-  - structure-based
   type: "software"
   access:
   - free
@@ -4225,7 +4205,6 @@ tools:
   - protein-structures
   category:
   - visualization
-  - protein-structures
   type: "database"
   access:
   - free-web
@@ -4262,8 +4241,7 @@ tools:
   - binding-pockets
   - molecular-dynamics
   category:
-  - binding-pockets
-  - molecular-dynamics
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -4300,7 +4278,7 @@ tools:
   domain:
   - binding-pockets
   category:
-  - binding-pockets
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -4336,7 +4314,7 @@ tools:
   domain:
   - binding-pockets
   category:
-  - binding-pockets
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -4374,8 +4352,7 @@ tools:
   - binding-pockets
   - molecular-dynamics
   category:
-  - binding-pockets
-  - molecular-dynamics
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -4411,7 +4388,7 @@ tools:
   domain:
   - binding-pockets
   category:
-  - binding-pockets
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -4447,7 +4424,7 @@ tools:
   domain:
   - binding-pockets
   category:
-  - binding-pockets
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -4483,7 +4460,7 @@ tools:
   domain:
   - binding-pockets
   category:
-  - binding-pockets
+  - molecular-modelling
   type: "web-tool"
   access:
   - free-web
@@ -4517,7 +4494,7 @@ tools:
   domain:
   - binding-pockets
   category:
-  - binding-pockets
+  - molecular-modelling
   type: "software"
   access:
   - free-web
@@ -4553,7 +4530,7 @@ tools:
   domain:
   - binding-pockets
   category:
-  - binding-pockets
+  - molecular-modelling
   type: "web-tool"
   access:
   - free-web
@@ -4587,7 +4564,7 @@ tools:
   domain:
   - binding-pockets
   category:
-  - binding-pockets
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -4624,7 +4601,7 @@ tools:
   domain:
   - binding-pockets
   category:
-  - binding-pockets
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -4660,10 +4637,8 @@ tools:
   resource_type: "dataset"
   domain:
   - binding-pockets
-  - libraries-datasets
   category:
-  - binding-pockets
-  - libraries-datasets
+  - molecular-modelling
   type: "dataset"
   access:
   - free
@@ -4699,7 +4674,7 @@ tools:
   domain:
   - binding-pockets
   category:
-  - binding-pockets
+  - molecular-modelling
   type: "web-tool"
   access:
   - free-web
@@ -4733,7 +4708,7 @@ tools:
   domain:
   - binding-pockets
   category:
-  - binding-pockets
+  - molecular-modelling
   type: "web-tool"
   access:
   - free-web
@@ -4767,7 +4742,7 @@ tools:
   domain:
   - structure-based
   category:
-  - structure-based
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -4803,7 +4778,7 @@ tools:
   domain:
   - structure-based
   category:
-  - structure-based
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -4840,7 +4815,7 @@ tools:
   domain:
   - structure-based
   category:
-  - structure-based
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -4876,7 +4851,7 @@ tools:
   domain:
   - structure-based
   category:
-  - structure-based
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -4912,7 +4887,7 @@ tools:
   domain:
   - structure-based
   category:
-  - structure-based
+  - drug-discovery
   type: "web-tool"
   access:
   - free-web
@@ -4947,8 +4922,7 @@ tools:
   - structure-based
   - binding-pockets
   category:
-  - structure-based
-  - binding-pockets
+  - drug-discovery
   type: "web-tool"
   access:
   - free-web
@@ -4982,7 +4956,7 @@ tools:
   domain:
   - structure-based
   category:
-  - structure-based
+  - drug-discovery
   type: "web-tool"
   access:
   - free-web
@@ -5018,9 +4992,7 @@ tools:
   - protein-structures
   - nomenclature-format-conversion
   category:
-  - structure-based
-  - protein-structures
-  - nomenclature-format-conversion
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -5056,7 +5028,7 @@ tools:
   domain:
   - molecular-dynamics
   category:
-  - molecular-dynamics
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -5092,7 +5064,7 @@ tools:
   domain:
   - molecular-dynamics
   category:
-  - molecular-dynamics
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -5128,7 +5100,7 @@ tools:
   domain:
   - molecular-dynamics
   category:
-  - molecular-dynamics
+  - molecular-modelling
   type: "software"
   access:
   - commercial
@@ -5165,8 +5137,7 @@ tools:
   - molecular-dynamics
   - organization
   category:
-  - molecular-dynamics
-  - organization
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -5203,8 +5174,7 @@ tools:
   - molecular-dynamics
   - organization
   category:
-  - molecular-dynamics
-  - organization
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -5240,7 +5210,7 @@ tools:
   domain:
   - molecular-dynamics
   category:
-  - molecular-dynamics
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -5276,7 +5246,7 @@ tools:
   domain:
   - molecular-dynamics
   category:
-  - molecular-dynamics
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -5312,7 +5282,7 @@ tools:
   domain:
   - molecular-dynamics
   category:
-  - molecular-dynamics
+  - molecular-modelling
   type: "web-tool"
   access:
   - free-web
@@ -5346,7 +5316,7 @@ tools:
   domain:
   - molecular-dynamics
   category:
-  - molecular-dynamics
+  - molecular-modelling
   type: "web-tool"
   access:
   - free-web
@@ -5380,7 +5350,7 @@ tools:
   domain:
   - molecular-dynamics
   category:
-  - molecular-dynamics
+  - molecular-modelling
   type: "web-tool"
   access:
   - free-web
@@ -5414,7 +5384,7 @@ tools:
   domain:
   - molecular-dynamics
   category:
-  - molecular-dynamics
+  - molecular-modelling
   type: "web-tool"
   access:
   - free-web
@@ -5448,7 +5418,7 @@ tools:
   domain:
   - molecular-dynamics
   category:
-  - molecular-dynamics
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -5484,7 +5454,7 @@ tools:
   domain:
   - molecular-dynamics
   category:
-  - molecular-dynamics
+  - molecular-modelling
   type: "software"
   access:
   - free
@@ -5558,7 +5528,6 @@ tools:
   - ligand-based-qsar
   category:
   - cheminformatics
-  - ligand-based-qsar
   type: "software"
   access:
   - free
@@ -5596,7 +5565,6 @@ tools:
   - visualization
   category:
   - cheminformatics
-  - visualization
   type: "library"
   access:
   - free
@@ -5668,7 +5636,6 @@ tools:
   - nomenclature-format-conversion
   category:
   - cheminformatics
-  - nomenclature-format-conversion
   type: "web-service"
   access:
   - free-web
@@ -5704,7 +5671,6 @@ tools:
   - organization
   category:
   - cheminformatics
-  - organization
   type: "software"
   access:
   - free
@@ -5743,7 +5709,6 @@ tools:
   - organization
   category:
   - cheminformatics
-  - organization
   type: "tutorial"
   access:
   - free
@@ -5781,7 +5746,6 @@ tools:
   - nomenclature-format-conversion
   category:
   - cheminformatics
-  - nomenclature-format-conversion
   type: "web-tool"
   access:
   - free-web
@@ -5818,8 +5782,6 @@ tools:
   - visualization
   category:
   - cheminformatics
-  - nomenclature-format-conversion
-  - visualization
   type: "web-service"
   access:
   - free-web
@@ -5855,7 +5817,6 @@ tools:
   - admet-prediction
   category:
   - cheminformatics
-  - admet-prediction
   type: "software"
   access:
   - free
@@ -5894,7 +5855,6 @@ tools:
   - ligand-based-qsar
   category:
   - cheminformatics
-  - ligand-based-qsar
   type: "library"
   access:
   - free
@@ -5932,7 +5892,6 @@ tools:
   - ligand-based-qsar
   category:
   - cheminformatics
-  - ligand-based-qsar
   type: "library"
   access:
   - free
@@ -5968,7 +5927,7 @@ tools:
   domain:
   - de-novo-design
   category:
-  - de-novo-design
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -6005,8 +5964,7 @@ tools:
   - de-novo-design
   - cheminformatics
   category:
-  - de-novo-design
-  - cheminformatics
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -6043,8 +6001,7 @@ tools:
   - de-novo-design
   - structure-based
   category:
-  - de-novo-design
-  - structure-based
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -6080,7 +6037,7 @@ tools:
   domain:
   - de-novo-design
   category:
-  - de-novo-design
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -6116,7 +6073,7 @@ tools:
   domain:
   - de-novo-design
   category:
-  - de-novo-design
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -6152,7 +6109,7 @@ tools:
   domain:
   - de-novo-design
   category:
-  - de-novo-design
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -6188,7 +6145,7 @@ tools:
   domain:
   - de-novo-design
   category:
-  - de-novo-design
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -6226,8 +6183,7 @@ tools:
   - de-novo-design
   - retrosynthesis
   category:
-  - de-novo-design
-  - retrosynthesis
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -6263,7 +6219,7 @@ tools:
   domain:
   - de-novo-design
   category:
-  - de-novo-design
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -6299,7 +6255,7 @@ tools:
   domain:
   - ligand-based-qsar
   category:
-  - ligand-based-qsar
+  - machine-learning
   type: "web-tool"
   access:
   - free-web
@@ -6333,7 +6289,7 @@ tools:
   domain:
   - ligand-based-qsar
   category:
-  - ligand-based-qsar
+  - machine-learning
   type: "web-tool"
   access:
   - free-web
@@ -6368,8 +6324,7 @@ tools:
   - ligand-based-qsar
   - cheminformatics
   category:
-  - ligand-based-qsar
-  - cheminformatics
+  - machine-learning
   type: "software"
   access:
   - free
@@ -6406,8 +6361,7 @@ tools:
   - ligand-based-qsar
   - cheminformatics
   category:
-  - ligand-based-qsar
-  - cheminformatics
+  - machine-learning
   type: "software"
   access:
   - free
@@ -6445,8 +6399,7 @@ tools:
   - ligand-based-qsar
   - cheminformatics
   category:
-  - ligand-based-qsar
-  - cheminformatics
+  - machine-learning
   type: "software"
   access:
   - free
@@ -6483,7 +6436,7 @@ tools:
   domain:
   - ligand-based-qsar
   category:
-  - ligand-based-qsar
+  - machine-learning
   type: "software"
   access:
   - free
@@ -6519,7 +6472,7 @@ tools:
   domain:
   - ligand-based-qsar
   category:
-  - ligand-based-qsar
+  - machine-learning
   type: "software"
   access:
   - free
@@ -6555,7 +6508,7 @@ tools:
   domain:
   - ligand-based-qsar
   category:
-  - ligand-based-qsar
+  - machine-learning
   type: "web-tool"
   access:
   - free-web
@@ -6590,8 +6543,7 @@ tools:
   - ligand-based-qsar
   - admet-prediction
   category:
-  - ligand-based-qsar
-  - admet-prediction
+  - machine-learning
   type: "web-tool"
   access:
   - free-web
@@ -6625,7 +6577,7 @@ tools:
   domain:
   - ligand-based-qsar
   category:
-  - ligand-based-qsar
+  - machine-learning
   type: "software"
   access:
   - free
@@ -6661,7 +6613,7 @@ tools:
   domain:
   - admet-prediction
   category:
-  - admet-prediction
+  - drug-discovery
   type: "web-tool"
   access:
   - free-web
@@ -6696,8 +6648,7 @@ tools:
   - admet-prediction
   - cheminformatics
   category:
-  - admet-prediction
-  - cheminformatics
+  - drug-discovery
   type: "web-tool"
   access:
   - free-web
@@ -6731,7 +6682,7 @@ tools:
   domain:
   - admet-prediction
   category:
-  - admet-prediction
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -6768,8 +6719,7 @@ tools:
   - admet-prediction
   - ligand-based-qsar
   category:
-  - admet-prediction
-  - ligand-based-qsar
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -6807,8 +6757,7 @@ tools:
   - admet-prediction
   - cheminformatics
   category:
-  - admet-prediction
-  - cheminformatics
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -6844,7 +6793,7 @@ tools:
   domain:
   - admet-prediction
   category:
-  - admet-prediction
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -6881,8 +6830,7 @@ tools:
   - admet-prediction
   - cheminformatics
   category:
-  - admet-prediction
-  - cheminformatics
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -6918,7 +6866,7 @@ tools:
   domain:
   - admet-prediction
   category:
-  - admet-prediction
+  - drug-discovery
   type: "web-tool"
   access:
   - free-web
@@ -6952,7 +6900,7 @@ tools:
   domain:
   - admet-prediction
   category:
-  - admet-prediction
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -6988,7 +6936,7 @@ tools:
   domain:
   - admet-prediction
   category:
-  - admet-prediction
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -7025,7 +6973,7 @@ tools:
   domain:
   - admet-prediction
   category:
-  - admet-prediction
+  - drug-discovery
   type: "library"
   access:
   - free
@@ -7061,10 +7009,8 @@ tools:
   resource_type: "dataset"
   domain:
   - admet-prediction
-  - libraries-datasets
   category:
-  - admet-prediction
-  - libraries-datasets
+  - drug-discovery
   type: "benchmark"
   access:
   - free
@@ -7100,7 +7046,7 @@ tools:
   domain:
   - admet-prediction
   category:
-  - admet-prediction
+  - drug-discovery
   type: "web-tool"
   access:
   - free-web
@@ -7135,7 +7081,6 @@ tools:
   - retrosynthesis
   - cheminformatics
   category:
-  - retrosynthesis
   - cheminformatics
   type: "software"
   access:
@@ -7172,7 +7117,7 @@ tools:
   domain:
   - retrosynthesis
   category:
-  - retrosynthesis
+  - cheminformatics
   type: "web-tool"
   access:
   - commercial
@@ -7206,7 +7151,7 @@ tools:
   domain:
   - retrosynthesis
   category:
-  - retrosynthesis
+  - cheminformatics
   type: "software"
   access:
   - free
@@ -7242,7 +7187,7 @@ tools:
   domain:
   - retrosynthesis
   category:
-  - retrosynthesis
+  - cheminformatics
   type: "software"
   access:
   - free
@@ -7279,7 +7224,7 @@ tools:
   domain:
   - retrosynthesis
   category:
-  - retrosynthesis
+  - cheminformatics
   type: "software"
   access:
   - free
@@ -7317,8 +7262,7 @@ tools:
   - retrosynthesis
   - organization
   category:
-  - retrosynthesis
-  - organization
+  - cheminformatics
   type: "library"
   access:
   - free
@@ -7355,8 +7299,7 @@ tools:
   - retrosynthesis
   - de-novo-design
   category:
-  - retrosynthesis
-  - de-novo-design
+  - cheminformatics
   type: "software"
   access:
   - free
@@ -7392,7 +7335,7 @@ tools:
   domain:
   - retrosynthesis
   category:
-  - retrosynthesis
+  - cheminformatics
   type: "web-tool"
   access:
   - commercial
@@ -7426,7 +7369,7 @@ tools:
   domain:
   - retrosynthesis
   category:
-  - retrosynthesis
+  - cheminformatics
   type: "web-tool"
   access:
   - commercial
@@ -7461,8 +7404,7 @@ tools:
   - nomenclature-format-conversion
   - cheminformatics
   category:
-  - nomenclature-format-conversion
-  - cheminformatics
+  - drug-discovery
   type: "library"
   access:
   - free
@@ -7499,8 +7441,7 @@ tools:
   - nomenclature-format-conversion
   - cheminformatics
   category:
-  - nomenclature-format-conversion
-  - cheminformatics
+  - drug-discovery
   type: "web-service"
   access:
   - free-web
@@ -7535,8 +7476,7 @@ tools:
   - nomenclature-format-conversion
   - cheminformatics
   category:
-  - nomenclature-format-conversion
-  - cheminformatics
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -7573,8 +7513,7 @@ tools:
   - nomenclature-format-conversion
   - cheminformatics
   category:
-  - nomenclature-format-conversion
-  - cheminformatics
+  - drug-discovery
   type: "library"
   access:
   - free
@@ -7612,8 +7551,7 @@ tools:
   - nomenclature-format-conversion
   - cheminformatics
   category:
-  - nomenclature-format-conversion
-  - cheminformatics
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -7650,8 +7588,7 @@ tools:
   - nomenclature-format-conversion
   - cheminformatics
   category:
-  - nomenclature-format-conversion
-  - cheminformatics
+  - drug-discovery
   type: "library"
   access:
   - free
@@ -7689,9 +7626,7 @@ tools:
   - protein-structures
   - cheminformatics
   category:
-  - nomenclature-format-conversion
-  - protein-structures
-  - cheminformatics
+  - drug-discovery
   type: "library"
   access:
   - free
@@ -7729,8 +7664,7 @@ tools:
   - nomenclature-format-conversion
   - cheminformatics
   category:
-  - nomenclature-format-conversion
-  - cheminformatics
+  - drug-discovery
   type: "web-tool"
   access:
   - free-web
@@ -7765,8 +7699,7 @@ tools:
   - nomenclature-format-conversion
   - cheminformatics
   category:
-  - nomenclature-format-conversion
-  - cheminformatics
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -7803,8 +7736,7 @@ tools:
   - nomenclature-format-conversion
   - cheminformatics
   category:
-  - nomenclature-format-conversion
-  - cheminformatics
+  - drug-discovery
   type: "software"
   access:
   - free
@@ -7840,10 +7772,8 @@ tools:
   resource_type: "database"
   domain:
   - nomenclature-format-conversion
-  - libraries-datasets
   category:
-  - nomenclature-format-conversion
-  - libraries-datasets
+  - drug-discovery
   type: "web-service"
   access:
   - free-web
@@ -7876,10 +7806,8 @@ tools:
   catalogue: app
   domain:
   - nomenclature-format-conversion
-  - libraries-datasets
   category:
-  - nomenclature-format-conversion
-  - libraries-datasets
+  - drug-discovery
   type: "web-service"
   access:
   - free-web
@@ -7913,10 +7841,8 @@ tools:
   resource_type: "database"
   domain:
   - nomenclature-format-conversion
-  - libraries-datasets
   category:
-  - nomenclature-format-conversion
-  - libraries-datasets
+  - drug-discovery
   type: "database"
   access:
   - free-web
@@ -7951,12 +7877,9 @@ tools:
   catalogue: app
   domain:
   - nomenclature-format-conversion
-  - libraries-datasets
   - target-identification
   category:
-  - nomenclature-format-conversion
-  - libraries-datasets
-  - target-identification
+  - drug-discovery
   type: "web-service"
   access:
   - free-web
@@ -7991,7 +7914,7 @@ tools:
   domain:
   - libraries-datasets
   category:
-  - libraries-datasets
+  - data-and-databases
   type: "database"
   access:
   - free-web
@@ -8026,13 +7949,10 @@ tools:
   catalogue: resource
   resource_type: "database"
   domain:
-  - libraries-datasets
   - target-identification
   - ligand-based-qsar
   category:
-  - libraries-datasets
-  - target-identification
-  - ligand-based-qsar
+  - data-and-databases
   type: "database"
   access:
   - free-web
@@ -8067,10 +7987,8 @@ tools:
   catalogue: resource
   resource_type: "database"
   domain:
-  - libraries-datasets
   - cheminformatics
   category:
-  - libraries-datasets
   - cheminformatics
   type: "database"
   access:
@@ -8106,11 +8024,9 @@ tools:
   catalogue: resource
   resource_type: "database"
   domain:
-  - libraries-datasets
   - target-identification
   category:
-  - libraries-datasets
-  - target-identification
+  - data-and-databases
   type: "database"
   access:
   - free-web
@@ -8147,7 +8063,7 @@ tools:
   domain:
   - libraries-datasets
   category:
-  - libraries-datasets
+  - data-and-databases
   type: "database"
   access:
   - free-web
@@ -8182,11 +8098,9 @@ tools:
   catalogue: resource
   resource_type: "dataset"
   domain:
-  - libraries-datasets
   - de-novo-design
   category:
-  - libraries-datasets
-  - de-novo-design
+  - drug-discovery
   type: "dataset"
   access:
   - free
@@ -8221,13 +8135,10 @@ tools:
   catalogue: resource
   resource_type: "dataset"
   domain:
-  - libraries-datasets
   - structure-based
   - ligand-based-qsar
   category:
-  - libraries-datasets
-  - structure-based
-  - ligand-based-qsar
+  - drug-discovery
   type: "dataset"
   access:
   - free
@@ -8262,13 +8173,10 @@ tools:
   catalogue: resource
   resource_type: "database"
   domain:
-  - libraries-datasets
   - structure-based
   - ligand-based-qsar
   category:
-  - libraries-datasets
-  - structure-based
-  - ligand-based-qsar
+  - drug-discovery
   type: "database"
   access:
   - free-web
@@ -8303,11 +8211,9 @@ tools:
   catalogue: resource
   resource_type: "dataset"
   domain:
-  - libraries-datasets
   - structure-based
   category:
-  - libraries-datasets
-  - structure-based
+  - drug-discovery
   type: "dataset"
   access:
   - free
@@ -8342,11 +8248,9 @@ tools:
   catalogue: resource
   resource_type: "dataset"
   domain:
-  - libraries-datasets
   - structure-based
   category:
-  - libraries-datasets
-  - structure-based
+  - drug-discovery
   type: "benchmark"
   access:
   - free
@@ -8381,11 +8285,9 @@ tools:
   catalogue: resource
   resource_type: "dataset"
   domain:
-  - libraries-datasets
   - structure-based
   category:
-  - libraries-datasets
-  - structure-based
+  - drug-discovery
   type: "dataset"
   access:
   - free
@@ -8420,13 +8322,10 @@ tools:
   catalogue: resource
   resource_type: "dataset"
   domain:
-  - libraries-datasets
   - structure-based
   - ligand-based-qsar
   category:
-  - libraries-datasets
-  - structure-based
-  - ligand-based-qsar
+  - drug-discovery
   type: "dataset"
   access:
   - free-web
@@ -8461,13 +8360,10 @@ tools:
   catalogue: resource
   resource_type: "dataset"
   domain:
-  - libraries-datasets
   - structure-based
   - ligand-based-qsar
   category:
-  - libraries-datasets
-  - structure-based
-  - ligand-based-qsar
+  - drug-discovery
   type: "benchmark"
   access:
   - free-web
@@ -8502,11 +8398,9 @@ tools:
   catalogue: resource
   resource_type: "dataset"
   domain:
-  - libraries-datasets
   - ligand-based-qsar
   category:
-  - libraries-datasets
-  - ligand-based-qsar
+  - machine-learning
   type: "benchmark"
   access:
   - free-web
@@ -8541,11 +8435,9 @@ tools:
   catalogue: resource
   resource_type: "dataset"
   domain:
-  - libraries-datasets
   - admet-prediction
   category:
-  - libraries-datasets
-  - admet-prediction
+  - drug-discovery
   type: "dataset"
   access:
   - free-web
@@ -8580,11 +8472,9 @@ tools:
   catalogue: resource
   resource_type: "dataset"
   domain:
-  - libraries-datasets
   - admet-prediction
   category:
-  - libraries-datasets
-  - admet-prediction
+  - drug-discovery
   type: "dataset"
   access:
   - free-web
@@ -8619,11 +8509,9 @@ tools:
   catalogue: resource
   resource_type: "database"
   domain:
-  - libraries-datasets
   - admet-prediction
   category:
-  - libraries-datasets
-  - admet-prediction
+  - drug-discovery
   type: "database"
   access:
   - free-web
@@ -8660,7 +8548,7 @@ tools:
   domain:
   - libraries-datasets
   category:
-  - libraries-datasets
+  - data-and-databases
   type: "database"
   access:
   - free-web
@@ -8697,7 +8585,7 @@ tools:
   domain:
   - libraries-datasets
   category:
-  - libraries-datasets
+  - data-and-databases
   type: "database"
   access:
   - free-web
@@ -8732,10 +8620,8 @@ tools:
   catalogue: resource
   resource_type: "dataset"
   domain:
-  - libraries-datasets
   - cheminformatics
   category:
-  - libraries-datasets
   - cheminformatics
   type: "dataset"
   access:
@@ -8771,11 +8657,9 @@ tools:
   catalogue: resource
   resource_type: "dataset"
   domain:
-  - libraries-datasets
   - structure-based
   category:
-  - libraries-datasets
-  - structure-based
+  - drug-discovery
   type: "dataset"
   access:
   - free
@@ -8811,7 +8695,7 @@ tools:
   domain:
   - organization
   category:
-  - organization
+  - utilities-and-workflows
   type: "software"
   access:
   - free
@@ -8848,10 +8732,8 @@ tools:
   resource_type: "database"
   domain:
   - organization
-  - libraries-datasets
   category:
-  - organization
-  - libraries-datasets
+  - utilities-and-workflows
   type: "database"
   access:
   - free-web
@@ -8888,7 +8770,7 @@ tools:
   domain:
   - organization
   category:
-  - organization
+  - utilities-and-workflows
   type: "software"
   access:
   - free
@@ -8924,7 +8806,7 @@ tools:
   domain:
   - organization
   category:
-  - organization
+  - utilities-and-workflows
   type: "software"
   access:
   - free
@@ -8961,7 +8843,7 @@ tools:
   domain:
   - organization
   category:
-  - organization
+  - utilities-and-workflows
   type: "software"
   access:
   - free
@@ -8998,7 +8880,7 @@ tools:
   domain:
   - organization
   category:
-  - organization
+  - utilities-and-workflows
   type: "software"
   access:
   - free
@@ -9035,7 +8917,7 @@ tools:
   domain:
   - organization
   category:
-  - organization
+  - utilities-and-workflows
   type: "software"
   access:
   - commercial
@@ -9071,7 +8953,7 @@ tools:
   domain:
   - organization
   category:
-  - organization
+  - utilities-and-workflows
   type: "software"
   access:
   - free
@@ -9108,7 +8990,7 @@ tools:
   domain:
   - organization
   category:
-  - organization
+  - utilities-and-workflows
   type: "web-tool"
   access:
   - free-web
@@ -9142,7 +9024,7 @@ tools:
   domain:
   - organization
   category:
-  - organization
+  - utilities-and-workflows
   type: "software"
   access:
   - free
@@ -9179,7 +9061,7 @@ tools:
   domain:
   - organization
   category:
-  - organization
+  - utilities-and-workflows
   type: "software"
   access:
   - free
@@ -9215,10 +9097,8 @@ tools:
   catalogue: app
   domain:
   - organization
-  - libraries-datasets
   category:
-  - organization
-  - libraries-datasets
+  - utilities-and-workflows
   type: "web-tool"
   access:
   - free-web
@@ -9251,10 +9131,8 @@ tools:
   catalogue: app
   domain:
   - organization
-  - libraries-datasets
   category:
-  - organization
-  - libraries-datasets
+  - utilities-and-workflows
   type: "web-tool"
   access:
   - free-web
@@ -9288,7 +9166,7 @@ tools:
   domain:
   - organization
   category:
-  - organization
+  - utilities-and-workflows
   type: "web-tool"
   access:
   - free-web
@@ -9322,10 +9200,8 @@ tools:
   resource_type: "database"
   domain:
   - organization
-  - libraries-datasets
   category:
-  - organization
-  - libraries-datasets
+  - utilities-and-workflows
   type: "repository"
   access:
   - free-web
@@ -9361,7 +9237,7 @@ tools:
   domain:
   - organization
   category:
-  - organization
+  - utilities-and-workflows
   type: "software"
   access:
   - free
@@ -9398,7 +9274,7 @@ tools:
   domain:
   - organization
   category:
-  - organization
+  - utilities-and-workflows
   type: "software"
   access:
   - free
@@ -9435,7 +9311,7 @@ tools:
   domain:
   - organization
   category:
-  - organization
+  - utilities-and-workflows
   type: "software"
   access:
   - free
@@ -9472,7 +9348,7 @@ tools:
   domain:
   - organization
   category:
-  - organization
+  - utilities-and-workflows
   type: "software"
   access:
   - free
@@ -9508,10 +9384,8 @@ tools:
   resource_type: library
   domain:
   - admet-prediction
-  - libraries-datasets
   category:
-  - admet-prediction
-  - libraries-datasets
+  - drug-discovery
   type: "library"
   access:
   - free
@@ -9550,10 +9424,8 @@ tools:
   resource_type: dataset
   domain:
   - admet-prediction
-  - libraries-datasets
   category:
-  - admet-prediction
-  - libraries-datasets
+  - drug-discovery
   type: "benchmark"
   access:
   - free-web
@@ -10624,12 +10496,10 @@ tools:
   resource_type: database
   domain:
   - target-identification
-  - libraries-datasets
   tasks:
   - target-assessment
   category:
   - data-and-databases
-  - drug-discovery
   type: database
   access:
   - free
@@ -10658,15 +10528,12 @@ tools:
   name: Cytoscape
   description: Open-source network visualization and analysis platform with applications for biological interaction networks.
   catalogue: app
-  resource_type: software
   domain:
   - target-identification
-  - libraries-datasets
   tasks:
   - target-assessment
   category:
   - data-and-databases
-  - drug-discovery
   type: software
   access:
   - free
@@ -10674,6 +10541,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -10695,15 +10564,12 @@ tools:
   name: Enrichr
   description: Web-based gene-set enrichment analysis across pathway, ontology, and other annotation libraries.
   catalogue: resource
-  resource_type: web-tool
   domain:
   - target-identification
-  - libraries-datasets
   tasks:
   - target-assessment
   category:
   - data-and-databases
-  - drug-discovery
   type: web tool
   access:
   - free
@@ -10731,15 +10597,12 @@ tools:
   name: g:Profiler
   description: Web and API toolkit for functional enrichment analysis, identifier conversion, and gene-list mapping.
   catalogue: resource
-  resource_type: web-tool
   domain:
   - target-identification
-  - libraries-datasets
   tasks:
   - target-assessment
   category:
   - data-and-databases
-  - drug-discovery
   type: web tool
   access:
   - free
@@ -10770,12 +10633,10 @@ tools:
   resource_type: database
   domain:
   - target-identification
-  - libraries-datasets
   tasks:
   - target-assessment
   category:
   - data-and-databases
-  - drug-discovery
   type: database
   access:
   - free
@@ -10804,15 +10665,12 @@ tools:
   name: Similarity Ensemble Approach (SEA)
   description: Ligand-similarity method for predicting potential protein targets from sets of known ligands.
   catalogue: resource
-  resource_type: web-tool
   domain:
   - target-identification
-  - libraries-datasets
   tasks:
   - target-assessment
   category:
   - data-and-databases
-  - drug-discovery
   type: web tool
   access:
   - free
@@ -10840,15 +10698,12 @@ tools:
   name: LigTMap
   description: Ligand-based target prediction resource for mapping small molecules to potential protein targets.
   catalogue: resource
-  resource_type: web-tool
   domain:
   - target-identification
-  - libraries-datasets
   tasks:
   - target-assessment
   category:
   - data-and-databases
-  - drug-discovery
   type: web tool
   access:
   - free
@@ -10876,15 +10731,12 @@ tools:
   name: TargetNet
   description: Web resource for ligand-based prediction of potential drug-target interactions.
   catalogue: resource
-  resource_type: web-tool
   domain:
   - target-identification
-  - libraries-datasets
   tasks:
   - target-assessment
   category:
   - data-and-databases
-  - drug-discovery
   type: web tool
   access:
   - free
@@ -10912,15 +10764,12 @@ tools:
   name: PPB2
   description: Web server for predicting plasma protein binding of small molecules.
   catalogue: resource
-  resource_type: web-tool
   domain:
   - admet-prediction
-  - libraries-datasets
   tasks:
-  - admet-prediction
+  - adme
   category:
   - drug-discovery
-  - machine-learning
   type: web tool
   access:
   - free
@@ -10951,11 +10800,9 @@ tools:
   resource_type: database
   domain:
   - protein-structures
-  - libraries-datasets
   tasks:
   - protein-structure-prediction
   category:
-  - data-and-databases
   - molecular-modelling
   type: database
   access:
@@ -10985,14 +10832,11 @@ tools:
   name: ColabFold
   description: Accessible protein structure prediction workflow using MMseqs2 and AlphaFold2-family models.
   catalogue: app
-  resource_type: software
   domain:
   - protein-structures
-  - libraries-datasets
   tasks:
   - protein-structure-prediction
   category:
-  - data-and-databases
   - molecular-modelling
   type: software
   access:
@@ -11001,6 +10845,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -11022,14 +10868,11 @@ tools:
   name: Boltz-2
   description: Open biomolecular modeling system for structure prediction and affinity-related predictions; check current model documentation before workflow use.
   catalogue: app
-  resource_type: software
   domain:
   - protein-structures
-  - libraries-datasets
   tasks:
   - protein-structure-prediction
   category:
-  - data-and-databases
   - molecular-modelling
   type: software
   access:
@@ -11038,6 +10881,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -11059,14 +10904,11 @@ tools:
   name: RoseTTAFold
   description: Deep-learning-based protein structure prediction framework and associated research software.
   catalogue: app
-  resource_type: software
   domain:
   - protein-structures
-  - libraries-datasets
   tasks:
   - protein-structure-prediction
   category:
-  - data-and-databases
   - molecular-modelling
   type: software
   access:
@@ -11075,6 +10917,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -11096,15 +10940,12 @@ tools:
   name: Avogadro
   description: Open-source molecular editor and visualization application for building, viewing, and preparing molecular structures.
   catalogue: app
-  resource_type: software
   domain:
   - visualization
-  - libraries-datasets
   tasks:
   - molecular-visualization
   category:
   - visualization
-  - molecular-modelling
   type: software
   access:
   - free
@@ -11112,6 +10953,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -11133,15 +10976,12 @@ tools:
   name: Mol*
   description: Web-based molecular visualization and structural biology toolkit for interactive macromolecular structures.
   catalogue: app
-  resource_type: software
   domain:
   - visualization
-  - libraries-datasets
   tasks:
   - molecular-visualization
   category:
   - visualization
-  - molecular-modelling
   type: software
   access:
   - free
@@ -11149,6 +10989,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -11173,12 +11015,10 @@ tools:
   resource_type: library
   domain:
   - visualization
-  - libraries-datasets
   tasks:
   - molecular-visualization
   category:
   - visualization
-  - molecular-modelling
   type: library
   access:
   - free
@@ -11210,12 +11050,10 @@ tools:
   resource_type: library
   domain:
   - visualization
-  - libraries-datasets
   tasks:
   - molecular-visualization
   category:
   - visualization
-  - molecular-modelling
   type: library
   access:
   - free
@@ -11244,15 +11082,12 @@ tools:
   name: CASTp
   description: Web server for identifying and characterizing protein pockets and solvent-accessible surface features.
   catalogue: resource
-  resource_type: web-tool
   domain:
   - binding-pockets
-  - libraries-datasets
   tasks:
   - binding-site-analysis
   category:
   - molecular-modelling
-  - drug-discovery
   type: web tool
   access:
   - free
@@ -11280,15 +11115,12 @@ tools:
   name: DeepPocket
   description: Deep-learning approach for detecting protein binding pockets from three-dimensional structures.
   catalogue: app
-  resource_type: software
   domain:
   - binding-pockets
-  - libraries-datasets
   tasks:
   - binding-site-analysis
   category:
   - molecular-modelling
-  - drug-discovery
   type: software
   access:
   - free
@@ -11296,6 +11128,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -11317,15 +11151,12 @@ tools:
   name: PocketMiner
   description: Machine-learning approach for predicting cryptic binding pockets from protein structures.
   catalogue: app
-  resource_type: software
   domain:
   - binding-pockets
-  - libraries-datasets
   tasks:
   - binding-site-analysis
   category:
   - molecular-modelling
-  - drug-discovery
   type: software
   access:
   - free
@@ -11333,6 +11164,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -11354,15 +11187,12 @@ tools:
   name: AutoDock-GPU
   description: GPU-accelerated implementation of AutoDock4 for molecular docking.
   catalogue: app
-  resource_type: software
   domain:
   - structure-based
-  - libraries-datasets
   tasks:
   - molecular-docking
   category:
   - drug-discovery
-  - molecular-modelling
   type: software
   access:
   - free
@@ -11370,6 +11200,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -11391,15 +11223,12 @@ tools:
   name: Vina-GPU
   description: GPU-accelerated molecular docking implementation based on AutoDock Vina-style search and scoring.
   catalogue: app
-  resource_type: software
   domain:
   - structure-based
-  - libraries-datasets
   tasks:
   - molecular-docking
   category:
   - drug-discovery
-  - molecular-modelling
   type: software
   access:
   - free
@@ -11407,6 +11236,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -11428,15 +11259,12 @@ tools:
   name: Uni-Dock
   description: GPU-accelerated molecular docking software for high-throughput virtual screening.
   catalogue: app
-  resource_type: software
   domain:
   - structure-based
-  - libraries-datasets
   tasks:
   - molecular-docking
   category:
   - drug-discovery
-  - molecular-modelling
   type: software
   access:
   - free
@@ -11444,6 +11272,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -11465,15 +11295,12 @@ tools:
   name: HADDOCK3
   description: Integrative docking platform for modeling biomolecular complexes using experimental and computational restraints.
   catalogue: app
-  resource_type: software
   domain:
   - structure-based
-  - libraries-datasets
   tasks:
   - molecular-docking
   category:
   - drug-discovery
-  - molecular-modelling
   type: software
   access:
   - free
@@ -11481,6 +11308,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -11502,15 +11331,12 @@ tools:
   name: SwissDock
   description: Web service for structure-based molecular docking and pose prediction.
   catalogue: resource
-  resource_type: web-tool
   domain:
   - structure-based
-  - libraries-datasets
   tasks:
   - molecular-docking
   category:
   - drug-discovery
-  - molecular-modelling
   type: web tool
   access:
   - free
@@ -11538,15 +11364,12 @@ tools:
   name: MTiOpenScreen
   description: Web server for virtual screening of small-molecule libraries against protein targets.
   catalogue: resource
-  resource_type: web-tool
   domain:
   - structure-based
-  - libraries-datasets
   tasks:
   - molecular-docking
   category:
   - drug-discovery
-  - molecular-modelling
   type: web tool
   access:
   - free
@@ -11574,10 +11397,8 @@ tools:
   name: CHARMM-GUI
   description: Web-based interface for preparing molecular systems and input files for molecular simulations.
   catalogue: resource
-  resource_type: web-tool
   domain:
   - molecular-dynamics
-  - libraries-datasets
   tasks:
   - molecular-dynamics
   category:
@@ -11609,10 +11430,8 @@ tools:
   name: PLUMED
   description: Open-source plugin for enhanced-sampling methods and analysis of molecular simulations.
   catalogue: app
-  resource_type: software
   domain:
   - molecular-dynamics
-  - libraries-datasets
   tasks:
   - molecular-dynamics
   category:
@@ -11624,6 +11443,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -11648,7 +11469,6 @@ tools:
   resource_type: library
   domain:
   - molecular-dynamics
-  - libraries-datasets
   tasks:
   - molecular-dynamics
   category:
@@ -11681,10 +11501,8 @@ tools:
   name: Espaloma
   description: Machine-learning force field framework for assigning molecular mechanics parameters to small molecules.
   catalogue: app
-  resource_type: software
   domain:
   - molecular-dynamics
-  - libraries-datasets
   tasks:
   - molecular-dynamics
   category:
@@ -11696,6 +11514,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -11717,10 +11537,8 @@ tools:
   name: ACPYPE
   description: Tool for generating AMBER and GROMACS topology files from small-molecule parameters.
   catalogue: app
-  resource_type: software
   domain:
   - molecular-dynamics
-  - libraries-datasets
   tasks:
   - molecular-dynamics
   category:
@@ -11732,6 +11550,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -11756,7 +11576,6 @@ tools:
   resource_type: library
   domain:
   - molecular-dynamics
-  - libraries-datasets
   tasks:
   - molecular-dynamics
   category:
@@ -11792,7 +11611,6 @@ tools:
   resource_type: library
   domain:
   - molecular-dynamics
-  - libraries-datasets
   tasks:
   - molecular-dynamics
   category:
@@ -11828,12 +11646,10 @@ tools:
   resource_type: library
   domain:
   - cheminformatics
-  - libraries-datasets
   tasks:
-  - structure-conversion
+  - chemical-data-analysis
   category:
   - cheminformatics
-  - drug-discovery
   type: library
   access:
   - free
@@ -11865,12 +11681,10 @@ tools:
   resource_type: library
   domain:
   - cheminformatics
-  - libraries-datasets
   tasks:
-  - structure-conversion
+  - chemical-data-analysis
   category:
   - cheminformatics
-  - drug-discovery
   type: library
   access:
   - free
@@ -11902,12 +11716,10 @@ tools:
   resource_type: library
   domain:
   - cheminformatics
-  - libraries-datasets
   tasks:
-  - structure-conversion
+  - chemical-data-analysis
   category:
   - cheminformatics
-  - drug-discovery
   type: library
   access:
   - free
@@ -11939,12 +11751,10 @@ tools:
   resource_type: library
   domain:
   - cheminformatics
-  - libraries-datasets
   tasks:
-  - structure-conversion
+  - chemical-data-analysis
   category:
   - cheminformatics
-  - drug-discovery
   type: library
   access:
   - free
@@ -11976,12 +11786,10 @@ tools:
   resource_type: library
   domain:
   - cheminformatics
-  - libraries-datasets
   tasks:
-  - structure-conversion
+  - chemical-data-analysis
   category:
   - cheminformatics
-  - drug-discovery
   type: library
   access:
   - free
@@ -12013,12 +11821,10 @@ tools:
   resource_type: library
   domain:
   - cheminformatics
-  - libraries-datasets
   tasks:
-  - structure-conversion
+  - chemical-data-analysis
   category:
   - cheminformatics
-  - drug-discovery
   type: library
   access:
   - free
@@ -12050,12 +11856,10 @@ tools:
   resource_type: library
   domain:
   - cheminformatics
-  - libraries-datasets
   tasks:
-  - structure-conversion
+  - chemical-data-analysis
   category:
   - cheminformatics
-  - drug-discovery
   type: library
   access:
   - free
@@ -12087,12 +11891,10 @@ tools:
   resource_type: library
   domain:
   - cheminformatics
-  - libraries-datasets
   tasks:
-  - structure-conversion
+  - chemical-data-analysis
   category:
   - cheminformatics
-  - drug-discovery
   type: library
   access:
   - free
@@ -12121,15 +11923,12 @@ tools:
   name: Ketcher
   description: Web-based chemical structure editor for drawing and editing molecular structures.
   catalogue: app
-  resource_type: software
   domain:
   - cheminformatics
-  - libraries-datasets
   tasks:
-  - structure-conversion
+  - chemical-data-analysis
   category:
   - cheminformatics
-  - drug-discovery
   type: software
   access:
   - free
@@ -12137,6 +11936,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -12158,15 +11959,12 @@ tools:
   name: DrugEx
   description: Framework for deep-learning-based de novo molecular design and optimization.
   catalogue: app
-  resource_type: software
   domain:
   - de-novo-design
-  - libraries-datasets
   tasks:
   - generative-chemistry
   category:
   - drug-discovery
-  - machine-learning
   type: software
   access:
   - free
@@ -12174,6 +11972,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -12195,15 +11995,12 @@ tools:
   name: GraphINVENT
   description: Graph neural network framework for generating molecular graphs for de novo design.
   catalogue: app
-  resource_type: software
   domain:
   - de-novo-design
-  - libraries-datasets
   tasks:
   - generative-chemistry
   category:
   - drug-discovery
-  - machine-learning
   type: software
   access:
   - free
@@ -12211,6 +12008,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -12235,12 +12034,10 @@ tools:
   resource_type: dataset
   domain:
   - de-novo-design
-  - libraries-datasets
   tasks:
   - generative-chemistry
   category:
   - drug-discovery
-  - machine-learning
   type: dataset
   access:
   - free
@@ -12272,12 +12069,10 @@ tools:
   resource_type: dataset
   domain:
   - de-novo-design
-  - libraries-datasets
   tasks:
   - generative-chemistry
   category:
   - drug-discovery
-  - machine-learning
   type: dataset
   access:
   - free
@@ -12306,15 +12101,12 @@ tools:
   name: DiffSBDD
   description: Diffusion-based method for generating ligand structures conditioned on protein binding sites.
   catalogue: app
-  resource_type: software
   domain:
   - de-novo-design
-  - libraries-datasets
   tasks:
   - generative-chemistry
   category:
   - drug-discovery
-  - machine-learning
   type: software
   access:
   - free
@@ -12322,6 +12114,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -12343,15 +12137,12 @@ tools:
   name: DiffLinker
   description: Diffusion-based generative method for linking molecular fragments in three-dimensional space.
   catalogue: app
-  resource_type: software
   domain:
   - de-novo-design
-  - libraries-datasets
   tasks:
   - generative-chemistry
   category:
   - drug-discovery
-  - machine-learning
   type: software
   access:
   - free
@@ -12359,6 +12150,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -12380,15 +12173,12 @@ tools:
   name: AutoGrow4
   description: Open-source evolutionary algorithm for structure-based de novo drug design.
   catalogue: app
-  resource_type: software
   domain:
   - de-novo-design
-  - libraries-datasets
   tasks:
   - generative-chemistry
   category:
   - drug-discovery
-  - machine-learning
   type: software
   access:
   - free
@@ -12396,6 +12186,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -12417,15 +12209,12 @@ tools:
   name: RxnFlow
   description: Generative framework for synthesizable molecule design using reaction-based flow networks.
   catalogue: app
-  resource_type: software
   domain:
   - de-novo-design
-  - libraries-datasets
   tasks:
   - generative-chemistry
   category:
   - drug-discovery
-  - machine-learning
   type: software
   access:
   - free
@@ -12433,6 +12222,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -12454,14 +12245,11 @@ tools:
   name: Chemprop
   description: Message-passing neural network framework for molecular property prediction.
   catalogue: app
-  resource_type: software
   domain:
   - ligand-based-qsar
-  - libraries-datasets
   tasks:
   - qsar
   category:
-  - drug-discovery
   - machine-learning
   type: software
   access:
@@ -12470,6 +12258,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -12491,14 +12281,11 @@ tools:
   name: QSARtuna
   description: Open-source automated machine-learning workflow for molecular property prediction and QSAR.
   catalogue: app
-  resource_type: software
   domain:
   - ligand-based-qsar
-  - libraries-datasets
   tasks:
   - qsar
   category:
-  - drug-discovery
   - machine-learning
   type: software
   access:
@@ -12507,6 +12294,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -12531,11 +12320,9 @@ tools:
   resource_type: library
   domain:
   - ligand-based-qsar
-  - libraries-datasets
   tasks:
   - qsar
   category:
-  - drug-discovery
   - machine-learning
   type: library
   access:
@@ -12565,15 +12352,12 @@ tools:
   name: vNN-ADMET
   description: Virtual nearest-neighbor models for predicting ADMET-related properties from chemical structures.
   catalogue: resource
-  resource_type: web-tool
   domain:
   - admet-prediction
-  - libraries-datasets
   tasks:
-  - admet-prediction
+  - adme
   category:
   - drug-discovery
-  - machine-learning
   type: web tool
   access:
   - free
@@ -12604,12 +12388,10 @@ tools:
   resource_type: library
   domain:
   - retrosynthesis
-  - libraries-datasets
   tasks:
   - retrosynthesis
   category:
   - cheminformatics
-  - drug-discovery
   type: library
   access:
   - free
@@ -12641,12 +12423,10 @@ tools:
   resource_type: library
   domain:
   - retrosynthesis
-  - libraries-datasets
   tasks:
   - retrosynthesis
   category:
   - cheminformatics
-  - drug-discovery
   type: library
   access:
   - free
@@ -12678,12 +12458,10 @@ tools:
   resource_type: library
   domain:
   - retrosynthesis
-  - libraries-datasets
   tasks:
   - retrosynthesis
   category:
   - cheminformatics
-  - drug-discovery
   type: library
   access:
   - free
@@ -12717,10 +12495,9 @@ tools:
   - libraries-datasets
   - libraries-datasets
   tasks:
-  - data-curation
+  - benchmarks-datasets
   category:
   - data-and-databases
-  - drug-discovery
   type: database
   access:
   - free
@@ -12754,10 +12531,9 @@ tools:
   - libraries-datasets
   - libraries-datasets
   tasks:
-  - data-curation
+  - benchmarks-datasets
   category:
   - data-and-databases
-  - drug-discovery
   type: database
   access:
   - free
@@ -12791,10 +12567,9 @@ tools:
   - libraries-datasets
   - libraries-datasets
   tasks:
-  - data-curation
+  - benchmarks-datasets
   category:
   - data-and-databases
-  - drug-discovery
   type: database
   access:
   - free
@@ -12828,10 +12603,9 @@ tools:
   - libraries-datasets
   - libraries-datasets
   tasks:
-  - data-curation
+  - benchmarks-datasets
   category:
   - data-and-databases
-  - drug-discovery
   type: database
   access:
   - free
@@ -12865,10 +12639,9 @@ tools:
   - libraries-datasets
   - libraries-datasets
   tasks:
-  - data-curation
+  - benchmarks-datasets
   category:
   - data-and-databases
-  - drug-discovery
   type: dataset
   access:
   - free
@@ -12902,10 +12675,9 @@ tools:
   - libraries-datasets
   - libraries-datasets
   tasks:
-  - data-curation
+  - benchmarks-datasets
   category:
   - data-and-databases
-  - drug-discovery
   type: database
   access:
   - free
@@ -12934,15 +12706,12 @@ tools:
   name: Snakemake
   description: Workflow management system for reproducible and scalable data analysis pipelines.
   catalogue: app
-  resource_type: software
   domain:
   - organization
-  - libraries-datasets
   tasks:
   - workflow-construction
   category:
   - utilities-and-workflows
-  - data-and-databases
   type: software
   access:
   - free
@@ -12950,6 +12719,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -12971,15 +12742,12 @@ tools:
   name: Nextflow
   description: Workflow orchestration framework for portable, scalable computational pipelines.
   catalogue: app
-  resource_type: software
   domain:
   - organization
-  - libraries-datasets
   tasks:
   - workflow-construction
   category:
   - utilities-and-workflows
-  - data-and-databases
   type: software
   access:
   - free
@@ -12987,6 +12755,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -13008,15 +12778,12 @@ tools:
   name: Galaxy
   description: Web-based platform for accessible, reproducible computational research workflows.
   catalogue: app
-  resource_type: software
   domain:
   - organization
-  - libraries-datasets
   tasks:
   - workflow-construction
   category:
   - utilities-and-workflows
-  - data-and-databases
   type: platform
   access:
   - free
@@ -13044,15 +12811,12 @@ tools:
   name: DVC
   description: Open-source data and machine-learning experiment versioning tools for reproducible projects.
   catalogue: app
-  resource_type: software
   domain:
   - organization
-  - libraries-datasets
   tasks:
   - workflow-construction
   category:
   - utilities-and-workflows
-  - data-and-databases
   type: software
   access:
   - free
@@ -13060,6 +12824,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -13081,15 +12847,12 @@ tools:
   name: Obsidian
   description: Knowledge-management application useful for organizing research notes and literature-linked project documentation.
   catalogue: app
-  resource_type: software
   domain:
   - organization
-  - libraries-datasets
   tasks:
   - workflow-construction
   category:
   - utilities-and-workflows
-  - data-and-databases
   type: software
   access:
   - free
@@ -13097,6 +12860,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -13118,15 +12883,12 @@ tools:
   name: Blender + Molecular Nodes
   description: Molecular visualization and rendering workflow combining Blender with the Molecular Nodes add-on.
   catalogue: app
-  resource_type: software
   domain:
   - visualization
-  - libraries-datasets
   tasks:
   - molecular-visualization
   category:
   - visualization
-  - molecular-modelling
   type: software
   access:
   - free
@@ -13134,6 +12896,8 @@ tools:
   license: Not verified
   platforms:
   - linux
+  - macos
+  - windows
   interface:
   - gui
   - cli
@@ -13158,12 +12922,10 @@ tools:
   resource_type: library
   domain:
   - visualization
-  - libraries-datasets
   tasks:
   - molecular-visualization
   category:
   - visualization
-  - molecular-modelling
   type: library
   access:
   - free
