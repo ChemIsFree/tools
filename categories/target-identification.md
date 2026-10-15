@@ -24,6 +24,7 @@ Tools and evidence for discovering, prioritising, and validating biological targ
 | [LigTMap](https://bidd.group/LigTMap/) | Target Assessment & Validation | Free | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [MolTarPred](http://moltarpred.marseille.inserm.fr/) | Target Assessment & Validation; Bioactivity Analysis | Free | GUI / Web | Web | Curated Resource |
 | [OmniPath](https://omnipathdb.org) | Target Assessment & Validation | Free / Open Source | — | — | registry-listed |
+| [Open Targets](https://www.opentargets.org) | Research Computing & Infrastructure; Pipeline Execution | Free | GUI / Web | — | registry-listed |
 | [PatentChem](https://github.com/learningmatter-mit/PatentChem) | QSAR & Predictive Modelling; Machine Learning; Clinical & Regulatory Evidence; Chemical Data Analysis | Free / Open Source | — | — | registry-listed |
 | [PDBe-KB](https://www.ebi.ac.uk/pdbe/pdbe-kb/) | Target Assessment & Validation | Free | GUI / Web | Web | registry-listed |
 | [PharmMapper](https://www.lilab-ecust.cn/pharmmapper/) | Target Assessment & Validation; Pharmacophore Modelling | Free | GUI / Web | Web | Curated Resource |
