@@ -150,7 +150,7 @@ for name in ("Observed Antibody Space", "RPocket", "SAbDab / SAbPred", "phytoche
 for name in ("CognitionBioChem", "DENOPTIM", "lacuna", "Zebra3D"):
     override = next((row for row in category_curation.get("record_overrides", [])
                      if name in row.get("names", [])), None)
-    assert override and not re.search(r"(?:…|\\.\\.\\.)\\s*$", str(override.get("description", ""))), (
+    assert override and not re.search(r"(?:…|\.\.\.)\s*$", str(override.get("description", ""))), (
         f"{name} must have a complete, non-ellipsized description override."
     )
 
