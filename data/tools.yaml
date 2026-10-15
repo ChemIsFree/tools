@@ -10041,3 +10041,39 @@ tools:
     status: "official-source-linked"
     last_checked: '2026-10-15'
   notes: "Used for RMSD/RMSF, distances, clustering and other trajectory analyses. pytraj is a Python front end to cpptraj and may require a compatible AmberTools environment."
+- id: virtual-screening-validation
+  name: Virtual Screening Validation Resources
+  description: Community-curated repository of publications, resources and methods for validating virtual-screening results, including benchmark design, enrichment metrics and evaluation pitfalls.
+  catalogue: resource
+  resource_type: educational
+  domain:
+  - ligand-based-qsar
+  - libraries-datasets
+  category:
+  - ligand-based-qsar
+  - libraries-datasets
+  type: resource
+  access:
+  - free
+  source_available: false
+  license: "No licence file was identified for the curated list; linked papers, datasets and software retain their own terms."
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: "not-required"
+  installation:
+  - web
+  status: "active"
+  developers:
+  - "Virtual Screening Validation contributors"
+  website: "https://github.com/gkxiao/virtual-screening-validation"
+  repository: "https://github.com/gkxiao/virtual-screening-validation"
+  documentation: "https://github.com/gkxiao/virtual-screening-validation"
+  citation: []
+  chemisfree_status: curated-resource
+  verification:
+    status: "official-source-linked"
+    last_checked: '2026-10-15'
+  notes: "This is a discovery list, not a single validated prediction algorithm. Check the quality of each linked source and its license before reuse."
