@@ -24,7 +24,6 @@ Molecular, protein–ligand, and scientific visualisation and interpretation.
 | [Open Drug Discovery Toolkit (ODDT)](https://oddt.readthedocs.io/) | Interaction Analysis; Molecular Docking; Structure-Based Virtual Screening; Bioactivity Analysis; Data Curation | Free / Open Source | — | Linux / Macos / Windows | Curated Resource |
 | [P2Rank](https://prankweb.cz/) | Binding-Site Analysis; Protein Preparation; Molecular Visualization | Free / Open Source | GUI / Web + CLI | Linux / Macos / Windows / Web | Curated Resource |
 | [PandaMap](https://github.com/pritampanda15/PandaMap) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
-| [PDV — Protein Design Visualizer](https://pdv.naturalantibody.com/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [PLIP](https://plip-tool.biotec.tu-dresden.de/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [PoseView](https://proteins.plus/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [ProLIF](https://prolif.readthedocs.io/) | Interaction Analysis; Data Curation; Chemical Data Analysis; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
