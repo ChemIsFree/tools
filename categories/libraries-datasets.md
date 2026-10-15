@@ -10,6 +10,7 @@ Compound collections, screening libraries, curated reference databases, and scie
 |---|---|---|---|---|---|
 | [ChEMBL Web Services](https://www.ebi.ac.uk/chembl/api/data/docs) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [Figshare](https://figshare.com/) | — | Free Web | GUI / Web | Web | Curated Resource |
+| [GenBench3D](https://github.com/bbaillif/genbench3d) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Pharmit](https://pharmit.csb.pitt.edu/) | Pharmacophore Modelling; Ligand-Based Virtual Screening; Compound Library Search | Free | GUI / Web | Web | Curated Resource |
 | [PubChem Identifier Exchange Service](https://pubchem.ncbi.nlm.nih.gov/idexchange/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [Zenodo](https://zenodo.org/) | — | Free Web | GUI / Web | Web | Curated Resource |
@@ -70,6 +71,7 @@ Compound collections, screening libraries, curated reference databases, and scie
 | [Tox21](https://www.epa.gov/comptox-tools/toxicity-forecaster-toxt21) | dataset | — | Free Web | CLI |
 | [UniChem](https://www.ebi.ac.uk/unichem/) | database | — | Free Web | GUI / Web |
 | [UniProt](https://www.uniprot.org/) | database | Target Assessment & Validation; Data Curation; Protein Preparation | Free | GUI / Web |
+| [Virtual Screening Validation Resources](https://github.com/gkxiao/virtual-screening-validation) | educational | — | Free | GUI / Web |
 | [ZINC](https://zinc.docking.org/) | database | Ligand-Based Virtual Screening; Structure-Based Virtual Screening | Free | GUI / Web |
 | [ZINC20 Informer Set](https://zinc20.docking.org/) | database | — | Free Web | CLI |
 

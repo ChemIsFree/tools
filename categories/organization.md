@@ -11,6 +11,7 @@ Manage compounds, inventories, experiments, computing resources, and reproducibl
 | [Apptainer](https://apptainer.org/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [BioBB Workflows](https://github.com/bioexcel/biobb_workflows) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [CataList](https://github.com/DionysisKampasis/CataList) | Inventory Management; Structure Elucidation; Draw & Edit Structures; Molecular Descriptors & Properties; Structure Search | Free | GUI / Web | Desktop | **ChemIsFree Project** |
+| [CHAPERONg](https://abeebyekeen.com/chaperong-online/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [ChemLint](https://github.com/molML/ChemLint) | Structure Conversion; Structure Search; Chemical Data Analysis; Machine Learning; Workflow Construction | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Chemotion ELN](https://www.chemotion.net/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [conda-lock](https://github.com/conda/conda-lock) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |

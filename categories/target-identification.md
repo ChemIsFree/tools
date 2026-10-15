@@ -12,6 +12,7 @@ Tools and evidence for discovering, prioritising, and validating biological targ
 | [crosstalkr](https://cran.r-project.org/package=crosstalkr) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [DataWarrior](https://openmolecules.org/datawarrior/) | Bioactivity Analysis; Data Curation; Chemical Data Analysis; Molecular Descriptors & Properties; Scaffold Analysis; QSAR & Predictive Modelling; Structure Conversion; Molecular Visualization | Free / Open Source | GUI / Web | Linux / Macos / Windows / Desktop | Curated Resource |
 | [DynaMut2](https://biosig.lab.uq.edu.au/dynamut2/) | Target Assessment & Validation; Free-Energy Calculations | Free | GUI / Web | Web | Curated Resource |
+| [FTMap](https://ftmap.bu.edu/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [HumanBase](https://humanbase.io/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [MolTarPred](http://moltarpred.marseille.inserm.fr/) | Target Assessment & Validation; Bioactivity Analysis | Free | GUI / Web | Web | Curated Resource |
 | [PharmMapper](https://www.lilab-ecust.cn/pharmmapper/) | Target Assessment & Validation; Pharmacophore Modelling | Free | GUI / Web | Web | Curated Resource |

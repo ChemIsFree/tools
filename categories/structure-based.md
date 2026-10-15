@@ -33,6 +33,7 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | [PLIP](https://plip-tool.biotec.tu-dresden.de/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [PLIP (Protein-Ligand Interaction Profiler)](https://plip-tool.biotec.tu-dresden.de/plip-web/plip/index) | Binding-Site Analysis; Structure-Based Virtual Screening | Free | GUI / Web + CLI | Linux / Windows / Web / Other | Curated Resource |
 | [Pocket2Mol](https://github.com/pengxingang/Pocket2Mol) | Generative Chemistry; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux | Curated Resource |
+| [PocketFlow](https://github.com/Saoge123/PocketFlow) | — | — | CLI | Linux / Macos / Windows | Curated Resource |
 | [PoseView](https://proteins.plus/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [ProLIF](https://prolif.readthedocs.io/) | Interaction Analysis; Data Curation; Chemical Data Analysis; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [PROPKA](https://github.com/jensengroup/propka) | Protein Preparation; Binding-Site Analysis | Free | CLI | Linux / Macos / Windows | Curated Resource |

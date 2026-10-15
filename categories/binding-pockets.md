@@ -13,9 +13,11 @@ Identify and characterize ligand-binding sites, cavities, and pockets on macromo
 | [CavityPlus](http://pkumdl.cn/cavityplus/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [CB-Dock2](https://cadd.labshare.cn/cb-dock2/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [CryptoSite](https://cryptosite.readthedocs.io/en/latest/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [DoGSiteScorer](https://proteins.plus/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [Foldseek](https://search.foldseek.com/) | Protein Structure Prediction; Binding-Site Analysis; 3D Structure Analysis | Free / Open Source | CLI | Linux | Curated Resource |
 | [fpocket](https://github.com/Discngine/fpocket) | Binding-Site Analysis; Molecular Visualization; Trajectory Analysis | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [FTFlex](https://ftmap.bu.edu/) | — | Free Web | CLI | Linux / Macos / Windows | Curated Resource |
+| [FTMap](https://ftmap.bu.edu/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [FTMove](https://ftmap.bu.edu/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [GrASP](https://github.com/schlessinger-lab/GrASP) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [IF-SitePred](https://bioinformatics.charite.de/ifsited/) | — | Free Web | GUI / Web | Web | Curated Resource |

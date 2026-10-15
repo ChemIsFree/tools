@@ -22,6 +22,7 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 | [DeepSMILES](https://github.com/asylnlp/DeepSMILES) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Dimorphite-DL](https://github.com/durrantlab/dimorphite_dl) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [FAF-Drugs4](https://fafdrugs4.rpbs.univ-paris-diderot.fr/) | — | Free Web | GUI / Web | Web | Curated Resource |
+| [GAFF2 / Antechamber](https://ambermd.org/AmberTools.php) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Gemmi](https://gemmi.readthedocs.io/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [InChI Software](https://www.inchi-trust.org/technical-faq/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Jmol](https://jmol.sourceforge.net/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
