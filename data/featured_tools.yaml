@@ -70,6 +70,8 @@ domains:
       - assayer-crem-dock
       - assayer-deeppurpose
       - assayer-uni-mol
+      - opera
+      - assayer-opera
   structure-based-discovery:
     tools:
       - gnina
@@ -103,6 +105,8 @@ domains:
       - assayer-openadmet
       - assayer-chembl-downloader
       - assayer-open-systems-pharmacology-pk-sim-mobi
+      - opera
+      - assayer-opera
   synthesis-reaction-design:
     tools:
       - synthemol
