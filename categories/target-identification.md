@@ -9,7 +9,6 @@ Tools and evidence for discovering, prioritising, and validating biological targ
 | Application | Tasks | Access | Interface | Platforms | Status |
 |---|---|---|---|---|---|
 | [canSAR](https://cansar.ai) | Target Assessment & Validation | Free | GUI / Web | Web | registry-listed |
-| [canSARchem](https://gitlab.icr.ac.uk/cansar-public/compound-registration-pipeline) | ADME Prediction; Research Computing & Infrastructure; Data Curation | Free | GUI / Web | — | registry-listed |
 | [ChEMBL multitask target prediction](https://github.com/chembl/chembl_multitask_model) | Target Assessment & Validation; QSAR & Predictive Modelling | Free / Open Source | CLI | — | registry-listed |
 | [CTD](https://ctdbase.org) | Target Assessment & Validation | Free | GUI / Web | Web | registry-listed |
 | [DAPredict](http://bio-bigdata.hrbmu.edu.cn/DAPredict) | Molecular Visualization; Clinical & Regulatory Evidence | Free | GUI / Web | — | registry-listed |
