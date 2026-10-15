@@ -674,6 +674,8 @@ category_curation:
       - 'ADMET-boost'
       - 'Interpret-ADMET'
       - 'VEGA QSAR'
+      - 'ADMETboost'
+      - 'Pred-hERG'
     retrosynthesis:
       - 'AiZynthFinder'
       - 'ASKCOS'
