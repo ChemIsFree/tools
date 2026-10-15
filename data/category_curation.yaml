@@ -746,6 +746,7 @@ category_curation:
       - 'QMugs'
       - 'PLINDER'
       - 'Virtual Screening Validation Resources'
+      - 'GenBench3D'
     organization:
       - 'Chemotion ELN'
       - 'Chemotion Repository'
