@@ -11188,7 +11188,7 @@ tools:
   platforms:
   - web
   interface:
-  - api
+  - web
   - api
   languages: []
   gpu: not-required
@@ -11225,7 +11225,6 @@ tools:
   platforms:
   - web
   interface:
-  - api
   - api
   languages: []
   gpu: not-required
@@ -11845,7 +11844,7 @@ tools:
   - macos
   - windows
   interface:
-  - api
+  - web
   - api
   languages: []
   gpu: not-required
@@ -11923,7 +11922,7 @@ tools:
   platforms:
   - web
   interface:
-  - api
+  - web
   - api
   languages: []
   gpu: not-required
@@ -12749,7 +12748,6 @@ tools:
   resource_type: database
   domain:
   - libraries-datasets
-  - libraries-datasets
   tasks:
   - benchmarks-datasets
   category:
@@ -12786,7 +12784,6 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - libraries-datasets
   - libraries-datasets
   tasks:
   - benchmarks-datasets
@@ -12825,7 +12822,6 @@ tools:
   resource_type: database
   domain:
   - libraries-datasets
-  - libraries-datasets
   tasks:
   - benchmarks-datasets
   category:
@@ -12862,7 +12858,6 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - libraries-datasets
   - libraries-datasets
   tasks:
   - benchmarks-datasets
@@ -12901,7 +12896,6 @@ tools:
   resource_type: dataset
   domain:
   - libraries-datasets
-  - libraries-datasets
   tasks:
   - benchmarks-datasets
   category:
@@ -12939,7 +12933,6 @@ tools:
   catalogue: resource
   resource_type: database
   domain:
-  - libraries-datasets
   - libraries-datasets
   tasks:
   - benchmarks-datasets
