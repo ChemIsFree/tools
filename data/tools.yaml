@@ -1960,7 +1960,7 @@ tools:
     as equivalent to experimentally validated ligand-bound structures.
 - id: uniprot
   name: UniProt
-  description: Protein sequence and functional annotation knowledgebase for target identity, organism, isoform, protein function, domains, and accession mapping.
+  description: "Protein sequence, gene, and functional annotation database with curated evidence and cross-references for target assessment."
   catalogue: resource
   resource_type: database
   domain:
