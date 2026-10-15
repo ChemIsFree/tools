@@ -50,6 +50,19 @@ Experimental and predicted protein structures, structure retrieval, and protein 
 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
+| [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |
+| [3D-Beacons](https://3d-beacons.org/) | database | — | Free Web | GUI / Web |
+| [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) | database | Protein Structure Prediction; Benchmarks & Datasets | Free | GUI / Web |
+| [Electron Microscopy Data Bank (EMDB)](https://www.ebi.ac.uk/emdb/) | database | — | Free Web | CLI |
+| [ModBase](https://modbase.compbio.ucsf.edu/) | database | — | Free Web | CLI |
+| [ModelArchive](https://modelarchive.org/) | database | — | Free Web | CLI |
+| [PDB-REDO](https://pdb-redo.eu/) | database | — | Free Web | CLI |
+| [PDBe](https://www.ebi.ac.uk/pdbe/) | database | — | Free Web | CLI |
+| [PDBj](https://pdbj.org/) | database | — | Free Web | CLI |
+| [PDBsum](https://www.ebi.ac.uk/thornton-srv/databases/pdbsum/) | database | — | Free Web | CLI |
+| [SWISS-MODEL Repository](https://swissmodel.expasy.org/repository/) | database | — | Free Web | CLI |
+| [UniProt](https://www.uniprot.org/) | database | Target Assessment & Validation; Data Curation; Protein Preparation | Free | GUI / Web |
+| [wwPDB Validation Reports](https://www.wwpdb.org/validation/validation-reports) | database | — | Free Web | GUI / Web |
 | [Observed Antibody Space (OAS)](https://opig.stats.ox.ac.uk/webapps/oas/) | database | Protein & Peptide Design | Free | GUI / Web |
 | [RPocket](http://zhaoserver.com.cn/RPocket/RPocket.html) | database | Molecular Docking; Structure-Based Virtual Screening; Protein Structure Prediction; Binding-Site Analysis | Free | GUI / Web |
 | [SAbDab / SAbPred](https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabdab/) | database | Protein & Peptide Design | Free | GUI / Web |
