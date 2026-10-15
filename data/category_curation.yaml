@@ -363,7 +363,7 @@ category_curation:
         DENOPTIM (De Novo OPTimization of In/organic Molecules) is software for de novo design and virtual screening of functional organic and inorganic compounds. It assembles candidate molecules from building blocks or fragments, evaluates each candidate against a user-defined fitness function, and generates new candidates guided by the properties of known compounds. It runs on Windows, macOS, and Linux and provides a graphical interface for configuring experiments, editing molecular fragments, and inspecting results; computationally intensive experiments run as background batch jobs.
 
     - names: [PCMol]
-      add_categories: [structure-based, de-novo-design]
+      add_categories: [structure-based]
 
     - names: [LiGAN]
       replace_categories: true
