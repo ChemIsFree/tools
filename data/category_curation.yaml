@@ -49,6 +49,19 @@ category_curation:
 
   protein-structures:
     keep:
+      - "RCSB Protein Data Bank (PDB)"
+      - "3D-Beacons"
+      - "AlphaFold Protein Structure Database"
+      - "Electron Microscopy Data Bank (EMDB)"
+      - "ModBase"
+      - "ModelArchive"
+      - "PDB-REDO"
+      - "PDBe"
+      - "PDBj"
+      - "PDBsum"
+      - "SWISS-MODEL Repository"
+      - "UniProt"
+      - "wwPDB Validation Reports"
       - "AlphaFold Server"
       - "AntiFold"
       - "AbAdapt"
@@ -467,6 +480,19 @@ category_curation:
       - 'GeneMANIA'
       - 'FastTargetPred'
     protein-structures:
+      - "RCSB Protein Data Bank (PDB)"
+      - "3D-Beacons"
+      - "AlphaFold Protein Structure Database"
+      - "Electron Microscopy Data Bank (EMDB)"
+      - "ModBase"
+      - "ModelArchive"
+      - "PDB-REDO"
+      - "PDBe"
+      - "PDBj"
+      - "PDBsum"
+      - "SWISS-MODEL Repository"
+      - "UniProt"
+      - "wwPDB Validation Reports"
       - "AlphaFold Server"
       - "AntiFold"
       - "AbAdapt"
