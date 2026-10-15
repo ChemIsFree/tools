@@ -17,7 +17,7 @@ Convert chemical names, line notations, structures, and molecular file formats.
 | [DeepSMILES](https://github.com/asylnlp/DeepSMILES) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Fragmenstein](https://github.com/matteoferla/Fragmenstein) | Generative Chemistry; Pharmacophore Modelling; Scaffold Analysis; Structure-Based Virtual Screening; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [Gemmi](https://gemmi.readthedocs.io/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
-| [InChI Software](https://www.inchi-trust.org/technical-faq/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [InChI Software](https://www.inchi-trust.org/downloads/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [JSME Molecular Editor](https://jsme-editor.github.io/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [Meeko](https://meeko.readthedocs.io/) | Ligand Preparation; Protein Preparation; Structure Conversion | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [MGLTools / AutoDockTools](https://ccsb.scripps.edu/mgltools/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |

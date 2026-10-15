@@ -20,7 +20,7 @@ Compound collections, screening libraries, curated reference databases, and scie
 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
-| [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) | database | Protein Structure Prediction; Binding-Site Analysis; Molecular Visualization | Free | GUI / Web |
+| [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) | database | Protein Structure Prediction; Benchmarks & Datasets | Free | GUI / Web |
 | [AlphaMissense (precomputed predictions)](https://console.cloud.google.com/storage/browser/dm_alphamissense) | database | Target Assessment & Validation; Clinical & Regulatory Evidence | Free | GUI / Web |
 | [Astex Diverse Set](https://www.ccdc.cam.ac.uk/) | dataset | — | Free | CLI |
 | [Awesome Cheminformatics](https://github.com/hsiaoyi0504/awesome-cheminformatics) | educational | Benchmarks & Datasets; Chemical Data Analysis | Free | GUI / Web |

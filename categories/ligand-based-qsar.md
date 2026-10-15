@@ -32,7 +32,7 @@ Learn from known compounds, bioactivity measurements, pharmacophores, and ligand
 | [SHAFTS](https://www.lilab-ecust.cn/chemmapper/downloadform.html) | Ligand-Based Virtual Screening; Pharmacophore Modelling | Free | GUI / Web | Windows | Curated Resource |
 | [Shape-it](https://www.openbabel.org/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [SwissSimilarity](https://www.swisssimilarity.ch/) | — | Free Web | GUI / Web | Web | Curated Resource |
-| [VEGA QSAR](https://www.vegahub.eu/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [VEGA QSAR](https://www.vegahub.eu/download/vega-qsar-download/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [WEGA](http://www.csbio.sjtu.edu.cn/bioinf/WEGA/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [ZINCPharmer](https://zincpharmer.csb.pitt.edu/) | — | Free Web | GUI / Web | Web | Curated Resource |
 

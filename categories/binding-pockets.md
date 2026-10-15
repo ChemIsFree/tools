@@ -36,7 +36,6 @@ Identify and characterize ligand-binding sites, cavities, and pockets on macromo
 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
-| [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) | database | Protein Structure Prediction; Binding-Site Analysis; Molecular Visualization | Free | GUI / Web |
 | [CryptoBench](https://github.com/skrhakv/CryptoBench) | dataset | — | Free | CLI |
 | [LBS-comparison](https://github.com/bartongroup/LBS-comparison) | dataset | Binding-Site Analysis; Benchmarks & Datasets | Free / Open Source | — |
 | [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |

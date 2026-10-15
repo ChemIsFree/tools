@@ -42,7 +42,6 @@ Molecular, protein–ligand, and scientific visualisation and interpretation.
 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
-| [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) | database | Protein Structure Prediction; Binding-Site Analysis; Molecular Visualization | Free | GUI / Web |
 | [MDAnalysis](https://www.mdanalysis.org/) | library | Trajectory Analysis | Free / Open Source | — |
 | [PDBsum](https://www.ebi.ac.uk/thornton-srv/databases/pdbsum/) | database | — | Free Web | CLI |
 | [RCSB Protein Data Bank (PDB)](https://www.rcsb.org/) | database | Binding-Site Analysis; Protein Preparation; Molecular Visualization; 3D Structure Analysis; Structure Search | Free | GUI / Web |

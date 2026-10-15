@@ -34,7 +34,7 @@ Experimental and predicted protein structures, structure retrieval, and protein 
 | Resource | Type | Tasks | Access | Interface |
 |---|---|---|---|---|
 | [3D-Beacons](https://3d-beacons.org/) | database | — | Free Web | GUI / Web |
-| [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) | database | Protein Structure Prediction; Binding-Site Analysis; Molecular Visualization | Free | GUI / Web |
+| [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) | database | Protein Structure Prediction; Benchmarks & Datasets | Free | GUI / Web |
 | [Electron Microscopy Data Bank (EMDB)](https://www.ebi.ac.uk/emdb/) | database | — | Free Web | CLI |
 | [ModBase](https://modbase.compbio.ucsf.edu/) | database | — | Free Web | CLI |
 | [ModelArchive](https://modelarchive.org/) | database | — | Free Web | CLI |

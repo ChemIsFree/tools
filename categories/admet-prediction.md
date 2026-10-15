@@ -31,7 +31,7 @@ Predict physicochemical, absorption, distribution, metabolism, excretion, and to
 | [SMARTCyp](https://smartcyp.sund.ku.dk/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [SwissADME](http://www.swissadme.ch/) | Physicochemical Properties; ADME Prediction; Drug-Likeness | Free | GUI / Web | Web | Curated Resource |
 | [Toxtree](https://toxtree.sourceforge.net/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
-| [VEGA QSAR](https://www.vegahub.eu/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [VEGA QSAR](https://www.vegahub.eu/download/vega-qsar-download/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 
 ## Supporting Resources
 
