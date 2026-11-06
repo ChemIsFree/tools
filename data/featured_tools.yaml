@@ -217,6 +217,7 @@ domains:
       - pdv
       - pymol-open-source
       - catalist
+
   laboratory-workflows:
     tools:
       - catalist
