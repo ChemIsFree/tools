@@ -20,7 +20,6 @@ Molecular and protein visualisation, scientific graphics, and chemical structure
 | [Protein Design Visualizer (PDV)](https://pdv.naturalantibody.com/) | Molecular Visualization; Protein Structure Prediction | Free | GUI / Web | Web | Curated Resource |
 | [PyMOL Open-Source](https://www.pymol.org/) | Molecular Visualization; 3D Structure Analysis; Binding-Site Analysis | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [Reactio Draw](https://paivel.github.io/reactio-draw/web/) | Chemical Structure Drawing & Editing | Free / Open Source | GUI / Web | Web / Linux / Macos / Windows | Curated Resource |
-| [UCSF ChimeraX](https://www.cgl.ucsf.edu/chimerax/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 
 ---
 
