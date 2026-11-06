@@ -13407,3 +13407,78 @@ tools:
   citation: []
   chemisfree_status: curated-resource
   notes: "Web-based chemical structure drawing tool. Licence and source-code availability have not been independently established."
+
+- id: moldraw
+  name: MolDraw
+  description: Browser-based chemical drawing editor for 2D molecular structures and reaction schemes, with export and 3D viewing features.
+  catalogue: app
+  domain: [visualization, cheminformatics]
+  tasks: [structure-drawing, molecular-visualization]
+  category: [visualization, cheminformatics]
+  type: web-tool
+  access: [free]
+  source_available: false
+  license: proprietary
+  platforms: [web, windows]
+  interface: [web, gui]
+  languages: []
+  gpu: not-required
+  installation: [web, binary]
+  status: active
+  developers: [LabCanvas]
+  website: https://www.moldraw.com/
+  repository: []
+  documentation: https://www.moldraw.com/documentation/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: "Free browser editor with optional paid Pro features. The public product documentation does not identify an open-source software licence; do not label the application open-source."
+
+- id: reactio-draw
+  name: Reactio Draw
+  description: Open-source chemical structure and reaction editor for drawing molecules, reaction schemes, and reagent tables, with support for common chemistry file formats.
+  catalogue: app
+  domain: [visualization, cheminformatics]
+  tasks: [structure-drawing]
+  category: [visualization, cheminformatics]
+  type: software
+  access: [free, open-source]
+  source_available: true
+  license: AGPL-3.0
+  platforms: [web, linux, macos, windows]
+  interface: [web, gui]
+  languages: []
+  gpu: not-required
+  installation: [web, binary, source]
+  status: active
+  developers: [Pavel Sakharov]
+  website: https://paivel.github.io/reactio-draw/web/
+  repository: https://github.com/Paivel/reactio-draw
+  documentation: https://github.com/Paivel/reactio-draw
+  citation: [https://doi.org/10.5281/zenodo.23547490]
+  chemisfree_status: curated-resource
+  notes: "The project repository declares AGPL-3.0. It runs in the browser and provides desktop builds; it also supports reaction schemes, reagent tables, and chemistry file interchange."
+
+- id: molcanvas
+  name: MolCanvas
+  description: Lightweight molecular viewer and editor for Android applications, supporting XYZ structure import/export, basic molecular construction, and geometric measurements.
+  catalogue: app
+  domain: [visualization, cheminformatics]
+  tasks: [molecular-visualization, structure-drawing, three-dimensional-analysis]
+  category: [visualization, cheminformatics]
+  type: software
+  access: [free, open-source]
+  source_available: true
+  license: MIT
+  platforms: [android]
+  interface: [gui]
+  languages: []
+  gpu: not-required
+  installation: [source]
+  status: active
+  developers: [Alan Liška, Veronika Růžičková]
+  website: https://github.com/alanliska/MolCanvas
+  repository: https://github.com/alanliska/MolCanvas
+  documentation: https://github.com/alanliska/MolCanvas
+  citation: []
+  chemisfree_status: curated-resource
+  notes: "The repository describes MolCanvas as a simple molecular viewer and editor tailored to Android applications and provides an MIT licence. It is a lightweight editor, not a full-featured chemical drawing package."
