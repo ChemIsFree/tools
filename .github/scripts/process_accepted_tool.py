@@ -116,7 +116,7 @@ DOMAIN_MAP = {
     "Protein Structures":
         "protein-structures",
 
-    "Visualization":
+    "Visualization and Drawing":
         "visualization",
 
     "Binding Pockets":

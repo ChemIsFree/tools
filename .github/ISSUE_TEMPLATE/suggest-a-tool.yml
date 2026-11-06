@@ -41,7 +41,7 @@ body:
       options:
         - Target Identification
         - Protein Structures
-        - Visualization
+        - Visualization and Drawing
         - Binding Pockets
         - Structure-Based
         - Molecular Dynamics
