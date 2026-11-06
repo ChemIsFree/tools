@@ -47,6 +47,22 @@ category_curation:
       - "DrugBank"
       - "GtoPdb"
 
+  visualization:
+    keep:
+      - "DataWarrior"
+      - "Chimera"
+      - "UCSF ChimeraX"
+      - "Protein Design Visualizer (PDV)"
+      - "PyMOL Open-Source"
+      - "CataList"
+      - "Ketcher"
+      - "MolDraw"
+      - "Reactio Draw"
+      - "Octet-Draw"
+      - "MolView"
+      - "Lone Pair"
+      - "MolCanvas"
+
   protein-structures:
     keep:
       - "RCSB Protein Data Bank (PDB)"
@@ -534,7 +550,18 @@ category_curation:
       - "Uni-Fold"
       - "Zebra3D"
     visualization:
+      - 'DataWarrior'
+      - 'Chimera'
       - 'UCSF ChimeraX'
+      - 'Protein Design Visualizer (PDV)'
+      - 'CataList'
+      - 'Ketcher'
+      - 'MolDraw'
+      - 'Reactio Draw'
+      - 'Octet-Draw'
+      - 'MolView'
+      - 'Lone Pair'
+      - 'MolCanvas'
       - 'ChimeraX'
       - 'PyMOL open-source build'
       - 'PyMOL'
