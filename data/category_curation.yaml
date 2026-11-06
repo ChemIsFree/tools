@@ -89,6 +89,14 @@ category_curation:
       - "PoseView"
       - "PandaMap"
       - "PDBsum"
+      - "MDAnalysis"
+      - "RCSB Protein Data Bank (PDB)"
+      - "ATLAS"
+      - "FDCE"
+      - "HTSplotter"
+      - "MCnebula"
+      - "sights"
+      - "Biased Signaling Atlas"
 
   protein-structures:
     keep:
@@ -145,6 +153,72 @@ category_curation:
       - "Swiss-PdbViewer"
       - "Uni-Fold"
       - "Zebra3D"
+      - "AHoJ: Apo Holo Protein Search"
+
+  binding-pockets:
+    keep:
+      - "PyMOL Open-Source"
+      - "PLIP (Protein-Ligand Interaction Profiler)"
+      - "P2Rank"
+      - "fpocket"
+      - "CAVIAR"
+      - "RCSB Protein Data Bank (PDB)"
+      - "Foldseek"
+      - "PROPKA"
+      - "MDpocket"
+      - "KVFinder / pyKVFinder"
+      - "PyVOL"
+      - "POVME 2.0"
+      - "GrASP"
+      - "VN-EGNN"
+      - "IF-SitePred"
+      - "FTFlex"
+      - "FTMove"
+      - "AE-PocketMiner"
+      - "CryptoSite"
+      - "CryptoBench"
+      - "STINGAllo"
+      - "CavityPlus"
+      - "CB-Dock2"
+      - "CASTp"
+      - "DeepPocket"
+      - "PocketMiner"
+      - "P2Rank / PrankWeb"
+      - "PrankWeb"
+      - "mdpocket"
+      - "KVFinder-web / pyKVFinder"
+      - "KVFinder"
+      - "pyKVFinder"
+      - "POVME"
+      - "lbs-comparison"
+      - "FTMap"
+      - "AlloSite"
+      - "PASSer"
+      - "FPocketWeb"
+      - "AHoJ: Apo Holo Protein Search"
+      - "APOP"
+      - "BionoiNet"
+      - "CavitySpace"
+      - "CB-Dock3"
+      - "DeepSurf"
+      - "DiffDock-Pocket"
+      - "HProteome-BSite"
+      - "lacuna"
+      - "MetalPDB"
+      - "MIB2"
+      - "PDEStrIAn"
+      - "PEP-SiteFinder"
+      - "PocketOptimizer"
+      - "PocketVina"
+      - "ProBiS-Dock"
+      - "ProBiS-Fold"
+      - "ProteinsPlus / DoGSiteScorer"
+      - "PSnpBind"
+      - "pyScoMotif"
+      - "RLBind"
+      - "SurfDock"
+      - "TargetDiff"
+      - "ZincBind"
 
   record_overrides:
     - names: [BREEZE]
@@ -483,6 +557,54 @@ category_curation:
       description: >-
         Lacuna discovers cryptic protein-binding pockets that are not visible in a single static structure. It generates a conformational ensemble from an input structure, detects pockets in each conformer, clusters corresponding pockets across the ensemble, and ranks candidate sites using a fitted model with a continuous crypticity score. It can emit docking-ready Boltz constraints and AutoDock Vina boxes. The default normal-mode-analysis backend runs without a GPU; optional extras support additional sampling backends.
 
+    - names: [CavitySpace]
+      add_categories: [binding-pockets]
+      catalogue: resource
+      resource_type: database
+      type: database
+
+    - names: [HProteome-BSite]
+      add_categories: [binding-pockets]
+      catalogue: resource
+      resource_type: database
+      type: database
+      website: https://galaxy.seoklab.org/hproteome-bsite/database/
+      documentation: https://galaxy.seoklab.org/hproteome-bsite/database/
+
+    - names: [MetalPDB]
+      add_categories: [binding-pockets]
+      catalogue: resource
+      resource_type: database
+      type: database
+      website: https://metalpdb.cerm.unifi.it/
+
+    - names: [PDEStrIAn]
+      add_categories: [binding-pockets]
+      catalogue: resource
+      resource_type: database
+      type: database
+      website: https://www.pdestrian.net/
+      documentation: https://www.pdestrian.net/help/
+
+    - names: [PSnpBind]
+      add_categories: [binding-pockets]
+      catalogue: resource
+      resource_type: database
+      type: database
+      website: https://psnpbind.org/
+
+    - names: [ZincBind]
+      add_categories: [binding-pockets]
+      catalogue: resource
+      resource_type: database
+      type: database
+      website: https://zincbind.net/
+
+    - names: [py3Dmol]
+      catalogue: resource
+      resource_type: library
+      type: library
+
   category_membership:
     target-identification:
       - 'Open Targets Platform'
@@ -576,6 +698,7 @@ category_curation:
       - "Swiss-PdbViewer"
       - "Uni-Fold"
       - "Zebra3D"
+      - "AHoJ: Apo Holo Protein Search"
     visualization:
       - 'DataWarrior'
       - 'Chimera'
@@ -617,7 +740,14 @@ category_curation:
       - 'PoseView'
       - 'PandaMap'
       - 'PDBsum'
-
+      - "MDAnalysis"
+      - "RCSB Protein Data Bank (PDB)"
+      - "ATLAS"
+      - "FDCE"
+      - "HTSplotter"
+      - "MCnebula"
+      - "sights"
+      - "Biased Signaling Atlas"
     binding-pockets:
       - 'P2Rank / PrankWeb'
       - 'P2Rank'
@@ -648,6 +778,34 @@ category_curation:
       - 'AlloSite'
       - 'PASSer'
       - 'CavityPlus'
+      - "CAVIAR"
+      - "FPocketWeb"
+      - "AHoJ: Apo Holo Protein Search"
+      - "APOP"
+      - "BionoiNet"
+      - "CavitySpace"
+      - "CB-Dock3"
+      - "DeepSurf"
+      - "DiffDock-Pocket"
+      - "HProteome-BSite"
+      - "lacuna"
+      - "MetalPDB"
+      - "MIB2"
+      - "PDEStrIAn"
+      - "PLIP (Protein-Ligand Interaction Profiler)"
+      - "PLIP"
+      - "PEP-SiteFinder"
+      - "PocketOptimizer"
+      - "PocketVina"
+      - "ProBiS-Dock"
+      - "ProBiS-Fold"
+      - "ProteinsPlus / DoGSiteScorer"
+      - "PSnpBind"
+      - "pyScoMotif"
+      - "RLBind"
+      - "SurfDock"
+      - "TargetDiff"
+      - "ZincBind"
     structure-based:
       - 'AutoDock Vina'
       - 'Vina'

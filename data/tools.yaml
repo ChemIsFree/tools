@@ -13486,3 +13486,44 @@ tools:
   citation: []
   chemisfree_status: curated-resource
   notes: "The repository describes MolCanvas as a simple molecular viewer and editor tailored to Android applications and provides an MIT licence. It is a lightweight editor, not a full-featured chemical drawing package."
+- id: cb-dock3
+  name: CB-Dock3
+  description: Cavity-detection-guided blind protein-ligand docking that identifies candidate pockets and combines template-based fitting with ab initio docking, including domain selection for large assemblies and explicit metal-ion modelling.
+  catalogue: app
+  domain:
+  - binding-pockets
+  - structure-based
+  tasks:
+  - binding-site-analysis
+  - molecular-docking
+  - structure-based-screening
+  category:
+  - drug-discovery
+  - molecular-modelling
+  type: web-tool
+  access:
+  - free-web
+  source_available: false
+  license: "Free hosted research service; no separate open-source software licence is stated"
+  platforms:
+  - web
+  interface:
+  - web
+  languages: []
+  gpu: unknown
+  installation:
+  - web
+  status: active
+  developers:
+  - Cao Lab
+  website: https://cadd.labshare.cn/cb-dock3/
+  repository: []
+  documentation: https://cadd.labshare.cn/cb-dock3/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: >-
+    The current CB-Dock3 server supersedes CB-Dock2 and combines cavity detection,
+    template-guided fitting and ab initio docking. It supports large assemblies,
+    user-selected domains and explicit metal-ion handling. Predicted pockets and
+    poses remain computational hypotheses and should be validated against structural
+    and experimental evidence.

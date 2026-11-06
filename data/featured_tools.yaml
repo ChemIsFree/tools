@@ -95,9 +95,43 @@ domains:
       - swiss-pdb-viewer
       - assayer-uni-fold
       - assayer-zebra3d
+      - assayer-ahoj-apo-holo-protein-search
   binding-pockets:
     tools:
+      - caviar
+      - fpocket
+      - assayer-fpocketweb
+      - assayer-ahoj-apo-holo-protein-search
+      - assayer-apop
+      - assayer-bionoinet
+      - cavityplus
       - assayer-cavityspace
+      - cb-dock3
+      - assayer-deepsurf
+      - assayer-diffdock-pocket
+      - ftmap
+      - ftmove
+      - assayer-hproteome-bsite
+      - assayer-lacuna
+      - assayer-metalpdb
+      - assayer-mib2
+      - p2rank
+      - assayer-passer
+      - assayer-pdestrian
+      - plip-protein-ligand-interaction-profiler
+      - assayer-pep-sitefinder
+      - assayer-pocketoptimizer
+      - assayer-pocketvina
+      - assayer-probis-dock
+      - assayer-probis-fold
+      - dogsitescorer
+      - assayer-psnpbind
+      - assayer-pyscomotif
+      - assayer-rlbind
+      - stingallo
+      - assayer-surfdock
+      - assayer-targetdiff
+      - assayer-zincbind
   chemical-structures:
     tools:
       - catalist
@@ -165,6 +199,8 @@ domains:
       - assayer-ligan
       - assayer-protenix-dock
       - assayer-pydocksaxs
+      - assayer-bionoinet
+      - cb-dock3
   molecular-properties-admet:
     tools:
       - assayer-swissadme
@@ -224,6 +260,19 @@ domains:
       - moldraw
       - reactio-draw
       - molcanvas
+      - mdanalysis
+      - rcsb-pdb
+      - pdbsum
+      - 3dmol-js
+      - ngl-viewer
+      - nglview
+      - py3dmol
+      - assayer-atlas
+      - assayer-fdce
+      - assayer-htsplotter
+      - assayer-mcnebula
+      - assayer-sights
+      - assayer-biased-signaling-atlas
 
   laboratory-workflows:
     tools:
