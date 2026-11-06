@@ -51,16 +51,15 @@ category_curation:
     keep:
       - "DataWarrior"
       - "Chimera"
-      - "UCSF ChimeraX"
       - "Protein Design Visualizer (PDV)"
       - "PyMOL Open-Source"
       - "CataList"
       - "Ketcher"
-      - "MolDraw"
-      - "Reactio Draw"
       - "Octet-Draw"
       - "MolView"
       - "Lone Pair"
+      - "MolDraw"
+      - "Reactio Draw"
       - "MolCanvas"
 
   protein-structures:
@@ -552,44 +551,17 @@ category_curation:
     visualization:
       - 'DataWarrior'
       - 'Chimera'
-      - 'UCSF ChimeraX'
       - 'Protein Design Visualizer (PDV)'
+      - 'PyMOL Open-Source'
       - 'CataList'
       - 'Ketcher'
-      - 'MolDraw'
-      - 'Reactio Draw'
       - 'Octet-Draw'
       - 'MolView'
       - 'Lone Pair'
+      - 'MolDraw'
+      - 'Reactio Draw'
       - 'MolCanvas'
-      - 'ChimeraX'
-      - 'PyMOL open-source build'
-      - 'PyMOL'
-      - 'VMD'
-      - 'Avogadro'
-      - 'Jmol'
-      - 'Swiss-PdbViewer'
-      - 'BIOVIA Discovery Studio Visualizer'
-      - 'Discovery Studio Visualizer'
-      - 'Blender + Molecular Nodes'
-      - 'Molecular Nodes'
-      - 'Mol*'
-      - 'Molstar'
-      - '3Dmol.js'
-      - 'NGL'
-      - 'NGL Viewer'
-      - 'iCn3D'
-      - 'PDV'
-      - 'py3Dmol'
-      - 'nglview'
-      - 'PLIP'
-      - 'ProLIF'
-      - 'LigPlot+'
-      - 'LeView'
-      - 'PoseView'
-      - 'PandaMap'
-      - 'PDBsum'
-      - 'Protein Design Visualizer (PDV)'
+
     binding-pockets:
       - 'P2Rank / PrankWeb'
       - 'P2Rank'
