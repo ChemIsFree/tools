@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[2]
 CATEGORIES = {
     "target-identification": "Target Identification",
     "protein-structures": "Protein Structures",
-    "visualization": "Visualization",
+    "visualization": "Visualization and Drawing",
     "binding-pockets": "Binding Pockets",
     "structure-based": "Structure-Based",
     "molecular-dynamics": "Molecular Dynamics",
