@@ -217,6 +217,13 @@ domains:
       - pdv
       - pymol-open-source
       - catalist
+      - ketcher
+      - octet-draw
+      - molview
+      - lone-pair
+      - moldraw
+      - reactio-draw
+      - molcanvas
 
   laboratory-workflows:
     tools:
