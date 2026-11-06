@@ -212,19 +212,11 @@ domains:
       - alphamissense-predictions
   visualization:
     tools:
+      - datawarrior
+      - assayer-chimera
+      - pdv
       - pymol-open-source
-      - assayer-datawarrior
-      - molve
-      - assayer-prankweb
-      - assayer-mdtraj
-      - mdanalysis
-      - assayer-molecularnodes
-      - assayer-molecular-design-toolkit
-      - assayer-selfies
-      - assayer-3dmol-js
-      - assayer-mol
-      - assayer-ngl-viewer
-      - assayer-avogadrolibs
+      - catalist
   laboratory-workflows:
     tools:
       - catalist
