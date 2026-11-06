@@ -14,7 +14,7 @@ Predict physicochemical, absorption, distribution, metabolism, excretion, and to
 | [admetSAR 2.0](http://lmmd.ecust.edu.cn/admetsar2/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [admetSAR 3.0](http://lmmd.ecust.edu.cn/admetsar3/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [BioTransformer 3.0](https://biotransformer.ca/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
-| [CataList](https://github.com/DionysisKampasis/CataList) | Inventory Management; Structure Elucidation; Draw & Edit Structures; Molecular Descriptors & Properties; Structure Search | Free | GUI / Web | Desktop | **ChemIsFree Project** |
+| [CataList](https://github.com/DionysisKampasis/CataList) | Inventory Management; Structure Elucidation; Chemical Structure Drawing & Editing; Molecular Descriptors & Properties; Structure Search | Free | GUI / Web | Desktop | **ChemIsFree Project** |
 | [DataWarrior](https://openmolecules.org/datawarrior/) | Bioactivity Analysis; Data Curation; Chemical Data Analysis; Molecular Descriptors & Properties; Scaffold Analysis; QSAR & Predictive Modelling; Structure Conversion; Molecular Visualization | Free / Open Source | GUI / Web | Linux / Macos / Windows / Desktop | Curated Resource |
 | [Deep-PK](https://biosig.lab.uq.edu.au/deeppk/prediction) | ADME Prediction; Toxicity Prediction; Drug-Likeness; Physicochemical Properties | Free | GUI / Web | Web | Curated Resource |
 | [Dimorphite-DL](https://github.com/durrantlab/dimorphite_dl) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |

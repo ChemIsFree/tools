@@ -11,7 +11,7 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 | [AIMSim](https://github.com/ersilia-os/aimsim) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Align-it](https://www.openbabel.org/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [BioTransformer 3.0](https://biotransformer.ca/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
-| [CataList](https://github.com/DionysisKampasis/CataList) | Inventory Management; Structure Elucidation; Draw & Edit Structures; Molecular Descriptors & Properties; Structure Search | Free | GUI / Web | Desktop | **ChemIsFree Project** |
+| [CataList](https://github.com/DionysisKampasis/CataList) | Inventory Management; Structure Elucidation; Chemical Structure Drawing & Editing; Molecular Descriptors & Properties; Structure Search | Free | GUI / Web | Desktop | **ChemIsFree Project** |
 | [CDK Depict](https://www.simolecule.com/cdkdepict/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [ChEMBL Beaker](https://www.ebi.ac.uk/chembl/beta/beaker/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [chemfp](https://chemfp.com/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
@@ -30,12 +30,17 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 | [Ketcher](https://github.com/epam/ketcher) | Chemical Data Analysis | Open Source | GUI / Web | Web / Linux / Macos / Windows | Curated Resource |
 | [KNIME Analytics Platform](https://www.knime.com/) | Chemical Data Analysis; Machine Learning; Workflow Construction; Pipeline Execution | Free / Open Source | GUI / Web | Linux / Macos / Windows | Curated Resource |
 | [LillyMol](https://github.com/IanAWatson/LillyMol) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [Lone Pair](https://lonepair.app/) | Chemical Structure Drawing & Editing | Free | GUI / Web | Web | Curated Resource |
 | [LS-align](https://zhanggroup.org/LS-align/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [MolCanvas](https://github.com/alanliska/MolCanvas) | Molecular Visualization; Chemical Structure Drawing & Editing; 3D Structure Analysis | Free / Open Source | GUI / Web | Android | Curated Resource |
+| [MolDraw](https://www.moldraw.com/) | Chemical Structure Drawing & Editing; Molecular Visualization | Free | GUI / Web | Web / Windows | Curated Resource |
 | [MolScribe](https://github.com/thomas0809/MolScribe) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [MolVE](https://github.com/drigoni/MolVE) | Chemical Data Analysis; Molecular Visualization; Machine Learning; Workflow Construction | Free / Open Source | GUI / Web | Linux | Curated Resource |
+| [MolView](https://app.molview.com/) | Chemical Structure Drawing & Editing; Molecular Visualization | Free | GUI / Web | Web | Curated Resource |
 | [myChEMBL](https://github.com/chembl/mychembl) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [NCI/CADD Chemical Identifier Resolver](https://cactus.nci.nih.gov/chemical/structure/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [NISPO](https://github.com/oxpig/nispo) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
+| [Octet-Draw](https://octet.software/) | Chemical Structure Drawing & Editing | Free | GUI / Web | Web | Curated Resource |
 | [OECD QSAR Toolbox](https://qsartoolbox.org/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [Open Drug Discovery Toolkit (ODDT)](https://oddt.readthedocs.io/) | Interaction Analysis; Molecular Docking; Structure-Based Virtual Screening; Bioactivity Analysis; Data Curation | Free / Open Source | — | Linux / Macos / Windows | Curated Resource |
 | [Open3DQSAR](https://sourceforge.net/projects/open3dqsar/) | QSAR & Predictive Modelling; Molecular Descriptors & Properties | Free / Open Source | GUI / Web + CLI | Linux / Windows | Curated Resource |
@@ -44,6 +49,7 @@ Chemical structure handling, descriptors, fingerprints, chemical space, and comp
 | [PaDEL-Descriptor](http://www.yapcwsoft.com/dd/padeldescriptor/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [ProLIF](https://prolif.readthedocs.io/) | Interaction Analysis; Data Curation; Chemical Data Analysis; Pipeline Execution | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [py2opsin](https://github.com/rdkit/py2opsin) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+| [Reactio Draw](https://paivel.github.io/reactio-draw/web/) | Chemical Structure Drawing & Editing | Free / Open Source | GUI / Web | Web / Linux / Macos / Windows | Curated Resource |
 | [REINVENT4](https://github.com/MolecularAI/REINVENT4) | Generative Chemistry; Scaffold Analysis; Chemical Space Analysis | Free / Open Source | CLI | Linux | Curated Resource |
 | [Ringtail](https://github.com/forlilab/Ringtail) | Structure-Based Virtual Screening; Molecular Docking; Data Curation; Pipeline Execution | Free / Open Source | CLI | Linux | Curated Resource |
 | [Shape-it](https://www.openbabel.org/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
