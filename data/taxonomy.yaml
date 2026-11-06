@@ -23,8 +23,8 @@ domains:
         name: Protein & Peptide Design
 
   visualization:
-    name: Visualization
-    description: Molecular, protein–ligand, and scientific visualisation and interpretation.
+    name: Visualization and Drawing
+    description: Molecular and protein visualisation, scientific graphics, and chemical structure drawing and editing.
     tasks:
       - id: molecular-visualization
         name: Molecular Visualization
@@ -36,6 +36,8 @@ domains:
         name: Scientific Visualization
       - id: interaction-analysis
         name: Interaction Analysis
+      - id: structure-drawing
+        name: Chemical Structure Drawing & Editing
 
   binding-pockets:
     name: Binding Pockets
