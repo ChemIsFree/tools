@@ -51,6 +51,9 @@ Molecular and protein visualisation, scientific graphics, and chemical structure
 | [Octet-Draw](https://octet.software/) | Chemical structure drawing and editing | Free | Web / GUI | Web |
 | [MolView](https://app.molview.com/) | Chemical structure drawing, editing, and molecular viewing | Free | Web / GUI | Web |
 | [Lone Pair](https://lonepair.app/) | Chemical structure drawing and editing | Free | Web / GUI | Web |
+| [MolDraw](https://www.moldraw.com/) | Chemical structure and reaction drawing; 3D viewing | Free tier | Web / GUI | Web / Windows |
+| [Reactio Draw](https://paivel.github.io/reactio-draw/web/) | Chemical structure and reaction drawing | Open Source | Web / GUI | Web / Linux / macOS / Windows |
+| [MolCanvas](https://github.com/alanliska/MolCanvas) | Lightweight molecular viewing and editing | Open Source | GUI | Android |
 
 ## Supporting Resources
 
