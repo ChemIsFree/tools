@@ -12,6 +12,7 @@ Structure-guided discovery, including preparation, docking, pose assessment, and
 | [AutoDock Vina](https://vina.scripps.edu/) | Molecular Docking; Structure-Based Virtual Screening | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [AutoDock-GPU](https://github.com/ccsb-scripps/AutoDock-GPU) | Molecular Docking | Open Source | CLI | Linux | Curated Resource |
 | [CB-Dock2](https://cadd.labshare.cn/cb-dock2/) | — | Free Web | GUI / Web | Web | Curated Resource |
+| [CB-Dock3](https://cadd.labshare.cn/cb-dock3/) | Binding-Site Analysis; Molecular Docking; Structure-Based Virtual Screening | Free Web | GUI / Web | Web | Curated Resource |
 | [ClassyPose](https://github.com/vktrannguyen/Classy_Pose) | Molecular Docking; Structure-Based Virtual Screening; Interaction Analysis | Free / Open Source | — | Linux | Curated Resource |
 | [DOCK 6](https://dock.compbio.ucsf.edu/) | — | Free / Open Source | CLI | Linux / Macos / Windows | Curated Resource |
 | [DockThor](https://dockthor.lncc.br/) | — | Free Web | GUI / Web | Web | Curated Resource |

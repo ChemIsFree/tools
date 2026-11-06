@@ -9,11 +9,11 @@ Experimental and predicted protein structures, structure retrieval, and protein 
 | Application | Tasks | Access | Interface | Platforms | Status |
 |---|---|---|---|---|---|
 | [AbAdapt](https://sysimm.org/abadapt/) | Molecular Docking; Structure-Based Virtual Screening; Protein & Peptide Design | Free | GUI / Web | — | registry-listed |
+| [AHoJ: Apo Holo Protein Search](https://github.com/cusbg/AHoJ-project) | Binding-Site Analysis; Benchmarks & Datasets; Molecular Visualization | Free | CLI | — | registry-listed |
 | [AlphaFold Server](https://alphafoldserver.com/) | — | Free Web | GUI / Web | Web | Curated Resource |
 | [AntiFold](https://github.com/oxpig/AntiFold) | Protein & Peptide Design | Free / Open Source | — | — | registry-listed |
 | [blatant-why](https://github.com/001TMF/blatant-why) | Protein & Peptide Design; Generative Chemistry | Free / Open Source | — | — | registry-listed |
 | [Boltz-2](https://github.com/jwohlwend/boltz) | Protein Structure Prediction | Free / Open Source | CLI | Linux / Macos | Curated Resource |
-| [CavitySpace](http://www.pkumdl.cn:8000/cavityspace/) | Binding-Site Analysis; Protein Structure Prediction | Free | GUI / Web | — | registry-listed |
 | [Chai-1](https://github.com/chaidiscovery/chai-lab) | Protein Preparation; Protein Structure Prediction | Free / Open Source | — | — | registry-listed |
 | [Chimera](http://www.cgl.ucsf.edu/chimera/) | Protein Preparation; Protein Structure Prediction; Molecular Docking; Molecular Visualization; Chemical Data Analysis | Free | GUI / Web + CLI | — | registry-listed |
 | [chroma](https://github.com/generatebio/chroma) | Generative Chemistry; Protein & Peptide Design | Free / Open Source | — | — | registry-listed |
@@ -52,6 +52,7 @@ Experimental and predicted protein structures, structure retrieval, and protein 
 |---|---|---|---|---|
 | [3D-Beacons](https://3d-beacons.org/) | database | — | Free Web | GUI / Web |
 | [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) | database | Protein Structure Prediction; Benchmarks & Datasets | Free | GUI / Web |
+| [CavitySpace](http://www.pkumdl.cn:8000/cavityspace/) | database | Binding-Site Analysis; Protein Structure Prediction | Free | GUI / Web |
 | [Electron Microscopy Data Bank (EMDB)](https://www.ebi.ac.uk/emdb/) | database | — | Free Web | CLI |
 | [ModBase](https://modbase.compbio.ucsf.edu/) | database | — | Free Web | CLI |
 | [ModelArchive](https://modelarchive.org/) | database | — | Free Web | CLI |
