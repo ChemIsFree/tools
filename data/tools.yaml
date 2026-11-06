@@ -240,6 +240,7 @@ tools:
   - cheminformatics
   - admet-prediction
   - organization
+  - visualization
   tasks:
   - inventory-management
   - structure-elucidation
@@ -248,6 +249,7 @@ tools:
   - structure-search
   category:
   - cheminformatics
+  - visualization
   type: software
   access:
   - free
@@ -12132,11 +12134,13 @@ tools:
   domain:
   - cheminformatics
   - libraries-datasets
+  - visualization
   tasks:
   - chemical-data-analysis
   category:
   - cheminformatics
   - drug-discovery
+  - visualization
   type: software
   access:
   - open-source
