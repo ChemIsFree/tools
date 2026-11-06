@@ -1,6 +1,6 @@
-# Visualization
+# Visualization and Drawing
 
-Molecular, protein–ligand, and scientific visualisation and interpretation.
+Molecular and protein visualisation, scientific graphics, and chemical structure drawing and editing.
 
 ---
 
@@ -41,6 +41,16 @@ Molecular, protein–ligand, and scientific visualisation and interpretation.
 | [TMAP](https://github.com/reymond-group/tmap) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [UCSF ChimeraX](https://www.cgl.ucsf.edu/chimerax/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
 | [VMD — Visual Molecular Dynamics](https://www.ks.uiuc.edu/Research/vmd/) | — | Free | CLI | Linux / Macos / Windows | Curated Resource |
+
+
+## Chemical Structure Drawing & Editing
+
+| Application | Primary use | Access | Interface | Platforms |
+|---|---|---|---|---|
+| [Ketcher](https://github.com/epam/ketcher) | Chemical structure drawing and editing | Open Source | Web / GUI | Web |
+| [Octet-Draw](https://octet.software/) | Chemical structure drawing and editing | Free | Web / GUI | Web |
+| [MolView](https://app.molview.com/) | Chemical structure drawing, editing, and molecular viewing | Free | Web / GUI | Web |
+| [Lone Pair](https://lonepair.app/) | Chemical structure drawing and editing | Free | Web / GUI | Web |
 
 ## Supporting Resources
 
