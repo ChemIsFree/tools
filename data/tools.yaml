@@ -13331,3 +13331,79 @@ tools:
   citation: []
   chemisfree_status: curated-resource
 
+
+
+- id: octet-draw
+  name: Octet-Draw
+  description: Web-based chemical structure drawing and editing application.
+  catalogue: app
+  domain: [visualization, cheminformatics]
+  tasks: [structure-drawing]
+  category: [visualization, cheminformatics]
+  type: web-tool
+  access: [free]
+  source_available: true
+  license: not-specified
+  platforms: [web]
+  interface: [web, gui]
+  languages: []
+  gpu: not-required
+  installation: [web]
+  status: active
+  developers: [SamChemMan]
+  website: https://octet.software/
+  repository: https://github.com/SamChemMan/Octet-Draw
+  documentation: https://octet.software/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: "Chemical structure drawing and editing tool. Repository and website supplied by the project curator; verify the repository licence before describing the software as open-source."
+
+- id: molview
+  name: MolView
+  description: Browser-based molecular editor and viewer for creating and inspecting chemical structures.
+  catalogue: app
+  domain: [visualization, cheminformatics]
+  tasks: [structure-drawing, molecular-visualization]
+  category: [visualization, cheminformatics]
+  type: web-tool
+  access: [free]
+  source_available: true
+  license: not-specified
+  platforms: [web]
+  interface: [web, gui]
+  languages: []
+  gpu: not-required
+  installation: [web]
+  status: active
+  developers: [MolView contributors]
+  website: https://app.molview.com/
+  repository: https://github.com/molview/molview
+  documentation: https://app.molview.com/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: "Browser-based chemical structure editor and molecular viewer. Verify the licence for the specific repository release before assigning an open-source label."
+
+- id: lone-pair
+  name: Lone Pair
+  description: Web-based chemical structure drawing and editing application.
+  catalogue: app
+  domain: [visualization, cheminformatics]
+  tasks: [structure-drawing]
+  category: [visualization, cheminformatics]
+  type: web-tool
+  access: [free]
+  source_available: false
+  license: not-specified
+  platforms: [web]
+  interface: [web, gui]
+  languages: []
+  gpu: not-required
+  installation: [web]
+  status: active
+  developers: []
+  website: https://lonepair.app/
+  repository: []
+  documentation: https://lonepair.app/
+  citation: []
+  chemisfree_status: curated-resource
+  notes: "Web-based chemical structure drawing tool. Licence and source-code availability have not been independently established."
