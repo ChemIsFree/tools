@@ -105,19 +105,15 @@ domains:
       - assayer-apop
       - assayer-bionoinet
       - cavityplus
-      - assayer-cavityspace
       - cb-dock3
       - assayer-deepsurf
       - assayer-diffdock-pocket
       - ftmap
       - ftmove
-      - assayer-hproteome-bsite
       - assayer-lacuna
-      - assayer-metalpdb
       - assayer-mib2
       - p2rank
       - assayer-passer
-      - assayer-pdestrian
       - plip-protein-ligand-interaction-profiler
       - assayer-pep-sitefinder
       - assayer-pocketoptimizer
@@ -125,13 +121,11 @@ domains:
       - assayer-probis-dock
       - assayer-probis-fold
       - dogsitescorer
-      - assayer-psnpbind
       - assayer-pyscomotif
       - assayer-rlbind
       - stingallo
       - assayer-surfdock
       - assayer-targetdiff
-      - assayer-zincbind
   chemical-structures:
     tools:
       - catalist
@@ -260,19 +254,6 @@ domains:
       - moldraw
       - reactio-draw
       - molcanvas
-      - mdanalysis
-      - rcsb-pdb
-      - pdbsum
-      - 3dmol-js
-      - ngl-viewer
-      - nglview
-      - py3dmol
-      - assayer-atlas
-      - assayer-fdce
-      - assayer-htsplotter
-      - assayer-mcnebula
-      - assayer-sights
-      - assayer-biased-signaling-atlas
 
   laboratory-workflows:
     tools:
